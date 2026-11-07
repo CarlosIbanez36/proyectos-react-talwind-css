@@ -1,0 +1,78 @@
+{
+  "segment_index": 14,
+  "time_range": "02:10:00 - 02:20:00",
+  "code_blocks": [
+    {
+      "timestamp": "02:10:00",
+      "language": "jsx",
+      "content": "      <button\n        className=\"w-full py-2.5 sm:py-3 px-4 sm:px-6 rounded-lg font-semi\n        plan.mostPopular\n          ? \"bg-gradient-to-b from-blue-500 to-cyan-500\"\n          : \"bg-white/5 border border-white/10 hover:bg-white/10\"\n      }>\n        Get Started\n      </button>\n    </div>\n  ))\n}</div>\n</section>",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "Pricing.jsx",
+      "instructor_explanation": "Speaker 00 shows the pricing section component's code block for the \"Get Started\" button, with some Tailwind CSS utility classes.",
+      "timestamp_end": "02:10:42"
+    },
+    {
+      "timestamp": "02:10:45",
+      "language": "jsx",
+      "content": "        <div>\n          <p>Need a custom plan? <a>Contact our sales team</a></p>\n        </div>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Pricing.jsx",
+      "instructor_explanation": "Speaker 00 adds a div containing a paragraph with a text \"Need a custom plan?\" and an anchor tag \"Contact our sales team.\"",
+      "timestamp_end": "02:11:23"
+    },
+    {
+      "timestamp": "02:14:57",
+      "language": "jsx",
+      "content": "        <section id=\"testimonials\">\n          <h2>What developers are saying about us</h2>\n          <p>Everything you need to build, test, and deploy applications with AI-powered development tools.</p>\n        </section>",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Testimonials.jsx",
+      "instructor_explanation": "Speaker 00 starts the infrastructure for the testimonials section, adding a section with an H2 tag for the title and a P tag for the subtext.",
+      "timestamp_end": "02:16:17"
+    },
+    {
+      "timestamp": "02:16:24",
+      "language": "jsx",
+      "content": "        <section id=\"testimonials\">\n          <div className=\"flex flex-col lg:flex-row items-start gap-8 lg:gap-16\">\n            <div className=\"lg:w-1/2 w-full text-center lg:text-left\">\n              <h2>What developers are saying about us</h2>\n              <p>Everything you need to build, test, and deploy applications with AI-powered development tools.</p>\n            </div>\n          </div>\n        </section>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Testimonials.jsx",
+      "instructor_explanation": "Speaker 00 adds layout styling to the testimonials section, setting the title and content to flex-col on mobile and flex-row on larger screens.",
+      "timestamp_end": "02:18:32"
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "02:10:00",
+      "region_type": "code",
+      "label": "Pricing.jsx Editor",
+      "visible": true,
+      "sample_text": "export default function Pricing() {",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "width": 0.6,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "02:10:00",
+      "region_type": "browser",
+      "label": "Live Preview",
+      "visible": true,
+      "sample_text": "CodeFlow Enterprise $199.99 /month",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0.75,
+        "y": 0.05,
+        "width": 0.2,
+        "height": 0.9
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

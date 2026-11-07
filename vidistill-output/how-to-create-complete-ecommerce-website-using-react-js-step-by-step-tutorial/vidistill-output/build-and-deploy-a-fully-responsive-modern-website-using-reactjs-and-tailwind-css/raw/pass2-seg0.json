@@ -1,0 +1,81 @@
+{
+  "segment_index": 0,
+  "time_range": "00:00:00 - 00:10:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:03:04",
+      "language": "javascript",
+      "content": "import TailwindCSS from '@tailwindcss/vite'\n\nexport default defineConfig({\n  plugins: [\n    TailwindCSS(),\n    react({\n      babel: {\n        plugins: [['babel-plugin-react-compiler']],\n      },\n    }),\n  ],\n})",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "vite.config.js",
+      "instructor_explanation": "In our Vite config, we have to set up the Tailwind CSS plugin. So at the top over here, I'm going to import Tailwind CSS from at tailwind/vite, and in the list of plugins, I'm going to add Tailwind CSS over here."
+    },
+    {
+      "timestamp": "00:03:41",
+      "language": "css",
+      "content": "@import 'tailwindcss';\n",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "index.css",
+      "instructor_explanation": "And what I do want to do is I want at the top import Tailwind CSS, just like this. And what this will do is it will now apply the different Tailwind classes that we want to use into our project."
+    },
+    {
+      "timestamp": "00:09:43",
+      "language": "javascript",
+      "content": "export default function Navbar() {\n  return (\n    <nav className=\"fixed top-0 w-full z-50 transition-all duration-300 bg-slate-950/20 backdrop-blur\">\n    </nav>\n  );\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "I'm going to put it right at the top so top zero, and the width of it is going to be full. I'm setting a transition all, and that transition is going to have the duration of 300. Now, I'm going to add this class name called Backdrop Blur, which allows us to put a little blur into the."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "00:01:13",
+      "visual_type": "terminal_output",
+      "description": "Terminal running command 'npx create-vite@latest' for Vite project setup."
+    },
+    {
+      "timestamp": "00:02:24",
+      "visual_type": "browser_output",
+      "description": "Default Vite React project landing page in browser."
+    },
+    {
+      "timestamp": "00:02:37",
+      "visual_type": "terminal_output",
+      "description": "Terminal running 'npm install tailwindcss @tailwindcss/vite' for installing Tailwind."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:00:00",
+      "region_type": "video",
+      "label": "Video Content",
+      "visible": true,
+      "sample_text": "successful",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "00:00:56",
+      "region_type": "code",
+      "label": "VS Code Editor",
+      "visible": true,
+      "sample_text": "modern-ux-ui",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "screen_timeline": []
+}

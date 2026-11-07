@@ -1,0 +1,97 @@
+{
+  "segment_index": 16,
+  "time_range": "150:00 - 155:00",
+  "code_blocks": [
+    {
+      "timestamp": "02:30:00",
+      "language": "jsx",
+      "content": "      shadow-2xl border border-white/10\">\n      rounded-lg overflow-hidden h-[280px] sm:h-[350px] lg:h-[450px] border border-white/5\">\n      \n      /5 backdrop-blur-sm border-b border-white/10\">",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "not 150:00 for this but I remember fixing this. We changed this to become a height instead of a width."
+    },
+    {
+      "timestamp": "02:30:01",
+      "language": "jsx",
+      "content": "      shadow-2xl border border-white/10\">\n      rounded-lg overflow-hidden h-[280px] sm:h-[350px] lg:h-[450px] border border-white/5\">\n      \n      /5 backdrop-blur-sm border-b border-white/10\">",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "And I believe now this will fix this."
+    },
+    {
+      "timestamp": "02:30:18",
+      "language": "jsx",
+      "content": "    <div className=\"relative overflow-hidden flex-grow\">\n      <SyntaxHighlighter\n        language=\"javascript\"\n        style={nightOwl}\n        customStyle={{\n          margin: 0,\n          borderRadius: \"8px\",\n          fontSize: \"11px\",\n          lineHeight: \"1.4\",\n          height: \"100%\",\n          border: \"1px solid #3c3c3c\",\n        }}>\n        {codeExamples[activeTab]}\n      </SyntaxHighlighter>\n    </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "So let me just expand this more like this. What I want to do is I want to set the wordWrap to break-word."
+    },
+    {
+      "timestamp": "02:30:39",
+      "language": "jsx",
+      "content": "        customStyle={{\n          margin: 0,\n          borderRadius: \"8px\",\n          fontSize: \"11px\",\n          lineHeight: \"1.4\",\n          height: \"100%\",\n          border: \"1px solid #3c3c3c\",\n          wordWrap: \"break-word\",\n          whiteSpace: \"pre-wrap\"\n        }}>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "This is just a minor thing in case there's an issue with that, and I want to make the white space be pre-wrap."
+    },
+    {
+      "timestamp": "02:30:58",
+      "language": "jsx",
+      "content": "        customStyle={{\n          margin: 0,\n          borderRadius: \"8px\",\n          fontSize: \"11px\",\n          lineHeight: \"1.4\",\n          height: \"100%\",\n          border: \"1px solid #3c3c3c\",\n          wordWrap: \"break-word\",\n          whiteSpace: \"pre-wrap\",\n          textAlign: \"left\"\n        }}>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "No. Actually, I can just come to the code editor over here and I can pass a textAlign and set this to be aligned to the left."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "02:30:00",
+      "region_type": "code",
+      "label": "Hero.jsx code editor",
+      "visible": true,
+      "sample_text": "shadow-2xl border border-white/10",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.6,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "02:30:03",
+      "region_type": "browser",
+      "label": "CodeFlow AI landing page",
+      "visible": true,
+      "sample_text": "CodeFlow AI",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0.6,
+        "y": 0,
+        "width": 0.4,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "02:31:26",
+      "region_type": "browser",
+      "label": "Vercel dashboard",
+      "visible": true,
+      "sample_text": "vercel.com",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

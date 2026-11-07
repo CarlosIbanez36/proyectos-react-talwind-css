@@ -1,0 +1,690 @@
+{
+  "segment_index": 0,
+  "time_range": "02:10:00 - 02:20:00",
+  "transcript_entries": [
+    {
+      "timestamp": "02:10:00",
+      "text": "or something one wants to purchase your product for a lot of people so you can make a custom plan so that you earn more from providing more of your service to more people",
+      "tone": "instructional",
+      "emphasis_words": [
+        "earn more"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:10:11",
+      "text": "Now in here, I'm going to add a text saying, \"Need a custom plan?\"",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Need a custom plan?"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:10:17",
+      "text": "And I want to add an A tag that is right next to it, not an A P tag, an A tag, that will have a link to you being able to contact you.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:10:29",
+      "text": "So, I'm going to say \"Contact our sales team.\"",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Contact our sales team."
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:10:32",
+      "text": "Now, what I want to do is in this div, I'm going to add a margin top of eight, and we'll make that 12 in a bigger one, and I want to center this right in the middle.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:10:42",
+      "text": "Then, I want to come to this paragraph tag, I'll make the color of it be \"text-gray-400\", \"text-base\", and a \"text-xl\".",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text-gray-400",
+        "text-base",
+        "text-xl"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:10:56",
+      "text": "Then to make this look blue because it's a link, we just have to pass an href here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "blue",
+        "link",
+        "href"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:11:00",
+      "text": "Now, you'll pass the href you want. This is also a this is obviously a fake website, but if you want, you can put a link to your email or a link to a different part of your page where someone can contact your team.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "href",
+        "fake",
+        "contact your team"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:11:13",
+      "text": "Now, for the styling, I want to make this be blue, so blue-400 so it looks like a link, and I want to make this such that when you hover it, it just becomes \"text-blue-300\".",
+      "tone": "instructional",
+      "emphasis_words": [
+        "blue",
+        "blue-400",
+        "blue-300"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:11:24",
+      "text": "Perfect. And now we have this beautiful pricing section that has the most popular plan is the one in the middle with different UI for them, and it looks really nice.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "beautiful",
+        "middle",
+        "UI"
+      ],
+      "pause_after_seconds": 2.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:11:35",
+      "text": "There's just one minor thing I want to change, which is this over here. I added this thing. I love adding this, which is a glassy effect when you hover something.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "glassy effect"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:11:42",
+      "text": "I think this gives a good aesthetic to it, and if you want to do something like this, it's actually pretty simple.",
+      "tone": "neutral",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:11:57",
+      "text": "I add this a bunch of times into my different projects, it's pretty big.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bunch of times"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:12:01",
+      "text": "But basically, it just has an absolute positioning at the top, and when you hover it, it expands a gradient from the top left to the bottom right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "absolute",
+        "gradient"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:12:13",
+      "text": "Now, it looks really good when you hover it, but one thing I just noticed is there's a small gap in here, so I think what we need to do is we need to add here a rounded-full, so that that doesn't happen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small gap",
+        "rounded-full"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:12:24",
+      "text": "But then that happens, so let's just make it be rounded-large. Yes, it fits perfectly now.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rounded-large",
+        "perfectly"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:12:33",
+      "text": "So, if you want to add this, either get the code from the description where we're going to have this, or you can just try to pause here and look at the code, but this is how it looks.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "code",
+        "pause"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:12:43",
+      "text": "It has some hover effects, some translation, and a duration, and a gradient.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hover effects",
+        "translation",
+        "duration",
+        "gradient"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:12:50",
+      "text": "Perfect, so we're pretty much done with our project.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pretty much done"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:12:53",
+      "text": "We just have to do one more section, which is the section, oh this is interesting. Why did that disappear? I don't know, but it's back.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "one more section",
+        "disappear"
+      ],
+      "pause_after_seconds": 2.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:13:02",
+      "text": "So, we want to make the section for the testimonials, and then add a simple footer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "testimonials",
+        "footer"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:13:10",
+      "text": "So, for the testimonials, we're going to come back to our section over here, testimonials.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "testimonials"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:13:17",
+      "text": "And, similar to everything we've been doing so far with the last two sections, the testimonials is going to have an array which we are going to use to loop through.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "testimonials",
+        "array",
+        "loop"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:13:25",
+      "text": "Now, you can add as many testimonials as you want. I added three. I think that's perfectly fine.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "three"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:13:31",
+      "text": "So, testimonials. And obviously you want to make sure to get real testimonials, okay? I know it's tempting to put fake ones, but if you're going to have a real website, you put real testimonials.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "testimonials",
+        "real",
+        "fake",
+        "real"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:13:41",
+      "text": "Just add fake ones in this example like I have, because it's just for the experience of building the website.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "fake ones"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:13:48",
+      "text": "Now, for the testimonials, each testimonial requires the name of the person who created the testimonial.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "name"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:13:59",
+      "text": "Then, you put their role, so their job, like a Senior Developer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "role",
+        "Senior Developer"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:14:06",
+      "text": "Then, we're going to have an image. Now, an image is the image of the person.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:14:12",
+      "text": "Since this is like fake, this is a mock data. I'm using an a URL from Pexels, which is a free copyright website where you can get pictures of people or other things as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mock data",
+        "Pexels",
+        "free copyright"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:14:22",
+      "text": "Now, we're also going to put a content, which is just what the person said about your platform.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "content"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:14:27",
+      "text": "So, I have this fake data here. It's just some silent, uh it's just some simple, uh quotes saying that like this platform makes me, I don't know, work a thousand times more efficiently.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "fake data"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:14:40",
+      "text": "Now, it's time for you to add the other ones. I already have them over here. I created two more.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "two more"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:14:49",
+      "text": "I usually like to put different roles and different kinds of people, but we have three people to show up.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "three people"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:14:52",
+      "text": "Great. Now it's time for us to build the beginning infrastructure of this section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "infrastructure"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:14:57",
+      "text": "Now to do that, it's going to be very similar to the previous one as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "similar"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:15:00",
+      "text": "So, I'm going to copy this logic over here, even the header, and I'm just going to paste it over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "paste"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:15:07",
+      "text": "Now, we have to fix some stuff, like I have to add a self-closing div and a self-closing section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "fix",
+        "self-closing"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:15:13",
+      "text": "But we should have a header with a section appearing at the bottom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "header",
+        "bottom"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:15:16",
+      "text": "We'll change this to say testimonials.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "testimonials"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:15:21",
+      "text": "And also I feel like, oh here over here we want to change this instead of saying, instead of having a span, we actually want to just have an H2 tag that will say, \"What developers are saying about us\".",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "H2 tag",
+        "What developers are saying about us"
+      ],
+      "pause_after_seconds": 3.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:15:39",
+      "text": "And then, what I want to do is, for the speed tag, I'll add something else, like, uh just more promotion for your website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "speed tag",
+        "promotion"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:15:47",
+      "text": "Now, there's a bit of styling that we want to do here, like I don't like how this title is set up. It should be like this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "styling",
+        "title"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:15:52",
+      "text": "So, what I want to do is, this section, this title should be particularly different from the other ones because in a larger screen this section has a title on the left and the content on the right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "title on the left",
+        "content on the right"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:16:02",
+      "text": "And on the other ones, it just has a title in the middle.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "title in the middle"
+      ],
+      "pause_after_seconds": 2.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:16:06",
+      "text": "So, to address this, I'm going to open this up and here's what we want to do.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "open"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:16:10",
+      "text": "We're going to start by setting here a thing that says left side, which is the header.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "left side",
+        "header"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:16:17",
+      "text": "Then we want to wrap this entire thing around with a div that will wrap even the section below.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "wrap",
+        "div"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:16:24",
+      "text": "And this div is going to have a class name of display flex, flex column.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "display flex",
+        "flex column"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:16:30",
+      "text": "In a large screen is going to become a flex row.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large screen",
+        "flex row"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:16:36",
+      "text": "And I'm going to set the items to the start, a gap between them of eight, make that gap bigger in bigger screens and even bigger later on, so gap 16.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "bigger",
+        "gap 16"
+      ],
+      "pause_after_seconds": 2.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:16:47",
+      "text": "Then on the left side over here, I want to remove this, and what I want to do instead is I want to make it such that it has a on a large screen, the width is going to be one half of the screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "remove",
+        "large screen",
+        "width",
+        "one half"
+      ],
+      "pause_after_seconds": 2.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:16:58",
+      "text": "So on a large screen it should only be on the left and it should fit in half of the screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "left",
+        "half"
+      ],
+      "pause_after_seconds": 2.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:17:04",
+      "text": "The other, the other thing I want to do is I want to make the width be full if it's not a large screen, which is the case if it's mobile because then you'll see when it's mobile, it actually goes and stays the full length and puts the other stuff in the middle.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "full",
+        "mobile",
+        "full length",
+        "middle"
+      ],
+      "pause_after_seconds": 2.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:17:21",
+      "text": "Now, after that, I want to center the items and on a large screen I'll just set them to the left.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "center",
+        "large screen",
+        "left"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:17:28",
+      "text": "Now this looks fine both on the large screen and on a small screen.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "large screen",
+        "small screen"
+      ],
+      "pause_after_seconds": 2.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:17:34",
+      "text": "So, so now what I want to do is I want to create the right side, which is the Testimonials.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "right side",
+        "Testimonials"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:17:45",
+      "text": "So to do that, I'll create here a div that is going to have a class name of display flex and items start.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "display flex",
+        "items start"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:18:03",
+      "text": "And a space in the x direction of three, with a bigger space when it's bigger.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "space in the x direction of three"
+      ],
+      "pause_after_seconds": 2.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:18:18",
+      "text": "Now inside of this div, I want to add the two parts of, uh, the testimonial card.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "testimonial card"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:18:32",
+      "text": "It's going to have this part over here, which is the quotation mark, and the second part is the actual testimonial.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "quotation mark",
+        "testimonial"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:18:45",
+      "text": "So, to do that, what I want to do is I want to, first create the left part by creating this div.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "left part",
+        "div"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_12",
+      "description": "The speaker is a developer providing a coding tutorial, specifically focused on React and Tailwind CSS. The speaker, identified as PedroTech, has an instructional and clear speaking style."
+    },
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "The speaker is PedroTech, an instructional content creator for web development. They possess a clear, steady, and educational tone, typical of technical tutorials."
+    },
+    {
+      "speaker_id": "SPEAKER_00 (Pedro)",
+      "description": "The speaker is Pedro from the YouTube channel 'PedroTech'. He speaks in a clear, instructional tone, explaining web development coding concepts (Tailwind CSS, React, JSX) with enthusiasm and a fast pace."
+    }
+  ]
+}

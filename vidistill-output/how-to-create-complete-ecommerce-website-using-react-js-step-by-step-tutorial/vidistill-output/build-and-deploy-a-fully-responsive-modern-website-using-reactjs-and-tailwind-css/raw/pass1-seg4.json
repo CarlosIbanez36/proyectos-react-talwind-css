@@ -1,0 +1,766 @@
+{
+  "segment_index": 5,
+  "time_range": "00:40:00 - 00:50:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:40:00",
+      "text": "be blue and cyan so they are different kind of a different color. This one is lighter, and this one is a bit darker.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "different",
+        "lighter",
+        "darker"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:40:06",
+      "text": "To make them animate, you can just call the built-in Tailwind CSS animation called animate-pulse.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animate",
+        "animate-pulse"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:40:12",
+      "text": "So, Tailwind has some animations that are built in. Uh, we just had to create one of them for the navbar, but some of them can be reused like this one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Tailwind",
+        "built",
+        "reused"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:40:20",
+      "text": "And now we have those two uh glows around our page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "glows"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:40:24",
+      "text": "Now, what I want to do is, I want to start building the skeleton for the actual content. So, I'll build this div and put another div inside of it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "skeleton",
+        "content"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:40:36",
+      "text": "Then I'm going to put another div. And if you remember, the Hero section has two parts to it. It is going to have the text that is, at least in mobile is going to be appearing on top of this other section which is the code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Hero",
+        "two",
+        "text",
+        "code"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:40:40",
+      "text": "but on web, this will appear on the left and this on the right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mobile",
+        "top",
+        "web",
+        "left",
+        "right"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:40:51",
+      "text": "Now the code, we're going to have to do it all manually, so we're going to be using a lot of CSS for this and a lot of React States for this as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "manually",
+        "CSS",
+        "React"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:40:59",
+      "text": "Now for this part, we can do it uh by just putting the content directly in here. Now we'll start by building the code part of this, this part over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "content",
+        "code",
+        "manually"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:41:09",
+      "text": "And to do it, what I want to do is, I'll come here and I'll create this section. I'm going to call it the IDE Header. It's just the header section for the code editor that we have here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "IDE Header",
+        "header",
+        "code editor"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:41:20",
+      "text": "And I'm going to add another div.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "another"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:41:23",
+      "text": "Now on this div, I want to set a class name of display flex, items center, justify between.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "flex",
+        "items",
+        "justify",
+        "between"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:41:32",
+      "text": "And the reason for that is because this is the header. This is this part over here. And I want to have a part on the left which is those this three dots with the title of the page and then this section over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "header",
+        "left",
+        "right"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:41:44",
+      "text": "Now the code, we're going to say justify between and I want to put a padding X of three. On a small screen and above I'm going to make a padding X of four.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "justify",
+        "padding"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:41:56",
+      "text": "Then I'm going to set the padding Y to be two and the padding Y to be three on a bigger screen. The BG will be white but with only five of opacity, so you can kind of start seeing it right in the center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "BG",
+        "white",
+        "opacity",
+        "center"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:42:08",
+      "text": "And I'm also going to set a backdrop blur to be small, a border at the bottom because it's a header. And that border will be white, but with only 10 of opacity, so it matches a bit more like that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "backdrop",
+        "border",
+        "header",
+        "white",
+        "opacity"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:42:22",
+      "text": "Then what I want to do is, I want to actually build the class name for the, uh, part around the IDE Header. This part, I'm going to set a BG gradient to bottom right because I want to make this glassy look around the IDE.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name",
+        "IDE",
+        "BG gradient",
+        "glassy"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:42:40",
+      "text": "And what I do here is I'm going to make the background gradient to be from the color gray 900 divided by 20 so 20 opacity to Gray 800 divided by 20.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "gradient",
+        "gray",
+        "opacity"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:42:54",
+      "text": "And I'm also going to set a backdrop blur small and I'm going to make it rounded large.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "backdrop",
+        "blur",
+        "small",
+        "rounded",
+        "large"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:43:01",
+      "text": "Now, I also want to set the overflow to be hidden, and I want to set a manual height and width for this section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "overflow",
+        "hidden",
+        "height",
+        "width"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:43:07",
+      "text": "Why am I doing that? Because this is a piece of code and it will look ugly like I had to manually make this UI.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "manually",
+        "UI"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:43:16",
+      "text": "So it will look ugly if we were to allow this to expand and grow as the page grows.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "ugly",
+        "expand",
+        "grow"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:43:25",
+      "text": "I want it to always be this size. So to do that, I'll set a height with a specific size in mind. I'm going to use pixels. I'm going to make it 280 pixels, and you'll see that this thing should grow now.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "size",
+        "height",
+        "pixels",
+        "280 pixels"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:43:38",
+      "text": "And the width should be a fixed size of 350 pixels. Now, I want to do that only if this is a small screen and above, and you'll see why in a second.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "fixed",
+        "350 pixels",
+        "small screen"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:43:51",
+      "text": "Now in a large screen and above, since it's going to be very large, I actually want to change the height just a bit more.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large",
+        "screen",
+        "height"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:43:57",
+      "text": "So I'm going to make it be 450 pixels. This won't impact what we are seeing right now because this isn't a large screen, but it will be good.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "450",
+        "pixels",
+        "large",
+        "screen"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:44:03",
+      "text": "I'm also going to set a border around it and I'm setting a border color to be white, 5% so there it looks similar to what we have in the header.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "white",
+        "header"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:44:12",
+      "text": "Now, how do we apply this to have a bigger size in a mobile? Well, in here, at this div, we're going to set the position to be relative.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mobile",
+        "div",
+        "position",
+        "relative"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:44:23",
+      "text": "I'm also setting the same BG white to be 5, and I'm also setting a backdrop blur, but this time we're setting it to be Excel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "BG",
+        "white",
+        "5",
+        "backdrop",
+        "blur",
+        "Excel"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:44:33",
+      "text": "Now, what I want to do is, I want to set this to be very rounded, and I also want to, in a smaller screen, to make this even more rounded because there's still a bit that I'm seeing over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rounded",
+        "smaller screen"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:44:48",
+      "text": "Then, I want to set a padding of 3, but on a small screen and above, I'll make that 4. I'll set a shadow around it to be 2xl, and I'm setting the border to be border white 10.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "small screen",
+        "shadow",
+        "2xl",
+        "border",
+        "white"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:45:01",
+      "text": "So we're building the outer layer, which you could see over here, right? We have this outer layer, we have the inner layer and the header. That's the three things we've made so far.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "outer layer",
+        "inner layer",
+        "header"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:45:12",
+      "text": "But on top of all of that, we have this div which we have to set a position relative, the order to be two, and most importantly, the width to be full.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "position",
+        "relative",
+        "order",
+        "width",
+        "full"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:45:25",
+      "text": "Now, we get this beautiful uh code editor appearing in our screen. Now, it doesn't fully look like a code editor yet, but it will in a second.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "beautiful",
+        "code editor"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:45:34",
+      "text": "The first thing to make this look like a code editor is add the little close, minimize, and open buttons.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "code",
+        "editor",
+        "close",
+        "minimize",
+        "open",
+        "buttons"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:45:40",
+      "text": "To do that, it's actually easier than you might imagine, because if you think about it, it's just three circles with different colors.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "easier",
+        "three circles",
+        "colors"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:45:47",
+      "text": "So, that's literally what we have to do. Inside of here, I want to add a div that is going to encompass the three little dots, and each dot will look like this. We're just going to create the dot, make it be a circle so it will have the same width and height.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "dots",
+        "dot",
+        "circle"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:45:56",
+      "text": "I'm going to make it 2, and it will be rounded full and it will have a color which will be red 500, at least for the close one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dot",
+        "circle",
+        "width",
+        "height",
+        "2",
+        "rounded",
+        "full",
+        "red",
+        "500"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:46:12",
+      "text": "Now, I also want to change the size if it's a bigger screen, so in a bigger screen, the width will be 3, and in a bigger screen the height will be 3.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "size",
+        "bigger screen",
+        "width",
+        "height"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:46:21",
+      "text": "Now, I'm also going to copy this and paste it two more times, and the reason for that is because this one is going to be yellow, and this one is going to be green.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "yellow",
+        "green"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:46:33",
+      "text": "Now they're stacked on top of each other. To put them next to each other, we have to have this be a display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "stacked",
+        "next",
+        "display",
+        "flex"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:46:40",
+      "text": "And we also want to put a gap in between them, because they're all closed up together since this is the display gap where this is just one row, then I want to set the space X to be 2.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "display gap",
+        "row",
+        "space X"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:47:00",
+      "text": "Now I do think this gap is a bit bigger. I think we want to do this only in bigger screens. In smaller screens, let's make this be 1.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "bigger",
+        "screens",
+        "smaller",
+        "1"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:47:11",
+      "text": "Now, I want to put a span with the name of the website. So, CodeFlow AI, that's the title of the website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "website",
+        "CodeFlow AI",
+        "title"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:47:18",
+      "text": "I don't want it to appear here. It's appearing here because of the justify-between from this. So, I want to wrap this section and the new span that I created with this div.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "justify",
+        "wrap",
+        "section",
+        "div"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:47:28",
+      "text": "Now this div, to be honest, will keep it exactly the same, but I'm just going to remove this space X 1, because I think space X of 2 makes sense between this section and this one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "exactly the same",
+        "space X"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:47:41",
+      "text": "Now, in the title here, I want to make it definitely a lot smaller, so I'm going to say text XS. On a small screen and above, we'll make it be just small. The color will be gray 300, so it blends in.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "title",
+        "smaller",
+        "text XS",
+        "small screen",
+        "small",
+        "gray 300"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:47:53",
+      "text": "Now, what we want to do is just add this last section over here. I'm not going to make it exactly the same. I don't think I'm going to add this AI thing over here, because looking back now, I think it looks a bit goofy.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "last section",
+        "AI",
+        "goofy"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:48:07",
+      "text": "But the thing is this, I'm going to add this section over here just for UI purposes. To do that, it's pretty simple. Below this div over here, whatever we put is already going to appear on the, uh, like top right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "section",
+        "UI",
+        "div",
+        "top right"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:48:16",
+      "text": "So, all we have to do is just add this Chevron down icon, which is an icon from Lucide, which is just an arrow and an arrow pointing down.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Chevron down",
+        "icon",
+        "Lucide",
+        "arrow"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:48:26",
+      "text": "Now, I'm going to make this have a class name of width 3 and height of 3, so it's a lot smaller. And I also want to make it such that in a small screen and above, we'll make it a little bit bigger so it looks better.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name",
+        "width",
+        "height",
+        "smaller",
+        "small screen",
+        "bigger"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:48:42",
+      "text": "And we'll make the height as well, and I'm also making the color be gray 400 so it's not very white.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height",
+        "color",
+        "gray",
+        "400",
+        "white"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:48:46",
+      "text": "Now, we want to make the code inside of it. And more importantly, we want to make it such that you can move through the different tabs so that you can see the code changing.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "code",
+        "tabs",
+        "changing"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:48:56",
+      "text": "How do we do that? Well, to do that, we need to create a variable that is going to keep track of the different pieces of code, whatever is written in here for whatever tab we are in.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "variable",
+        "pieces of code",
+        "tab"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:49:10",
+      "text": "So we have three tabs and I I just made whatever the names are but you can change it as you want. But we have three tabs in this code editor. We have the app JSX, we have the hero JSX and the navbar JSX.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "tabs",
+        "code editor",
+        "app JSX",
+        "hero JSX",
+        "navbar JSX"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:49:21",
+      "text": "Now each of them has a code associated with it. And that looks even better if you are looking in web.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "code",
+        "web"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:49:25",
+      "text": "Now, how do we make that? Well, we'll create a variable. I'll create here a folder called data and in here I'll create a file and I'll call this codeExample.js.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "variable",
+        "data",
+        "codeExample.js"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:49:43",
+      "text": "It's going to be a JavaScript file because we're not going to return a component in here and what I want to do is, I want to export const an object called codeExamples.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "JavaScript",
+        "component",
+        "export const",
+        "object",
+        "codeExamples"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:49:57",
+      "text": "Now this object will take in a key and a",
+      "tone": "instructional",
+      "emphasis_words": [
+        "object",
+        "key"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "The speaker is a developer providing a technical tutorial on using Tailwind CSS for UI development. The voice is clear and professional, with a focus on coding and technical implementation details."
+    }
+  ]
+}

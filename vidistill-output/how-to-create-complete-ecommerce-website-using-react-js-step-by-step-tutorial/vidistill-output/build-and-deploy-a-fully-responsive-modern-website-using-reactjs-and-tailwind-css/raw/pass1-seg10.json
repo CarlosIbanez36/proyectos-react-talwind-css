@@ -1,0 +1,330 @@
+{
+  "segment_index": 0,
+  "time_range": "01:40:00 - 01:50:00",
+  "transcript_entries": [
+    {
+      "timestamp": "01:40:00",
+      "text": "Now in this div I want to a apply a key directly into it",
+      "tone": "instructional",
+      "emphasis_words": [
+        "key"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:06",
+      "text": "and a class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "name"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:09",
+      "text": "Now for now we are not going to touch this class name just because I want to put the content inside of it so you guys can at least see what the class names are doing to it.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:17",
+      "text": "So the first is going to be the image section",
+      "tone": "instructional",
+      "emphasis_words": [
+        "first",
+        "image"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:21",
+      "text": "or the code section actually.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "code"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:24",
+      "text": "I will just say that. I called it image just because I don't know if you guys would rather just make it into an image instead of code.",
+      "tone": "conversational",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:31",
+      "text": "But yeah.",
+      "tone": "neutral",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:32",
+      "text": "Now, inside of here I want to have a div and I will put another div to close it.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:41",
+      "text": "And I hate that I have to self close all the divs inside of a map but that is just part of developing.",
+      "tone": "frustrated",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:47",
+      "text": "Then I want to start building the structure for this.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:50",
+      "text": "It is similar to what we build in the above section with this code.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:53",
+      "text": "We are going to start by adding a IDE interface.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "IDE",
+        "interface"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:40:58",
+      "text": "And in here we are going to add a div which will contain the header.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "header"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:06",
+      "text": "I am aware we are adding a bunch of divs but it is going to make sense.",
+      "tone": "conversational",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:10",
+      "text": "So in the first section it is the header.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "first",
+        "header"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:12",
+      "text": "We are going to add another div and this one is going to have three divs inside of it.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:17",
+      "text": "But this we have already done before so I am going to copy from the hero.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:20",
+      "text": "It is just this section over here.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:23",
+      "text": "We can actually just copy this, actually I will just copy this over here, not the whole section.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:28",
+      "text": "And we can paste it over here.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:31",
+      "text": "Now you see, it will make three of those little dots that apply to the code editor header.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:38",
+      "text": "Then we do want to put a span in here with the feature title.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "feature",
+        "title"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:42",
+      "text": "So we'll say feature dot title and it should appear right below it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "feature",
+        "title"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:48",
+      "text": "Now I want to make it such that it is a lot smaller so I am going to say text gray 400 a margin left of two",
+      "tone": "instructional",
+      "emphasis_words": [
+        "smaller"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:41:56",
+      "text": "and I will set that to be even more in a bigger screen and I make it be extra small, so it is a lot smaller, but then on a small screen we are going to make it be small.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:06",
+      "text": "Perfect.",
+      "tone": "excited",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:07",
+      "text": "Now below this div we are going to add another div and this is for the code highlighting.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "code",
+        "highlighting"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:13",
+      "text": "So I am going to add here a section where I want to add the syntax highlighter.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "syntax",
+        "highlighter"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:21",
+      "text": "So I can actually copy it from here.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:23",
+      "text": "I am just going to copy this component.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:26",
+      "text": "And I am going to put it directly inside of here.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:29",
+      "text": "Now the difference is that in here we don't have the code examples active tab thing.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:35",
+      "text": "What we do have though is actually what I think I might just do is you should just instead of putting image name you should make this be the code.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:43",
+      "text": "So I am going to say code snippet",
+      "tone": "instructional",
+      "emphasis_words": [
+        "code",
+        "snippet"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:50",
+      "text": "and I am just going to insert the code snippet directly in here.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:53",
+      "text": "So for example, for the first one it should be something like this.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:42:57",
+      "text": "And then I will copy this and I will put it here and here as well.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:43:02",
+      "text": "And then what we can do is instead of just getting like this we can just say that this is going to be the features object and get the current feature.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:43:14",
+      "text": "Actually I can just say feature dot code snippet and then we should be able to see the code snippet appearing.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "feature",
+        "code",
+        "snippet"
+      ],
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:43:22",
+      "text": "Now we do get an error and I think it is because we didn't import this syntax highlighter component.",
+      "tone": "neutral",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:43:28",
+      "text": "So I will just do this.",
+      "tone": "neutral",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:43:30",
+      "text": "I will just write it again syntax highlighter and it should import.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:43:32",
+      "text": "Also the night owl needs to be imported as well.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:43:36",
+      "text": "Now it should work and you should see all three of them appearing.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "Male developer, speaking in an instructional and casual tone, explains UI development steps using coding terminology."
+    }
+  ]
+}

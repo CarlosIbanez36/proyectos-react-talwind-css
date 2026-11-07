@@ -1,0 +1,53 @@
+{
+  "segment_index": 15,
+  "time_range": "02:20:00 - 02:30:00",
+  "code_blocks": [
+    {
+      "timestamp": "02:20:00",
+      "language": "jsx",
+      "content": "      <div className=\"flex items-start space-x-3 sm:space-x-4\">\n        <div className=\"flex-shrink-0\">\n          <div className=\"text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent\">\n            \"\n          </div>\n        </div>\n        <div className=\"flex-grow\">\n          <p className=\"text-white text-base sm:text-lg leading-relaxed mb-3 sm:mb-4\">\n            {testimonial.content}\n          </p>\n          <div className=\"flex items-center space-x-2 sm:space-x-3\">\n            <img\n              src={testimonial.image}\n              alt={testimonial.name}\n              className=\"w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover\"\n            />\n            <div>\n              <h4 className=\"font-semibold text-white text-sm sm:text-base\">\n                {testimonial.name}\n              </h4>\n              <p className=\"text-xs sm:text-sm text-gray-400\">\n                {testimonial.role}\n              </p>\n            </div>\n          </div>\n        </div>\n      </div>",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Testimonials.jsx",
+      "instructor_explanation": "Speaker explains setting up the structure for testimonials, including the flex container for the quotation, testimonial content, and user profile image/info, using tailwind classes to ensure responsiveness."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "02:20:00",
+      "visual_type": "browser_output",
+      "description": "Visualizing the updated Testimonial section on the web page, showing profile images with testimonial content."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "02:20:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "Testimonials.jsx",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "width": 0.45,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "02:20:00",
+      "region_type": "browser",
+      "label": "Browser Output",
+      "visible": true,
+      "sample_text": "What developers are saying about us",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0.55,
+        "y": 0.05,
+        "width": 0.4,
+        "height": 0.9
+      }
+    }
+  ],
+  "screen_timeline": []
+}

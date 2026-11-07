@@ -1,0 +1,78 @@
+{
+  "segment_index": 10,
+  "time_range": "01:30:00 - 01:40:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:34:25",
+      "language": "javascript",
+      "content": "const features = [",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Features.jsx",
+      "instructor_explanation": "I'm going to make an array over here called features and we're going to use it. Now this array is going to be an array of objects"
+    },
+    {
+      "timestamp": "01:34:39",
+      "language": "javascript",
+      "content": "  {\n    title: \"AI Code Completion\",\n    description: \"Intelligent code suggestions powered by advanced AI that learns from your coding patterns. Get real-time assistance with syntax, logic, and best practices.\",\n    image: \"code-completion\",\n    imagePosition: \"left\",\n  },",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Features.jsx",
+      "instructor_explanation": "So what I'm going to do is, I'm going to give it a name, let's call it code-completion for this one, and we're going to create a code snippet associated with this code completion name."
+    },
+    {
+      "timestamp": "01:35:59",
+      "language": "javascript",
+      "content": "const features = [\n  {\n    title: \"AI Code Completion\",\n    description: \"Intelligent code suggestions powered by advanced AI that learns from your coding patterns. Get real-time assistance with syntax, logic, and best practices.\",\n    image: \"code-completion\",\n    imagePosition: \"left\",\n  },\n  {\n    title: \"Automated Testing\",\n    description: \"Generate comprehensive test suites automatically. Our AI analyzes your code and creates unit tests, integration tests, and edge case coverage.\",\n    image: \"testing\",\n    imagePosition: \"right\",\n  },\n  {\n    title: \"Smart Debugging\",\n    description: \"Identify and fix bugs before they reach production. AI-powered error detection and resolution suggestions help you debug faster.\",\n    image: \"debugging\",\n    imagePosition: \"left\",\n  },\n];",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Features.jsx",
+      "instructor_explanation": "Now, to do that, I will create one feature, one object like this for each feature. I obviously already created all my features, so I'll just copy and paste the ones"
+    },
+    {
+      "timestamp": "01:36:20",
+      "language": "javascript",
+      "content": "export default function Features() {\n  return (\n    <section id=\"features\">\n    </section>\n  )\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Features.jsx",
+      "instructor_explanation": "Now, inside of this features component, I want to return a section. And this is the first section where we do want to put an ID, and the reason we do that is so we can navigate to the feature section when we click on the navbar."
+    },
+    {
+      "timestamp": "01:36:58",
+      "language": "javascript",
+      "content": "      <div className=\"py-16 sm:py-20 px-10 sm:px-6 lg:px-8\">\n        <h2 className=\"text-center mb-12 sm:mb-16 lg:mb-20\">\n          <span className=\"bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent block font-bold text-5xl sm:text-4xl md:text-4xl lg:text-5xl mb-4 sm:mb-6\">\n            Your Complete Development\n          </span>\n          <br />\n          <span className=\"bg-gradient-to-b from-blue-400 to-cyan-400 bg-clip-text text-transparent block font-bold text-5xl sm:text-4xl md:text-4xl lg:text-5xl mb-4 sm:mb-6\">\n            Workflow\n          </span>\n        </h2>\n      </div>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Features.jsx",
+      "instructor_explanation": "So we're making a div with an H2, which is going to include a span, and it will say something like this. ... Now below this, we're adding a line break, and then we're adding another span that should have another type of catch phrase or word that is associated to your product, like workflow."
+    },
+    {
+      "timestamp": "01:39:13",
+      "language": "javascript",
+      "content": "    <section id=\"features\" className=\"py-16 sm:py-20 px-10 sm:px-6 lg:px-8\">\n      <div className=\"max-w-6xl mx-auto\">\n        <div className=\"text-center mb-12 sm:mb-16 lg:mb-20\">\n          <h2 className=\"text-5xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6\">\n            <span className=\"bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent block\">\n              Your Complete Development\n            </span>\n            <br />\n            <span className=\"bg-gradient-to-b from-blue-400 to-cyan-400 bg-clip-text text-transparent block\">\n              Workflow\n            </span>\n          </h2>\n        </div>\n      </div>\n    </section>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Features.jsx",
+      "instructor_explanation": "Now, we do want to set a div class name for this overall section. It's going to be pretty simple. We're just setting the maximum width of this entire section to be 6xl, and the margin in the X direction to be always auto."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:34:25",
+      "region_type": "code",
+      "label": "Features.jsx file",
+      "visible": true,
+      "sample_text": "export default function Features()",
+      "confidence": 0.99,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "width": 0.6,
+        "height": 0.9
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

@@ -1,0 +1,1013 @@
+{
+  "segment_index": 0,
+  "time_range": "140:00 - 150:00",
+  "transcript_entries": [
+    {
+      "timestamp": "02:20:00",
+      "text": "that is going to have a flex shrink",
+      "tone": "instructional",
+      "emphasis_words": [
+        "flex",
+        "shrink"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:20:03",
+      "text": "of zero.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "zero"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:20:07",
+      "text": "then in this div, I want to add a div with the quotation mark.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "quotation mark"
+      ],
+      "pause_after_seconds": 1.2,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:20:14",
+      "text": "Now, we do want to make the quotation mark a lot bigger and have a gradient.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bigger",
+        "gradient"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:20:30",
+      "text": "Then below this, we'll go down two divs. We'll make the right side, and the right side is going to be the actual testimonial with the user image and everything else.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "test",
+        "right side",
+        "testimonial"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:20:38",
+      "text": "So, I'm going to set this to be flex grow.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "flex grow"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:20:42",
+      "text": "And inside of this div, I want to add a p tag that is going to list the testimonial.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "p",
+        "tag",
+        "testimonial"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:20:51",
+      "text": "Now, we also want to put the image of the user.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "user"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:20:55",
+      "text": "So below this P tag, I'm going to add a div that is going to have an image that shows the profile image of the user by using the source.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "image",
+        "profile image",
+        "source"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:21:11",
+      "text": "Now we want to specify an alt as well for accessibility reasons.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "alt",
+        "accessibility"
+      ],
+      "pause_after_seconds": 1.2,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:21:20",
+      "text": "Uh, actually, no. Let's put the name of the user as the alt.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "name",
+        "user",
+        "alt"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:21:25",
+      "text": "Then in the class name here to make the image uh look like a circle, I'm going to make this have a width and a height that is exactly the same.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "name",
+        "image",
+        "circle",
+        "width",
+        "height"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:21:35",
+      "text": "And then, it looks kind of smashed, but you you'll see it will look good.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "smashed",
+        "good"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:21:38",
+      "text": "We're going to make the width be 12 and the height be 12 in bigger sizes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "12",
+        "height",
+        "12"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:21:43",
+      "text": "And then I'll make this into a full circle.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "full circle"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:21:48",
+      "text": "Then I want to make the object cover, which then what this makes is, it makes it such that it doesn't squish. It just clips around the image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "object cover",
+        "squish",
+        "clips"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:21:59",
+      "text": "Now, I will come to the testimonial over here, I'm adding a class name. Make this text white, we're then going to set this to text base. On a small screen, this will become text large, and we're going to have a leading that is relaxed and a margin bottom of three with a margin bottom of four when it's small.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name",
+        "text white",
+        "text base",
+        "text large",
+        "leading",
+        "relaxed",
+        "margin bottom"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:22:18",
+      "text": "Now, for this div over here, we're going to add a class name where we say display flex. We're going to center the items.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "flex",
+        "center"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:22:25",
+      "text": "There's going to be a space in the x direction of two, and you'll see, because we'll have to put the name of the user as well next to their profile image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "space",
+        "x direction",
+        "name",
+        "profile image"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:22:32",
+      "text": "So that's the gap for that, and we'll make it bigger as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "bigger"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:22:36",
+      "text": "Now below this image, I want to add a div to put the name and the role of the user.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "name",
+        "role"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:22:43",
+      "text": "So in here, I'm going to add a an H4 tag, I feel like H4 makes sense.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "H4",
+        "tag",
+        "H4"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:22:51",
+      "text": "Then below this, we'll add a paragraph tag for the role.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph tag",
+        "role"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:22:59",
+      "text": "Now, we want to make the H4 have a font that is semibold, a text that is white, and I also want to make the text be small, but on a small screen, we'll make the weight be base.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "H4",
+        "font",
+        "semibold",
+        "text white",
+        "small",
+        "base"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:23:14",
+      "text": "Then I'm going to copy this, and I'm going to paste it over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "paste"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:23:19",
+      "text": "Now we want to change just a bit. We want to make it, actually, we're just going to change everything.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "everything"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:23:24",
+      "text": "We're going to make the text be extra small, and it will be small on bigger screens and then the color won't be white, it'll actually be gray 400.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "extra small",
+        "small",
+        "gray 400"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:23:35",
+      "text": "And now we are pretty much done with the section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "done",
+        "section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:23:39",
+      "text": "Yeah, the only thing that we need to do is put a gap in between these different items over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "different items"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:23:45",
+      "text": "And to do that, we can come here to where we're looping. We have this div over here, and we have to add a space Y of six.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "looping",
+        "div",
+        "space Y"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:23:56",
+      "text": "This should be good, but on a bigger screens, we want to make that gap be even bigger so I'll make it eight.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "bigger",
+        "eight"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:03",
+      "text": "And now we have this beautiful testimonial section that adapts fully responsive, in whatever kind of screen we're in.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "beautiful",
+        "testimonial section",
+        "fully responsive"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:09",
+      "text": "Now we're almost done with the website. We just want to add the footer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "website",
+        "footer"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:12",
+      "text": "For the footer, I'll be honest, I don't think it matters that much, especially if you're building a website like this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer",
+        "website"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:19",
+      "text": "Like we don't have any of these links in this website, we're just building the the landing page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "links",
+        "website",
+        "landing page"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:24",
+      "text": "So for the footer, I'm actually going to go a little bit faster than what we were in the other pages.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer",
+        "faster",
+        "pages"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:29",
+      "text": "So for the footer, what I want to do is I'll close all of this, we'll come here to the footer section. So, where's the footer? It's uh here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer",
+        "section",
+        "footer"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:39",
+      "text": "And I'm just going to copy and paste the entire code for the section and go over everything that we do.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "paste",
+        "code",
+        "section",
+        "go over"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:44",
+      "text": "So, first of all, we are seeing that the footer is now here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:47",
+      "text": "You can clearly see it works, and it works in mobile as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "works",
+        "mobile"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:24:54",
+      "text": "If you come over here, it actually in mobile, I made it such that the footer becomes way smaller, just because it would look kind of weird to show off the different links in a mobile setting.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mobile",
+        "smaller",
+        "weird",
+        "links"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:02",
+      "text": "Now, this is what this code looks like.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "code"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:04",
+      "text": "First of all, we choose the links that we want to have.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "choose",
+        "links"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:07",
+      "text": "So, footers usually have a bunch of links depending on what kind of company you have.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footers",
+        "links",
+        "company"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:12",
+      "text": "So you divided into different sections.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "divided",
+        "sections"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:14",
+      "text": "Then in here, we create a section normally like we would before.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:17",
+      "text": "We put the logo and the name like we did on the Navbar, and a little bit of a tagline for the company.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logo",
+        "name",
+        "Navbar",
+        "tagline",
+        "company"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:23",
+      "text": "Then we list out all of our social media platforms, this part over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "list",
+        "social media platforms"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:28",
+      "text": "And if you have a company and you have a profile in those, you go ahead and put the Href to link to that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "company",
+        "profile",
+        "Href",
+        "link"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:34",
+      "text": "Now, we used the icon from Lucide React for each of them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "icon",
+        "Lucide React"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:38",
+      "text": "And then we loop through the footer links through this object.entries.map, because object.entries will make a list out of an object, and it loops through all of them and makes a link for each individual section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "loop",
+        "footer links",
+        "object.entries",
+        "list",
+        "section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:53",
+      "text": "Now this is pretty much it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "done"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:25:54",
+      "text": "There is one more thing I do want to do though, which is if you've noticed on this one over here, it has a border bottom to the Navbar when we are scrolling.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border bottom",
+        "Navbar",
+        "scrolling"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:26:04",
+      "text": "But when we get to the top, that border bottom disappears.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "top",
+        "border bottom",
+        "disappears"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:26:08",
+      "text": "In this case, it just never has that border bottom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border bottom"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:26:11",
+      "text": "Now some people might like it like this, might like it without the border bottom, with the glass morphism, uh because of the backdrop blur that we added.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border bottom",
+        "glass morphism",
+        "backdrop blur"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:26:21",
+      "text": "However, I like this and this is what I promised, so this is how we do it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "promised"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:26:26",
+      "text": "So, we're going to come bit back here to our App.jsx, and we're going to have to create a variable called scrolled, which detects if the user has scrolled or not, and we're going to pass this as a boolean to the Navbar component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "App.jsx",
+        "variable",
+        "scrolled",
+        "detects",
+        "boolean",
+        "Navbar"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:26:39",
+      "text": "Now to detect if the user has scrolled or not, it's similar to what we did with the other sections.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "detect",
+        "scrolled",
+        "sections"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:26:45",
+      "text": "So, we're going to come here and we're going to create a state called scrolled and a function called setScrolled. Set this equal to a use state, which will be false.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "state",
+        "scrolled",
+        "setScrolled",
+        "use state",
+        "false"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:26:57",
+      "text": "And then I'm going to pass a use effect that is going to subscribe to a scroll listening event.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "use effect",
+        "subscribe",
+        "scroll listening event"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:27:08",
+      "text": "So, I'm going to come here and add an empty dependency array and then in here, I am going to add a window.addEventListener, and we're going to subscribe to the scroll event.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dependency array",
+        "window.addEventListener",
+        "scroll event"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:27:20",
+      "text": "And when we subscribe to that, we're going to call this function we're going to create called handleScroll.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "subscribe",
+        "handleScroll"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:27:25",
+      "text": "Now, we'll create that function up here. We'll say function handleScroll.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "handleScroll"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:27:33",
+      "text": "And this is exactly like what we did for the mouse, but it's for the scroll.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mouse",
+        "scroll"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:27:37",
+      "text": "And we can set the value of the scrolled boolean to be true if the user has a scroll positioning in the Y direction to be greater than 50, which is, I believe the height of the navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "value",
+        "scrolled",
+        "boolean",
+        "true",
+        "Y direction",
+        "50",
+        "height",
+        "navbar"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:28:00",
+      "text": "So, we need to now return something here because we need to clean this up, so there's no memory leaks.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "clean",
+        "memory leaks"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:28:07",
+      "text": "So we're just going to copy this, and I'm going to say removeEventListener for the scroll event.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "removeEventListener",
+        "scroll"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:28:15",
+      "text": "Then we pass this value to the navbar, now in this navbar we need to get that, so I'm going to say scrolled as one of the options here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "value",
+        "navbar",
+        "scrolled"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:28:21",
+      "text": "And all I want to do is in our navbar over here, this should become a dynamic navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navbar",
+        "dynamic"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:28:28",
+      "text": "So I'll close this up, make it into a dynamic class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dynamic",
+        "class name"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:28:32",
+      "text": "And you know where we put the background color over here, with the back blur and the background color over here, we're just going to wrap this around with a variable.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background color",
+        "back blur",
+        "variable"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:28:41",
+      "text": "And we're going to check to see if the user has scrolled. We want to do something, if not, we want to leave it how it was.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "user",
+        "scrolled"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:28:49",
+      "text": "Now, what do we want to do if the user scrolled? Well, I'm going to copy this, paste it over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "scrolled",
+        "copy",
+        "paste"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:28:54",
+      "text": "And I want to change it a bit. I want to make the actual opacity be a lot bigger.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "opacity",
+        "bigger"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:00",
+      "text": "Because I do like the glass morphism, but I want to be able to have more opacity on the navbar when we're scrolling.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "glass morphism",
+        "opacity",
+        "navbar",
+        "scrolling"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:09",
+      "text": "But most importantly, I want to make the blur be large and set a border to the bottom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "blur",
+        "large",
+        "border",
+        "bottom"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:15",
+      "text": "That border will have a color of slate 800, so it blends in with the color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "slate 800",
+        "blends"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:22",
+      "text": "Now you see when I scroll down, it should now have a border which it didn't have before.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "scroll",
+        "border"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:29",
+      "text": "Now, we just have to fix one more thing.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "fix"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:32",
+      "text": "So, obviously, there is two issues here with the code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "two issues",
+        "code"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:36",
+      "text": "The first one is that it's still kind of not filling the entire section, and the second one is that if you go into a smaller screen, it does work and feel up the section, but then the code inside of it is centered, which doesn't make sense because who codes in a code editor where the code is centered?",
+      "tone": "instructional",
+      "emphasis_words": [
+        "filling",
+        "section",
+        "smaller screen",
+        "code",
+        "centered"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:46",
+      "text": "Now to fix that, we're going to go here to our hero.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "fix",
+        "hero"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:49",
+      "text": "And we're going to go to, uh, let's take a look to see what it could be.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "take a look"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    },
+    {
+      "timestamp": "02:29:54",
+      "text": "Okay, it seems like I remember fixing this, maybe we have two of these, but, uh, you see how we're, setting the class names",
+      "tone": "instructional",
+      "emphasis_words": [
+        "fixing",
+        "class names"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_13"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (Pedro)",
+      "description": "Pedro is the speaker and creator of the \"PedroTech\" YouTube channel. He narrates his coding process and provides explanations for his web development tasks."
+    }
+  ]
+}

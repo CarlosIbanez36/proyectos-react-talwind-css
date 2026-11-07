@@ -1,0 +1,794 @@
+{
+  "segment_index": 0,
+  "time_range": "120:00 - 130:00",
+  "transcript_entries": [
+    {
+      "timestamp": "02:00:00",
+      "text": "on a smaller on a non-popular one, we want to set the border to have a color of Slate 800.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "Slate 800"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:00:08",
+      "text": "Then, I also want to make it such that when you hover it, the border will become slate 700.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hover",
+        "border",
+        "slate 700"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:00:15",
+      "text": "And this should be good to go. You see, as I hover this stuff, it does affect it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "good to go",
+        "hover"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:00:20",
+      "text": "Now, instead of this, I want to start by adding the most popular tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "most popular tag"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:00:25",
+      "text": "So if the plan is most popular, then I want to add this little tag at the top.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "most popular",
+        "tag"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:00:32",
+      "text": "We are adding a div over here that is going to have a another div inside of it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:00:39",
+      "text": "And inside of the second div, we are going to have a star component which is an icon from Lucide React.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "second div",
+        "star component"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:00:45",
+      "text": "Now, below this, we're also adding a span that says 'Most Popular'.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "Most Popular"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:00:51",
+      "text": "Now I do want to make it such that it doesn't appear inside, but rather at the top.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "top"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:00:55",
+      "text": "So in this div, we're going to set this to have a position absolute, and also it is going to be at the top",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "absolute",
+        "top"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:01:03",
+      "text": "like two above the thing, so it's slightly up, that's why it's negative.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "negative"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:01:07",
+      "text": "And in bigger screens, it will even be more. So, negative top three.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bigger screens",
+        "negative top three"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:01:14",
+      "text": "The left is going to be a half, so it's right in the middle, and we're setting this to transform, negative translate x 1 half, and then we're setting the z index to be 10 just to make sure it's above.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "middle",
+        "transform",
+        "z index 10"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:01:28",
+      "text": "Now this div over here, we're going to set the display to flex, items to center, a space in the x direction to be 1, and then we're setting a padding of x of 3, and a bigger padding if it's bigger, a padding of y of 1, same thing, we're just slightly increasing the padding in the y direction if it's a bigger screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "flex",
+        "center",
+        "padding x 3"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:01:50",
+      "text": "And we're going to set a bg gradient to the bottom, where it's going to go from blue 500 to cyan 500. So it's the same color we've been using kind of for the different texts.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bg gradient",
+        "blue 500",
+        "cyan 500"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:02:04",
+      "text": "Then I'm going to make this be rounded full so it's a pill, and I want to make the text be extra small, so that's a lot smaller, and we'll make it small in a bigger screen. The font will be semi-bold and a shadow is going to be large.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rounded full",
+        "pill",
+        "extra small",
+        "small",
+        "font semi-bold",
+        "shadow large"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:02:23",
+      "text": "Then inside of this, we want to apply some styles to this, this star. We're going to put a width of 3 and a height of 3.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "star",
+        "width of 3",
+        "height of 3"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:02:40",
+      "text": "Perfect. And then what I want to do is, next to this, I want to make it such that this will also have a fill white.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "fill white"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:02:52",
+      "text": "And now we have this pill appearing at the top. Perfect.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "pill",
+        "top",
+        "perfect"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:02:56",
+      "text": "So now it's time for us to add the first part of this card, which is the plan name, description, and price.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "plan name",
+        "description",
+        "price"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:03:03",
+      "text": "So, I'll add this div over here that should encompass all of that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "encompass"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:03:08",
+      "text": "In the first section, we'll add the plan name. So, we'll add an H3 that says 'plan.name'.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "section",
+        "plan name",
+        "H3",
+        "plan.name"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:03:11",
+      "text": "We'll then add a plan description, so this will become a paragraph tag and it will say 'plan.description'.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "plan description",
+        "paragraph tag",
+        "plan.description"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:03:24",
+      "text": "Then I want to add a div that is going to encompass this whole thing, and it's going to include the price of this through a span.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "encompass",
+        "price",
+        "span"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:03:41",
+      "text": "Now, I also want to add a span right next to it that is going to say that this is a monthly subscription, so 29.99 per month.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "monthly subscription",
+        "29.99 per month"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:03:49",
+      "text": "And this should be enough for the section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:03:52",
+      "text": "Now, above here, we want to make this have a text that is centered, and a margin bottom of 6, with a margin bottom of 8 in bigger screens.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text centered",
+        "margin bottom 6",
+        "margin bottom 8"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:04:01",
+      "text": "Then for the plan name, I want to set the text to be XL and 2XL in bigger ones, and the font to be bold with a margin bottom of 2.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "plan name",
+        "XL",
+        "2XL",
+        "font",
+        "bold",
+        "margin bottom 2"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:04:11",
+      "text": "Then for the paragraph, we'll make the color be gray 400, a text that is extra small, and a text that is small in bigger screens with a margin bottom of 3 and a margin bottom of 4.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph",
+        "gray 400",
+        "extra small",
+        "small",
+        "margin bottom 3",
+        "margin bottom 4"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:04:26",
+      "text": "Now, on this section, the reason why we made it into a div, is because there's the whole part over here where it's two spans connected.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "spans"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:04:34",
+      "text": "So, what we want to do is, we want to say display flex so it's in the side, and then we're going to set the items to actually be aligned to the baseline, and then, next to it, we're going to justify everything to the center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex",
+        "items aligned",
+        "baseline",
+        "justify everything to the center"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:04:51",
+      "text": "Now, after that, we want to change this span to have a text that is way bigger, so 3XL.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "3XL"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:04:58",
+      "text": "We're then going to make it even bigger on bigger screens, and 5XL as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bigger",
+        "5XL"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:05:05",
+      "text": "The font is going to be bold, and we want to make it such that it has a gradient color to it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font",
+        "bold",
+        "gradient color"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:05:12",
+      "text": "So what I'm going to do is I'm going to apply this gradient to the right that we've been using, where you can clip the text and make it be a gradient from blue to cyan.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient",
+        "blue",
+        "cyan"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:05:23",
+      "text": "Then, what I want to do is, on this div over on this span, I want to make the text be gray 400, margin left of 1, margin left of 2, the text is small, and the text is base when it's bigger.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "text gray 400",
+        "margin left 1",
+        "2",
+        "text small",
+        "text base"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:05:37",
+      "text": "Perfect. So now, we have a similar card to the rest of this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "similar card"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:05:41",
+      "text": "Now there's a bit more that we need to add, we need to add the features for this section, and also the button at the bottom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "features",
+        "button",
+        "bottom"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:05:47",
+      "text": "Now for the features, here's what we want to do.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "features"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:05:50",
+      "text": "We'll get this div, we'll go below here and we'll create an unordered list that will loop through the plan.features.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "unordered list",
+        "loop",
+        "plan.features"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:06:01",
+      "text": "We'll loop through each feature, get them, get the, since we are inside of a map already that has a key, we need to name this key feature key.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "feature",
+        "map",
+        "key",
+        "feature key"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:06:13",
+      "text": "Then instead of this, we want to create a list item and in this list item, I'm going to set the key to be equal to the feature key.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "list item",
+        "key",
+        "feature key"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:06:22",
+      "text": "And for each item in this list item, I want to render a check mark on the left, since this is a, it's this, the features over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "list item",
+        "check mark",
+        "left",
+        "features"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:06:33",
+      "text": "So I'm going to use the check mark icon, it's called check from Lucide React.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "check mark icon",
+        "check",
+        "Lucide React"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:06:40",
+      "text": "Then, I want to have a span below this that will just show the name of the feature.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "name of the feature"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:06:47",
+      "text": "Now, let's obviously style this. For this list item, what I want to do is I want to set a display flex, I want to set them to the left, so item start, and I want to put a space, a gap in the x direction of 2, and on a bigger screen that should be a bit more.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "list item",
+        "display flex",
+        "item start",
+        "space x 2"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:07:04",
+      "text": "Then for the check mark, what I want to do is, I want to set a width of 2.5 and a height of 2.5.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "check mark",
+        "width 2.5",
+        "height 2.5"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:07:12",
+      "text": "And also I want to make it have a width of 4, a height of 4, and I'll make that be different on a bigger screen, and I'll make it be rounded full, so there's a circle around the icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width of 4",
+        "height of 4",
+        "rounded full",
+        "circle"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:07:26",
+      "text": "But for that, we need to put a background, so you can see that it's a circle. So we'll make it be 500 divided by 20.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "circle",
+        "500",
+        "20"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:07:34",
+      "text": "Then we want to center the check marks inside of that, so I'm going to say display flex, items center, and justify center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "center",
+        "check marks",
+        "flex",
+        "items center",
+        "justify center"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:08:04",
+      "text": "Then, I want to make it such that it is going to have a text blue of 400.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text blue 400"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:08:10",
+      "text": "But since we're also applying a different height, uh, for the overall circle when it's a bigger screen, we'll do the same thing here, but the height and width is going to be 3.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "different height",
+        "bigger screen",
+        "height 3",
+        "width 3"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:08:20",
+      "text": "Now, you can see that when I expand this it becomes bigger, and it already looks pretty nice.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "expand",
+        "bigger",
+        "pretty nice"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:08:26",
+      "text": "Now, we do want to change the text for the feature, I want to add a text gray 300, so we change the color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text feature",
+        "text gray 300",
+        "color"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:08:34",
+      "text": "Then I want to set the text to be small, and a text to be base when it's bigger.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "small",
+        "text",
+        "base"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:08:41",
+      "text": "I'm just going to put a gap so that spaces this out a bit in the Y direction and we're going to set it to 3.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "Y direction 3"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:08:53",
+      "text": "Then, in bigger screens we're going to set that to be 4, a margin bottom of 6 and a margin bottom of 8, and we're setting the flex to be row.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bigger screens",
+        "4",
+        "margin bottom 6",
+        "8",
+        "flex row"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:09:05",
+      "text": "Perfect. Now, you see that we can expand and it looks pretty good.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "expand",
+        "pretty good"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:09:12",
+      "text": "Now, we just have to add the action button at the bottom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "action button",
+        "bottom"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:09:17",
+      "text": "So, since we've added this action button before, it's going to be very similar to this action button from the top up here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "action button",
+        "similar"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:09:25",
+      "text": "So, what I want to do is, I want to come here and I want to add this button. This button will change, depending on if this is the popular plan or not.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button",
+        "change",
+        "popular plan"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:09:33",
+      "text": "If it's the popular plan, then it should show a gradient around the button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "popular plan",
+        "gradient",
+        "button"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:09:40",
+      "text": "If not, it should just show this generic button, which has a background color of white with 5% of opacity.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "generic button",
+        "background color",
+        "white",
+        "5% opacity"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:09:48",
+      "text": "Now, below this section over here, so right over here, we want to add a little text that allows the user to be able to contact us if they need a custom plan.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "section",
+        "text",
+        "contact us",
+        "custom plan"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "02:10:00",
+      "text": "This is done whenever a business.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "business"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_11",
+      "description": "The speaker is Pedro, the creator of the 'PedroTech' YouTube channel. He has a clear, instructive tone, consistent with a coding tutorial host."
+    },
+    {
+      "speaker_id": "SPEAKER_00 (Pedro)",
+      "description": "The host of the video, identified as Pedro from the channel PedroTech, who guides the viewer through coding tasks with clear, instructional tone."
+    },
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "The sole speaker, identified as the creator of the 'PedroTech' channel, whose voice is steady and focused on technical coding instruction."
+    }
+  ]
+}

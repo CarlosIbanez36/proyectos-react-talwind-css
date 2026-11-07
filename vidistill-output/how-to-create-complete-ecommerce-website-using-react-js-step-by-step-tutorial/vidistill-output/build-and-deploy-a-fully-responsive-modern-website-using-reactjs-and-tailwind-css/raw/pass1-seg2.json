@@ -1,0 +1,753 @@
+{
+  "segment_index": 0,
+  "time_range": "20:00:00 - 20:00:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:20:00",
+      "text": "going to show up for us to open the mobile navbar when the screen is small enough. So how do we do that? Well, I'm going to add a button over here and instead of this button, we're going to use an icon that is a hamburger icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "going",
+        "show up",
+        "mobile",
+        "hamburger"
+      ],
+      "pause_after_seconds": 1.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:00",
+      "text": "To do that we're going to install an icon library. And there's a bunch of them out there, but I personally like to use Lucide React. It's going to give us access to a bunch of different icons that we can use. Specifically, we can use the menu icon from Lucide React.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "install",
+        "icon library",
+        "Lucide React",
+        "menu icon"
+      ],
+      "pause_after_seconds": 1.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:00",
+      "text": "Now, right now, it's just going to show us no matter what, but you guys will see how we can change that to only show when the screen is really small.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "no matter what",
+        "only show",
+        "really small"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:00",
+      "text": "Now, the next thing I want to do is I want to set a class name over here, set the width to be five, the height to be five, in general, but also when you're a small screen, it'll become a width of six and a height of six.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "height",
+        "small screen",
+        "width of six",
+        "height of six"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:00",
+      "text": "Perfect. Now on this button, I want to make it such that it is hidden unless we are in a small screen. The way we do that is from a medium screen and above, we're going to set the display to hidden.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hidden",
+        "medium screen",
+        "hidden"
+      ],
+      "pause_after_seconds": 0.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:01",
+      "text": "Now you see that this doesn't impact us at all. But if I were to open this up more, you'll see that it will disappear, because right now we are currently in a small screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "impact",
+        "disappear",
+        "small screen"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:01",
+      "text": "And what that also means is that now we can come up here into our nav links and do that thing that I mentioned to you guys, where if we are in a small screen, we want to set the display to hidden, so that we only have this button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav links",
+        "small screen",
+        "display",
+        "hidden",
+        "button"
+      ],
+      "pause_after_seconds": 2.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:01",
+      "text": "But now, how do I get that back when I am in a bigger screen? What you do is in a bigger screen, you set the display to flex because you can't have a display of hidden and a display of flex. We only want to set the display of flex in a medium screen and bigger because then when we get to a smaller screen when the screen is not medium anymore, it will then become this beautiful hamburger menu.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bigger screen",
+        "medium screen",
+        "flex",
+        "hidden",
+        "beautiful hamburger menu"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:02",
+      "text": "Now, in this button, I also want to center the items and now on this button, I also want to set a padding of two, I want to set the color of it to be gray 300, so it matches the color of the navbar and I'll do the same thing here, hover text white.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "center",
+        "padding",
+        "gray 300",
+        "hover text white"
+      ],
+      "pause_after_seconds": 0.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:02",
+      "text": "Perfect. Now, I want to be able to click on this button and open a completely separate navbar menu that is only for mobile. How do we do that? Well, the way we do this is by keeping track of the state of whether or not a mobile menu is opened or not.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "click",
+        "separate navbar menu",
+        "mobile",
+        "state",
+        "opened"
+      ],
+      "pause_after_seconds": 0.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:02",
+      "text": "And to do that, we can use the use state hook from React. So, I'm going to create a state set it equal to use state and import that from React. And a state will allow us to keep track of this boolean which we're going to call mobile menu is open, that's a boolean true or false. And we're going to have a function that we're going to use to change the value of that boolean. We're going to call it set mobile menu is open.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "use state hook",
+        "React",
+        "boolean",
+        "mobile menu is open",
+        "true or false",
+        "set mobile menu is open"
+      ],
+      "pause_after_seconds": 0.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:03",
+      "text": "Then initially, this boolean will be false, but when you click on this button, I want to make it such that it is hidden unless we are in a small screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "initially",
+        "boolean",
+        "false",
+        "click",
+        "hidden",
+        "small screen"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:03",
+      "text": "The way we do that is from a medium screen and above, we're going to set the display to hidden.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "medium screen",
+        "hidden"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:03",
+      "text": "Now what does that mean? It means that if I click on this button and the mobile menu is open, then I want to set it to false.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "click",
+        "mobile menu",
+        "open",
+        "false"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:03",
+      "text": "So this is how it's going to look. We're going to click on this button, and we're going to alter the value of the previous value of this state to be the opposite of what it was.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "alter",
+        "previous value",
+        "opposite"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:03",
+      "text": "And now, we should see the word hello, and if I click on it again, that should disappear, because now it becomes false.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "see the word hello",
+        "click",
+        "disappear",
+        "false"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:04",
+      "text": "Now, we don't want to show the word hello when this is true. We want to do a lot more.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "disappear",
+        "false"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:04",
+      "text": "For example, I want to change what the icon is inside of this button depending on whether or not mobile menu is open.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "icon",
+        "mobile menu",
+        "open"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:04",
+      "text": "So I'm going to wrap this icon or the label inside of this button with some curly braces.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "icon",
+        "button",
+        "mobile menu",
+        "wrap",
+        "curly braces"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:04",
+      "text": "Because if it is, we don't need to show a hamburger menu, we actually need to show something else.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "show",
+        "hamburger menu",
+        "show",
+        "something else"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:04",
+      "text": "I want to show an X icon, because it's kind of like you want to close the menu.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "show",
+        "X icon",
+        "close the menu"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:04",
+      "text": "So I'm going to use the X icon from Lucide React, and you'll see that when I click on this, this now should become an X.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "X icon",
+        "Lucide React",
+        "click",
+        "X"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:05",
+      "text": "And as I click, it keeps switching.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "X icon",
+        "Lucide React",
+        "click",
+        "X",
+        "switching"
+      ],
+      "pause_after_seconds": 0.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:05",
+      "text": "Now, we also want to show the actual menu or the links appearing in a vertical manner when you open the mobile menu.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "menu",
+        "links",
+        "vertical manner",
+        "mobile menu"
+      ],
+      "pause_after_seconds": 0.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:05",
+      "text": "And we're going to create a whole separate menu that is just for when the mobile menu is open.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "separate menu",
+        "mobile menu",
+        "open"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:05",
+      "text": "So what I want to do is, I want to render here a div, and this div will show another div which is going to contain the different links.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "render",
+        "div",
+        "show",
+        "div",
+        "contain",
+        "different links"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:05",
+      "text": "So I'm going to copy all of the links we have over here, I'm going to paste them inside of this div.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "links",
+        "paste",
+        "div"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:05",
+      "text": "And you see that when I click on this, it should show the links.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "click",
+        "show the links"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:05",
+      "text": "But they are not showing up the way that we want to. We want them to show up in the middle and also for them to be vertically stacked.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "showing up",
+        "middle",
+        "vertically stacked"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:05",
+      "text": "So to do that, I'll go to the first div and I'm going to set a class name where if you are in a medium screen and above, I want to maintain that hidden.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "class name",
+        "medium screen",
+        "hidden"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:06",
+      "text": "Now why do we want that?",
+      "tone": "questioning",
+      "emphasis_words": [
+        "want that"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:06",
+      "text": "Because imagine this scenario, I am on a small screen, I open up the mobile menu, and I decide to open up my web browser and make it bigger.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small screen",
+        "mobile menu",
+        "web browser",
+        "bigger"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:06",
+      "text": "We would have two menus. See? We'd have the one over here and this one over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "two menus"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:06",
+      "text": "By making such that no matter what, this menu will never show on a medium screen and above, this will now work.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "menu",
+        "never show",
+        "medium screen",
+        "work"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:06",
+      "text": "So I'm going to set this to be a BG slate 900, and I'll make the opacity be 95 instead of 90.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "BG slate 900",
+        "opacity",
+        "95",
+        "90"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:06",
+      "text": "Because imagine this scenario, I am on a small screen, I open up the mobile menu, and I decide to open up my web browser and make it bigger. We don't want that menu to still appear, because if this over here wasn't set, this is what was going to happen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small screen",
+        "mobile menu",
+        "web browser",
+        "bigger",
+        "menu"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:06",
+      "text": "Then I want to set a border to be top, so there's a clear distinction between the actual top navbar and this new mobile menu.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "top",
+        "clear distinction",
+        "top navbar",
+        "mobile menu"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:07",
+      "text": "Then I want to actually animate whenever this navbar appears.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animate",
+        "navbar"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:07",
+      "text": "So if you look at this, when I open and close, you see it just appears out of nowhere, but I don't want it to be like that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "open and close",
+        "appears out of nowhere"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:07",
+      "text": "So, what I want to do now is, I want to set the structure, are the styling for the mobile menu. So I'm going to set this to be a BG slate 900, and I'll make the opacity be 95 instead of 90.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "structure",
+        "styling",
+        "mobile menu",
+        "BG slate 900",
+        "opacity 95"
+      ],
+      "pause_after_seconds": 0.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:07",
+      "text": "To do that, we're going to create an animation in our CSS file over here, that is going to correspond to that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "animation",
+        "CSS file"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:07",
+      "text": "To do this, I am going to come inside of here, and I'm going to create a utility class.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "utility class"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:07",
+      "text": "Now, if you're not familiar with Tailwind and obviously the different layers of Tailwind that you can create, and what the utilities are, I recommend you checking out my one hour crash course on Tailwind CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Tailwind",
+        "layers of Tailwind",
+        "utilities",
+        "crash course",
+        "Tailwind CSS"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:08",
+      "text": "I go over absolutely everything from the very beginning up until the end, because Tailwind is one of the best libraries out there, and it's the best way for you to style your CSS, and I highly recommend you checking that out as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "everything",
+        "beginning",
+        "end",
+        "Tailwind",
+        "best libraries",
+        "best way",
+        "style",
+        "CSS"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:08",
+      "text": "Then I want to actually animate whenever this navbar appears. So if you look at this, when I open and close, you see it just appears out of nowhere, but I don't want it to be like that. I want it to animate in and also, slide in from the top of this section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animate",
+        "navbar",
+        "open and close",
+        "nowhere",
+        "animate",
+        "slide in from the top"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:08",
+      "text": "Now, this one is going to be an animation class.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animation class"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:08",
+      "text": "So I'm going to say animate in, and in the animate in, I want to set an animation fill mode to be both.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animate in",
+        "animation fill mode",
+        "both"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:08",
+      "text": "Now, that only makes sense if we do have an animation.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animation"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:08",
+      "text": "So, I want to also create here a class name called slide in from top, which is going to represent the animation that this navbar should have.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "slide in from top",
+        "represent",
+        "animation",
+        "navbar"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:08",
+      "text": "Now, what we need to do is, we need to create a, oh, I just realized, a I made a misspelling here.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "create",
+        "misspelling"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:08",
+      "text": "So, I need to change this to animation.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "change",
+        "animation"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:09",
+      "text": "Now, what we need to do now is, we need to apply a duration to this animation.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "apply",
+        "duration",
+        "animation"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:09",
+      "text": "So, we want to create a duration class that can be reused whenever we want to have, for example, animations that last a certain length.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "duration class",
+        "reused",
+        "animations",
+        "certain length"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:09",
+      "text": "Like 300 milliseconds, which is what I usually like my animations to be.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "300 milliseconds",
+        "animations"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:09",
+      "text": "So, whenever we want to set an animation to 300 milliseconds, I'll create this class and make the animation duration be equal to 300 milliseconds.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animation",
+        "300 milliseconds",
+        "create",
+        "class",
+        "animation duration"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:09",
+      "text": "So, that means that now, if we're to pass the duration to be 300 here, which it means I'm just calling this class that we created, it should have a slight delay, which makes like it's fading in.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "duration",
+        "300",
+        "calling",
+        "class",
+        "slight delay",
+        "fading in"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:10",
+      "text": "But we don't want it to just fade in, we also want it to kind of look like it's sliding in from the top.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "fade in",
+        "sliding in",
+        "top"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:10",
+      "text": "So, to do that, I am going to also pass a transform.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "transform"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "The speaker is PedroTech, an instructional developer who clearly explains coding concepts, particularly using Tailwind CSS and React, in an educational style. His voice is clear and consistent throughout."
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "description": "The speaker is Pedro, the host of the PedroTech YouTube channel, who provides technical instructions on development using React and Tailwind CSS."
+    }
+  ]
+}

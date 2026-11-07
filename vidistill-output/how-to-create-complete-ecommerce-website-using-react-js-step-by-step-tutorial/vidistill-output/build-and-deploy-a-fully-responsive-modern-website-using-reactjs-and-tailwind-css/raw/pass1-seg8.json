@@ -1,0 +1,1319 @@
+{
+  "segment_index": 0,
+  "time_range": "80:00 - 01:20:00",
+  "transcript_entries": [
+    {
+      "timestamp": "01:20:00",
+      "text": "and then we can see it's basically the same thing that we have for the previous buttons, which is we have an ArrowRight and we have a span, and we also have to pass the correct text, which is \"Watch Demo\".",
+      "tone": "instructional",
+      "emphasis_words": [
+        "ArrowRight",
+        "Watch Demo"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:04",
+      "text": "class. I also want to use the slide in from bottom so that it has that animation.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "slide in from bottom"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:10",
+      "text": "And I want to set the duration to be 700.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "duration",
+        "700"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:14",
+      "text": "Now you'll see that this should show up at the same time as this, but we actually want it to look like it is there's a delay.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delay"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:20",
+      "text": "You see that this shows up before this shows up.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "before"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:24",
+      "text": "To do that, we have to apply an animation delay to this animation.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animation",
+        "delay"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:28",
+      "text": "And we can do that by creating a class called a delay.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delay"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:33",
+      "text": "We'll create a delay class similar to what we have here for durations, and we'll put a different delay depending on how much we want.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delay",
+        "durations"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:41",
+      "text": "For example, in this case, I want it to be a simple 100 millisecond delay so it goes fast it goes after this one, which doesn't have a delay.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "100",
+        "millisecond",
+        "delay"
+      ],
+      "pause_after_seconds": 2.3,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:47",
+      "text": "So I'm going to apply an animation delay in here of 100 milliseconds.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animation",
+        "delay",
+        "100",
+        "milliseconds"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:20:53",
+      "text": "Later on, we'll create more delay classes so that uh we can have the different sections appearing one at each time.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delay"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:00",
+      "text": "So in here, I can just say delay 100.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delay 100"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:05",
+      "text": "And now you'll see that this should appear before this because there is a slight delay in the second animation.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "slight",
+        "delay"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:11",
+      "text": "I also want to set a leading tight so there's a bit more space in between the lines.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "leading",
+        "tight",
+        "space"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:17",
+      "text": "And this should be good to go.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "good"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:19",
+      "text": "Now, for each individual span, I want to do the following.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:22",
+      "text": "I want to for the code faster one, you can see that it is kind of like a um there's kind of a gradient, but it's a very non clear gradient.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "code",
+        "faster",
+        "gradient",
+        "clear"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:33",
+      "text": "This gradient is more clear, but this still has a gradient.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient",
+        "clear"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:36",
+      "text": "You can add the gradient if you want to.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:38",
+      "text": "I am going to add it to here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:39",
+      "text": "What we're going to do is we're going to create a gradient which is from the background, and it goes to the right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient",
+        "background",
+        "right"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:46",
+      "text": "So it goes from the left to the right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "left",
+        "right"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:48",
+      "text": "Now, if you're not familiar to how to make text and tailwind look like it it has a gradient, it's actually pretty interesting.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "tailwind",
+        "gradient"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:51",
+      "text": "You can just apply the gradient to the text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient",
+        "text"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:21:55",
+      "text": "You have to create a background with that gradient, so you give here the color, like from white via blue so I want it to be a little bit blue in in between.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "gradient",
+        "color",
+        "blue"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:06",
+      "text": "And in the end, it's going to end up being Cyan 100.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Cyan",
+        "100"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:11",
+      "text": "Now this looks weird because the background has the gradient, not the text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "gradient",
+        "text"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:15",
+      "text": "But then what you can do is you can apply a BG clip text, and it will clip the background onto the text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "BG",
+        "clip",
+        "text",
+        "background"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:21",
+      "text": "And then the text will now have that gradient.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "gradient"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:24",
+      "text": "Like I said, it's very, very uh like dim, so you barely can see the gradient, but it is there.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dim",
+        "gradient"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:30",
+      "text": "Now I also want to set the text to be transparent.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "transparent"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:34",
+      "text": "And then I want to set the display to be block and a margin bottom of one, but on a small screen and above we'll set that to two.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "block",
+        "margin bottom"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:44",
+      "text": "So now, I want to copy this entire class name and apply it here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "class name"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:49",
+      "text": "I'll do the same thing here, but we'll change the middle one to have a different gradient.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "middle",
+        "gradient"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:22:56",
+      "text": "The middle one is not going to go from white. It's going to go from blue, because I want it to be very blue.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "blue"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:01",
+      "text": "It's going to go via cyan 400.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cyan 400"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:08",
+      "text": "And in the end it's going to go back to blue 400.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "end",
+        "blue",
+        "400"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:14",
+      "text": "So it has a slight gradient in between like this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "slight",
+        "gradient"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:17",
+      "text": "Now, one thing I also like to do is I don't like that the gradients to go from left to right when it's very clear.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradients"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:23",
+      "text": "I like to make them from bottom, from top to bottom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "top",
+        "bottom"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:26",
+      "text": "I always do this on my websites, I don't know, I just feel like it looks better.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "websites"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:30",
+      "text": "So we're going to change that to be to the bottom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bottom"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:32",
+      "text": "Just like that, we have our h1 class setup.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "h1",
+        "class",
+        "setup"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:35",
+      "text": "The next thing is adding a paragraph with the description of the website right here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph",
+        "description"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:41",
+      "text": "So I'm going to add a paragraph tag here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph",
+        "tag"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:46",
+      "text": "Now this looks fine already, if you just want to leave it like that you can, but we do want to make it also animate a bit and we want to apply some styles to it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "fine",
+        "animate",
+        "styles"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:51",
+      "text": "Like for example, the size I wanted to be medium, but on a bigger screen, I want it to be base.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "size",
+        "medium",
+        "base"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:23:59",
+      "text": "I also want the color to not be just white, I want it to be gray 400.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color",
+        "white",
+        "gray",
+        "400"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:05",
+      "text": "Also, I want to make the max width of this to be 2XL and I want to set the margin X to be auto.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "max width",
+        "2XL",
+        "margin X",
+        "auto"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:12",
+      "text": "Then I want to set that in a large screen, the margin X will be zero.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large",
+        "screen",
+        "margin",
+        "X",
+        "zero"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:17",
+      "text": "The margin bottom will be six, but in bigger screen that will end up being eight.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin bottom",
+        "six",
+        "bigger screen",
+        "eight"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:19",
+      "text": "But on a small screen and above that will end up being eight.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small",
+        "screen",
+        "eight"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:24",
+      "text": "Now, I want to use the animate in class name, so we have the animation.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animate in",
+        "animation"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:28",
+      "text": "I also want to use the slide in from bottom and a duration of 700.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "slide in from bottom",
+        "duration",
+        "700"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:40",
+      "text": "But I want this to appear after this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "appear",
+        "after"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:43",
+      "text": "So first this appears and it slides in, then this has its animation, and then this one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "appears",
+        "slides",
+        "animation"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:48",
+      "text": "To do that, we're going to apply a delay, but because the delay of this is 100, and the delay of this is zero, this should be slightly more.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delay",
+        "100",
+        "zero",
+        "slight"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:24:56",
+      "text": "So we're going to create a delay 200 class which is going to just be a delay class that applies an animation delay of 200 milliseconds instead.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delay 200",
+        "delay class",
+        "animation delay",
+        "200 milliseconds"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:07",
+      "text": "And you'll see now that it looks like each of them are appearing like in a sequential order.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "sequential order"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:14",
+      "text": "Now, I just want to add a final thing, which is I want to change the the line height, so I'm going to say the leading is relaxed.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "line height",
+        "leading",
+        "relaxed"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:21",
+      "text": "Perfect, so it's a little bit more spaced out.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "spaced",
+        "out"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:24",
+      "text": "Now, for to finalize this section, I want to add the action buttons.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "finalize",
+        "action",
+        "buttons"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:27",
+      "text": "So I'm going to add a div here with a button, which is going to have a span that says start coding free.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "button",
+        "span",
+        "start",
+        "coding",
+        "free"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:37",
+      "text": "I don't know, just like a a call to action.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "call",
+        "action"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:40",
+      "text": "Now, I want to add an arrow here, so I'm going to say arrow right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "arrow",
+        "arrow",
+        "right"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:46",
+      "text": "And I want to import that from, oh why did it not import? Let's say Arrow Right again.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "Arrow Right"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:56",
+      "text": "Perfect.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Perfect"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:25:57",
+      "text": "Then I want to create another button right below this that is going to be similar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button",
+        "similar"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:02",
+      "text": "But on this one we actually want to add a little bit more specificities to it, so I'm going to add a div here instead of a span.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "specificities",
+        "div",
+        "span"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:10",
+      "text": "And the text in here it won't be a text. It's actually going to be the icon first.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "icon"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:14",
+      "text": "And it's going to be a play icon that uh didn't auto import, so I'm just going to write it again.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "play",
+        "icon",
+        "auto",
+        "import"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:22",
+      "text": "It's an icon from Lucide React.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "icon",
+        "Lucide",
+        "React"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:24",
+      "text": "And it should look a bit like this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "look"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:26",
+      "text": "Then after it we shouldn't put a an icon, we're going to put a span that should say watch demo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "icon",
+        "span",
+        "watch",
+        "demo"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:34",
+      "text": "So it's like, you want to have a demo on your website of how your website works, right?",
+      "tone": "instructional",
+      "emphasis_words": [
+        "demo",
+        "website",
+        "works"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:39",
+      "text": "Now, this looks ugly, so let's style it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "ugly",
+        "style"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:41",
+      "text": "We'll start with this, we're going to make it such that it's a display flex, and it's going to have a flex of column.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "flex",
+        "flex",
+        "column"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:46",
+      "text": "Then on a small screen and above that's going to end up becoming row.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small",
+        "screen",
+        "row"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:50",
+      "text": "I'm also going to center the items and justify them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "center",
+        "justify"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:26:55",
+      "text": "In a large screen, we're going to justify all of that to the start.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large",
+        "screen",
+        "justify",
+        "start"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:01",
+      "text": "Then I want to make it such that there is a gap of three in between the items, and that gap is bigger in larger screens.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "three",
+        "bigger",
+        "larger",
+        "screens"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:08",
+      "text": "A margin bottom of eight and then a margin bottom of 12.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin",
+        "bottom",
+        "eight",
+        "12"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:13",
+      "text": "I want to use the animate in class, just like before, together with the slide in from bottom, and the duration will be 700.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "animate in",
+        "slide in from bottom",
+        "duration",
+        "700"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:23",
+      "text": "but the delay will be slightly more.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "duration",
+        "700",
+        "delay",
+        "slight"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:30",
+      "text": "We're going to make the 300 millisecond class.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "300",
+        "millisecond",
+        "class"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:35",
+      "text": "So we'll come over here, and we'll create a delay 300.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delay",
+        "300"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:37",
+      "text": "Then we'll come back here, and there's more that we want to add to this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:40",
+      "text": "We want to come down here to the button and we want to add a class name, which is going to apply to a group.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button",
+        "class name",
+        "group"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:49",
+      "text": "So we're going to say width is equal to full.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "full"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:27:52",
+      "text": "Then I want to set it to have a width that is auto in a small screen and above, a padding X of six.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "auto",
+        "small screen",
+        "padding X"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:01",
+      "text": "But on a small screen and above that will become eight. Same thing with the padding in the Y direction.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small screen",
+        "eight",
+        "padding",
+        "Y direction"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:06",
+      "text": "We're going to make that be three and then we're going to make that be four.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "three",
+        "four"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:10",
+      "text": "Then we're going to set a gradient color to the first button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient",
+        "color",
+        "button"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:14",
+      "text": "It's going to be a gradient from the top to the bottom, and it's going to go from blue 600.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient",
+        "top",
+        "bottom",
+        "blue",
+        "600"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:22",
+      "text": "And we'll just make it be two colors, not three colors in this gradient.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "colors",
+        "gradient"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:25",
+      "text": "It's going to go from blue 600 to blue 400.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "blue",
+        "600",
+        "blue",
+        "400"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:29",
+      "text": "Then I want to make it such that the button is rounded, large.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button",
+        "rounded",
+        "large"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:34",
+      "text": "I'm going to set the font to be semi bold.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font",
+        "semi",
+        "bold"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:39",
+      "text": "And the text is going to be small and base on a bigger screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "small",
+        "base",
+        "bigger screen"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:43",
+      "text": "I'm setting a transition all, a duration to be 300 just as the one above.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "transition all",
+        "duration",
+        "300"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:28:54",
+      "text": "And when you hover it, I want to set the scale of this button to increase slightly by only 2%.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hover",
+        "scale",
+        "button",
+        "increase",
+        "2"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:02",
+      "text": "So you see when I hover it, it becomes slightly bigger.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hover",
+        "bigger"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:05",
+      "text": "A scale of 100 which will maintain it the same size, but 102 makes it slightly bigger.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "scale",
+        "100",
+        "size",
+        "102",
+        "bigger"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:08",
+      "text": "Then I'm setting the display to be flex, the items to be centered, and I'm justifying everything centered as well and putting a gap in between the different items of two, so there's a little bit of spacing in here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "flex",
+        "items",
+        "centered",
+        "justifying",
+        "centered",
+        "gap",
+        "spacing"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:23",
+      "text": "Perfect.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Perfect"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:24",
+      "text": "Now inside of this, I want to set the class names for the not the span but the arrow.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "names",
+        "span",
+        "arrow"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:30",
+      "text": "The arrow will have a width of four and a height of four, but on a small screen, there's going to be five and five.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "arrow",
+        "width",
+        "four",
+        "height",
+        "four",
+        "small screen",
+        "five",
+        "five"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:39",
+      "text": "Then we're adding a group hover effect that is going to apply to this, when you hover it, you want to translate this in the X direction to one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "group hover effect",
+        "hover",
+        "translate",
+        "X direction",
+        "one"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:49",
+      "text": "And we have to apply a transition transform and a duration of 300.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "transition",
+        "transform",
+        "duration",
+        "300"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:53",
+      "text": "And this is how it's going to look like.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "look like"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "01:29:59",
+      "text": "You see how when we",
+      "tone": "instructional",
+      "emphasis_words": [
+        "see"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (Pedro)",
+      "description": "The speaker is a developer providing a tutorial on web development, likely from the YouTube channel 'PedroTech', based on the coding context and typical instructional style."
+    },
+    {
+      "speaker_id": "SPEAKER_09",
+      "description": "The speaker is Pedro, the creator of the YouTube channel PedroTech. He is demonstrating coding techniques in React and Tailwind CSS, exhibiting a calm and instructional tone throughout the tutorial."
+    }
+  ]
+}

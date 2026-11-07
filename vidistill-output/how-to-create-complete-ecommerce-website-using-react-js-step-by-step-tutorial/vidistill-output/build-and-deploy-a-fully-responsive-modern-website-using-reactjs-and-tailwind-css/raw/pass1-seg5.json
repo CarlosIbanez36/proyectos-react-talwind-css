@@ -1,0 +1,574 @@
+{
+  "segment_index": 0,
+  "time_range": "00:50:00 - 01:00:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:50:00",
+      "text": "e-value, like every other object, right? But the key, I'm going to actually make it kind of look like JSON. The key is going to be the name that we show up over here. So the name of the file like App.jsx. And the value is going to be actual code that you put here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "key",
+        "JSON",
+        "name",
+        "App.jsx",
+        "value",
+        "actual"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:50:16",
+      "text": "Now to write the code, we need to take into account, for example, spaces, like positioning of everything. So to do that, I'm going to use backticks and directly write the code inside of here. I already have the code written for this. It is uh this code over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "spaces",
+        "positioning",
+        "backticks",
+        "directly"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:50:30",
+      "text": "Now don't worry about positioning or anything like that, because we're going to be using a library that is going to format all of that to make it look good for us. Now you can copy the code that I have, it's going to be in the description.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "don't",
+        "anything",
+        "library",
+        "format",
+        "look",
+        "copy",
+        "description"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:50:41",
+      "text": "None of this makes any sense, it's just for uh like demonstration purposes, but you should make it applicable to your own website. Now we're going to copy this and paste it two more times.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "None",
+        "sense",
+        "demonstration",
+        "applicable",
+        "website",
+        "copy",
+        "paste"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:50:55",
+      "text": "And we're going to make one for the Hero.jsx and we're also making one for the Navbar.jsx. Now like I said, I already have the code written for them, so I'm just going to copy and paste from the uh code that I already wrote, but you can play around with the values and write whatever code you want.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Hero.jsx",
+        "Navbar.jsx",
+        "written",
+        "copy",
+        "paste",
+        "values"
+      ],
+      "pause_after_seconds": 2.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:51:16",
+      "text": "So I'll be back in a second when I finish pasting it. Perfect. Now we have this value and we can access it inside of here.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "second",
+        "Perfect",
+        "access"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:51:23",
+      "text": "But before we even use that, I want to set up the UI for the header, so the different tabs over here, and the code. So to do that, I'm going to create a div over here with another div. The first section is the uh file tabs and I'm going to create a button for each of the tabs.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "UI",
+        "header",
+        "different",
+        "tabs",
+        "file",
+        "button"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:51:47",
+      "text": "Now it should appear down here, and this button should have the label of App.jsx. Now we're going to have three of them. So App.jsx, then we're going to have one for the Hero and one for the Navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "appear",
+        "label",
+        "three",
+        "App.jsx",
+        "Hero",
+        "Navbar"
+      ],
+      "pause_after_seconds": 2.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:52:04",
+      "text": "Now like I said, this definitely shouldn't be appearing here. This should appear inside of this, so we made a mistake, we need to put this right over here so that it's this is the outer div.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "definitely",
+        "shouldn't",
+        "mistake",
+        "outer"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:52:15",
+      "text": "And we want to make it such that we style this to look like the actual tabs here. So for each of these buttons, I'm going to add a class name and it's going to be a padding x of 3, a padding y of 2. Then we're setting a backdrop blur to be small, the text will be extra small, and on a bigger screen we're also going to make that be small.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "style",
+        "actual",
+        "buttons",
+        "class",
+        "padding",
+        "backdrop",
+        "blur",
+        "text",
+        "bigger",
+        "screen"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:52:45",
+      "text": "We're also going to rounded it at the top as large, not at the bottom because you look how it's only rounded at the top. And finally to make it look like a tab, we're going to add a border, a rounded, we're also going to add a BG of white 5 and the text will be gray 300.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rounded",
+        "top",
+        "large",
+        "tab",
+        "border",
+        "BG",
+        "white",
+        "gray"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:53:09",
+      "text": "Now I also want to set a transition to be all, a duration to be 200. Now we don't have this duration to be 200, we'll create it down here from similar to what we did with the duration here. We want to have a simple animation for this as well, but we're going to be using 200 because it will make the animation faster, and we'll change this to 200 milliseconds.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "transition",
+        "duration",
+        "200",
+        "animation",
+        "faster",
+        "milliseconds"
+      ],
+      "pause_after_seconds": 2.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:53:32",
+      "text": "Now I also want to add a class name called whitespace no wrap, and we should be good with this. I'm going to copy this, and I'm going to paste it two more times.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "whitespace",
+        "copy",
+        "paste"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:53:50",
+      "text": "Now, obviously there should be some space in between them. So, in this top div over here, I'm setting a flex and a space x of one.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:54:03",
+      "text": "Perfect.",
+      "tone": "excited",
+      "emphasis_words": [
+        "Perfect"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:54:19",
+      "text": "Then on the top here, we're going to give some space. I'm going to add a padding of 3, and on a bigger screen that will be 4, position will be relative and the height will be full.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "top",
+        "space",
+        "padding",
+        "bigger",
+        "relative",
+        "height"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:54:27",
+      "text": "Now this doesn't really look like this, right? I know. Just wait a second, because what we need to do is we need to find a way to keep track of which tab we're in, because if you notice the UI clearly changes based on which one we're in.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:54:34",
+      "text": "So in this case, it's for the Hero, so we change this to be Hero, and on this case, we change it to be Navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Hero",
+        "Navbar"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:54:43",
+      "text": "So to do that, we're going to create a state up here that is going to keep track of the active tab. We're going to also call this set active tab and this state will be a string that will just be the key of whatever values we have here. So you know we have App.jsx as one of them, Hero.jsx is the other, and Navbar.jsx as the other. By default, it should start as App.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "state",
+        "keep",
+        "active",
+        "string",
+        "key",
+        "values",
+        "App.jsx",
+        "Hero.jsx",
+        "Navbar.jsx",
+        "default"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:54:45",
+      "text": "But I want to be able to switch between the different tabs.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "switch"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:54:48",
+      "text": "So to do that, for each of this buttons, we're going to add an onClick, that when you click on it, we're going to set the active tab to be whatever this is.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "buttons",
+        "onClick",
+        "active tab"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:54:57",
+      "text": "So in this case, it will be the App.jsx,",
+      "tone": "instructional",
+      "emphasis_words": [
+        "App.jsx"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:55:01",
+      "text": "and on the other ones, such as this one over here, it's going to be the Hero, and on this one, it's going to be the Navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Hero",
+        "Navbar"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:55:11",
+      "text": "Then, what I do is if the class name, if this is the active tab for each of the buttons, I want to change a bit the styling in it. Now, how do I do that? Well, I am going to change the quotation marks on this from just normal quotation marks, to be backticks because this is going to be dynamic, meaning we're going to insert JavaScript inside of here, to change the UI based on some sort of behavior, which in this case is, if this is the active tab.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "active",
+        "tab",
+        "buttons",
+        "styling",
+        "quotation",
+        "backticks",
+        "dynamic",
+        "JavaScript",
+        "insert",
+        "behavior"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:55:17",
+      "text": "Now, this should also change the code that is displayed below.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "code",
+        "displayed"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:55:25",
+      "text": "So, I feel like now it's a good time for us to do that.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "good"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:55:28",
+      "text": "If we go below this file tabs over here, we're going to create the section for the code content.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "file tabs",
+        "code content"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:55:35",
+      "text": "Now, to do that, like I said, we need to install a library that is going to help us format code into actual code, like our actual text that looks like code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "library",
+        "format",
+        "code"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:55:45",
+      "text": "The name of this library is react-syntax-highlighter.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "react-syntax-highlighter"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:55:50",
+      "text": "I've used this library so many times in the past, and I think it's awesome for this kind of stuff.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "awesome"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:55:55",
+      "text": "We're just going to install react-syntax-highlighter.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "install"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:01",
+      "text": "Now, if that's true, I want to do something, like apply some style and if not, I want to apply some other style. Now, if it's not the active tab, I want to make it be BG white, the same way we did over here. I also want to apply the text to be gray. It's going to be white and the border is also going to be blue, but it's going to be 400 at a 20 percent opacity.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "style",
+        "active",
+        "tab",
+        "BG",
+        "white",
+        "text",
+        "gray",
+        "blue",
+        "opacity"
+      ],
+      "pause_after_seconds": 2.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:03",
+      "text": "What we do is inside of this code content section, we're going to add a div that is going to encompass the section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "code content"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:09",
+      "text": "All I'm doing to this div is just setting it to be have a position relative and overflow hidden, and I want to grow the flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "position",
+        "relative",
+        "overflow",
+        "hidden",
+        "grow"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:16",
+      "text": "Then on this div, I'm going to call the SyntaxHighlighter component from react-syntax-highlighter.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "SyntaxHighlighter",
+        "component"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:23",
+      "text": "Now this component is a wrapper component, meaning you have to put something inside of it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "component",
+        "wrapper",
+        "something"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:29",
+      "text": "Now, what do we want to put inside of it?",
+      "tone": "questioning",
+      "emphasis_words": [
+        "what"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:31",
+      "text": "Well, we want to put the code snippets that we put on this object.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "code",
+        "object"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:37",
+      "text": "So we're going to import that object over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "object"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:40",
+      "text": "CodeExamples, we can just import it like that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CodeExamples",
+        "import"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:45",
+      "text": "Now, if it is the active tab, then I actually want to make it be blue. I'll make it blue 500 and give it 30 opacity, the text won't be gray, it's going to be white, and the border is also going to be blue, but it's going to be 400 at a 20 percent opacity.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:48",
+      "text": "We want to show them depending on what the active tab is.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "depending",
+        "active tab"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:52",
+      "text": "And we know what the active tab is, so we can access it by just putting activeTab inside of here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "active tab",
+        "access",
+        "activeTab"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:56:59",
+      "text": "What this will look now is, you see that because App.jsx is the selected one, it has a completely different style than the other ones. And I'll apply this exact same styling functionality to all of the different buttons.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "App.jsx",
+        "selected",
+        "completely",
+        "style",
+        "buttons"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (Pedro)",
+      "description": "The speaker identifies themselves as Pedro from the channel \"PedroTech\". They exhibit a clear, instructional tone, typical of a coding tutorial, frequently explaining technical steps while coding."
+    },
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "The only speaker present in the segment. He speaks with a clear, instructional, and calm tone, often narrating his coding process while working on a project in a code editor."
+    },
+    {
+      "speaker_id": "SPEAKER_06",
+      "description": "The host and developer from the PedroTech YouTube channel, explaining technical coding concepts and UI implementation."
+    }
+  ]
+}

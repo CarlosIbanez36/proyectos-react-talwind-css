@@ -1,0 +1,1289 @@
+{
+  "segment_index": 0,
+  "time_range": "00:10:00 - 00:20:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:10:00",
+      "text": "element and I'm going to give a blur with a small size.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "element",
+        "blur",
+        "small"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:03",
+      "text": "Now, none of that is visible yet, but as we add stuff into this navbar, you'll be able to see it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "none",
+        "visible",
+        "yet"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:09",
+      "text": "Now, the next thing I want to do is I want to add a div that is going to encompass the entirety of the elements inside of this navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "next",
+        "add",
+        "div",
+        "encompass",
+        "entirety",
+        "elements"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:19",
+      "text": "We'll start by setting a maximum width that this div can have.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "start",
+        "maximum",
+        "width"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:23",
+      "text": "And I'm going to give it a maximum width of 7XL, but you can make it whatever you want.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "maximum",
+        "width",
+        "7XL"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:28",
+      "text": "Now, I'm also setting a margin in the X direction to be auto and a padding of in the X direction to be 4.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin",
+        "auto",
+        "padding"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:36",
+      "text": "And that padding should only be applied to the mobile screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "only",
+        "mobile",
+        "screen"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:40",
+      "text": "We're going to be building the responsiveness of this page as we build the app.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "responsiveness",
+        "page",
+        "app"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:45",
+      "text": "So the way it works in Tailwind CSS is you can put styles that only apply to a certain screen size and above, similar to CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Tailwind CSS",
+        "styles",
+        "screen size"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:54",
+      "text": "So we are putting here a padding X to be 4 in the smallest screen possible.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "smallest screen"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:10:59",
+      "text": "But on a large screen and above, I can put this padding X to be 8.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large screen",
+        "padding"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:11:04",
+      "text": "And in between these two values, I can check to see what I want to put for the padding in a small screen and above, which I want to make it be 6.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "two values",
+        "padding",
+        "small screen"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:11:15",
+      "text": "So if the navigation the screen is very small, it will be a padding X of 4.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small",
+        "padding"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:11:21",
+      "text": "If it's small to medium, it will be of 6, and if it's large and above, it will be of 8.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:11:26",
+      "text": "Now, none of that right now is very visible because again the background of this navbar is the same color, but if I were to make, for example, this be red.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "none",
+        "visible",
+        "background",
+        "navbar",
+        "red"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:11:34",
+      "text": "Now, none of this is really visible in the moment because we haven't really set a height to this navbar, but that's what we want to do right now.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "none",
+        "visible",
+        "height",
+        "navbar"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:11:43",
+      "text": "So inside of this div, I want to add another div and this one will have a display of flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "add",
+        "div",
+        "display",
+        "flex"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:11:49",
+      "text": "I'm going to justify the items in between to justify between, and I'm going to center the items.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "justify",
+        "items",
+        "center"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:11:56",
+      "text": "Now, here it comes. I'm going to put a height for this navbar of 14.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height",
+        "navbar",
+        "14"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:01",
+      "text": "And that's only for a small screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small",
+        "screen"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:03",
+      "text": "Between a small and a large screen, I want to make it be 16.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small",
+        "large",
+        "16"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:08",
+      "text": "And in a medium and above, I want to make it be 20.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "medium",
+        "20"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:13",
+      "text": "Now, you still don't see, now you might not see the navbar still because again, we're using the same color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "see",
+        "navbar",
+        "color"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:21",
+      "text": "But if I were to change this to red, for example, you can kind of see how it applies here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "red",
+        "see",
+        "applies"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:25",
+      "text": "Now, why are we using the same color for the navbar?",
+      "tone": "questioning",
+      "emphasis_words": [
+        "color",
+        "navbar"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:27",
+      "text": "It isn't actually the same color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "actually",
+        "color"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:30",
+      "text": "The thing is when you scroll down, we're going to put a border at the bottom of this section over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "scroll",
+        "border",
+        "bottom",
+        "section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:34",
+      "text": "We're going to do something like this, border bottom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "bottom"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:38",
+      "text": "So that it is the same color but you can clearly see where the navbar begins and where it ends.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color",
+        "see",
+        "navbar",
+        "begins",
+        "ends"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:43",
+      "text": "But we only want to show that border bottom when the user is scrolling, which is a functionality we don't have yet, so for now we'll have to be happy with just this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "show",
+        "border",
+        "bottom",
+        "scrolling",
+        "functionality"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:12:52",
+      "text": "Now, below this, what I want to do is, I want to have another div and this one is going to be for the logo of this website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "add",
+        "div",
+        "logo",
+        "website"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:01",
+      "text": "So inside of it, I'm going to put an image and in this image, we're going to show the logo for this website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "show",
+        "logo",
+        "website"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:07",
+      "text": "Now, I already have a logo that I want to use for my website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logo",
+        "website"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:10",
+      "text": "If you want to copy the logo, just go ahead and get that image, it'll be in the code in the description.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "logo",
+        "image",
+        "code",
+        "description"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:16",
+      "text": "But I put that logo as a logo.png on the public folder.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logo",
+        "logo.png",
+        "public folder"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:20",
+      "text": "Now, what that means is that I am able to come here, say source, and access the logo.png directly.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "source",
+        "access",
+        "logo.png",
+        "directly"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:29",
+      "text": "Now, obviously it's a huge image, so we do want to put some class things to it to make it smaller.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "huge",
+        "image",
+        "class",
+        "smaller"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:36",
+      "text": "Also, for accessibility reasons, we're going to put an alt.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "accessibility",
+        "alt"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:40",
+      "text": "And in here, you should put the name of your website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "name",
+        "website"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:43",
+      "text": "In this example, we're making a website called CodeFlow, which is like an AI coding website, just as an example, but you can name it whatever you want.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "website",
+        "CodeFlow",
+        "AI coding website"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:13:51",
+      "text": "And for the class name, I want to set this logo to be a square shaped element with a width of 6 and a height of 6, so it's pretty small.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "logo",
+        "square",
+        "width",
+        "height"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:02",
+      "text": "I also only want to have that be the case if this is mobile.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "case",
+        "mobile"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:08",
+      "text": "If this is web and above, we're going to put here the width to be 8 and the height to be 8 as well, so it's a little bit bigger.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "web",
+        "width",
+        "height",
+        "bigger"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:18",
+      "text": "Now, what I want to do is I want to put the name of the website next to this logo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "name",
+        "website",
+        "logo"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:23",
+      "text": "So right below this div, I want to add a span.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "add",
+        "span"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:26",
+      "text": "And in this span, I want to add two spans.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "add",
+        "two spans"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:29",
+      "text": "Now, why are we using span here?",
+      "tone": "questioning",
+      "emphasis_words": [
+        "span"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:31",
+      "text": "Because I want to apply a different color to each of the words in the logo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "apply",
+        "color",
+        "words",
+        "logo"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:36",
+      "text": "And a span is very good for this because a span doesn't come with any extra styling or padding in it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "styling",
+        "padding"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:42",
+      "text": "So the name of the website is going to be CodeFlow and you see that for now it shows over here but we're going to add some style to make it that it will appear right here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "name",
+        "website",
+        "CodeFlow",
+        "style"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:50",
+      "text": "But you see that they're right next to each other because a span doesn't come with padding.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "padding"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:54",
+      "text": "So it's very easy for me to make the colors be different.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "colors",
+        "different"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:14:57",
+      "text": "For example, this one will be white and then this one is actually going to be blue.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "white",
+        "blue"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:15:05",
+      "text": "Uh, just like this, and I think it gives a good aesthetic to it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "aesthetic"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:15:08",
+      "text": "Now on this overall span over here, I want to make the text be a little bit larger, so I'm making text-lg.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "text",
+        "text-lg"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:15:15",
+      "text": "But on the on the web and above, we'll actually make it be XL.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "web",
+        "XL"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:15:21",
+      "text": "Then on a medium screen, we'll make it be 2XL and I'm going to make the font be medium.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "medium",
+        "2XL",
+        "font",
+        "medium"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:15:29",
+      "text": "Now, this is the boldness, you can make it be actual bold if you were to do this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "boldness",
+        "bold"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:15:33",
+      "text": "But medium is a good weight to this, it doesn't make it look too bulky and it still looks good.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "medium",
+        "weight",
+        "look",
+        "bulky"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:15:39",
+      "text": "Now, above this two divs, two sections that we have over here, I actually want to put another div that will wrap both of them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "divs",
+        "sections",
+        "div",
+        "wrap"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:15:47",
+      "text": "So that we remove this space that exists in between them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "remove",
+        "space"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:15:52",
+      "text": "That space existed because we had the justifying between which we only added because we want to have the logo and the name of the website here and the links on the right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "space",
+        "justifying",
+        "logo",
+        "name",
+        "links"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:03",
+      "text": "Justifying between will put a space in between two different sections.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "justify",
+        "space",
+        "sections"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:05",
+      "text": "So the logo section should be made through this div over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logo",
+        "div"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:08",
+      "text": "And what we want to do with it is we want to set a display of flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "flex"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:13",
+      "text": "I want to center the items.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "center",
+        "items"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:16",
+      "text": "And I also want to put a space in the X direction of one, so there's a small gap in between them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "space",
+        "gap"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:23",
+      "text": "Then I want to add a group and add a cursor pointer, so when you hover it, it becomes a cursor.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "group",
+        "cursor",
+        "hover"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:30",
+      "text": "Now, I want to create the different links that we're going to have in this website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "links",
+        "website"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:34",
+      "text": "So I'm going to come outside of this div, right over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "outside",
+        "div"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:40",
+      "text": "And I want to add a comment here saying Nav Links.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "comment",
+        "Nav Links"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:45",
+      "text": "Then inside of this, I want to put a div that will have a class name which is hidden.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "class",
+        "hidden"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:52",
+      "text": "Now, we don't want to have it hidden right now.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hidden"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:16:54",
+      "text": "And the reason for that is because when you get the class name hidden, it will actually hide whatever is inside of this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "hide"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:02",
+      "text": "So if I put a text here, you clearly don't see it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "don't see"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:06",
+      "text": "If I remove this, you'll be able to see it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "remove",
+        "see"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:15",
+      "text": "Now, we will eventually have it hidden, and the reason for it is because we want to hide the different menus, uh, in the navbar for depending on whether or not the user has a small screen or a big one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hidden",
+        "hide",
+        "menus",
+        "navbar",
+        "small screen",
+        "big"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:23",
+      "text": "Because we're going to have some logic to the side, which kind of navbar we want to show.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logic",
+        "navbar",
+        "show"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:28",
+      "text": "So for now, we want to remove this hidden and just set the normal styles that we have.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hidden",
+        "normal styles"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:33",
+      "text": "Now, what I want to do is I want to set a display of flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "flex"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:36",
+      "text": "I want to center the items.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "center",
+        "items"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:39",
+      "text": "Then I want to put a gap in between them of six.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "six"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:41",
+      "text": "Now, we only have this text over here, but if we were to add all the links, each link will have a gap of six in between them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "add",
+        "links",
+        "gap",
+        "six"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:47",
+      "text": "Now, if this is a large screen and above, I want to make the gap even more, so I'll put it as eight.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large screen",
+        "gap",
+        "eight"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:52",
+      "text": "Now, inside of here, we're going to put all of our links.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "links"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:17:56",
+      "text": "We're going to start with the first one, it's going to be the features section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "features",
+        "section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:04",
+      "text": "So I'll say features, and to make a link, we're just going to put here an href.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "features",
+        "link",
+        "href"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:09",
+      "text": "And where are we linking to?",
+      "tone": "questioning",
+      "emphasis_words": [
+        "linking"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:11",
+      "text": "This is a landing page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "landing page"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:14",
+      "text": "So when you click on a link, we want to be brought to a part of that landing page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "brought",
+        "landing page"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:18",
+      "text": "So we want to scroll down to that section in this page, rather than having different URLs and different routes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "scroll",
+        "URLs",
+        "routes"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:24",
+      "text": "So we're going to create different sections, and for each section we're going to put an ID to the section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "sections",
+        "ID",
+        "section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:29",
+      "text": "That ID can be referenced here in the H ref through this hashtag symbol, so that when you click on the link, it will actually scroll down to that section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "ID",
+        "H ref",
+        "hashtag symbol",
+        "link",
+        "scroll",
+        "section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:41",
+      "text": "Now, another thing I want to do is I want to do some make some styling on this navigation link.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "styling",
+        "navigation link"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:48",
+      "text": "First, I want to make the color be grey 300.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color",
+        "grey 300"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:53",
+      "text": "Which will be just slightly more grey.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "grey"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:18:58",
+      "text": "And when I hover it, then it becomes white.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hover",
+        "white"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:19:04",
+      "text": "So you see it's a bit grey, but when I hover it, it becomes white.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "grey",
+        "hover",
+        "white"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:19:10",
+      "text": "Now, I also want to make the text be small.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "small"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:19:15",
+      "text": "But if you are in a large screen and above, it's going to be base.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large screen",
+        "base"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:19:22",
+      "text": "Now, a lot whenever I put this kind of stuff, it doesn't actually apply.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "stuff",
+        "apply"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:19:28",
+      "text": "So we're seeing here the UI for a smaller screen, but if I open this up, you'll be able to see what it looks like in a larger screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "UI",
+        "smaller screen",
+        "open",
+        "larger screen"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:19:35",
+      "text": "Even the logo on the top left is changing as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logo",
+        "top left",
+        "changing"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:19:42",
+      "text": "Now, what I want to do is copy this and paste it two more times.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "paste",
+        "two more times"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:19:48",
+      "text": "Because we want to create a link for the pricing section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "pricing section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:19:54",
+      "text": "So I'll say pricing, and I'll change this to say pricing.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pricing"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:19:58",
+      "text": "And I also want to make the test to testimonials.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "testimonials"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:20:00",
+      "text": "And I accidentally made that capitalized.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "capitalized"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_02",
+      "description": "The speaker is a male content creator, likely PedroTech, providing a coding tutorial on how to build a responsive navbar in React using Tailwind CSS. His voice is clear, instructional, and focused on technical explanation."
+    }
+  ]
+}

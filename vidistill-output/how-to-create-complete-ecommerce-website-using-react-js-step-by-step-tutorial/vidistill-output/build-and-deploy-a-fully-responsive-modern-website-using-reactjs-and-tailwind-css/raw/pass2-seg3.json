@@ -1,0 +1,108 @@
+{
+  "segment_index": 4,
+  "time_range": "30:00 - 40:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:30:00",
+      "language": "css",
+      "content": ".slide-in-from-top {\n  animation-name: slideInFromTop;\n}\n\n.duration-300 {\n  animation-duration: 300ms;\n}\n\n@keyframes slideInFromTop {\n  from {\n    opacity: 0;\n    trasnform: translateY(-1rem);\n  }\n\n  to {\n    opacity: 1;\n    trasnform: translateY(0);\n  }\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "index.css",
+      "instructor_explanation": "And then when the animation is finished, it should be at its original position, which is just a translate Y of zero. So you see now, if we try to animate this, it will look a bit like it's sliding in from the top."
+    },
+    {
+      "timestamp": "00:30:30",
+      "language": "jsx",
+      "content": "<div className=\"px-4 py-4 sm:py-6 space-y-3 sm:space-y-4\">\n  <a href=\"#features\" className=\"block text-gray-300 hover:text-white text-sm lg:text-base\">Features</a>\n  <a href=\"#pricing\" className=\"block text-gray-300 hover:text-white text-sm lg:text-base\">Pricing</a>\n  <a href=\"#testimonials\" className=\"block text-gray-300 hover:text-white text-sm lg:text-base\">Testimonials</a>\n</div>",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "So, I want to put some class names to this div... a padding X of 4, a padding Y of 4... in a small screen to be a padding Y of 6, and nothing for the padding of the X direction. Now, between the items, I want to put a space in the Y direction to be 3. Now, in a small screen and above, I'm going to make that space be 4. So, for each of these, I'm just going to pass a block value here and each of them will appear now to be stacked on top of each other."
+    },
+    {
+      "timestamp": "00:31:47",
+      "language": "jsx",
+      "content": "<a\n  href=\"#features\"\n  onClick={() => setMobileMenuIsOpen(false)}\n  className=\"block text-gray-300 hover:text-white text-sm lg:text-base\"\n>\n  Features\n</a>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "I just have to add an onClick similar to what we added for this button, so that we can manually force the navbar to close. But instead of toggling it like we were doing with the button, we are literally just going to set it to false."
+    },
+    {
+      "timestamp": "00:32:21",
+      "language": "jsx",
+      "content": "<section\n  className=\"relative min-h-screen flex items-center justify-center pt-16 sm:pt-20 px-4 sm:px-16 lg:px-8 overflow-hidden\"\n>\n</section>",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "I'm going to set the hero section to have a position of relative. I'm also going to set the height of it to actually be the minimum height of the screen. I want to set a display flex and I want to center the items. I also want to justify everything from the hero section right in the center. I will put a padding on the top of the hero section to be 16... and on every other screen to be 16. With the exception of a large screen which we're going to make that padding be 8. Now, we also just want to set an overflow to be hidden."
+    },
+    {
+      "timestamp": "00:34:07",
+      "language": "jsx",
+      "content": "const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });\n\nuseEffect(() => {\n  function handleMouseMove(e) {\n    setMousePosition({ x: e.clientX, y: e.clientY });\n  }\n\n  window.addEventListener(\"mousemove\", handleMouseMove);\n\n  return () => window.removeEventListener(\"mousemove\", handleMouseMove);\n}, []);",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "We're going to create a state called mouse position, create a function called set mouse position... Then, this state, it's going to be an object that is a combination of an X and a Y value. Then, we're going to have a use effect that is going to have an event listener that it is going to subscribe to... you have to do this whenever you're subscribing to an event."
+    },
+    {
+      "timestamp": "00:36:27",
+      "language": "jsx",
+      "content": "<div\n  className=\"absolute inset-0 opacity-30\"\n  style={{\n    background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(59, 130, 246, 0.15), transparent 40%)`\n  }}\n/>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "inside of the section, I want to create this div... and it's going to have a class name of absolute and inset of zero and an opacity of 30. Inside of here, I'm going to add a background value, so that we can build that little radio gradient, which it will make a gradient out of a circle."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "00:30:00",
+      "visual_type": "browser_output",
+      "description": "The browser shows the CodeFlow navbar, which appears to be a basic layout with links like 'Features', 'Pricing', and 'Testimonials' visible."
+    },
+    {
+      "timestamp": "00:36:12",
+      "visual_type": "terminal_output",
+      "description": "The console shows a stream of X and Y coordinate pairs as the mouse moves across the page, indicating the event listener is correctly capturing mouse position data."
+    },
+    {
+      "timestamp": "00:39:30",
+      "visual_type": "ui_demo",
+      "description": "Demonstration of the hero section with static blue glows at top-left and bottom-right, which pulse as part of an animation effect."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:30:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "Navbar.jsx",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "00:30:00",
+      "region_type": "browser",
+      "label": "Browser Output",
+      "visible": true,
+      "sample_text": "CodeFlow",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    }
+  ],
+  "screen_timeline": []
+}

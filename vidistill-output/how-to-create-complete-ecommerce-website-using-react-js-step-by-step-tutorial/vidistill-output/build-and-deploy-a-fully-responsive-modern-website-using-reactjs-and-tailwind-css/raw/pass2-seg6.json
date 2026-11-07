@@ -1,0 +1,107 @@
+{
+  "segment_index": 7,
+  "time_range": "01:00:00 - 01:10:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:00:00",
+      "language": "javascript",
+      "content": "    <SyntaxHighlighter language=\"javascript\">\n      {codeExamples[activeTab]}\n    </SyntaxHighlighter>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "the instructor is adding a language attribute to the SyntaxHighlighter component to ensure the code is properly formatted.",
+      "lines_changed": "added language=\"javascript\"",
+      "timestamp_end": "01:01:21"
+    },
+    {
+      "timestamp": "01:01:25",
+      "language": "javascript",
+      "content": "    <SyntaxHighlighter language=\"javascript\" style={nightOwl}>\n      {codeExamples[activeTab]}\n    </SyntaxHighlighter>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "instructor applies the nightOwl style to make the code look better, comparing it to a VS Code theme.",
+      "lines_changed": "added style={nightOwl}",
+      "timestamp_end": "01:01:44"
+    },
+    {
+      "timestamp": "01:02:00",
+      "language": "javascript",
+      "content": "    <SyntaxHighlighter language=\"javascript\" style={nightOwl} customStyle={{margin: 0, borderRadius: \"8px\", fontSize: \"11px\", lineHeight: 1.4, height: \"100%\", border: \"1px solid #3c3c3c\"}}>\n      {codeExamples[activeTab]}\n    </SyntaxHighlighter>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "instructor applies custom styling to the SyntaxHighlighter for improved visual presentation, including margin, border-radius, font-size, line-height, height, and border properties.",
+      "lines_changed": "added customStyle attribute",
+      "timestamp_end": "01:03:13"
+    },
+    {
+      "timestamp": "01:03:50",
+      "language": "javascript",
+      "content": "export const floatingCards = {\n  \"App.jsx\": {\n    bgColor: \"bg-blue-500/20\",\n    iconColor: \"text-blue-400\",\n    textColor: \"text-blue-200\",\n    contentColor: \"text-blue-300\",\n    icon: \"AI\",\n    title: \"smart completion\",\n    content: \"AI-powered code suggestions in real-time\"\n  },\n  // ... other cards",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "CodeExamples.js",
+      "instructor_explanation": "instructor creates a constant called floatingCards to store the configuration object for the UI cards, defining colors, icons, titles, and content for each tab.",
+      "lines_changed": "new block",
+      "timestamp_end": "01:06:12"
+    },
+    {
+      "timestamp": "01:06:20",
+      "language": "javascript",
+      "content": "          <div className={`hidden lg:block absolute bottom-4 right-4 transform translate-x-8 translate-y-8 w-72 ${floatingCards[activeTab].bgColor}`}>\n            <div className=\"flex items-center space-x-2 mb-2\">\n              <div className={floatingCards[activeTab].iconColor}>{floatingCards[activeTab].icon}</div>\n              <span className=\"text-sm font-medium\">{floatingCards[activeTab].title}</span>\n            </div>\n            <div>{floatingCards[activeTab].content}</div>\n          </div>",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "instructor adds the floating card element to Hero.jsx with dynamic classNames for styling and displays data from the floatingCards object based on the current active tab.",
+      "lines_changed": "new block",
+      "timestamp_end": "01:10:00"
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:00:00",
+      "region_type": "code",
+      "label": "code_editor",
+      "visible": true,
+      "sample_text": "export default function Hero() {",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "width": 0.6,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "01:00:00",
+      "region_type": "browser",
+      "label": "browser_output",
+      "visible": true,
+      "sample_text": "This site can't be reached",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.66,
+        "y": 0.05,
+        "width": 0.32,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "01:01:10",
+      "region_type": "browser",
+      "label": "browser_output",
+      "visible": true,
+      "sample_text": "CodeFlow AI",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.66,
+        "y": 0.05,
+        "width": 0.32,
+        "height": 0.9
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

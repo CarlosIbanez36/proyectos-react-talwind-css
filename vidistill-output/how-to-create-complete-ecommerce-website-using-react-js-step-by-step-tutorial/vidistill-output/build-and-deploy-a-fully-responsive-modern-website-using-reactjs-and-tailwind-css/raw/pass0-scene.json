@@ -1,0 +1,33 @@
+{
+  "type": "coding",
+  "speakers": {
+    "count": 1,
+    "identified": []
+  },
+  "visualContent": {
+    "hasCode": true,
+    "hasSlides": false,
+    "hasDiagrams": false,
+    "hasPeopleGrid": false,
+    "hasChatbox": false,
+    "hasWhiteboard": false,
+    "hasTerminal": true,
+    "hasScreenShare": true
+  },
+  "audioContent": {
+    "hasMultipleSpeakers": false,
+    "primaryLanguage": "English",
+    "quality": "high"
+  },
+  "complexity": "moderate",
+  "recommendations": {
+    "resolution": "high",
+    "segmentMinutes": 10,
+    "passes": [
+      "transcript",
+      "visual",
+      "code",
+      "synthesis"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "segment_index": 12,
+  "time_range": "01:50:00 - 02:00:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:50:47",
+      "language": "javascript",
+      "content": "      <SyntaxHighlighter\n        language=\"javascript\"\n        style={nightOwl}\n        customStyle={{\n          margin: 0,\n          borderRadius: \"8px\",\n          fontSize: \"0.75rem\",\n          lineHeight: \"1.4\",\n          height: \"100%\",\n          border: \"1px solid #3c3c3c\",\n          background: \"transparent\"\n        }}\n        wrapLines={true}\n      >\n        {feature.codeSnippet}\n      </SyntaxHighlighter>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Features.jsx",
+      "instructor_explanation": "And what we can do is instead of setting the background instead of just letting the background be set by this we can set the background actually in the custom styles, yeah, we are inside of the custom styles, the background here to be transparent and then whatever the background of this section is it will apply to the code editor. You see that now it looks like it's integrated to it but there is a border and we want to remove that. We had that on the other one but on this one we don't want it."
+    },
+    {
+      "timestamp": "01:52:13",
+      "language": "javascript",
+      "content": "<div className=\"flex flex-col lg:flex-row items-center gap-8 sm:gap-12 ${\n  feature.imagePosition === \"right\" ? \"lg:flex-row-reverse\" : \"\"\n}\">",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Features.jsx",
+      "instructor_explanation": "Now right off the bat, I can see that there's a bug over here. We set on a large screen for this to be flex grow when in reality it should be flex row. And just like that this fixes the issue."
+    },
+    {
+      "timestamp": "01:53:18",
+      "language": "javascript",
+      "content": "const plans = [\n  {\n    name: \"Starter\",\n    price: \"29.99\",\n    description: \"Perfect for individuals and small teams\",\n    features: [\"Up to 5 team members\", \"10GB storage\", \"Basic analytics\", \"Email support\", \"API access\", \"Mobile app\"],\n    mostPopular: false,\n  },\n  {\n    name: \"Professional\",\n    price: \"79.99\",\n    description: \"Best for growing businesses\",\n    features: [\"Up to 25 team members\", \"100GB storage\", \"Advanced analytics\", \"Priority support\", \"API access\", \"Mobile app\", \"Custom integrations\", \"Advanced security\"],\n    popular: true,\n  },\n  {\n    name: \"Enterprise\",\n    price: \"199.99\",\n    description: \"For large organizations\",\n    features: [\"Unlimited team members\", \"Unlimited storage\", \"Enterprise analytics\", \"24/7 phone support\", \"API access\", \"Mobile app\", \"Custom integrations\", \"Advanced security\", \"Dedicated account manager\", \"Custom SLA\"],\n    popular: false,\n  }\n];",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Pricing.jsx",
+      "instructor_explanation": "So right off the bat we need to do something similar to what we did with the features. We're going to come over here and create an array which is going to define the different plans that we're going to have on this website."
+    },
+    {
+      "timestamp": "01:58:05",
+      "language": "javascript",
+      "content": "className={`relative bg-slate-900/50 backdrop-blur-sm border rounded-xl sm:rounded-2xl p-6 sm:p-8 transition-all duration-300 overflow-visible group flex flex-col h-full ${plan.mostPopular ? \"border-blue-500 shadow-2xl shadow-blue-500/20\" : \"\"}`}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Pricing.jsx",
+      "instructor_explanation": "Now to start this off, I'm setting this to be a position relative, a BG slate of 900 but only 50 percent, and a backdrop of blur small. Then we're setting a border, we're setting a rounded XL so you starting to see the three different cards appearing here and we're setting on a small screen and above for it to be rounded 2 XL and we need to set some heights to it. So I'm starting with a padding general padding of six and on a bigger screen that will become eight. Now we want to add a transition all, and a duration of 300. I'm going to make the overflow be visible and I'm going to add a group and a display flex. Now we're setting the flex to be column and the height to be the full length of this."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "01:50:08",
+      "visual_type": "browser_output",
+      "description": "The 'CodeFlow' landing page is visible in a browser window, displaying the 'Features' section with AI code completion, automated testing, and smart debugging features."
+    },
+    {
+      "timestamp": "01:54:53",
+      "visual_type": "ui_demo",
+      "description": "Visual structure of the newly created pricing section in the code editor, showing the array declaration and initial implementation of the section."
+    },
+    {
+      "timestamp": "01:57:50",
+      "visual_type": "ui_demo",
+      "description": "Three pricing cards (Starter, Professional, Enterprise) are displayed, with the 'Professional' card being highlighted as 'Most Popular' with a blue border and shadow."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:50:00",
+      "region_type": "code",
+      "label": "VS Code Editor",
+      "visible": true,
+      "sample_text": "Features.jsx",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "width": 0.5,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "01:50:00",
+      "region_type": "browser",
+      "label": "Chrome Browser",
+      "visible": true,
+      "sample_text": "localhost:5173",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.6,
+        "y": 0.05,
+        "width": 0.35,
+        "height": 0.9
+      }
+    }
+  ],
+  "screen_timeline": []
+}

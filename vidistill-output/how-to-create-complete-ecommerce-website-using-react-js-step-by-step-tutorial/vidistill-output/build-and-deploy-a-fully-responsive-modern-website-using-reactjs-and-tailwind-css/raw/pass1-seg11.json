@@ -1,0 +1,193 @@
+{
+  "segment_index": 12,
+  "time_range": "01:50:00 - 02:00:00",
+  "transcript_entries": [
+    {
+      "timestamp": "01:50:00",
+      "text": "l",
+      "tone": "neutral",
+      "emphasis_words": [],
+      "pause_after_seconds": 0.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:50:00",
+      "text": "but on bigger screens we're going to make that large and I'm going to set the leading to be relaxed so there's more gap in between the texts. Perfect. Now if we go over here the text in itself looks great. Obviously there's a lot to be done around this over here. So what do we want to do? Well first of all let me just pull this over here. There are some changes we need to make to the code itself because it doesn't look like it does over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large",
+        "relaxed",
+        "great"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:50:26",
+      "text": "So the first thing is that we made it such that the color of this background actually applies to the color of the VS code code editor here. So here we're using Night Owl but we might want to change it such that it applies the same background color as what we set for this the header section around.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Night Owl",
+        "same"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:50:46",
+      "text": "And what we can do is instead of setting the background instead of just letting the background be set by this we can set the background actually in the custom styles, yeah, we are inside of the custom styles, the background here to be transparent and then whatever the background of this section is it will apply to the code editor. You see that now it looks like it's integrated to it but there is a border and we want to remove that. We had that on the other one but on this one we don't want it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "instead",
+        "transparent",
+        "integrated",
+        "remove"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:51:14",
+      "text": "So now it already looks a lot similar to this but there are still some things. For example where is this cool little color around this, this gradient? To add that gradient here is what we need to do. We're going to come above this IDE interface section over here and we have this div but above this div we're going to add a self-closing div that is going to just set this background. It is a self-closing, it doesn't need to wrap anything so make sure it doesn't and it only applies to the background of this section. In my opinion it makes it look a lot better but you can change the colors to whatever you want. You can even make this be green or whatever you want. But I like it going from blue to purple because it matches the theme of the website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient",
+        "self-closing",
+        "better",
+        "blue",
+        "purple"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:51:59",
+      "text": "Now we have to address the fact that when I make this into a bigger screen this isn't working. This should appear, this code should appear on the left similar to how this one appears on the right. So the way we fix this is the following way.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bigger",
+        "left",
+        "right"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:52:08",
+      "text": "Now right off the bat, I can see that there's a bug over here. We set on a large screen for this to be flex grow when in reality it should be flex row. And just like that this fixes the issue. Sorry about that obviously when I'm typing sometimes it might be hard to recognize that I made a misspelling but if you notice that then that's good because yours didn't end up having any issues. So we're pretty much done with the section for the features, and it looks pretty good. You can obviously play around with it if you want to. You can add other things to the text. Like for example I added here a bunch of thing over here for, for this section specifically you can add that for yours as well but it looks totally fine in my opinion. Now we want to add the next section which is going to be the pricing section. This one is pretty interesting because it actually applies to every single landing pages you see out there because you do have to have a pricing section so people can purchase your product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bug",
+        "flex row",
+        "fixes",
+        "good"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:53:05",
+      "text": "Okay so now it's time for us to build the pricing section so I'm going to open this up and I'm going to restructure this so we can see how it will look immediately as we're writing the code. So right off the bat we need to do something similar to what we did with the features. We're going to come over here and create an array which is going to define the different plans that we're going to have on this website. So for each plan we're going to have an object with a name, so this is the starter plan, then we have to have a price. For example the starter plan is going to be 29.99 then we're going to have a description, something like perfect for individuals and small teams, then a features section which you should list up whatever you want, usually people make it such that the beginner one has a couple of features and the other ones has all the same features as the ones before plus a couple more. I'm going to add some features here that I already wrote, but you should add whatever makes sense to your website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "restructure",
+        "array",
+        "starter",
+        "29.99",
+        "Perfect",
+        "beginner"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:54:11",
+      "text": "And finally, we want to add a Boolean that is going to determine if this is the most popular or not. So there's going to be three of them, right, and one of them is going to be the most popular, which is the middle one, but we need to identify which one is which. Now you do this for all of the plans, again, I already have that so I'm just going to copy and paste and I'll be back in a second. Perfect. So I just added here an option for a professional plan and an option for an enterprise plan. I'm also going to add .99, I always like doing that because I think it looks better. And now what we want to do is, we want to define this section, so I'm going to replace this here with a section tag then on the section I want to put an ID of pricing then for the class name, we're going to put the same stuff that we did for the, for the features section. So we're going to go up here and we'll just copy this entire class name here and then just add it directly here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Boolean",
+        "three",
+        "middle",
+        "professional",
+        "enterprise",
+        ".99",
+        "section"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:55:12",
+      "text": "Perfect. Now in this section what I want to do is I want to start by just adding the title. We can actually copy the same thing we did here for this, is just this part over here, plus the overall div that will encompass everything, so we need to self close this div over here. One thing I want to do though is, I want to make this be 7 XL just because the pricing section might be a bit bigger. Then inside of this I want to make it such that it says something like this. It should say simple transparent pricing plans and there should be a little description below it. So to do that I'm going to, first on this first one over here, I'm going to say Simple, Transparent, then I'm adding a line break, and then on this one I'm adding Pricing Plans. Then we're closing the H2 and we're adding a paragraph tag which is something we didn't have on the other one. On this one we're just going to add something like this, choose the perfect plan for your needs, all plans include a 14 day free trial. Then I'm going to add a class name here, set it to text gray 400, text base, text XL, and on a small screen and above I'm going to set that to be text large, setting a max width to be 2 XL and a margin X to be auto.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "title",
+        "7 XL",
+        "Simple, Transparent",
+        "Pricing Plans",
+        "paragraph",
+        "14 day free trial"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:56:34",
+      "text": "Perfect. Now we're finished with the header section and we can go ahead and build the cards. So I'm adding this div over here and on this div I'm adding a class name of display grid, grid columns of one, but on a medium screen and above we'll make that be two columns, and on a large one we'll make that be three columns. That will make it such that the pricing plan over here in one, like in a mobile screen, it should just fall all of them in one column. In a slightly bigger one it should show two columns and on a bigger one it should show three. Now we're also setting a gap of six in a small screen, we're going to set that gap to be eight and a large screen we'll put it back to be six. Now inside of this div we want to loop through the pricing plans. So for each of the plans we want to map and get the plan plus the key. Then I want to render a div that is going to show each individual card. I'll assign the key to the key field on the div and I'll start by adding the structure of this card. Now this class name is going to be dynamic and the reason for that is because we want to add a different type of style depending on if this is the most popular or not or just the normal ones.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cards",
+        "grid",
+        "mobile",
+        "gap",
+        "loop",
+        "dynamic"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:58:01",
+      "text": "Now to start this off, I'm setting this to be a position relative, a BG slate of 900 but only 50 percent, and a backdrop of blur small. Then we're setting a border, we're setting a rounded XL so you starting to see the three different cards appearing here and we're setting on a small screen and above for it to be rounded 2 XL and we need to set some heights to it. So I'm starting with a padding general padding of six and on a bigger screen that will become eight. Now we want to add a transition all, and a duration of 300. I'm going to make the overflow be visible and I'm going to add a group and a display flex. Now we're setting the flex to be column and the height to be the full length of this. What we want is we want to change this structure depending if the plan is popular. So if the plan dot is dot most popular is true, then I want to add the following class. If not I want to add something else. Now what class do we want to add for the most popular? I want to make it such that the border is going to be blue 500, so the middle one should become like that. Now did we put a most popular? Oh, for some reason here it says popular instead of most popular. Perfect. So the middle one should be like that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "relative",
+        "blur small",
+        "rounded XL",
+        "transition all",
+        "column",
+        "blue 500"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:59:34",
+      "text": "Now, what I want to do is, I want to also set a shadow to be 2 XL on the middle one. I want to set that shadow to be blue, so blue 500 and only put a 20 percent opacity. Then I want to make it such that in a large screen I want to make it even bigger. So you'll see that in a large screen when I open this up, we're going to have the three, but the middle one is going to be slightly bigger. Perfect.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shadow",
+        "2 XL",
+        "blue 500",
+        "20 percent",
+        "bigger"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_10",
+      "description": "PedroTech, the host of the channel, explains coding concepts and implements UI features in React using Tailwind CSS."
+    },
+    {
+      "speaker_id": "SPEAKER_00 (Pedro)",
+      "description": "The host of the 'PedroTech' YouTube channel, providing technical tutorials on web development."
+    },
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "The host of the channel, identified by a clear, instructional, and calm voice. They are seen navigating and writing code in VS Code."
+    }
+  ]
+}

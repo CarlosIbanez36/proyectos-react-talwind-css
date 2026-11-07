@@ -1,0 +1,83 @@
+{
+  "segment_index": 8,
+  "time_range": "01:10:00 - 01:20:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:10:00",
+      "language": "javascript",
+      "content": "<span className={`text-sm font-medium ${currentFloatingCard.textColor}`}>\n  {currentFloatingCard.title}\n</span>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "to make this dynamic as well, and I'll just wrap this entire thing with back ticks, and in here, I'm going to insert the currentFloatingCard.textColor."
+    },
+    {
+      "timestamp": "01:10:20",
+      "language": "javascript",
+      "content": "<div\n  className={`text-sm font-medium ${currentFloatingCard.contentColor}`}\n>\n  {currentFloatingCard.content}\n</div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "I'm going to apply it over here. But, where we want to actually don't use the text color, we want to use the content color, because that's different."
+    },
+    {
+      "timestamp": "01:11:00",
+      "language": "javascript",
+      "content": "className={`hidden lg:block absolute bottom-4 right-4 transform translate-x-8 translate-y-8 w-72 ${currentFloatingCard.bgColor} backdrop-blur-xl rounded-lg p-4 border border-white/20 shadow-2xl`}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "I want to add a backdrop blur XL. I'm going to make it rounded large, so it has some border radius. Then, I want to make it such that the padding on it is four, so there's some space. I'm going to set a border to it, and that border is going to be colored white with 20% opacity. Then, I'm setting a shadow to be large, so 2XL."
+    },
+    {
+      "timestamp": "01:16:47",
+      "language": "javascript",
+      "content": "@keyframes slide-in-from-bottom {\n  from {\n    opacity: 0;\n    transform: translateY(1rem);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "index.css",
+      "instructor_explanation": "we're just going to copy the keyframes that we have here, going to paste it here. We're going to change it to say, \"Slide in from bottom,\" instead of top."
+    },
+    {
+      "timestamp": "01:17:43",
+      "language": "javascript",
+      "content": ".duration-700 {\n  animation-duration: 700ms;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "index.css",
+      "instructor_explanation": "I want to set this to have a class name called duration 700, and it will apply the 700 millisecond animation duration."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:10:00",
+      "region_type": "code",
+      "label": "Hero.jsx editor",
+      "visible": true,
+      "sample_text": "export default function Hero() {",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "width": 0.65,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "01:10:00",
+      "region_type": "browser",
+      "label": "Browser output",
+      "visible": true,
+      "sample_text": "Features Pricing Testimonials",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0.72,
+        "y": 0.05,
+        "width": 0.28,
+        "height": 0.9
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

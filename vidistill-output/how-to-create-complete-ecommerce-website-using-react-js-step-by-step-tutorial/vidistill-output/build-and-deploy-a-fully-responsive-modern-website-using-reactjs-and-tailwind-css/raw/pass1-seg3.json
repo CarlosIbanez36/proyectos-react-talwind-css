@@ -1,0 +1,953 @@
+{
+  "segment_index": 0,
+  "time_range": "30:00 - 00:40:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:30:00",
+      "text": "That is going to translate",
+      "tone": "instructional",
+      "emphasis_words": [
+        "translate"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:30:03",
+      "text": "in the Y direction from the start, the item to be -1 rem from its original place.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Y",
+        "start",
+        "-1"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:30:10",
+      "text": "And then when the animation is finished, it should be at its original position, which is just a translate Y of zero.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "finished",
+        "zero"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:30:18",
+      "text": "So you see now, if we try to animate this, it will look a bit like it's sliding in from the top.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "sliding",
+        "top"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:30:24",
+      "text": "Perfect.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Perfect"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:30:26",
+      "text": "Now, what I want to do is, again, structure this elements so that they appear stacked against each other.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "stacked"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:30:32",
+      "text": "So, I want to put some class names to this div.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:30:35",
+      "text": "So in this div, what I want to do is, I want to set a class name to be a padding X of 4, a padding Y of 4.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "4"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:30:43",
+      "text": "Now you might be wondering, why are we not just using a P of 4 in here?",
+      "tone": "questioning",
+      "emphasis_words": [
+        "why",
+        "P of 4"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:30:47",
+      "text": "And that's because that's only for the mobile screen, but we also want to set here in a small screen to be a padding Y of 6, and nothing for the padding of the X direction.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mobile screen",
+        "small screen",
+        "padding Y of 6"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:30:57",
+      "text": "Now, between the items, I want to put a space in the Y direction to be 3.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "space",
+        "Y direction",
+        "3"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:31:02",
+      "text": "Now, in a small screen and above, I'm going to make that space be 4.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "small",
+        "above"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:31:08",
+      "text": "Now, to make the items actually, each link actually, appear in a different line, we have to make it such that they are display block.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "actually",
+        "different",
+        "display block"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:31:17",
+      "text": "So, for each of these, I'm just going to pass a block value here and each of them will appear now to be stacked on top of each other.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass",
+        "block",
+        "stacked"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:31:26",
+      "text": "Perfect.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Perfect"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:31:27",
+      "text": "And now our navbar is almost complete.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navbar",
+        "complete"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:31:30",
+      "text": "The only thing I want to do left is, I want to come up here to our nav.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:31:33",
+      "text": "The only thing left that I want to do is, whenever I click any of this links, I will navigate to the place, but I also want to close the navbar in a mobile state, so that it doesn't cover half of the screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "close",
+        "mobile",
+        "not"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:31:45",
+      "text": "So to do that, all I have to do is, I just have to add an onClick similar to what we added for this button, so that we can manually force the navbar to close.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "onClick",
+        "manually",
+        "close"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:31:56",
+      "text": "But instead of toggling it like we were doing with the button, we are literally just going to set it to false.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "toggling",
+        "false"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:32:01",
+      "text": "And we're going to do this for all of the links on the mobile menu.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "links",
+        "mobile menu"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:32:06",
+      "text": "So that, for example, if I were here and I wanted to go to the pricing page, I go to the pricing page, but also the navbar closes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pricing page",
+        "navbar closes"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:32:12",
+      "text": "Perfect.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Perfect"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:32:13",
+      "text": "So now we're pretty much done with the navbar, it looks good on mobile, it looks good on web, and it's time for us to start building the hero section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navbar",
+        "good",
+        "web",
+        "hero"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:32:21",
+      "text": "So to start off with the hero section, I just want to turn this into a section element.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero section",
+        "section element"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:32:29",
+      "text": "And I want to apply the groundwork for the class names that we're going to be using to structure this page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "groundwork",
+        "class names",
+        "structure"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:32:34",
+      "text": "So, I'm going to set the hero section to have a position of relative.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero section",
+        "relative"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:32:37",
+      "text": "I'm also going to set the height of it to actually be the minimum height of the screen.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height",
+        "minimum height",
+        "screen"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:32:42",
+      "text": "The reason for that is because I want the hero section to be the first thing the person sees.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero section",
+        "first thing"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:32:46",
+      "text": "They are not going to see any of the other sections, they have to scroll to be able to see them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "scroll"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:32:50",
+      "text": "Then, I want to set a display flex and I want to center the items.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex",
+        "center"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:32:55",
+      "text": "Now, I also want to justify everything from the hero section right in the center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "justify",
+        "hero section",
+        "center"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:33:02",
+      "text": "And I will put a padding on the top of the hero section to be 16, if you're in a small screen, but in a bigger screen, that padding will be even bigger, it will be 20.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "16",
+        "small",
+        "20"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:33:12",
+      "text": "I'm also going to set a padding in the X direction, in a small screen to be 4, and on every other screen to be 16.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "X",
+        "4",
+        "16"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:33:20",
+      "text": "With the exception of a large screen which we're going to make that padding be 8.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large screen",
+        "padding",
+        "8"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:33:27",
+      "text": "Now, we also just want to set an overflow to be hidden.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "overflow",
+        "hidden"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:33:32",
+      "text": "Now, none of this is going to be clear yet because we don't have anything inside of the hero section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero section"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:33:41",
+      "text": "It's going to be the effect that I had in the demo where as you hover through the elements, it's actually going to be the effect that I had in the demo, which you can see over here from the final product, where as I hover, as I move my cursor through the page, it is going to show this little glow around it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "effect",
+        "demo",
+        "hover",
+        "cursor",
+        "glow"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:34:00",
+      "text": "Now, to do something like this, what we need to do is, we need to keep track of the user's mouse position.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "keep track",
+        "mouse position"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:34:07",
+      "text": "And to do that, we're going to create a state called mouse position, create a function called set mouse position.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "state",
+        "mouse position"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:34:17",
+      "text": "Then, this state, it's going to be an object that is a combination of an X and a Y value.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "object",
+        "X",
+        "Y value"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:34:24",
+      "text": "Now, that X and the Y value represents the position of the cursor, and by default, this is going to be 0.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "X",
+        "Y",
+        "cursor",
+        "0"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:34:31",
+      "text": "Then, we're going to have a use effect that is going to have an event listener that it is going to subscribe to.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "use effect",
+        "event listener",
+        "subscribe"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:34:37",
+      "text": "This event listener is going to be the user moving their mouse.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "event listener",
+        "moving their mouse"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:34:41",
+      "text": "And whenever the user moves the mouse, we're going to run this function called handle mouse move.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "moves the mouse",
+        "handle mouse move"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:34:49",
+      "text": "Now, to do that, we need to again, subscribe to the event listener of the user moving their mouse.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "event",
+        "mouse"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:34:55",
+      "text": "And to do that, you access the window, you add an event listener, you choose the event called mouseMove, and you pass the handle mouse move function here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "window",
+        "event",
+        "mouseMove",
+        "handle",
+        "mouse",
+        "move"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:35:12",
+      "text": "Now, if you want to, I'll just show you, uh we can console.log the X and Y values.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "console.log",
+        "X",
+        "Y"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:35:19",
+      "text": "How do you do that is, you get the X value by getting the event, and then you access the clientX, and the Y value through the event clientY.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "X",
+        "event",
+        "clientX",
+        "Y",
+        "clientY"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:35:31",
+      "text": "If you're not familiar with use effects, it is important if you are subscribing to an event listener like this, for you to return a function in this use effect, that will remove that event listener, because what happens is, if you don't do that, then the component might unmount without actually removing the event listener, causing memory leaks.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "use effects",
+        "important",
+        "subscribing",
+        "remove",
+        "memory leaks"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:35:55",
+      "text": "So you have to do this whenever you're subscribing to an event.",
+      "tone": "warning",
+      "emphasis_words": [
+        "subscribing"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:36:00",
+      "text": "Now, now that we've done that, I also want to put here an empty dependency array so that we don't run this use effect infinitely.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dependency array",
+        "use effect"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:36:12",
+      "text": "So, if I open up the console log, you see as I move my mouse, it will show the different X and Y values of my mouse based on that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "console log",
+        "move my mouse",
+        "X",
+        "Y"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:36:21",
+      "text": "Now, we don't want to just console log those values. We want to show a glow around the mouse.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "console log",
+        "glow"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:36:27",
+      "text": "So to do that, inside of the section, I want to create this div that is going to be a self-closing div and it's going to have a class name of absolute and inset of zero and an opacity of 30.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "section",
+        "div",
+        "absolute",
+        "opacity"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:36:42",
+      "text": "Now, most of the styling for this, we're not going to be using Tailwind, just because it's a lot easier for us to manually do it with just normal CSS, through the style.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Tailwind",
+        "manually",
+        "CSS",
+        "style"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:36:50",
+      "text": "So, inside of here, I'm going to add a background value, so that we can build that little gro glow coming out of the mouse.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "glow",
+        "mouse"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:36:58",
+      "text": "So, inside of here, I'm going to add a background value so that we can build that little radio gradient, which it will make a gradient out of a circle.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "radio gradient",
+        "gradient",
+        "circle"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:37:09",
+      "text": "To make a gradient a radial gradient, we have to first set its size. I'm going to make it 600 pixel, but you can make it bigger or smaller if you want.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gradient",
+        "radial gradient",
+        "size",
+        "600"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:37:13",
+      "text": "You choose the say, the shape which I'm going to choose to be a circle, and you need to put the position of it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shape",
+        "circle",
+        "position"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:37:24",
+      "text": "So, the way you put the position is kind of interesting in CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "position",
+        "CSS"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:37:28",
+      "text": "You put at, and then you put the X position as a pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "at",
+        "X",
+        "position",
+        "pixel"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:37:32",
+      "text": "So what we can do is we can use that state to keep track of that position.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "state",
+        "position"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:37:37",
+      "text": "We'll use the setMousePosition function and we're going to set an object inside of here, where the X value is equal to the clientX and the Y value is equal to the clientY.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "setMousePosition",
+        "X",
+        "clientX",
+        "Y",
+        "clientY"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:37:50",
+      "text": "Now we can use that mousePosition.x in here and get the X position as a pixel for the mouse.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mousePosition",
+        "X",
+        "pixel"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:37:59",
+      "text": "We'll do the exact same thing in the Y position for the mouse, and we should be able to get that glow.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Y",
+        "mouse",
+        "glow"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:38:05",
+      "text": "Now we're not seeing anything because we are not done yet.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "not",
+        "done"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:38:07",
+      "text": "Now, I'm going to set the following color, which is an RGBA of a similar color to what we have in the background.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color",
+        "RGBA",
+        "color",
+        "background"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:38:11",
+      "text": "It's going to be the following values, 59, 130, 246, and 0.15, because I don't want to make it too visible.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "59",
+        "130",
+        "246",
+        "0.15",
+        "visible"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:38:28",
+      "text": "Now, after this, I want to set this to be transparent and set 40 percent, so that we get this cool effect at the top left.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "transparent",
+        "40",
+        "cool effect"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:38:34",
+      "text": "Now, why is it at the top left? Because, initially, the mouse is set to 0,0.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "top",
+        "left",
+        "initially",
+        "0,0"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:38:43",
+      "text": "So you see that as I move my mouse, this should move along with me.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "move my mouse",
+        "move along"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:38:50",
+      "text": "It's a really cool effect and it's really nice whenever you can add this. This won't go through the entire website because we're only adding this to the hero section, however because I also think it would look kind of weird and goofy if you added to the entire website, but for the hero section it's a really good eye-catcher.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cool effect",
+        "hero section",
+        "weird",
+        "goofy",
+        "eye-catcher"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:39:04",
+      "text": "Now, on top of that, I want to add two different glows that are going to be stuck permanently on the page, and they're going to be pulsating as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "glows",
+        "permanently",
+        "pulsating"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:39:13",
+      "text": "Well, because even though we have this little mouse that is moving, uh sometimes if the mouse is down here, I still want to have those two glows at the top, so that it gives a nice aesthetic to this page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mouse",
+        "glows",
+        "top",
+        "aesthetic",
+        "page"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "00:39:31",
+      "text": "So to do that, I already have the two glows over here, and I'll just go over what they are.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "two glows"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:39:33",
+      "text": "I put them on the top left and on the bottom right so that they have a good distance between them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "top left",
+        "bottom right",
+        "distance"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:39:45",
+      "text": "It's a similar glow to what we have on our mouse, but it is stuck and it's pulsating.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "similar",
+        "stuck",
+        "pulsating"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "timestamp": "00:39:50",
+      "text": "I put it on the top left by making the top be 20 and the left four, so it's on the top left, and then the bottom right by using the bottom and the right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "top",
+        "20",
+        "left",
+        "four",
+        "bottom",
+        "right"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "The host of the YouTube channel, who is narrating the coding tutorial and explaining the implementation of UI components."
+    },
+    {
+      "speaker_id": "SPEAKER_04",
+      "description": "The primary narrator, identifiable as PedroTech, who is explaining web development coding steps in a calm, instructional tone."
+    },
+    {
+      "speaker_id": "SPEAKER_00 (Pedro)",
+      "description": "The speaker is Pedro from the channel 'PedroTech'. He has a clear, instructional voice and provides step-by-step coding guidance."
+    }
+  ]
+}

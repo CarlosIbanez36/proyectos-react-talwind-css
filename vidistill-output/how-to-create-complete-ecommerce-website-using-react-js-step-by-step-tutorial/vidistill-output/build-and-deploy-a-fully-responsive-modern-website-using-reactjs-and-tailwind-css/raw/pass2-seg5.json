@@ -1,0 +1,139 @@
+{
+  "segment_index": 0,
+  "time_range": "00:50:00 - 01:00:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:50:00",
+      "language": "javascript",
+      "content": "export const codeExamples = {\n\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "CodeExamples.js",
+      "instructor_explanation": "the key, I'm going to actually make it kind of look like JSON. The key is going to be the name that we show up over here. So the name of the file like App.jsx. And the value is going to be actual code that you put here."
+    },
+    {
+      "timestamp": "00:50:11",
+      "language": "javascript",
+      "content": "export const codeExamples = {\n  \"App.jsx\": \"\"\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CodeExamples.js",
+      "instructor_explanation": "The key is going to be the name that we show up over here. So the name of the file like App.jsx. And the value is going to be actual code that you put here."
+    },
+    {
+      "timestamp": "00:50:23",
+      "language": "javascript",
+      "content": "export const codeExamples = {\n  \"App.jsx\": `\n  `\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CodeExamples.js",
+      "instructor_explanation": "Now to write the code, we need to take into account, for example, spaces, like positioning of everything. So to do that, I'm going to use backticks and directly write the code inside of here."
+    },
+    {
+      "timestamp": "00:50:28",
+      "language": "javascript",
+      "content": "export const codeExamples = {\n  \"App.jsx\": `\n  import { useState } from \"react\";\n  import { CodeFlow } from \"@codeflow/ai\";\n\n  function App() {\n    const [code, setCode] = useState(\"\");\n\n    const handleAICompletion = async () => {\n      const suggestion = await CodeFlow.complete(code);\n      setCode(suggestion);\n    }\n\n    return (\n      <div className=\"app\">\n        <CodeEditor\n          onChange={setCode}\n          onAI={handleAICompletion}\n        />\n      </div>\n    )\n  }\n  `\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CodeExamples.js",
+      "instructor_explanation": "I already have the code written for this. It is uh this code over here."
+    },
+    {
+      "timestamp": "00:50:41",
+      "language": "javascript",
+      "content": "export const codeExamples = {\n  \"App.jsx\": `...`,\n  \"Hero.jsx\": `...`,\n  \"Navbar.jsx\": `...`\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CodeExamples.js",
+      "instructor_explanation": "And we're going to make one for the Hero.jsx and we're also making one for the Navbar.jsx."
+    },
+    {
+      "timestamp": "00:51:24",
+      "language": "jsx",
+      "content": "return (\n  <div>\n    <div>\n       <button>App.jsx</button>\n       <button>Hero.jsx</button>\n       <button>Navbar.jsx</button>\n    </div>\n  </div>\n)",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "I'm going to create a div over here with another div. The first section is the uh file tabs and I'm going to create a button for each of the tabs."
+    },
+    {
+      "timestamp": "00:52:16",
+      "language": "jsx",
+      "content": "<button className=\"px-3 py-2 backdrop-blur-sm text-xs sm:text-sm rounded-t-lg border bg-white/5 text-gray-300 transition-all duration-200 whitespace-nowrap\">App.jsx</button>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "for each of these buttons, I'm going to add a class name and it's going to be a padding x of 3, a padding y of 2. Then we're setting a backdrop blur to be small, the text will be extra small, and on a bigger screen we're also going to make that be small. We're also going to rounded it at the top as large, not at the bottom because you look how it's only rounded at the top. And finally to make it look like a tab, we're going to add a border, a rounded, we're also going to add a BG of white 5 and the text will be gray 300. Now I also want to set a transition to be all, a duration to be 200. Now I also want to add a class name called whitespace no wrap, and we should be good with this."
+    },
+    {
+      "timestamp": "00:54:39",
+      "language": "jsx",
+      "content": "const [activeTab, setActiveTab] = useState(\"App.jsx\");",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "So to do that, we're going to create a state up here that is going to keep track of the active tab. We're going to also call this set active tab and this state will be a string that will just be the key of whatever values we have here."
+    },
+    {
+      "timestamp": "00:54:48",
+      "language": "jsx",
+      "content": "<button onClick={() => setActiveTab(\"App.jsx\")}>App.jsx</button>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "So to do that, for each of this buttons, we're going to add an onClick, that when you click on it, we're going to set the active tab to be whatever this is."
+    },
+    {
+      "timestamp": "00:56:09",
+      "language": "jsx",
+      "content": "<SyntaxHighlighter>{codeExamples[activeTab]}</SyntaxHighlighter>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "Then on this div, I'm going to call the SyntaxHighlighter component from react-syntax-highlighter. Now this component is a wrapper component, meaning you have to put something inside of it."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "00:50:00",
+      "visual_type": "browser_output",
+      "description": "Browser output shows a landing page for 'CodeFlow AI' with a 'Start Coding Free' button and a 'Watch Demo' button. There is a code snippet demonstration below it."
+    },
+    {
+      "timestamp": "00:54:30",
+      "visual_type": "ui_demo",
+      "description": "Tabs UI shows 'App.jsx', 'Hero.jsx', and 'Navbar.jsx'."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:50:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "export const codeExamples = {",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.1,
+        "width": 0.6,
+        "height": 0.8
+      }
+    },
+    {
+      "timestamp": "00:50:00",
+      "region_type": "browser",
+      "label": "Browser Output",
+      "visible": true,
+      "sample_text": "Code Faster Build Better",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.65,
+        "y": 0.1,
+        "width": 0.3,
+        "height": 0.8
+      }
+    }
+  ],
+  "screen_timeline": []
+}

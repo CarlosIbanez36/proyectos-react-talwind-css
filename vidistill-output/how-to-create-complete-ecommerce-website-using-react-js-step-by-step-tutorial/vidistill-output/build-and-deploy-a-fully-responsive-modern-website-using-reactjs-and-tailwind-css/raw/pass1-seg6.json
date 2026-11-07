@@ -1,0 +1,998 @@
+{
+  "segment_index": 0,
+  "time_range": "01:00:00 - 01:10:00",
+  "transcript_entries": [
+    {
+      "timestamp": "01:00:00",
+      "text": "more to do inside of this SyntaxHighlighter component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "SyntaxHighlighter"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:04",
+      "text": "The first thing is, we have to specify a language, because it needs to know what language it is in order to properly format.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "specify",
+        "language"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:10",
+      "text": "Since we're using JavaScript, I'll put JavaScript in here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "JavaScript",
+        "JavaScript"
+      ],
+      "pause_after_seconds": 1.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:12",
+      "text": "Now, I realized that it's causing an error, and the error is actually because we are installing the version 16 plus of react-syntax-highlighter.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "error",
+        "16 plus",
+        "react-syntax-highlighter"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:22",
+      "text": "I don't recommend installing that one because it's not compatible with the latest version.",
+      "tone": "warning",
+      "emphasis_words": [
+        "don't",
+        "not compatible"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:25",
+      "text": "I recommend you to, instead, install this version over here, 15.6.6.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "15.6.6"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:29",
+      "text": "That's not a big deal to have a low, not the latest version.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "not a big deal"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:33",
+      "text": "This is just the React syntax highlighter library, it's totally fine.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "totally fine"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:36",
+      "text": "Now, to, to get that to to that version, we actually need to uninstall React syntax highlighter.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "uninstall"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:45",
+      "text": "And after uninstalling it, I want you guys to instead install the version 15.6.6.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "uninstalling",
+        "install"
+      ],
+      "pause_after_seconds": 0.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:00:50",
+      "text": "There's two ways of doing this, you can do it through the command, or you can just paste the version like this on the package.json, then running npm install.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "command",
+        "paste",
+        "npm install"
+      ],
+      "pause_after_seconds": 0.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:00",
+      "text": "And it should have that version now.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "should"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:03",
+      "text": "Now let me rerun our, uh, development server, so npm run dev.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rerun"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:08",
+      "text": "And if I refresh this, we should be able to see code.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "refresh",
+        "see code"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:11",
+      "text": "Perfect. We are being able to see code.",
+      "tone": "excited",
+      "emphasis_words": [
+        "Perfect"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:14",
+      "text": "Not only that, but we are able to move through the different code and the code will appear perfectly formatted.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "move",
+        "perfectly formatted"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:21",
+      "text": "Now, it it's obviously really ugly, so we do want to change that.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "ugly",
+        "change"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:25",
+      "text": "Now, to make this look not ugly, we're going to apply a style.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "not ugly",
+        "apply",
+        "style"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:30",
+      "text": "Now, there's a bunch of different styles you can choose.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "bunch",
+        "different styles"
+      ],
+      "pause_after_seconds": 0.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:32",
+      "text": "I'm going to use a different one from the one I have here. The one I have here is from Visual Studio Code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "different",
+        "Visual Studio Code"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:37",
+      "text": "I'm going to be using the night Owl style.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "night Owl"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:40",
+      "text": "Now what this is going to do is it's going to make the code look exactly like this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "exactly"
+      ],
+      "pause_after_seconds": 0.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:44",
+      "text": "It's like choosing a VS Code theme for the code in your website.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "theme"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:49",
+      "text": "Now, I also want to apply some custom styles and that's because, uh, I don't like how it looks right now where it's like kind of the edges are not rounded.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "custom styles",
+        "don't like"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:01:58",
+      "text": "So, what we're going to do is, first, we're going to set a margin to be zero.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "first"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:02:04",
+      "text": "We don't want any margin on it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "any margin"
+      ],
+      "pause_after_seconds": 0.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:02:06",
+      "text": "We also want to set the border radius to be equal to 8 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border radius",
+        "8 pixels"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:02:11",
+      "text": "Then I want to set the font size inside of it, font size to be equal to 11 pixels because I do think it's a bit too big right now.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font size"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:02:21",
+      "text": "Then I want to set the line height to be equal to 1.4.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "line height",
+        "1.4"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:02:28",
+      "text": "I also want to set the height to be 100%.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height",
+        "100%"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:02:37",
+      "text": "And then what I'm going to do is I'm going to set a border.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:02:40",
+      "text": "This border is going to be of 1 pixel, solid, and I'm setting the following color, 3c3c3c.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:02:48",
+      "text": "Perfect, now I can move around the different pieces of code and you can see that it shows the different options appearing in our screen.",
+      "tone": "excited",
+      "emphasis_words": [
+        "Perfect"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:00",
+      "text": "Great, and it looks even better when you are, uh, opened up like this.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "better"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:05",
+      "text": "Obviously, we have to fix this, because, uh, it shouldn't be filling up this whole screen, but it won't because there's going to be a whole different column here on the left.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "fix"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:13",
+      "text": "Now, this is pretty much it for the code content.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pretty much it",
+        "code content"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:17",
+      "text": "What we want to do now is actually show the different floating cards.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "floating cards"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:22",
+      "text": "This is actually hidden on mobile, so we'll have to open up her screen a bit.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "hidden"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:28",
+      "text": "But if I were to open this up, you see that we have this, uh, cards that appear down here that change depending on which, uh, version of this you are.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cards",
+        "appear",
+        "change"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:37",
+      "text": "Now, to have a floating card associated with each, uh, uh, tab, we want to do something similar to what we did here for the code examples.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "floating card",
+        "tab",
+        "similar"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:46",
+      "text": "So, we're going to create a variable here, probably in the same file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "variable"
+      ],
+      "pause_after_seconds": 0.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:49",
+      "text": "We're going to export constant, call it floating cards.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "export constant",
+        "floating cards"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:03:57",
+      "text": "And I'll make an object inside of here with everything that we need to specify for the floating card.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "object",
+        "specify",
+        "floating card"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:04:10",
+      "text": "Now, here you're supposed to like just describe a couple features that your website has.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "supposed"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:04:15",
+      "text": "So, you just put whatever you want. I'm just putting like slop in here like this isn't really anything that makes any sense, but you can put whatever you want in yours.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "whatever you want"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:04:26",
+      "text": "And there is a couple things that we need to keep track of, because they change on each of them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:04:30",
+      "text": "First is obviously the title, so this part over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "title"
+      ],
+      "pause_after_seconds": 0.2,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:04:34",
+      "text": "Then is the icon that we have here, right? We have a different icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "icon"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:04:38",
+      "text": "Then the description, and then the color of everything.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "Then"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:04:42",
+      "text": "So in this object, for each of the different tabs, we need to set a bg color, which at least for the first one is going to be bg-blue-500 with 20% opacity.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "object",
+        "tabs",
+        "bg color",
+        "bg-blue-500",
+        "20% opacity"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:04:54",
+      "text": "Then an icon color, which is going to be text-blue-400.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "icon color",
+        "text-blue-400"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:05:03",
+      "text": "Then we need to put a text color, I'm going to set that to be text-blue-200.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text color"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:05:10",
+      "text": "A content color, which is the content that we're highlighting right now, like the actual content inside of it, and that should be text-blue-300.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "content color",
+        "content",
+        "highlighting",
+        "text-blue-300"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:05:21",
+      "text": "You can change the colors to whatever you want. I this is just what I chose.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "change",
+        "colors",
+        "chose"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:05:27",
+      "text": "So the icon, uh, for this first one, since we're talking about AI, I just put AI. It's not an actual emoji, but that's fine.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "icon",
+        "AI"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:05:34",
+      "text": "The second one is the title. Uh, I'll put something like this: smart completion.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "title",
+        "smart completion"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:05:39",
+      "text": "And then the third one is the content. I'm going to put something generic like AI-powered code suggestions in real-time.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "content",
+        "generic",
+        "AI-powered code suggestions",
+        "real-time"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:05:54",
+      "text": "Now, we do this for all of the other tabs, so one for the hero and one for the navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "tabs",
+        "hero",
+        "navbar"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:05:59",
+      "text": "I obviously already did this, so I'll just paste the ones that I already did.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "paste"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:03",
+      "text": "And it should look a bit like this, you change the color and the content for each of them.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "look",
+        "change",
+        "color",
+        "content"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:07",
+      "text": "And in the end, you should have a specific value for each specific type.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "specific value",
+        "specific type"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:12",
+      "text": "Now, I want to go back to our hero.jsx, I'll close that up.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero.jsx",
+        "close"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:16",
+      "text": "And for the floating cards, I want to add a div that is going to be actually a div that has a class name that is dynamic.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "floating cards",
+        "div",
+        "class name",
+        "dynamic"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:28",
+      "text": "First, I want to make sure that it doesn't appear in mobile, so I'm going to make it hidden.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hidden",
+        "mobile"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:33",
+      "text": "Uh, I only show it in a large screen and in our large screen the display is going to be block so that it shows.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "large"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:39",
+      "text": "Then I'm going to make it absolute.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "absolute"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:41",
+      "text": "I'll open the actual content here so we can see, it will be absolute.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "absolute"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:45",
+      "text": "It will be absolute, then it's going to have a bottom 4 and a right 4, so it's in the bottom right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bottom 4",
+        "right 4",
+        "bottom right"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:06:53",
+      "text": "I'm also going to set this to transform and I'm going to translate it on the X direction, eight.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "transform"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:07:00",
+      "text": "Now, we can't really see anything right now, but you'll be able to see it when we actually add the color of it.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "can't really see",
+        "color"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:07:07",
+      "text": "I'm also translating on the Y direction to be 8.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Y direction 8"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:07:13",
+      "text": "And what I want to do is I want to put a specific width to it, I'm setting the width to be 72.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "72"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:07:18",
+      "text": "Now, the thing that changes is the color of it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "changes",
+        "color"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:07:22",
+      "text": "So I'm going to add here a variable, and I'm going to access the bg color of this card by getting the floating cards object that we just created, accessing the value through the current active tab and getting the BG color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "variable",
+        "bg color",
+        "floating cards",
+        "object",
+        "active tab",
+        "BG color"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:07:41",
+      "text": "So, so we currently can't see it, but when we do, it's going to have the accurate color.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "can't see",
+        "accurate color"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:07:45",
+      "text": "Then inside of this, I'm going to put a div with a class name of flex and an items center with a space in the X direction of two and a margin bottom of two.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div"
+      ],
+      "pause_after_seconds": 2.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:07:57",
+      "text": "You can start seeing it appearing now, since we have some content.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "seeing",
+        "appearing",
+        "content"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:08:01",
+      "text": "Then, instead of this, I'll put the first div with the icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "icon"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:08:04",
+      "text": "So in here I'll put the floating cards and get the active tab and just say dot icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "floating cards",
+        "active tab",
+        "dot icon"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:08:18",
+      "text": "Then below this, I'm going to get a span, which, by the way, it one thing that we can make be easier is instead of always accessing the floating cards.activeTab, we can just make a variable up here called current floating card, I don't know, and then set it equal to this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "easier",
+        "variable"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:08:42",
+      "text": "Then I can get this, and just reuse it how many times I want without having to always access the active tab.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "reuse",
+        "access",
+        "active tab"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:08:49",
+      "text": "Now, if I go here, I want to add the span, and I want to add the current floating card, and access the title.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:09:02",
+      "text": "Then I'll do the same thing with, then I'm going to get below this div that we just created and I'm going to create another div which inside of it is just going to include the content.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "content"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:09:12",
+      "text": "So I'm going to say current floating card dot content.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "current floating card",
+        "content"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:09:16",
+      "text": "Now, we just have to style that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "style"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:09:19",
+      "text": "So on this div over here, I'm going to set a class name, where for the icon, I'm going to say it is going to have a width of six and a height of six.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name",
+        "width",
+        "six",
+        "height",
+        "six"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:09:32",
+      "text": "So in here, I'm going to get the current floating card dot icon color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "current floating card"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:09:41",
+      "text": "Then in here, I'm going to set a display flex, items center, justify center, text to be small, font to be bold.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex",
+        "items center",
+        "justify center",
+        "text",
+        "small",
+        "font",
+        "bold"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "01:09:51",
+      "text": "Then on the span, I'll set a class name where the text is small, the font is medium, and we need to change the color, which means we have",
+      "tone": "instructional",
+      "emphasis_words": [
+        "span",
+        "class name",
+        "text",
+        "small",
+        "font",
+        "medium",
+        "color"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "A male software developer providing a technical tutorial on React development, specifically focusing on code styling and component implementation."
+    },
+    {
+      "speaker_id": "SPEAKER_07",
+      "description": "The speaker (identified as PedroTech) has an instructional, calm, and professional speaking style. They are conducting a technical coding tutorial, and their voice is clear and consistent throughout the segment."
+    }
+  ]
+}

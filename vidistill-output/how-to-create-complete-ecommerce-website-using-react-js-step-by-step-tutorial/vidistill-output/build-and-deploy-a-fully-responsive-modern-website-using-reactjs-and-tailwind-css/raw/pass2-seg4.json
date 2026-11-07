@@ -1,0 +1,89 @@
+{
+  "segment_index": 5,
+  "time_range": "00:40:00 - 00:50:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:40:00",
+      "language": "javascript",
+      "content": "      <div className=\"absolute top-20 left-4 sm:left-10 w-48 sm:w-72 h-48 sm:h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse\" />\n      <div className=\"absolute bottom-20 right-4 sm:right-10 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse delay-1000\" />",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "To make them animate, you can just call the built-in Tailwind CSS animation called animate-pulse.",
+      "timestamp_end": "00:40:24"
+    },
+    {
+      "timestamp": "00:40:24",
+      "language": "javascript",
+      "content": "    <section className=\"relative min-h-screen flex items-center justify-center pt-16 sm:pt-20 px-4 sm:px-6 lg:px-8 overflow-hidden\">\n      <div className=\"absolute inset-0 opacity-30\"\n        style={{\n          background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(59, 130, 246, 0.15), transparent 40%)`,\n        }}\n      />\n\n      <div className=\"absolute top-20 left-4 sm:left-10 w-48 sm:w-72 h-48 sm:h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse\" />\n      <div className=\"absolute bottom-20 right-4 sm:right-10 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse delay-1000\" />\n\n      <div>\n        <div>\n          <div>\n          </div>\n        </div>\n      </div>\n    </section>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "I'll build this div and put another div inside of it. Then I'm going to put another div. And if you remember, the Hero section has two parts to it. It is going to have the text that is, at least in mobile is going to be appearing on top of this other section which is the code.",
+      "timestamp_end": "00:41:09"
+    },
+    {
+      "timestamp": "00:41:09",
+      "language": "javascript",
+      "content": "      {/* IDE HEADER */}\n      <div className=\"flex items-center justify-between px-3 sm:px-4 py-2 sm:py-3 bg-white/5 backdrop-blur-sm border-b border-white/10\">\n        <div className=\"flex space-x-1 sm:space-x-2\">\n          <div className=\"w-2 h-2 rounded-full bg-red-500\" />\n          <div className=\"w-2 h-2 rounded-full bg-yellow-500\" />\n          <div className=\"w-2 h-2 rounded-full bg-green-500\" />\n        </div>\n        <span className=\"text-xs sm:text-sm text-gray-300\">CodeFlow AI</span>\n        <ChevronDown className=\"w-3 h-3 sm:w-4 sm:h-4 text-gray-400\" />\n      </div>",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "I'm going to call it the IDE Header. It's just the header section for the code editor that we have here... I want to set a class name of display flex, items center, justify between. And the reason for that is because this is the header.",
+      "timestamp_end": "00:48:56"
+    },
+    {
+      "timestamp": "00:49:43",
+      "language": "javascript",
+      "content": "export const codeExamples = {\n\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "src/data/CodeExamples.js",
+      "instructor_explanation": "I'll create here a folder called data and in here I'll create a file and I'll call this codeExample.js... I want to export const an object called codeExamples. Now this object will take in a key and a",
+      "timestamp_end": "00:50:00"
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "00:40:01",
+      "visual_type": "browser_output",
+      "description": "The browser shows the CodeFlow landing page with a code editor window visible in the Hero section."
+    },
+    {
+      "timestamp": "00:48:56",
+      "visual_type": "browser_output",
+      "description": "The browser displays the main landing page with a code editor widget that has three tabs: App.jsx, Hero.jsx, and Navbar.jsx."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:40:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "Hero.jsx - modern-ux-ui",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.45,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "00:40:01",
+      "region_type": "browser",
+      "label": "Browser Preview",
+      "visible": true,
+      "sample_text": "CodeFlow localhost:5173",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.45,
+        "y": 0,
+        "width": 0.55,
+        "height": 1
+      }
+    }
+  ],
+  "screen_timeline": []
+}

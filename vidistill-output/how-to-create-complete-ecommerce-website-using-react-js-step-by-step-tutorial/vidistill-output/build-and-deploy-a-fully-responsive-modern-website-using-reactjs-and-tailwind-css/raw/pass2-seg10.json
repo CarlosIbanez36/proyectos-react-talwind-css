@@ -1,0 +1,92 @@
+{
+  "segment_index": 0,
+  "time_range": "01:40:00 - 01:43:40",
+  "code_blocks": [
+    {
+      "timestamp": "01:40:00",
+      "language": "jsx",
+      "content": "    <div className=\"space-y-16 sm:space-y-20 lg:space-y-32\">\n      {features.map((feature, key) => (\n        <div>\n        </div>\n      ))}\n    </div>",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Features.jsx",
+      "instructor_explanation": "Now in this div I want to a apply a key directly into it and a class name."
+    },
+    {
+      "timestamp": "01:40:03",
+      "language": "jsx",
+      "content": "    <div className=\"space-y-16 sm:space-y-20 lg:space-y-32\">\n      {features.map((feature, key) => (\n        <div key={key} className=\"\">\n        </div>\n      ))}\n    </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Features.jsx",
+      "instructor_explanation": "Now for now we are not going to touch this class name just because I want to put the content inside of it so you guys can at least see what the class names are doing to it."
+    },
+    {
+      "timestamp": "01:40:19",
+      "language": "jsx",
+      "content": "        <div key={key} className=\"\">\n          {/* Image Section */}\n        </div>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Features.jsx",
+      "instructor_explanation": "So the first is going to be the image section or the code section actually. I will just say that. I called it image just because I don't know if you guys would rather just make it into an image instead of code."
+    },
+    {
+      "timestamp": "01:40:48",
+      "language": "jsx",
+      "content": "        <div key={key} className=\"\">\n          {/* Ide Interface */}\n          <div>\n            <div>\n            </div>\n          </div>\n        </div>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Features.jsx",
+      "instructor_explanation": "We are going to start by adding a IDE interface. And in here we are going to add a div which will contain the header. I am aware we are adding a bunch of divs but it is going to make sense."
+    },
+    {
+      "timestamp": "01:41:31",
+      "language": "jsx",
+      "content": "            <div className=\"flex items-center space-x-1 sm:space-x-2\">\n                <div className=\"w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-red-500\" />\n                <div className=\"w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-yellow-500\" />\n                <div className=\"w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-green-500\" />\n            </div>\n            <span className=\"text-gray-400 ml-2 text-xs sm:text-sm\">\n              {feature.title}\n            </span>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Features.jsx",
+      "instructor_explanation": "Now you see, it will make three of those little dots that apply to the code editor header. Then we do want to put a span in here with the feature title."
+    },
+    {
+      "timestamp": "01:42:26",
+      "language": "jsx",
+      "content": "          <div>\n             <SyntaxHighlighter\n               language=\"javascript\"\n               style={nightOwl}\n               customStyle={{\n                 margin: 0,\n                 borderRadius: \"8px\",\n                 fontSize: \"11px\",\n                 lineHeight: \"1.4\",\n                 height: \"100%\",\n                 border: \"1px solid #3c3c3c\",\n               }}\n             >\n               {feature.codeSnippet}\n             </SyntaxHighlighter>\n          </div>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Features.jsx",
+      "instructor_explanation": "I am going to add here a section where I want to add the syntax highlighter... I am just going to insert the code snippet directly in here... Actually I can just say feature dot code snippet and then we should be able to see the code snippet appearing."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:40:00",
+      "region_type": "code",
+      "label": "Features.jsx",
+      "visible": true,
+      "sample_text": "export default function Features() {",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "width": 0.6,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "01:40:00",
+      "region_type": "browser",
+      "label": "CodeFlow Website",
+      "visible": true,
+      "sample_text": "CodeFlow AI",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0.65,
+        "y": 0.05,
+        "width": 0.3,
+        "height": 0.9
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

@@ -1,0 +1,892 @@
+{
+  "segment_index": 0,
+  "time_range": "00:00:00 - 00:10:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:00:00",
+      "text": "Most successful websites you know, have one thing in common.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "most",
+        "successful",
+        "one"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:00:04",
+      "text": "They have a beautiful landing page. In this video, I will be teaching you how to build the most beautiful React JS website with a modern UI UX design.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "beautiful",
+        "teaching",
+        "modern"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:00:15",
+      "text": "We will use React JS and Tailwind CSS to build a landing page that includes a modern looking hero section, an insightful feature section, an eye catching pricing page, and a part to show the testimonials of your website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "React",
+        "JS",
+        "Tailwind",
+        "CSS",
+        "modern",
+        "hero",
+        "insightful",
+        "feature",
+        "eye",
+        "catching",
+        "pricing"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:00:30",
+      "text": "Not only will you learn how to build this incredible design, but you will be able to replicate it for your own use case.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Not",
+        "only",
+        "incredible",
+        "replicate"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:00:38",
+      "text": "However, if you're interested in learning React JS even more in depth, check out my React JS Ultra course for beginners.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "interested",
+        "learning",
+        "depth",
+        "Ultra"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:00:46",
+      "text": "The link for it will be in the description. And before we start the video, if you could leave a like and subscribe, I would massively appreciate it. So let's get into it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "description",
+        "subscribe",
+        "massively"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:00:54",
+      "text": "Okay everyone, so let's get started. I open up here a folder inside of my code editor of choice, which is VS code, and I want you guys to do the same.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "open",
+        "started"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:01:05",
+      "text": "Now we're going to be using V to create our React project. So in order to create a V application, I'll open up the terminal, and I'm going to run npx create-vite, and I'm going to do at latest so that we get the latest version of V.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "npx",
+        "create-vite"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:01:21",
+      "text": "Now, when we install this, it's going to ask for a project name. Since I want to create this app inside of the folder that I'm already inside of, I'm going to put a dot, but you can make another folder by putting the name of it over here as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dot"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:01:29",
+      "text": "Then it's going to ask us for our framework. We are using React for this video, so I'm going to choose React. Then it's going to choose for a variant.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "React"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:01:38",
+      "text": "They have a lot of different, uh, example projects that you can choose from, and I personally will choose for this video to create a project using JavaScript plus React Compiler.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "JavaScript",
+        "React Compiler"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:01:52",
+      "text": "Now, if you're not familiar, React Compiler won't make any difference in the coding for this video. You can choose just normal JavaScript as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "normal"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:01:59",
+      "text": "I want to use JavaScript because I want to make it inclusive for everyone, but if you want to use TypeScript, you can use it as well.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "JavaScript",
+        "inclusive",
+        "TypeScript"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:02:04",
+      "text": "Now I'm going to put no for this option and I'm going to put yes for, uh, npm and start, and it will start installing, uh, all of the dependencies that we should have in this application.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dependencies"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:02:14",
+      "text": "As you can see, we should have the project set up over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "project",
+        "set",
+        "up"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:02:18",
+      "text": "So, right off the bat, we have here our project running on localhost 5173. So what I want to do is go to this URL inside of my web browser so I can see the application.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "running"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:02:31",
+      "text": "Now, the first thing I want to do is I want to set up Tailwind CSS in our project.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "first",
+        "Tailwind",
+        "CSS",
+        "project"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:02:37",
+      "text": "To do that, I want to run npm install and I want to install two packages. The first one is the Tailwind CSS, the second one is at Tailwind CSS but the V package for it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "npm install",
+        "Tailwind CSS"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:02:50",
+      "text": "Now we're going to install both of them.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "install",
+        "both"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:02:52",
+      "text": "They don't come with Vite when you set it up.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Vite",
+        "set"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:02:55",
+      "text": "As that is installing, what I want to do is I want to go to our Vite config. In our Vite config, we have to set up the Tailwind CSS plugin.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Vite config",
+        "Tailwind CSS"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:03:04",
+      "text": "So at the top over here, I'm going to import Tailwind CSS from at tailwind/vite, and in the list of plugins, I'm going to add Tailwind CSS over here. Perfect.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "Tailwind CSS"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:03:18",
+      "text": "Now, to actually get Tailwind to work in our project, we have to open up our source folder, and inside of here, we're going to start by arranging some stuff.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "source folder"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:03:26",
+      "text": "So in our app.css, I want to delete this. We're just going to have one CSS file, which is going to be this index.css over here.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:03:41",
+      "text": "Now, in here for now we're just going to delete everything that is here, but what I do want to do is I want to at the top import Tailwind CSS, just like this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delete",
+        "import"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:03:49",
+      "text": "And what this will do is it will now apply the different Tailwind classes that we want to use into our project.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "apply",
+        "Tailwind",
+        "classes",
+        "project"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:04:03",
+      "text": "So now, let's get started. The first thing I want to do is I want to set up our app.jsx, which is the entry point component in our application.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "app.jsx",
+        "entry point"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:04:14",
+      "text": "And I want to make it such that this component will serve all of the other components we're going to have in this project.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "serve",
+        "all"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:04:22",
+      "text": "To do this, I'm going to delete a bunch of the stuff that initially came with this page, and it should become just an empty website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "delete"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:04:31",
+      "text": "Now, right off the bat, in our main div that is being served over here, I want to put the following class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:04:34",
+      "text": "The background color I'll be using is called Slate.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "color",
+        "Slate"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:04:38",
+      "text": "That's one of the Tailwind CSS colors, and I want to use the darkest version of it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Tailwind",
+        "CSS",
+        "colors",
+        "darkest",
+        "version"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:04:44",
+      "text": "Now, the second thing I want to do is, I want to make all of the text inside of this page to be white.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "second",
+        "text",
+        "page",
+        "white"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:04:48",
+      "text": "Also, I want to set the overflow of this page to be hidden.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "overflow",
+        "page",
+        "hidden"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:04:54",
+      "text": "Now, the first thing I want to do inside of here is, I want to set up the structure for this page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "first",
+        "structure",
+        "page"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:05:13",
+      "text": "So, I want to create a navbar component that is going to contain the UI for the navbar.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:05:28",
+      "text": "The second thing is we want to have a hero section, so I'm going to add a hero component that we're going to create.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:05:32",
+      "text": "We're also going to have a features component which should show all the features of the website.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:05:41",
+      "text": "Then a pricing section and we're going to have a list a place for us to display testimonials of our service, and in the end, we're going to show a footer.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:05:52",
+      "text": "Now, the reason why we are laying them out into individual components is because it'll make it easier for us to be able to identify what UI is part of which section.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:06:12",
+      "text": "So what I want to have here is I want to have the different parts of the website serving as components.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "parts",
+        "components"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:06:16",
+      "text": "So, we'll start with the navbar, we're going to create a JSX file for that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "start",
+        "navbar",
+        "create",
+        "JSX",
+        "file"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:06:21",
+      "text": "So for example, the first part of the page is going to be a navbar. So I want to create a navbar component that is going to contain the UI for the navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navbar"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:06:29",
+      "text": "For now, I'm just going to return a div that doesn't have anything inside of it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "now",
+        "return",
+        "div",
+        "anything"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:06:35",
+      "text": "And the reason for that is because what I want to do is, I want to create all of the different sections and the files for them first to then start writing code inside of it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "reason",
+        "create",
+        "different",
+        "sections",
+        "files",
+        "first",
+        "start",
+        "writing",
+        "code"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:06:43",
+      "text": "We're also going to have a features component which should show all the features of the website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "features component"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:06:55",
+      "text": "Then we have the features, so I'm just going to copy and paste this, create the features.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "features",
+        "copy",
+        "paste",
+        "create",
+        "features",
+        "jsx"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:05",
+      "text": "And we're going to have a list of our, a place for us to display testimonials of our service.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "testimonials"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:11",
+      "text": "So I'll create three files.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "three",
+        "files"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:12",
+      "text": "The first one, I'm going to say pricing.",
+      "tone": "neutral",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:15",
+      "text": "The second one I'm going to say testimonials and the last one I'm going to say footer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "second",
+        "say",
+        "testimonials",
+        "last",
+        "say",
+        "footer"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:22",
+      "text": "Now, in each of them, I want to make the change that we did on the other ones.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "each",
+        "change",
+        "others"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:26",
+      "text": "So, on the pricing, I'm going to change this name to be pricing.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pricing",
+        "change",
+        "name",
+        "pricing"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:29",
+      "text": "On this one, I want to change it to say footer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "say",
+        "footer"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:36",
+      "text": "Right now, we're just setting up the structure for our project.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "now",
+        "setting",
+        "structure",
+        "project"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:40",
+      "text": "Now, what I need to do is, I need to import those components at the top here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "need",
+        "import",
+        "components",
+        "top"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:46",
+      "text": "So I'm going to import the navbar component from and then I'm going to put a dot slash and access that navbar component in our components folder.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "navbar",
+        "component",
+        "dot",
+        "slash",
+        "access",
+        "navbar",
+        "component",
+        "components",
+        "folder"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:07:56",
+      "text": "Then I can do the same thing for all of the other sections, and just change the name from navbar to hero, this will also be hero, and so on.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "same",
+        "thing",
+        "sections",
+        "change",
+        "name",
+        "navbar",
+        "hero",
+        "hero"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:08:08",
+      "text": "Now, we're going to organize those sections inside of a components folder we're going to create in our source folder.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "organize"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:08:12",
+      "text": "So, as you can see, now the page is in white anymore and that's because this we were calling a component that didn't exist previously, but now it does because we are importing it at the top, so there's no error.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "see",
+        "now",
+        "page",
+        "white",
+        "calling",
+        "component",
+        "exist",
+        "importing",
+        "error"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:08:21",
+      "text": "And we can start building the project by starting off with the very top, the navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "start",
+        "building",
+        "project",
+        "starting",
+        "top",
+        "navbar"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:08:27",
+      "text": "And the navbar usually does take a while to make, because not only we want to make a beautiful navbar that extends it well on web, but also a navbar that is fully responsive on mobile.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navbar",
+        "take",
+        "while",
+        "make",
+        "beautiful",
+        "navbar",
+        "extends",
+        "well",
+        "web",
+        "navbar",
+        "fully",
+        "responsive",
+        "mobile"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:08:39",
+      "text": "So, we're going to start with the web version.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "start",
+        "web",
+        "version"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:08:41",
+      "text": "And to do that, I'm going to replace this div component or this div element with a nav element.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "do",
+        "replace",
+        "div",
+        "component",
+        "div",
+        "element",
+        "nav",
+        "element"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:08:47",
+      "text": "In this nav, we're going to define the classes for the navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav",
+        "define",
+        "classes",
+        "navbar"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:08:52",
+      "text": "We'll start by saying that the navbar is going to be fixed at the top.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "start",
+        "saying",
+        "navbar",
+        "fixed",
+        "top"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:08:55",
+      "text": "We're going to put it right at the top so top zero, and the width of it is going to be full so that it extends the entire width of the screen.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:09:03",
+      "text": "Then, I want to make sure that the navbar is always at the top, so I'm going to put a z index to be 50.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "make",
+        "sure",
+        "navbar",
+        "top",
+        "Z",
+        "index",
+        "50"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:09:09",
+      "text": "I'm setting a transition all, and that transition is going to have the duration of 300.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:09:12",
+      "text": "Now, if you're not familiar with Tailwind CSS, specifically or this classes over here, you'll understand as we move on.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:09:23",
+      "text": "Right now, the navbar will be very simple, but we do want it to have a some sort of animation as we scroll down through the page.",
+      "tone": "neutral",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:09:32",
+      "text": "Now, what I want to do is, I want to start by making this have a BG, which is exactly like the color of the background, so BG slate 950.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "now",
+        "start",
+        "making",
+        "BG",
+        "exactly",
+        "color",
+        "background",
+        "BG",
+        "slate",
+        "950"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:09:43",
+      "text": "It's the same color, but I'm going to give it a less opacity.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "same",
+        "color",
+        "less",
+        "opacity"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    },
+    {
+      "timestamp": "00:09:52",
+      "text": "And then I'm going to add this class name called Backdrop Blur, which allows us to put a little blur into the.",
+      "tone": "instructional",
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_01 (PedroTech)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (Pedro)",
+      "description": "The speaker has a clear, energetic, and informative tone, typical of a professional tutorial host on YouTube. He speaks in a paced, instructional manner, using precise technical vocabulary as he demonstrates coding processes."
+    },
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "The primary narrator and presenter who demonstrates coding techniques, explains React JS and Tailwind CSS, and provides tutorials. He speaks in a clear, instructional tone with a steady, moderate pace, consistent with a technical educational channel."
+    }
+  ]
+}

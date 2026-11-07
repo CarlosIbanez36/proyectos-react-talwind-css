@@ -1,0 +1,324 @@
+{
+  "segment_index": 0,
+  "time_range": "150:00 - 153:01",
+  "transcript_entries": [
+    {
+      "timestamp": "02:30:00",
+      "text": "not 150:00 for this but I remember fixing this. We changed this to become a height instead of a width.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "height",
+        "width"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:30:05",
+      "text": "And I believe now this will fix this.",
+      "tone": "conversational",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:30:07",
+      "text": "I clearly remember us fixing this, maybe I command-Z for some reason, but now it works.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "clearly"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:30:13",
+      "text": "Now, what we want to fix is the alignment of this, because this shouldn't be aligned to the center.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:30:18",
+      "text": "Now, to fix that, I'm going to go to our syntax highlighter, and I want to add some minor things that we haven't added so far.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:30:27",
+      "text": "So let me just expand this more like this. What I want to do is I want to set the wordWrap to break-word.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "wordWrap",
+        "break-word"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:30:35",
+      "text": "This is just a minor thing in case there's an issue with that, and I want to make the white space be pre-wrap.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:30:43",
+      "text": "Now, we need to go to where we set the text positioning, so let me go to where I say text-left.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:30:54",
+      "text": "No. Actually, I can just come to the code editor over here and I can pass a textAlign and set this to be aligned to the left.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:31:07",
+      "text": "That works better. Perfect. So, now we're pretty much done with the website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Perfect"
+      ],
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:31:13",
+      "text": "If you don't want to deploy this, then you're pretty much done, but now what we're going to do is be able to deploy this very easily by using Vercel as our host.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:31:23",
+      "text": "So, if you don't have an account, I recommend going to Vercel and creating one.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:31:26",
+      "text": "I already have one, so I'm just going to come here and add, uh, add project.",
+      "tone": "conversational",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:31:31",
+      "text": "And what's going to happen is it's going to import our Git repositories. The reason for that is because I created a Vercel.com account by using my GitHub account as the link.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "Git",
+        "GitHub"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:31:43",
+      "text": "So I recommend you doing that as well. So we're going to go to GitHub, just like this, and we're going to create a new repository.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "GitHub",
+        "repository"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:31:49",
+      "text": "I'm going to call this the modern-ux-ui website, something like that.",
+      "tone": "conversational",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:31:58",
+      "text": "And I'm going to click on create repository. Then I'm going to copy all of this. I'm going to come back to our code over here, and I want to open up our terminal and run the command git init, git add dot, and then paste all of that.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create repository",
+        "git init",
+        "git add",
+        "paste"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:32:19",
+      "text": "Now our code should be in the GitHub repo. And by the way, this is the code that you guys have been looking at ever since the beginning of this video.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "GitHub repo"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:32:27",
+      "text": "But most importantly, now that repository should appear here in our Vercel account to be able to deploy.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:32:32",
+      "text": "I'm going to click on import, and it's going to detect that the framework is Vite.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:32:37",
+      "text": "If you for some reason used a, an environment variable in this project, which I didn't because it wasn't necessary, you can add them right over here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "environment variable"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:32:45",
+      "text": "But we don't need to. So I'm just going to click on deploy.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "deploy"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:32:48",
+      "text": "And hopefully, if everything is right, in less than a minute we should see our website deployed live.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:32:52",
+      "text": "Great. As you can see, again, took less than a minute. I'll click on continue to dashboard and I'll click visit, and as you can see our website is live and ready to be used.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "live",
+        "website"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:33:02",
+      "text": "Feel free to go to those website, play around with it, see whatever you think. If you find any issues and any bugs, let me know. But this is how you build a beautiful landing page with a modern UI and UX design.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "landing page",
+        "modern UI",
+        "UX design"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:33:14",
+      "text": "Now, I highly recommend that you, whenever you're building something like this, don't fall into the trap of using AI for all of it.",
+      "tone": "warning",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:33:22",
+      "text": "I personally code with AI a lot of times. I've mentioned this multiple times. Some of you might even think that I built this entire thing with AI.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "AI",
+        "built"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:33:27",
+      "text": "And the reality is, no. And the reason for that is because I can notice if a website is built with AI or not immediately.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "built",
+        "AI"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:33:36",
+      "text": "There's some aspects to it, and that's totally fine, but for landing pages, it is actually detrimental in my opinion, because every landing page ends up looking the same.",
+      "tone": "warning",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:33:46",
+      "text": "One thing that AI always does is this pill over here at the top. I used to do this pill before AI was even a thing, so I still like it, but a lot of the things that AI would make, for example will make your entire website be purple, that's very well known.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "AI",
+        "pill"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:33:59",
+      "text": "I would recommend you to just, um, try to build something yourself. Also you'll be able to practice the skills of building UI like we did in this video.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "UI"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:34:10",
+      "text": "Now, if you like this video and you want to learn more about React, I have my ultimate React.js course for beginners, I'll link that in the description.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:34:18",
+      "text": "Also, if you're looking to learn another framework, such as the Next.js framework, I also have a Next.js course that will teach you everything from the absolute beginning to the end, so you're able to master Next.js and build really good projects with it.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:34:32",
+      "text": "So if you're interested in any of that, just go ahead and click the link in the description. If you enjoyed this video, please leave a like and comment what you want to see next.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "like",
+        "comment"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:34:36",
+      "text": "I am trying to see if I can create more UI-based tutorials because you guys showed the love for the personal portfolio ones that I built, so I want to see if you guys want to build more of this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "UI-based tutorials",
+        "personal portfolio"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (Pedro)"
+    },
+    {
+      "timestamp": "02:34:50",
+      "text": "So thank you so much for watching, and I see you guys next time.",
+      "tone": "conversational",
+      "speaker": "SPEAKER_00 (Pedro)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (Pedro)",
+      "description": "The speaker is Pedro from the channel 'PedroTech'. He has a clear, instructional speaking style and is demonstrating coding and deployment processes."
+    },
+    {
+      "speaker_id": "SPEAKER_14",
+      "description": "Pedro, from the channel PedroTech. He is the sole speaker in this segment, providing a screen-cast tutorial on coding and deploying a website. He has a clear, instructive speaking style."
+    },
+    {
+      "speaker_id": "SPEAKER_01 (PedroTech)",
+      "description": "The speaker has a clear voice with an American accent, identified as PedroTech. He is demonstrating technical coding tasks, explaining UI/UX design choices, and guiding through deployment steps."
+    }
+  ]
+}

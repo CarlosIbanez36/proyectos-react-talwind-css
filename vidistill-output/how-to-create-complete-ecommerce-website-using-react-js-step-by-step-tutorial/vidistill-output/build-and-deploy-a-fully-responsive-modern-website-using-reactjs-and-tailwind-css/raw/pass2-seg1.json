@@ -1,0 +1,148 @@
+{
+  "segment_index": 2,
+  "time_range": "00:10:00 - 00:20:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:10:00",
+      "language": "jsx",
+      "content": "    transition-all duration-300 bg-slate-950/20 backdrop-blur-sm\">",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "element and I'm going to give a blur with a small size. Now, none of that is visible yet, but as we add stuff into this navbar, you'll be able to see it.",
+      "lines_changed": "1",
+      "timestamp_end": "00:10:05"
+    },
+    {
+      "timestamp": "00:10:06",
+      "language": "jsx",
+      "content": "export default function Navbar() {\n  return (\n    <nav className=\"fixed top-0 w-full z-50 transition-all duration-300 bg-slate-950/20 backdrop-blur-sm\">\n    </nav>\n  );\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Now, the next thing I want to do is I want to add a div that is going to encompass the entirety of the elements inside of this navbar.",
+      "lines_changed": "7",
+      "timestamp_end": "00:10:19"
+    },
+    {
+      "timestamp": "00:10:20",
+      "language": "jsx",
+      "content": "    <nav className=\"fixed top-0 w-full z-50 transition-all duration-300 bg-slate-950/20 backdrop-blur-sm\">\n      <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n      </div>\n    </nav>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "We'll start by setting a maximum width that this div can have. And I'm going to give it a maximum width of 7XL, but you can make it whatever you want. Now, I'm also setting a margin in the X direction to be auto and a padding of in the X direction to be 4... But on a large screen and above, I can put this padding X to be 8. And in between these two values, I can check to see what I want to put for the padding in a small screen and above, which I want to make it be 6.",
+      "lines_changed": "4",
+      "timestamp_end": "00:11:42"
+    },
+    {
+      "timestamp": "00:11:43",
+      "language": "jsx",
+      "content": "      <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n        <div className=\"flex justify-between items-center h-14 sm:h-16 md:h-20\">\n        </div>\n      </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "So inside of this div, I want to add another div and this one will have a display of flex. I'm going to justify the items in between to justify between, and I'm going to center the items. Now, here it comes. I'm going to put a height for this navbar of 14. And that's only for a small screen. Between a small and a large screen, I want to make it be 16. And in a medium and above, I want to make it be 20.",
+      "lines_changed": "4",
+      "timestamp_end": "00:12:51"
+    },
+    {
+      "timestamp": "00:12:52",
+      "language": "jsx",
+      "content": "        <div className=\"flex justify-between items-center h-14 sm:h-16 md:h-20\">\n          <div>\n             <img src=\"/logo.png\" alt=\"CodeFlow\" className=\"w-6 h-6 sm:w-8 sm:h-8\" />\n          </div>\n        </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Below this, what I want to do is, I want to have another div and this one is going to be for the logo of this website. So inside of it, I'm going to put an image and in this image, we're going to show the logo for this website... And for the class name, I want to set this logo to be a square shaped element with a width of 6 and a height of 6, so it's pretty small. I also only want to have that be the case if this is mobile. If this is web and above, we're going to put here the width to be 8 and the height to be 8 as well, so it's a little bit bigger.",
+      "lines_changed": "4",
+      "timestamp_end": "00:14:22"
+    },
+    {
+      "timestamp": "00:14:23",
+      "language": "jsx",
+      "content": "          <div>\n            <img src=\"/logo.png\" alt=\"CodeFlow\" className=\"w-6 h-6 sm:w-8 sm:h-8\" />\n            <span className=\"text-lg sm:text-xl md:text-2xl font-medium\">\n              <span className=\"text-white\">Code</span>\n              <span className=\"text-blue-400\">Flow</span>\n            </span>\n          </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "So right below this div, I want to add a span. And in this span, I want to add two spans. Now, why are we using span here? Because I want to apply a different color to each of the words in the logo. And a span is very good for this because a span doesn't come with any extra styling or padding in it.",
+      "lines_changed": "7",
+      "timestamp_end": "00:15:46"
+    },
+    {
+      "timestamp": "00:15:47",
+      "language": "jsx",
+      "content": "          <div className=\"flex items-center space-x-1 group cursor-pointer\">\n             <img src=\"/logo.png\" alt=\"CodeFlow\" className=\"w-6 h-6 sm:w-8 sm:h-8\" />\n             <span className=\"text-lg sm:text-xl md:text-2xl font-medium\">\n               <span className=\"text-white\">Code</span>\n               <span className=\"text-blue-400\">Flow</span>\n             </span>\n          </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "So the logo section should be made through this div over here. And what we want to do with it is we want to set a display of flex. I want to center the items. And I also want to put a space in the X direction of one, so there's a small gap in between them. Then I want to add a group and add a cursor pointer, so when you hover it, it becomes a cursor.",
+      "lines_changed": "9",
+      "timestamp_end": "00:16:33"
+    },
+    {
+      "timestamp": "00:16:34",
+      "language": "jsx",
+      "content": "          {/* Nav Links */}\n          <div className=\"hidden\">\n          </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Now, I want to create the different links that we're going to have in this website. So I'm going to come outside of this div, right over here. And I want to add a comment here saying Nav Links. Then inside of this, I want to put a div that will have a class name which is hidden.",
+      "lines_changed": "4",
+      "timestamp_end": "00:17:32"
+    },
+    {
+      "timestamp": "00:17:33",
+      "language": "jsx",
+      "content": "          <div className=\"flex items-center space-x-6 lg:space-x-8\">\n            <a href=\"#features\" className=\"text-gray-300 hover:text-white text-sm lg:text-base\">Features</a>\n            <a href=\"#pricing\" className=\"text-gray-300 hover:text-white text-sm lg:text-base\">Pricing</a>\n            <a href=\"#testimonials\" className=\"text-gray-300 hover:text-white text-sm lg:text-base\">Testimonials</a>\n          </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Now, what I want to do is I want to set a display of flex. I want to center the items. Then I want to put a gap in between them of six... Now, if this is a large screen and above, I want to make the gap even more, so I'll put it as eight... Now, we're going to put all of our links... And when I hover it, then it becomes white.",
+      "lines_changed": "5",
+      "timestamp_end": "00:20:00"
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "00:10:00",
+      "visual_type": "browser_output",
+      "description": "Empty browser window on localhost:5173"
+    },
+    {
+      "timestamp": "00:19:35",
+      "visual_type": "browser_output",
+      "description": "The browser preview shows 'Features', 'Pricing', 'Testimonials' text elements displayed at the top right of the navbar."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:10:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "Navbar.jsx",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "width": 0.6,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "00:10:00",
+      "region_type": "browser",
+      "label": "Browser Preview",
+      "visible": true,
+      "sample_text": "localhost:5173",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.65,
+        "y": 0.05,
+        "width": 0.3,
+        "height": 0.9
+      }
+    }
+  ],
+  "screen_timeline": []
+}

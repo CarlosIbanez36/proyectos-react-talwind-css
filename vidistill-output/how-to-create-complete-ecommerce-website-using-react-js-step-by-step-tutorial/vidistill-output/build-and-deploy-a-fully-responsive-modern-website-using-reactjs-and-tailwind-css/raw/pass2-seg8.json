@@ -1,0 +1,101 @@
+{
+  "segment_index": 9,
+  "time_range": "01:20:00 - 01:30:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:20:00",
+      "language": "jsx",
+      "content": "l:text-4xl lg:text-5xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "And I want to set the duration to be 700."
+    },
+    {
+      "timestamp": "01:20:28",
+      "language": "css",
+      "content": "@layer utilities {\n  .slide-in-from-bottom {\n    animation-name: slideInFromBottom;\n  }\n\n  .duration-200 {\n    animation-duration: 200ms;\n  }\n\n  .duration-300 {\n    animation-duration: 300ms;\n  }\n\n  .duration-700 {\n    animation-duration: 700ms;\n  }\n\n  .delay-100 {\n    animation-delay: 100ms;\n  }\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "index.css",
+      "instructor_explanation": "We'll create a delay class similar to what we have here for durations, and we'll put a different delay depending on how much we want. For example, in this case, I want it to be a simple 100 millisecond delay"
+    },
+    {
+      "timestamp": "01:21:40",
+      "language": "jsx",
+      "content": "<span className=\"bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent block mb-1 sm:mb-2\">",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "What we're going to do is we're going to create a gradient which is from the background, and it goes to the right. And then what you can do is you can apply a BG clip text, and it will clip the background onto the text."
+    },
+    {
+      "timestamp": "01:22:56",
+      "language": "jsx",
+      "content": "<span className=\"bg-gradient-to-b from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent block mb-1 sm:mb-2\">",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "The middle one is not going to go from white. It's going to go from blue, because I want it to be very blue. It's going to go via cyan 400. And in the end it's going to go back to blue 400. So it has a slight gradient in between like this."
+    },
+    {
+      "timestamp": "01:23:46",
+      "language": "jsx",
+      "content": "<p className=\"text-md sm:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-6 sm:mb-8 animate-in slide-in-from-bottom duration-700 delay-200 leading-relaxed\">\n  Accelerate your development workflow with intelligent code completion, automated testing, and smart debugging. Ship production-ready code 10x faster.\n</p>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "We want to apply some styles to it. Like for example, the size I wanted to be medium, but on a bigger screen, I want it to be base... the color to not be just white, I want it to be gray 400."
+    },
+    {
+      "timestamp": "01:27:35",
+      "language": "css",
+      "content": ".delay-200 {\n    animation-delay: 200ms;\n}\n\n.delay-300 {\n    animation-delay: 300ms;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "index.css",
+      "instructor_explanation": "So we're going to create a delay 200 class which is going to just be a delay class that applies an animation delay of 200 milliseconds instead."
+    },
+    {
+      "timestamp": "01:27:49",
+      "language": "jsx",
+      "content": "<button className=\"group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-b from-blue-600 to-blue-400 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-102 flex items-center justify-center space-x-2\">\n  <span>Start Coding Free</span>\n  <ArrowRight className=\"w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300\" />\n</button>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "We want to come down here to the button and we want to add a class name, which is going to apply to a group... Then we're going to set a gradient color to the first button. It's going to be a gradient from the top to the bottom, and it's going to go from blue 600... and when you hover it, I want to set the scale of this button to increase slightly by only 2%."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:20:00",
+      "region_type": "code",
+      "label": "code_editor",
+      "visible": true,
+      "sample_text": "l:text-4xl lg:text-5xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700>",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.1,
+        "width": 0.6,
+        "height": 0.8
+      }
+    },
+    {
+      "timestamp": "01:20:00",
+      "region_type": "browser",
+      "label": "browser_preview",
+      "visible": true,
+      "sample_text": "Code Faster Build Better With CodeFlow AI",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0.65,
+        "y": 0.1,
+        "width": 0.35,
+        "height": 0.8
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}
