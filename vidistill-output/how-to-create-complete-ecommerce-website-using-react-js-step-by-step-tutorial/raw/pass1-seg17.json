@@ -1,0 +1,441 @@
+{
+  "segment_index": 0,
+  "time_range": "02:50:00 - 02:58:57",
+  "transcript_entries": [
+    {
+      "timestamp": "02:50:00",
+      "text": "And here we will add width of 504 pixel, margin-top 15 pixels, padding-left 20 pixels, and height 58 pixels, background this color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "504 pixel",
+        "margin-top",
+        "15 pixels",
+        "padding-left",
+        "20 pixels",
+        "height",
+        "58 pixels",
+        "background"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:50:01",
+      "text": "cart items promo box.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:50:18",
+      "text": "Now we will add the CSS properties for this input field.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Now"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:50:23",
+      "text": "So here we will add dot cart items promo box input tag.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:50:34",
+      "text": "Here we will provide border none, outline none, background transparent, font size 16 pixels, width of 330 pixels, height of 50 pixels.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:50:53",
+      "text": "Now we will add the CSS properties for this submit button.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:50:57",
+      "text": "So here we will add cart items promo box button tag.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:51:05",
+      "text": "So for this button we will provide width 170 pixels, height 58 pixels, font size 16 pixels, background black, color white, cursor pointer.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:51:19",
+      "text": "Now this promobox is ready. The design for this cart is ready.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "promobox",
+        "ready",
+        "design",
+        "cart"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:51:24",
+      "text": "Next we will insert the cart total value. So come here in ShopContext.jsx file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart total value",
+        "ShopContext.jsx"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:51:30",
+      "text": "So come here in Shop Context dot JSX file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Shop",
+        "Context",
+        "JSX"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:51:35",
+      "text": "Here we will create one function const getTotalCartAmount = () => { First we will create one variable let totalAmount = 0; So here we will run one for loop. Here we will pass our cart items from our cart. So we will add const item in cartItems.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "function",
+        "getTotalCartAmount",
+        "variable",
+        "totalAmount",
+        "0",
+        "for loop",
+        "cart items",
+        "cart",
+        "cartItems"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:52:16",
+      "text": "Here we will check the quantity of that item. If it is greater than zero, so we will add if. And we will add cartItems. In this one we will pass the item. If the item quantity is greater than zero, then we will add Let we will create a variable let itemInfo = all_product. Then we will find the product using find, and in this one we will pass one arrow function, and here we will pass the individual product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "quantity",
+        "item",
+        "greater than zero",
+        "if",
+        "cartItems",
+        "itemInfo",
+        "all_product",
+        "find",
+        "arrow function",
+        "individual product"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:53:03",
+      "text": "And here we will check if our product.id is equal to our item. So our item is string, so we have to convert this string in number. So here we will add number. If our product.id is equal to item, then we will get that product. And using that product, we can store that product data in itemInfo. Here we will add totalAmount += Here we will access the price of that product. So we will add itemInfo.new_price then multiply with the quantity. So to access the quantity, we will add cartItems, we will pass the item.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "check",
+        "product.id",
+        "equal to",
+        "item",
+        "string",
+        "convert",
+        "number",
+        "itemInfo",
+        "totalAmount",
+        "access",
+        "price",
+        "itemInfo.new_price",
+        "multiply",
+        "quantity",
+        "cartItems"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:53:59",
+      "text": "After running this function, we will get the total amount, so we will return our totalAmount.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "function",
+        "total amount",
+        "return",
+        "totalAmount"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:54:12",
+      "text": "Now we will send this function through our context.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:54:18",
+      "text": "So we will pass this function in context value.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:54:25",
+      "text": "And now we will access this function in our cart item component.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:54:29",
+      "text": "So come to the cart item component.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:54:34",
+      "text": "And here, first we will get that function using context API.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:54:40",
+      "text": "Now we will use this function in this cart total, so here we will add getTotalCartAmount",
+      "tone": "instructional",
+      "emphasis_words": [
+        "function",
+        "cart total",
+        "getTotalCartAmount"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:54:51",
+      "text": "And here we will add the same thing, getTotalCartAmount(). Now save this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "getTotalCartAmount",
+        "save"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:54:55",
+      "text": "Now, if I open any product and click on add to cart, let's open another product and add to cart. We have added three product. Now come to the cart page.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "product",
+        "add to cart",
+        "three product",
+        "cart page"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:55:08",
+      "text": "Now we have individual prices, and here we have the total price.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "individual prices",
+        "total price"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:55:18",
+      "text": "Now we will create a logic using that, we will count the number of item in our cart and that will be displayed in our Navbar.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:55:28",
+      "text": "So here we will create one function const getTotalCartItems = () => { In this one we will create one variable let totalItem = 0. So initially the total item is zero. And here we will run a for loop. And in this one we will pass the individual item from our cart items. So here we will add const item in cartItems.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "function",
+        "getTotalCartItems",
+        "variable",
+        "totalItem",
+        "zero",
+        "for loop",
+        "individual item",
+        "cart items",
+        "cartItems"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:56:20",
+      "text": "In this one we will check if our quantity for that item is greater than zero, so we will add cartItems item. If it is greater than zero then we will add that product quantity in the total item variable. So we will add totalItem += cartItems[item]. And after running this loop, we will return the total item.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "quantity",
+        "item",
+        "greater than zero",
+        "product",
+        "total item variable",
+        "totalItem",
+        "loop",
+        "return"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:57:09",
+      "text": "Now we can access this function in our Navbar. So here, come to the Navbar, Navbar.jsx file, and here we will import that function using Context API.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "access",
+        "function",
+        "Navbar",
+        "Navbar.jsx",
+        "Context API"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:57:24",
+      "text": "So we will add const get total cart items equal to use context.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:57:32",
+      "text": "And in this one, we will pass Shop Context.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass",
+        "Shop",
+        "Context"
+      ],
+      "pause_after_seconds": 1.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:57:38",
+      "text": "Now we will show this data in our nav cart count. So here we will add function name, and save this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav cart count",
+        "function name",
+        "save"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:57:49",
+      "text": "Now, if I add this product in the cart, if I clicked here, you can see quantity one. If I click again, you can see the quantity two in this Navbar.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "product",
+        "cart",
+        "quantity one",
+        "quantity two",
+        "Navbar"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:58:05",
+      "text": "And you can see it is here. If I click on this cross icon, we can easily remove the product from the cart.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "cross icon",
+        "remove",
+        "product",
+        "cart"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:58:12",
+      "text": "Now if I click on this product add to cart, then another product and add to cart, added three product.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "product",
+        "add to cart",
+        "three product"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:58:18",
+      "text": "Now here we have the cart total value 245 and this is the total individual item value.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "cart total value",
+        "total individual item value"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:58:28",
+      "text": "And here we can remove the product, so it is decreasing the total cart value and the count from this Navbar is also decreasing. If I remove it, it will become zero.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "remove",
+        "product",
+        "total cart value",
+        "count",
+        "Navbar",
+        "decreasing",
+        "zero"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:58:39",
+      "text": "So, finally we have successfully created our e-commerce website using react JS.",
+      "tone": "conversational",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:58:44",
+      "text": "Checkout the Link given in the description to create Backend & Login Registration system with Database.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:58:46",
+      "text": "I hope this video will be helpful for you, if you have any question, you can ask me in the comment section, please like and share this video and also subscribe my channel, Great Stack.",
+      "tone": "conversational",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:58:53",
+      "text": "Thank you so much for watching this video.",
+      "tone": "conversational",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_11",
+      "description": "The speaker is the instructor from the 'GreatStack' YouTube channel. They have a calm, instructional tone, and are consistently explaining technical coding steps for a React-based e-commerce project."
+    },
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker is the host of the GreatStack YouTube channel, providing technical instructions on React JS development with a clear, instructional, and calm tone."
+    }
+  ]
+}

@@ -1,0 +1,926 @@
+{
+  "segment_index": 0,
+  "time_range": "00:30:00 - 00:40:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:30:00",
+      "text": "We will use link from React Router DOM.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:30:07",
+      "text": "close it here, and insert this shop within this link.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "close",
+        "insert",
+        "shop",
+        "link"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:30:14",
+      "text": "And in this link we will add two equal to.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "two"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:30:19",
+      "text": "Here we will write the URL directory slash.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "write",
+        "URL",
+        "directory",
+        "slash"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:30:25",
+      "text": "So the shop component will be on home page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop",
+        "component",
+        "home page"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:30:29",
+      "text": "And it will be displayed on slash.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "displayed",
+        "slash"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:30:43",
+      "text": "Here we will add two then slash means.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "two",
+        "slash",
+        "means"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:31:04",
+      "text": "Similarly we will add this link tag in kids also.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link tag",
+        "kids"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:31:25",
+      "text": "Now we can add the link tag for this login button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "link tag",
+        "login button"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:31:37",
+      "text": "slash login, and move this button here within this link tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "slash login",
+        "move",
+        "button",
+        "link tag"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:31:47",
+      "text": "Now we will wrap this cart icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "wrap",
+        "cart icon"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:31:52",
+      "text": "So write link to equal to slash cart.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "write",
+        "link",
+        "slash cart"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:32:07",
+      "text": "Now save it, and if I click on men, you can see the URL slash men.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "click",
+        "URL",
+        "slash men"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:32:17",
+      "text": "If I click on women, you can see the URL. We are on slash women.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "click",
+        "women",
+        "URL",
+        "slash women"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:32:23",
+      "text": "If I click on login, you can see their URL, it is slash login.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "click",
+        "URL",
+        "slash login"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:32:35",
+      "text": "Now, we have one more underline here that is using a link tag property.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "underline",
+        "link tag property"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:32:42",
+      "text": "So we have to remove it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "remove"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:32:48",
+      "text": "Here on this link, we will add style equal to text decoration none.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "add",
+        "style",
+        "text decoration none"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:33:02",
+      "text": "And now, there is no underline effect on these text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "underline effect"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:33:07",
+      "text": "Now we have to create the hero component for our shop page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "hero component",
+        "shop page"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:33:13",
+      "text": "First we will create a new folder within this components, and here we will add a name, hero.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "folder",
+        "components",
+        "hero"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:33:29",
+      "text": "We will convert it into component using rafc.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "convert",
+        "component",
+        "rafc"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:33:34",
+      "text": "And we will add the class name for this div. So the class name is hero.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "class name",
+        "div",
+        "hero"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:33:40",
+      "text": "Now we have to create the CSS file for this hero component, so just create a new file in this hero component and write the file name, hero.css.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS file",
+        "hero component",
+        "hero.css"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:33:51",
+      "text": "Next we have to import this CSS file in here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "CSS file"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:33:55",
+      "text": "So we will add import, dot slash, hero.css.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "hero.css"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:04",
+      "text": "Now we have to mount this hero component in shop page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mount",
+        "hero component",
+        "shop page"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:12",
+      "text": "So come to pages, shop.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pages",
+        "shop.jsx"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:16",
+      "text": "Here we will add hero. Close it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:20",
+      "text": "Then save these changes. Now the shop page has this hero element.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "shop page",
+        "hero element"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:27",
+      "text": "now we will create the HTML structure for this hero element for this hero component",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "HTML structure",
+        "hero element",
+        "hero component"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:33",
+      "text": "For this hero component, we have to divide in two part hero left and right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero component",
+        "divide",
+        "hero left",
+        "right"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:37",
+      "text": "So we will add the div, dot hero left.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "hero left"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:44",
+      "text": "And we will create the another div with the class name hero right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "div",
+        "class name",
+        "hero right"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:50",
+      "text": "For the left part, we will add the S2 tag for the header.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "left part",
+        "add",
+        "S2 tag",
+        "header"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:34:56",
+      "text": "So in this S2 tag we will add the text new arrivals only.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "S2 tag",
+        "add",
+        "text",
+        "new arrivals only"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:35:03",
+      "text": "Next we will create another div, and within this div we will add another div.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "div"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:35:09",
+      "text": "And we will provide one class name that is hero hand icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name",
+        "hero hand icon"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:35:16",
+      "text": "And in this div we will add one paragraph text that is new.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "add",
+        "paragraph text",
+        "new"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:35:24",
+      "text": "And we will insert one image tag and in this one we will add one image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "insert",
+        "image tag",
+        "add",
+        "image"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:35:31",
+      "text": "So let's add one import tag here to import the image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "import tag",
+        "import",
+        "image"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:35:36",
+      "text": "Import hand icon from our asset folder, so we will add double dot slash assets.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hand icon",
+        "asset folder"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:35:52",
+      "text": "Then we can simply add hand icon in this IMG tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "hand icon",
+        "IMG tag"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:35:57",
+      "text": "After that here, we have to add one paragraph tag, where we will add collection.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph tag",
+        "collection"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:36:06",
+      "text": "And after that we will add one more paragraph tag and here we will add for everyone, collections for everyone.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "paragraph tag",
+        "for everyone",
+        "collections for everyone"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:36:17",
+      "text": "Now after this div, we will create the latest collections button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "latest collections button"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:36:22",
+      "text": "So we will create one div with the class name hero latest button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "div",
+        "class name",
+        "hero latest button"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:36:31",
+      "text": "And in this div we will create another div and we will add the text latest collection.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "create",
+        "div",
+        "add",
+        "latest collection"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:36:41",
+      "text": "Next we will insert one image tag and here we will add the arrow icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "insert",
+        "image tag",
+        "add",
+        "arrow icon"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:36:49",
+      "text": "So again we have to import the arrow icon, we will add import arrow icon from and asset folder.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "arrow icon",
+        "add",
+        "import",
+        "arrow icon",
+        "asset folder"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:02",
+      "text": "And here we will add the arrow icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "arrow icon"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:09",
+      "text": "Now we will add the content in the right side.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "content",
+        "right side"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:13",
+      "text": "So in this hero right we will add the IMG tag and here we will add one hero image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero right",
+        "add",
+        "IMG tag",
+        "add",
+        "hero image"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:21",
+      "text": "Let's add the text hero image from assets folder.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "hero image",
+        "assets folder"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:30",
+      "text": "Hero image dot PNG.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero image",
+        "PNG"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:34",
+      "text": "Here we will insert that image, hero image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "insert",
+        "image",
+        "hero image"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:39",
+      "text": "Save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:42",
+      "text": "So you can see the hero element is looking like this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero element"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:46",
+      "text": "Next we have to apply the CSS properties.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "apply",
+        "CSS properties"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:50",
+      "text": "So we will come to the hero dot CSS file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero.css file"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:37:55",
+      "text": "Here first we will use the class name that is hero.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name",
+        "hero"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:38:00",
+      "text": "So for this one, we will add the height, it will be 100 before height.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:38:06",
+      "text": "Then we will add the background, so in this one we have to add a linear gradient color with 180 degree rotation.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "linear gradient color",
+        "rotation"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:38:13",
+      "text": "Now we will add the display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "display flex"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:38:22",
+      "text": "So you can see the linear gradient color for this hero section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "linear gradient color",
+        "hero section"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:38:30",
+      "text": "Next we will add the CSS properties for the hero left.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS properties",
+        "hero left"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:38:33",
+      "text": "Write this class name here, and here we will add flex one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name",
+        "add",
+        "flex one"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:38:40",
+      "text": "Display will be flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Display",
+        "flex"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:38:45",
+      "text": "Flex direction will be column, and justify content will be center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "flex direction",
+        "column",
+        "justify content",
+        "center"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:38:54",
+      "text": "Let's add the gap of 20 pixel, then padding of 180 pixel from the left side, and line height of 1.1.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "20 pixel",
+        "padding",
+        "180 pixel",
+        "line height"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:39:11",
+      "text": "Now we will add the CSS properties for the S2 tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS properties",
+        "S2 tag"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:39:15",
+      "text": "So here we will add dot hero left S2 tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "hero left",
+        "S2 tag"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:39:20",
+      "text": "And in this one, we have to change the color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "color"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:39:30",
+      "text": "Then we will change the font size, so it will be 26 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "font size",
+        "26 pixel"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:39:40",
+      "text": "Next we will add the properties for the P tag, so here we will add hero left P tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "properties",
+        "P tag",
+        "hero left P tag"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:39:48",
+      "text": "Here we will use the color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "use",
+        "color code"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:39:52",
+      "text": "Then we will add the font size of 100 pixel, font weight of 700.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "font size",
+        "100 pixel",
+        "font weight",
+        "700"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_01",
+      "description": "The primary speaker, identified as the host of the GreatStack YouTube channel. They have a clear, instructional, and calm voice, frequently explaining code structure and web development concepts in a tutorial style."
+    }
+  ]
+}

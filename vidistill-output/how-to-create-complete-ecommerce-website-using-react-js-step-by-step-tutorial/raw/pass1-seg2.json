@@ -1,0 +1,931 @@
+{
+  "segment_index": 0,
+  "time_range": "20:00 - 30:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:20:28",
+      "text": "Just add set menu and when we will click on shop, so our menu should store shop.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HR"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:20:33",
+      "text": "So, if the state is shop, then HR will be applied here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop",
+        "HR"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:20:38",
+      "text": "Let me remove it from here and here we will insert the ternary operator.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "remove"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:20:43",
+      "text": "So first we will check if our menu is shop.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:20:50",
+      "text": "Then we will provide the HR tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HR"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:20:55",
+      "text": "And if it is not shop, then it will be empty tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:21:01",
+      "text": "Now we will use the ternary operator, copy it and add it in the another one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "ternary operator"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:21:10",
+      "text": "We will add it in all three LI.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "three"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:21:14",
+      "text": "Here we will change it as mens.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mens"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:21:17",
+      "text": "If the menu is mens, then here we will add HR.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mens",
+        "HR"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:21:25",
+      "text": "Then, in the third one we will add womens and in the last one we will add kids.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "womens",
+        "kids"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:21:33",
+      "text": "If the menu is kids, the HR will be provided here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "kids",
+        "HR"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:21:37",
+      "text": "Save this, and now, if I click on men, you can see underline here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "men",
+        "underline"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:21:49",
+      "text": "If I click on kids, this underline is here on this kids.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "kids",
+        "underline"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:21:55",
+      "text": "Now we are going to add the Google fonts for our project.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Google fonts"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:22:00",
+      "text": "So come to the Google and search for Poppins font.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Google",
+        "Poppins"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:22:06",
+      "text": "Open this one, and here you can select the regular.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "regular"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:22:15",
+      "text": "Then click here to copy this link.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:22:20",
+      "text": "In your public folder, index.html file, add it here after this link.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "public folder",
+        "index.html"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:22:28",
+      "text": "Paste the copied URL and save it, then come to index.css file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paste",
+        "index.css"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:22:36",
+      "text": "Here we will add font family, poppins, save it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font family",
+        "poppins"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:22:45",
+      "text": "You can see the poppins font has been applied on our project.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "poppins",
+        "applied"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:22:53",
+      "text": "Next we will create pages for our e-commerce site.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pages",
+        "e-commerce"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:23:02",
+      "text": "So, in this pages we will create a new file and write the file name shop.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop.jsx"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:23:13",
+      "text": "Here we will add rafc to convert it into component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rafc",
+        "component"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:23:20",
+      "text": "Now we will create login sign up page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "login",
+        "sign up"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:23:23",
+      "text": "So create a new file and write the file name login signup.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "login signup.jsx"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:23:37",
+      "text": "Here also we will add rafc to convert it into component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rafc"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:23:41",
+      "text": "Next we will create another page for the shop category, that is shop category.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop category"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:23:51",
+      "text": "Shop category.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Shop category.jsx"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:23:54",
+      "text": "Here also rafc.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rafc"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:23:58",
+      "text": "Now we will create product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:01",
+      "text": "Create new file and write the file name product.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product.jsx"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:08",
+      "text": "Here also we will add rafc.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rafc"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:12",
+      "text": "Now we will create another page for our cart.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:17",
+      "text": "So write the file name cart.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart.jsx"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:24",
+      "text": "Here also rafc.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rafc"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:29",
+      "text": "Now we have created five pages, cart, login sign up, product page, shop page and shop category.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "five",
+        "pages"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:38",
+      "text": "Shop page will be our home page and shop category page where we will render the different categories, mens, women and kids.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop page",
+        "shop category page"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:49",
+      "text": "In the app.js file we will set up our routes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "app.js",
+        "routes"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:54",
+      "text": "And we will link that with our navigation bar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "navigation bar"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:24:58",
+      "text": "So here, in app.js we will add import.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "app.js",
+        "import"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:25:02",
+      "text": "We will import browser router from react router dom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "browser router",
+        "react router dom"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:25:11",
+      "text": "Here we will add one more thing which is routes, then comma route.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "routes",
+        "route"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:25:17",
+      "text": "So we have imported browser router, routes and route from the react router dom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "browser router",
+        "routes",
+        "route"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:25:25",
+      "text": "Now in this div we will add the browser router.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "browser router"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:25:31",
+      "text": "And we have to wrap all the components using this browser router.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "wrap",
+        "components"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:25:38",
+      "text": "So this navbar will be available in all the components.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navbar"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:25:44",
+      "text": "And after this navbar we will set up our routes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navbar",
+        "routes"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:25:47",
+      "text": "So here let's add routes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "routes"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:25:52",
+      "text": "Within this routes we will add route.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "routes",
+        "route"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:02",
+      "text": "So the first thing is to set a path.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "path"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:04",
+      "text": "For the home page we will add slash.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "home page",
+        "slash"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:07",
+      "text": "Element, and in this element we will insert this shop page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "element",
+        "shop page"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:19",
+      "text": "Here we will add shop.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:24",
+      "text": "And close it.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "close"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:26",
+      "text": "Now, close this route.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "route"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:30",
+      "text": "So if someone comes to this slash path, then this shop page will be rendered.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "slash path",
+        "shop page"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:38",
+      "text": "Now, similarly we will copy it and change the path.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "path"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:43",
+      "text": "Here we will add slash mens.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "slash mens"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:46",
+      "text": "If someone comes to the mens path, so then we will render shop category page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mens path",
+        "shop category page"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:26:54",
+      "text": "Again copy and paste and here we will add womens.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "paste",
+        "womens"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:01",
+      "text": "Path is slash womens, so again we will use the same thing shop category page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "slash womens",
+        "shop category page"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:08",
+      "text": "And if someone comes on slash kids path, then also we will use the shop category page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "slash kids path",
+        "shop category page"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:17",
+      "text": "Now here we will add some props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "props"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:21",
+      "text": "So if someone comes on mens, so here we will add a category.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mens",
+        "category"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:30",
+      "text": "Equals mens.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mens"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:34",
+      "text": "Just copy it and paste it in the second one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "paste"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:38",
+      "text": "This will be woman, this will be men.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "woman",
+        "men"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:42",
+      "text": "And in the last one we will add category is equal to kid.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "category",
+        "kid"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:48",
+      "text": "Now we will set the route for our product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "route",
+        "product"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:52",
+      "text": "Here we will add route.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "route"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:27:59",
+      "text": "The route path will be product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:28:07",
+      "text": "And we will use the element product element.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "element",
+        "product element"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:28:13",
+      "text": "So I am writing product slash closing tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "closing tag"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:28:21",
+      "text": "Now in this route we will add product ID path, so here let's add route.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "route",
+        "product ID path"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:28:43",
+      "text": "For this we will render element product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "render",
+        "element",
+        "product"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:28:50",
+      "text": "Close this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Close"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:28:53",
+      "text": "So we have setup the route for home, mens, womens, kids, product and product ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "setup",
+        "route",
+        "home",
+        "mens",
+        "womens",
+        "kids",
+        "product",
+        "product ID"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:29:01",
+      "text": "Now we will set the route for our cart.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "route",
+        "cart"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:29:24",
+      "text": "Now we will set the path for our login page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "path",
+        "login page"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:29:42",
+      "text": "Now we have set up our complete route.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "complete",
+        "route"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:29:45",
+      "text": "Now we will link this route with our navigation bar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "route",
+        "navigation bar"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:29:48",
+      "text": "So we will come to the navigation bar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navigation bar"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:29:51",
+      "text": "Now we have to set the navigation menu with route.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navigation menu",
+        "route"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:29:56",
+      "text": "So we will use the link tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "tag"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker has a clear, instructional, and calm voice, likely representing the 'GreatStack' educational channel, focusing on teaching web development concepts and coding practices."
+    }
+  ]
+}

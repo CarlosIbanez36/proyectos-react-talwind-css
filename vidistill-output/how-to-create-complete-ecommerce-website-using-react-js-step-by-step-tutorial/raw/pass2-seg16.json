@@ -1,0 +1,171 @@
+{
+  "segment_index": 0,
+  "time_range": "02:40:02 - 02:49:59",
+  "code_blocks": [
+    {
+      "timestamp": "02:40:12",
+      "language": "css",
+      "content": ".cartitems-format-main {\n  display: grid;\n  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;\n  align-items: center;\n  gap: 75px;\n  padding: 20px 0px;\n  color: #454545;\n  font-size: 18px;\n  font-weight: 600;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "CartItems.css",
+      "instructor_explanation": "Here we will add display grid, grid template column 0.5 fraction, two fraction, one fraction, one fraction, one fraction and one fraction, align items center, gap 75 pixels, padding of 20 pixels, zero pixel, color, this color code, then font size 18 pixel, and font weight 600."
+    },
+    {
+      "timestamp": "02:41:26",
+      "language": "css",
+      "content": ".cartitems-format {\n  font-size: 17px;\n  font-weight: 500;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "Here we will add cart items format. Here we will add font size of 17 pixels, font weight of 500."
+    },
+    {
+      "timestamp": "02:41:51",
+      "language": "css",
+      "content": ".carticon-product-icon {\n  height: 62px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "Here we will add the height of 62 pixels."
+    },
+    {
+      "timestamp": "02:42:17",
+      "language": "css",
+      "content": ".cartitems-remove-icon {\n  width: 15px;\n  margin: 0px 40px;\n  cursor: pointer;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "Width 15 pixels, margin 0 pixel, 40 pixels, cursor pointer."
+    },
+    {
+      "timestamp": "02:42:42",
+      "language": "css",
+      "content": ".cartitems-quantity {\n  width: 64px;\n  height: 50px;\n  border: 2px solid #ebebeb;\n  background: #ffffff;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "And for this class name we will add the width of 64 pixels, height 50 pixels, border of 2 pixel solid and this color code, background white."
+    },
+    {
+      "timestamp": "02:43:46",
+      "language": "javascript",
+      "content": "<div className=\"cartitems-down\">\n  <div className=\"cartitems-total\">\n    <h1>cart Totals</h1>\n    <div>\n      <div className=\"cartitems-total-item\">\n        <p>Subtotal</p>\n        <p>${0}</p>\n      </div>\n      <hr />\n      <div className=\"cartitems-total-item\">\n        <p>Shipping Fee</p>\n        <p>Free</p>\n      </div>\n      <hr />\n      <div className=\"cartitems-total-item\">\n        <h3>Total</h3>\n        <h3>${0}</h3>\n      </div>\n      <button>PROCEED TO CHECKOUT</button>\n    </div>\n    <div className=\"cartitems-promocode\">\n      <p>If you have a promo code, Enter it here</p>\n      <div className=\"cartitems-promobox\">\n        <input type=\"text\" placeholder=\"promo code\" />\n        <button>Submit</button>\n      </div>\n    </div>\n  </div>\n</div>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.jsx",
+      "instructor_explanation": "After that we will create another div with the class name cart items total. Then we will add one text in H1 tag. So let's add the text, cart totals. After this H1 tag, we will create one div. And in this div we will create another div with the class name, cart items total item. In this div we will use the paragraph text. Here we will add subtotal. And after this paragraph text we will add another paragraph text, and in this one we will insert dollar sign. So let me write zero for now. And we will display this data using our context. After this div we will add one HR tag. And here we will create one div and the class name will be same, cart items total item. In this div we will create two paragraph tags. So, first one will be shipping fee. And the second paragraph tag will be free. After this div we will add one HR tag. And after that, we will insert a div with the same class name. Cart items total item. Another H3 tag and here we will display dollar sign and the total cart value. So here we will add zero for now. After this div we will create one button tag. In this one we will add the text that is proceed to checkout. Now we will create one promo code section. So here we will add div dot cart items promo code. In this div we will insert a paragraph text, and here we will add, if you have a promo code, enter it here. After that we will add one div tag with the class name cart item promo box. Now in this one we will insert one input tag. Here we will insert the placeholder, and the placeholder text will be promo code. After that, we will add one button. And in this button we will add the button text, submit."
+    },
+    {
+      "timestamp": "02:47:28",
+      "language": "css",
+      "content": ".cartitems-down {\n  display: flex;\n  margin: 100px 0px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "So here we will add display flex, margin 100 pixel and zero pixel."
+    },
+    {
+      "timestamp": "02:47:44",
+      "language": "css",
+      "content": ".cartitems-total {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  margin-right: 200px;\n  gap: 40px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "Here we will provide flex one, display flex, flex direction column, margin right of 200 pixels, gap 40 pixels."
+    },
+    {
+      "timestamp": "02:48:16",
+      "language": "css",
+      "content": ".cartitems-total-item {\n  display: flex;\n  justify-content: space-between;\n  padding: 15px 0px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "So here we will provide display flex, justify content space between, padding 15 pixels and zero pixel."
+    },
+    {
+      "timestamp": "02:48:43",
+      "language": "css",
+      "content": ".cartitems-total button {\n  width: 262px;\n  height: 58px;\n  outline: none;\n  border: none;\n  background: #ff5a5a;\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n  cursor: pointer;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "Here we will provide width of 262 pixels, height of 58 pixels, outline none, border none, background this color code, color white, and font size 16 pixels, font weight of 600 and cursor pointer."
+    },
+    {
+      "timestamp": "02:49:21",
+      "language": "css",
+      "content": ".cartitems-promocode {\n  flex: 1;\n  font-size: 16px;\n  font-weight: 500;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "For this one we will provide flex one, font size 16 pixels, font weight of 500."
+    },
+    {
+      "timestamp": "02:49:48",
+      "language": "css",
+      "content": ".cartitems-promocode p {\n  color: #555;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "For this paragraph we will provide color this color code."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "02:40:37",
+      "visual_type": "browser_output",
+      "description": "The cart page displays three product items."
+    },
+    {
+      "timestamp": "02:47:10",
+      "visual_type": "browser_output",
+      "description": "Web page displaying updated cart items with a 'cart totals' section and a 'promo code' box."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "02:40:02",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "const {all_product, cartItems, removeFromCart} = useContext(ShopContext)",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0.28,
+        "y": 0.05,
+        "width": 0.72,
+        "height": 0.95
+      }
+    },
+    {
+      "timestamp": "02:40:37",
+      "region_type": "browser",
+      "label": "Web Page",
+      "visible": true,
+      "sample_text": "localhost:3000/cart",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0.05,
+        "width": 1,
+        "height": 0.95
+      }
+    },
+    {
+      "timestamp": "02:47:10",
+      "region_type": "browser",
+      "label": "Web Page",
+      "visible": true,
+      "sample_text": "cart Totals",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0.05,
+        "width": 1,
+        "height": 0.95
+      }
+    }
+  ],
+  "screen_timeline": []
+}

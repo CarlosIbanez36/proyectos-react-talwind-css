@@ -1,0 +1,463 @@
+{
+  "segment_index": 0,
+  "time_range": "10:00:00 - 10:20:00",
+  "transcript_entries": [
+    {
+      "timestamp": "10:00:00",
+      "text": "the images assets. So, select all the images copy and add it in the project assets folder. Paste it here. So, our assets has been inserted here in this assets folder.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "all",
+        "copy"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "10:16:00",
+      "text": "Now, we have all the icons, product images and product data also. In all product.js file, we have all the product data.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "all"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "10:28:00",
+      "text": "These data are in JSON format. Here we have the ID, product name, product category, product image, new price, and old price.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "JSON"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "10:41:00",
+      "text": "So, total we have 36 products available in this all product.js file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "36"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "10:49:00",
+      "text": "Now, we will come back to our navbar. So, in this navbar, we will import the logo and icons. So, just add import.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "11:00:00",
+      "text": "logo from ./assets/logo.png.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logo"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "11:11:00",
+      "text": "Then we will add import, cart icon from ./assets/cart_icon.png.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "11:26:00",
+      "text": "Now within this div, we will create one div with the class name nav-logo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav-logo"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "11:33:00",
+      "text": "Within this nav-logo, we will insert the img tag and in this SRC, we will insert the logo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "img"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "11:42:00",
+      "text": "Now we will add one P tag to add the text. Here we will add the text, shopper. You can see on the webpage.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shopper"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "11:52:00",
+      "text": "Now we will add the UL tag and write the class name, nav-menu.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "UL",
+        "nav-menu"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "12:00:00",
+      "text": "Within this one we will add the list items. So, we will add LI and we need four list items so copy and paste it and here we will add the text. First one is shop then men, then women, then kids.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "four"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "12:18:00",
+      "text": "Next we will create another div with the class name nav-login-cart.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav-login-cart"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "12:25:00",
+      "text": "In this one, we will add the button tag. And in this button, we will add login. And now, we will add one img tag and add the cart icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button",
+        "login",
+        "cart icon"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "12:39:00",
+      "text": "So, this is the navbar where we have the logo, some menu links, login button and cart icon. Now, we have to apply the CSS properties for this navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navbar"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "12:50:00",
+      "text": "Let's add this class name here, navbar. For this navbar we will add display flex, justify-content, space-around. Let's add the padding of 16 pixel and small box shadow.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex",
+        "16 pixel"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "13:13:00",
+      "text": "Now we will add the CSS properties for nav-logo class name. Write this class name here. Nav-logo, and for this one, we will add display flex, align items center, and gap of 10 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav-logo",
+        "display flex",
+        "align items center"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "13:33:00",
+      "text": "Now, the shopper text and logo are side by side.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "shopper",
+        "logo"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "13:38:00",
+      "text": "Now, we will add the CSS for this P tag, so here we will add nav-logo and P. We will change the color, then we will increase the font size and change the font weight. It is 600. So this logo looks good.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color",
+        "font size",
+        "600"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "14:02:00",
+      "text": "Now, we will add the CSS for nav-menu class name. Write this class name here nav-menu and we will add display flex, align items center, list style none, gap of 50 pixel and let's change the color. Then we will increase the font size so it is 20 pixel and font weight will be 500.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav-menu",
+        "50 pixel",
+        "20 pixel",
+        "500"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "14:39:00",
+      "text": "Next we have to add the CSS for these list items.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "list items"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "14:44:00",
+      "text": "So here we will add nav-menu LI and in this one, just add display flex, flex direction column, and align items center, justify content will be center and gap of 3 pixel, cursor will be pointer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav-menu LI",
+        "display flex",
+        "flex direction column"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "15:17:00",
+      "text": "Now, in the first LI tag we will add one HR tag. Now we will add the CSS for this HR tag. So here in this CSS we will add nav-menu HR and let's add the border none, width of 80%, and height of 3 pixel, and border radius of 10 pixel. Then, background and this color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HR",
+        "80%",
+        "3 pixel"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "15:58:00",
+      "text": "Now, copy this class name nav-login-cart. Add it here. nav-login-cart and in this one we will add display flex, align items center, gap of 45 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav-login-cart",
+        "45 pixel"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "16:23:00",
+      "text": "So now we will add the CSS for this login button. So just add this class name nav-login-cart, space button. For this button we will add the width of 157 pixel and height of 58 pixel, then outline will be none and border will be 1 pixel solid and one color code. So, we will add this color code. Border radius will be 75 pixels and then, color. This will be the button text color. Then font size of 20 pixels, then change the font weight. Then we will add the background white, so the button will be white and cursor will be pointer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "login button",
+        "157 pixel",
+        "58 pixel",
+        "white"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "17:16:00",
+      "text": "Now we will add the click effect on this button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "click effect"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "17:19:00",
+      "text": "So here just add Nav-login-cart, space button, colon, active.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Nav-login-cart",
+        "button",
+        "active"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "17:26:00",
+      "text": "Here we will change the background.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "17:35:00",
+      "text": "Now, we will add a counter on our cart icon. So, after this IMG we will add one div with the class name nav-cart-count. The value will be zero. Now for this class name we will add the CSS properties.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "counter",
+        "cart icon",
+        "nav-cart-count"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "17:53:00",
+      "text": "Just add this class name here and, in this one, we will add the width of 22 pixel and height, it will be same, 22 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "nav-cart-count",
+        "width",
+        "height"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "18:05:00",
+      "text": "Display will be flex, justify content will be center and align item also center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex",
+        "justify content",
+        "align item center"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "18:15:00",
+      "text": "Just add margin top minus 35 pixel and margin left minus 55 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin top",
+        "margin left"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "18:25:00",
+      "text": "Next we will add the border radius of 11 pixel and font size will be 14 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border radius",
+        "font size"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "18:34:00",
+      "text": "Then background. Background will be red and color will be white.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "color"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "18:46:00",
+      "text": "Now we will create a use state variable that will be used to change the state when we will click on shop, this underline will be on shop, when we will click on men, this will go to the men.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "use state",
+        "variable",
+        "click"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "19:07:00",
+      "text": "And here we will create one use state variable.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "use state variable"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "19:10:00",
+      "text": "So write const menu set menu equal to use state.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "const",
+        "use state"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "19:25:00",
+      "text": "So, we will initialize the menu with the shop.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "initialize",
+        "shop"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "19:31:00",
+      "text": "Now, in all four LI, we will add on click.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "LI",
+        "on click"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "19:39:00",
+      "text": "In this on click, we will pass one arrow function and in this arrow function, we will set the menu.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "on click",
+        "arrow function",
+        "set the menu"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "19:48:00",
+      "text": "Just add set menu and when we will click on shop, so our menu should store shop.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "set menu",
+        "shop"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker provides technical coding tutorials, specifically in React development, with a calm, informative, and methodical tone, consistent with the channel 'GreatStack'."
+    }
+  ]
+}

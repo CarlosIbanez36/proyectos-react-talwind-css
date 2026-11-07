@@ -1,0 +1,1395 @@
+{
+  "segment_index": 0,
+  "time_range": "01:50:00 - 02:00:00",
+  "transcript_entries": [
+    {
+      "timestamp": "01:50:00",
+      "text": "breadcrumb.jsx",
+      "tone": "neutral",
+      "emphasis_words": [
+        "breadcrumb.jsx"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:01",
+      "text": "dot JSX",
+      "tone": "instructional",
+      "emphasis_words": [
+        "JSX"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:06",
+      "text": "In this JSX file, we will add add FC",
+      "tone": "instructional",
+      "emphasis_words": [
+        "JSX",
+        "FC"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:10",
+      "text": "And here, we will add the className Breadcrumb.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "className",
+        "Breadcrumb"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:13",
+      "text": "that come",
+      "tone": "instructional",
+      "emphasis_words": [
+        "come"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:18",
+      "text": "For this component we will create one CSS file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:21",
+      "text": "Create a new file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "new",
+        "file"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:23",
+      "text": "bread crumb",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bread",
+        "crumb"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:27",
+      "text": "Now, import this CSS file in this breadcrumb dot JSX file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "JSX"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:32",
+      "text": "Here we will add import",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:36",
+      "text": "bread crumb",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bread",
+        "crumb"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:40",
+      "text": "Now save these changes, and within this component, we will use props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "props"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:45",
+      "text": "Using this props, we will get the product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "props",
+        "product"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:48",
+      "text": "So here, we will add const",
+      "tone": "instructional",
+      "emphasis_words": [
+        "const"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:50:57",
+      "text": "So, we got the product using props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "props"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:00",
+      "text": "And the product data will be used in this breadcrumb.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "breadcrumb"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:04",
+      "text": "So here we will add home.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "home"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:07",
+      "text": "After that we will use the arrow icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "arrow",
+        "icon"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:11",
+      "text": "So we will import the arrow icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "arrow",
+        "icon"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:21",
+      "text": "breadcrumb arrow dot PNG.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "breadcrumb",
+        "arrow",
+        "PNG"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:25",
+      "text": "After this home, we will insert our image tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "home",
+        "image",
+        "tag"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:30",
+      "text": "In this image tag, we will add the arrow icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "tag",
+        "arrow",
+        "icon"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:37",
+      "text": "After this image tag we will add shop.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "tag",
+        "shop"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:41",
+      "text": "After that again we will add that image tag, and again we will add the same icon, arrow icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "tag",
+        "icon",
+        "arrow",
+        "icon"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:51:51",
+      "text": "After this image tag we will use the JavaScript variable that will be our product dot category.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "tag",
+        "JavaScript",
+        "product",
+        "category"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:02",
+      "text": "After this category, again we will insert that icon, using IMG tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "category",
+        "icon",
+        "IMG",
+        "tag"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:13",
+      "text": "And after this image, we will insert the product name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "product",
+        "name"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:17",
+      "text": "Here we will add the product dot name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "name"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:21",
+      "text": "Then save the file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "file"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:23",
+      "text": "Now, we will mount this breadcrumb component in our product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mount",
+        "breadcrumb",
+        "component",
+        "product",
+        "page"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:31",
+      "text": "Here we will add bread crumb.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bread",
+        "crumb"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:35",
+      "text": "And in this one we will pass the props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass",
+        "props"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:43",
+      "text": "Now save the file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "file"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:46",
+      "text": "Now, we will link this product page with the product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "product",
+        "page",
+        "product"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:50",
+      "text": "For that we will come to the item components.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "item",
+        "components"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:52",
+      "text": "Click on item dot JSX file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "item",
+        "JSX"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:52:56",
+      "text": "Now, we will link the item image with the product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "item",
+        "image",
+        "product"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:00",
+      "text": "So here we will use link.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:05",
+      "text": "After that, we will wrap this image tag within this link tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "wrap",
+        "image",
+        "tag",
+        "link",
+        "tag"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:10",
+      "text": "And here we will add to.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:15",
+      "text": "In this one we will use template literal.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "template",
+        "literal"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:19",
+      "text": "Here we will insert the backticks, slash product, slash and here we will insert our product ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "backticks",
+        "slash",
+        "product",
+        "slash",
+        "product",
+        "ID"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:27",
+      "text": "That we will get through props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "get",
+        "props"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:30",
+      "text": "So here we will write dollar sign, curly braces, and here we will write the props dot ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dollar",
+        "sign",
+        "curly",
+        "braces",
+        "props",
+        "ID"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:40",
+      "text": "So we have wrapped the image tag using link.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "wrapped",
+        "image",
+        "tag",
+        "link"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:43",
+      "text": "And in this link we have provided the product ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "product",
+        "ID"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:47",
+      "text": "Using that we can navigate to the product ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navigate",
+        "product",
+        "ID"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:50",
+      "text": "Save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "changes"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:53:52",
+      "text": "If I click on this product image, we will come to the product page where you can see the product ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "click",
+        "product",
+        "image",
+        "product",
+        "page",
+        "product",
+        "ID"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:54:00",
+      "text": "Now we will create the product display component where we will get all the product images and other details.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "product",
+        "display",
+        "component",
+        "get",
+        "product",
+        "images",
+        "details"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:54:10",
+      "text": "So here we will create a new folder within this component folder.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "new",
+        "folder",
+        "component",
+        "folder"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:54:17",
+      "text": "So let's write the folder name, product display.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "write",
+        "folder",
+        "name",
+        "product",
+        "display"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:54:25",
+      "text": "Within this folder we will create a new file, product display dot JSX.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "folder",
+        "create",
+        "new",
+        "file",
+        "product",
+        "display",
+        "JSX"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:54:33",
+      "text": "Here we will use our FC.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "FC"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:54:38",
+      "text": "And here we will provide the class name, product display.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "name",
+        "product",
+        "display"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:54:46",
+      "text": "Now we will create a CSS file for this product display component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "CSS",
+        "file",
+        "product",
+        "display",
+        "component"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:54:50",
+      "text": "So here we will create a new file, product display dot CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "new",
+        "file",
+        "product",
+        "display",
+        "CSS"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:54:56",
+      "text": "And now we will import this CSS file in this JSX file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "CSS",
+        "file",
+        "JSX",
+        "file"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:00",
+      "text": "So here we will add import",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:05",
+      "text": "product display dot CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "display",
+        "CSS"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:07",
+      "text": "Save these files.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "files"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:09",
+      "text": "Now, we will mount this product display in our product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mount",
+        "product",
+        "display",
+        "product",
+        "page"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:13",
+      "text": "So after this breadcrumb we will mount",
+      "tone": "instructional",
+      "emphasis_words": [
+        "breadcrumb",
+        "mount"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:23",
+      "text": "And here we will pass the props product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass",
+        "props",
+        "product"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:31",
+      "text": "Where we will pass the product data.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass",
+        "product",
+        "data"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:36",
+      "text": "Using this props we will display our product image title and prices.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "props",
+        "display",
+        "product",
+        "image",
+        "title",
+        "prices"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:42",
+      "text": "So, we will come to the product display dot JSX file and here we will create HTML structure for our product display component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "display",
+        "JSX",
+        "file",
+        "create",
+        "HTML",
+        "structure",
+        "product",
+        "display",
+        "component"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:51",
+      "text": "So here we will create two div",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "div"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:55:55",
+      "text": "that will be product display left and product display right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "display",
+        "left",
+        "product",
+        "display",
+        "right"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:56:05",
+      "text": "Now in this product display left class name we will add one div with the class name product display image list.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "display",
+        "left",
+        "class",
+        "name",
+        "div",
+        "class",
+        "name",
+        "product",
+        "display",
+        "image",
+        "list"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:56:15",
+      "text": "In this div we will use four image tags.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "image",
+        "tags"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:56:20",
+      "text": "Here we will use IMG tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "IMG",
+        "tag"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:56:24",
+      "text": "And here we will provide the product image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "provide",
+        "product",
+        "image"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:56:27",
+      "text": "So first, we will insert the product data using props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "first",
+        "insert",
+        "product",
+        "data",
+        "props"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:56:34",
+      "text": "Here we will add const",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "const"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:56:45",
+      "text": "So in this image SRC we will use",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "SRC"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:56:49",
+      "text": "product dot image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "image"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:56:55",
+      "text": "And copy this image tag and paste it again.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "image",
+        "tag",
+        "paste"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:00",
+      "text": "After this div we will create another div with the class name, product display image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "create",
+        "another",
+        "div",
+        "class",
+        "name",
+        "product",
+        "display",
+        "image"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:08",
+      "text": "In this div we will create one image tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "create",
+        "image",
+        "tag"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:12",
+      "text": "In this one we will provide the product image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "provide",
+        "product",
+        "image"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:17",
+      "text": "So, right product dot image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "right",
+        "product",
+        "image"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:21",
+      "text": "In this image we will add the class name",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "class",
+        "name"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:34",
+      "text": "So in the left side there will be four small image and one main image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "left",
+        "side",
+        "four",
+        "small",
+        "image",
+        "one",
+        "main",
+        "image"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:38",
+      "text": "Now, we will design the right side of the product details.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "design",
+        "right",
+        "side",
+        "product",
+        "details"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:42",
+      "text": "So here, we will display the product details.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "product",
+        "details"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:46",
+      "text": "So here we will use the H1 tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "H1",
+        "tag"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:51",
+      "text": "product dot name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "name"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:57:57",
+      "text": "After that we will create a div with the class name, product display right star.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "div",
+        "class",
+        "name",
+        "product",
+        "display",
+        "right",
+        "star"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:58:07",
+      "text": "In this div we will use the image tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "image",
+        "tag"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:58:15",
+      "text": "Here we will use five image tags.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "five",
+        "image",
+        "tags"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:58:20",
+      "text": "And in all images, we will insert the star and star null icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "all",
+        "images",
+        "insert",
+        "star",
+        "star",
+        "null",
+        "icon"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:58:24",
+      "text": "So here, we will import the images.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "images"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:58:30",
+      "text": "So let's import star icon from assets folder star icon dot PNG.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "star",
+        "icon",
+        "assets",
+        "folder",
+        "star",
+        "icon",
+        "PNG"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:58:35",
+      "text": "Similarly, we will import.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:58:41",
+      "text": "star dull icon from assets folder star dull icon dot PNG.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "star",
+        "dull",
+        "icon",
+        "assets",
+        "folder",
+        "star",
+        "dull",
+        "icon",
+        "PNG"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:58:49",
+      "text": "Now, we will use these images in these image tags.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "images",
+        "image",
+        "tags"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:58:57",
+      "text": "So here we will provide a star icon",
+      "tone": "instructional",
+      "emphasis_words": [
+        "provide",
+        "star",
+        "icon"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:02",
+      "text": "in these four IMG tags.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "IMG",
+        "tags"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:08",
+      "text": "And in the last one we will add star dull icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "last",
+        "one",
+        "add",
+        "star",
+        "dull",
+        "icon"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:13",
+      "text": "After this image tag, we will insert a paragraph tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "tag",
+        "insert",
+        "paragraph",
+        "tag"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:17",
+      "text": "Here we will display the number of ratings.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "number",
+        "ratings"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:21",
+      "text": "So let's add any number, 122.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "number",
+        "122"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:22",
+      "text": "Now, save this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save"
+      ],
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:24",
+      "text": "If I open this product,",
+      "tone": "instructional",
+      "emphasis_words": [
+        "open",
+        "product"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:28",
+      "text": "and now we have product name, star ratings, number of ratings, and product images.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "name",
+        "star",
+        "ratings",
+        "number",
+        "ratings",
+        "product",
+        "images"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:36",
+      "text": "After this div we will create another div",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "create",
+        "another",
+        "div"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:40",
+      "text": "where we will add the class name product display right prices.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "class",
+        "name",
+        "product",
+        "display",
+        "right",
+        "prices"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:48",
+      "text": "In this one, we will create two div",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "two",
+        "div"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:59:52",
+      "text": "that will be for old price and new price.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "old",
+        "price",
+        "new",
+        "price"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_08",
+      "description": "The primary presenter and developer, associated with the channel 'GreatStack'. They have a clear, instructional speaking style and demonstrate coding processes in React and JSX."
+    }
+  ]
+}

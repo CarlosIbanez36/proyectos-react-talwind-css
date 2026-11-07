@@ -1,0 +1,268 @@
+{
+  "segment_index": 0,
+  "time_range": "01:00:00 - 01:10:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:00:00",
+      "language": "css",
+      "content": ".offers-left button{\n    width: 282px;\n    height: 70px;\n    border-radius: 35px;\n    background: #ff4141;\n    border: none;\n    color: white;\n    font-size: 22px;\n    font-weight: 500;\n}",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "Offers.css",
+      "instructor_explanation": "Speaker 00 shows existing code in Offers.css for .offers-left button and explains: \"...and a space from the top so margin top of 30 pixel\""
+    },
+    {
+      "timestamp": "01:00:03",
+      "language": "css",
+      "content": ".offers-left button{\n    width: 282px;\n    height: 70px;\n    border-radius: 35px;\n    background: #ff4141;\n    border: none;\n    color: white;\n    font-size: 22px;\n    font-weight: 500;\n    margin-top: 30px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Offers.css",
+      "instructor_explanation": "Speaker 00 adds \"margin-top: 30px;\" to the .offers-left button class."
+    },
+    {
+      "timestamp": "01:00:05",
+      "language": "css",
+      "content": ".offers-left button{\n    width: 282px;\n    height: 70px;\n    border-radius: 35px;\n    background: #ff4141;\n    border: none;\n    color: white;\n    font-size: 22px;\n    font-weight: 500;\n    margin-top: 30px;\n    cursor: pointer;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Offers.css",
+      "instructor_explanation": "Speaker 00 adds \"cursor: pointer;\" and says: \"Then add cursor pointer\""
+    },
+    {
+      "timestamp": "01:00:15",
+      "language": "css",
+      "content": ".offers-right{\n    flex: 1;\n    display: flex;\n    align-items: center;\n    justify-content: flex-end;\n    padding-top: 50px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Offers.css",
+      "instructor_explanation": "Speaker 00 adds the new class .offers-right to Offers.css and says: \"So, just add the class name offers right\""
+    },
+    {
+      "timestamp": "01:01:13",
+      "language": "javascript",
+      "content": "import React from 'react'\n\nconst NewCollections = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}\n\nexport default NewCollections",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "NewCollections.jsx",
+      "instructor_explanation": "Speaker 00 generates basic React boilerplate using \"RFC\"."
+    },
+    {
+      "timestamp": "01:01:17",
+      "language": "javascript",
+      "content": "import React from 'react'\n\nconst NewCollections = () => {\n  return (\n    <div className='new-collections'>\n\n    </div>\n  )\n}\n\nexport default NewCollections",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "NewCollections.jsx",
+      "instructor_explanation": "Speaker 00 adds class name 'new-collections' to the div and says: \"Here we will provide one class name\""
+    },
+    {
+      "timestamp": "01:01:40",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './NewCollections.css'\n\nconst NewCollections = () => {\n  return (\n    <div className='new-collections'>\n\n    </div>\n  )\n}\n\nexport default NewCollections",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "NewCollections.jsx",
+      "instructor_explanation": "Speaker 00 imports the CSS file in NewCollections.jsx and says: \"Import .slash new collections.css\""
+    },
+    {
+      "timestamp": "01:01:50",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './NewCollections.css'\n\nconst NewCollections = () => {\n  return (\n    <div className='new-collections'>\n        <h1>NEW COLLECTIONS</h1>\n        <hr />\n        <div className=\"collections\">\n\n        </div>\n    </div>\n  )\n}\n\nexport default NewCollections",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "NewCollections.jsx",
+      "instructor_explanation": "Speaker 00 adds H1 tag, HR tag and a div with class 'collections'."
+    },
+    {
+      "timestamp": "01:02:24",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './NewCollections.css'\nimport new_collection from '../Assets/new_collections'\nimport Item from '../Item/Item'\n\nconst NewCollections = () => {\n  return (\n    <div className='new-collections'>\n        <h1>NEW COLLECTIONS</h1>\n        <hr />\n        <div className=\"collections\">\n            {new_collection.map((item,i)=>{\n                return <Item />\n            })}\n        </div>\n    </div>\n  )\n}\n\nexport default NewCollections",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "NewCollections.jsx",
+      "instructor_explanation": "Speaker 00 adds imports for data and Item component, then implements .map for data display."
+    },
+    {
+      "timestamp": "01:03:25",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './NewCollections.css'\nimport new_collection from '../Assets/new_collections'\nimport Item from '../Item/Item'\n\nconst NewCollections = () => {\n  return (\n    <div className='new-collections'>\n        <h1>NEW COLLECTIONS</h1>\n        <hr />\n        <div className=\"collections\">\n            {new_collection.map((item,i)=>{\n                return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />\n            })}\n        </div>\n    </div>\n  )\n}\n\nexport default NewCollections",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "NewCollections.jsx",
+      "instructor_explanation": "Speaker 00 adds props to the Item component inside .map()."
+    },
+    {
+      "timestamp": "01:03:39",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport Hero from '../Components/Hero/Hero'\nimport Popular from '../Components/Popular/Popular'\nimport Offers from '../Components/Offers/Offers'\nimport NewCollections from '../Components/NewCollections/NewCollections'\n\nconst Shop = () => {\n  return (\n    <div>\n      <Hero/>\n      <Popular/>\n      <Offers/>\n      <NewCollections/>\n    </div>\n  )\n}\n\nexport default Shop",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Shop.jsx",
+      "instructor_explanation": "Speaker 00 mounts the NewCollections component in Shop.jsx."
+    },
+    {
+      "timestamp": "01:04:09",
+      "language": "css",
+      "content": ".popular h1{\n    color: #171717;\n    font-size: 50px;\n    font-weight: 600;\n}\n.popular hr{\n    width: 200px;\n    height: 6px;\n    border-radius: 10px;\n    background: #252525;\n}\n.popular-item{\n    margin-top: 50px;\n    display: flex;\n    gap: 30px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "NewCollections.css",
+      "instructor_explanation": "Speaker 00 copies CSS from popular.css into newcollections.css and prepares to refactor."
+    },
+    {
+      "timestamp": "01:04:29",
+      "language": "css",
+      "content": ".new-collections h1{\n    color: #171717;\n    font-size: 50px;\n    font-weight: 600;\n}\n.new-collections hr{\n    width: 200px;\n    height: 6px;\n    border-radius: 10px;\n    background: #252525;\n}\n.new-collections-item{\n    margin-top: 50px;\n    display: flex;\n    gap: 30px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "NewCollections.css",
+      "instructor_explanation": "Speaker 00 replaces 'popular' with 'new-collections' in the CSS file."
+    },
+    {
+      "timestamp": "01:04:36",
+      "language": "css",
+      "content": ".new-collections h1{\n    color: #171717;\n    font-size: 50px;\n    font-weight: 600;\n}\n.new-collections hr{\n    width: 200px;\n    height: 6px;\n    border-radius: 10px;\n    background: #252525;\n}\n.collections{\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr 1fr;\n    margin-top: 50px;\n    gap: 30px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "NewCollections.css",
+      "instructor_explanation": "Speaker 00 replaces .new-collections-item with .collections and updates grid styles."
+    },
+    {
+      "timestamp": "01:05:46",
+      "language": "javascript",
+      "content": "import React from 'react'\n\nconst NewsLetter = () => {\n  return (\n    <div className='newsletter'>\n\n    </div>\n  )\n}\n\nexport default NewsLetter",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Newsletter.jsx",
+      "instructor_explanation": "Speaker 00 creates the Newsletter component scaffold."
+    },
+    {
+      "timestamp": "01:06:17",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './Newsletter.css'\n\nconst NewsLetter = () => {\n  return (\n    <div className='newsletter'>\n        <h1>Get Exclusive Offers On Your Email</h1>\n        <p>Subscribe to our newsletter and stay updated</p>\n        <div>\n            <input type=\"email\" placeholder='Your Email id' />\n            <button>Subscribe</button>\n        </div>\n    </div>\n  )\n}\n\nexport default NewsLetter",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Newsletter.jsx",
+      "instructor_explanation": "Speaker 00 adds HTML structure for the newsletter component."
+    },
+    {
+      "timestamp": "01:07:47",
+      "language": "css",
+      "content": ".newsletter{\n    width: 65%;\n    height: 40vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    margin: auto;\n    padding: 0px 140px;\n    margin-bottom: 150px;\n    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);\n    gap: 30px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Newsletter.css",
+      "instructor_explanation": "Speaker 00 starts defining CSS for the .newsletter container."
+    },
+    {
+      "timestamp": "01:08:49",
+      "language": "css",
+      "content": ".newsletter h1{\n    color: #454545;\n    font-size: 55px;\n    font-weight: 600;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Newsletter.css",
+      "instructor_explanation": "Speaker 00 adds CSS properties for the newsletter h1 tag."
+    },
+    {
+      "timestamp": "01:09:14",
+      "language": "css",
+      "content": ".newsletter p{\n    color: #454545;\n    font-size: 20px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Newsletter.css",
+      "instructor_explanation": "Speaker 00 adds CSS properties for the newsletter p tag."
+    },
+    {
+      "timestamp": "01:09:34",
+      "language": "css",
+      "content": ".newsletter div{\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    background: white;\n    width: 730px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Newsletter.css",
+      "instructor_explanation": "Speaker 00 adds CSS for the newsletter div container."
+    }
+  ],
+  "screen_timeline": [
+    {
+      "screen_state": "code editing - Offers.css",
+      "timestamp": "01:00:00"
+    },
+    {
+      "screen_state": "code editing - NewCollections.jsx creation",
+      "timestamp": "01:01:13"
+    },
+    {
+      "screen_state": "code editing - Shop.jsx component mounting",
+      "timestamp": "01:03:39"
+    },
+    {
+      "screen_state": "code editing - NewCollections.css styling",
+      "timestamp": "01:04:09"
+    },
+    {
+      "screen_state": "browser view - New Collections display",
+      "timestamp": "01:05:10"
+    },
+    {
+      "screen_state": "code editing - Newsletter.jsx creation",
+      "timestamp": "01:05:46"
+    },
+    {
+      "screen_state": "code editing - Newsletter.css styling",
+      "timestamp": "01:07:47"
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "01:04:45",
+      "visual_type": "browser_output",
+      "description": "Displays the new collections section populated with multiple items, each showing an image, name, and price."
+    },
+    {
+      "timestamp": "01:05:10",
+      "visual_type": "browser_output",
+      "description": "Visual confirmation of the grid layout for the new collections."
+    },
+    {
+      "timestamp": "01:06:45",
+      "visual_type": "browser_output",
+      "description": "The page structure shows the newly added collections list."
+    },
+    {
+      "timestamp": "01:07:46",
+      "visual_type": "browser_output",
+      "description": "Final rendered view of the Newsletter subscription box UI component."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:00:00",
+      "region_type": "code",
+      "label": "vscode_editor",
+      "visible": true,
+      "sample_text": ".offers-left button{ ... }",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0.25,
+        "y": 0.05,
+        "width": 0.75,
+        "height": 0.95
+      }
+    },
+    {
+      "timestamp": "01:03:47",
+      "region_type": "browser",
+      "label": "browser_preview",
+      "visible": true,
+      "sample_text": "NEW COLLECTIONS",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0.1,
+        "y": 0.1,
+        "width": 0.8,
+        "height": 0.8
+      }
+    }
+  ]
+}

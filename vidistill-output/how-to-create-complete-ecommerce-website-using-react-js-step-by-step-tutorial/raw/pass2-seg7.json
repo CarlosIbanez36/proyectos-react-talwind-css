@@ -1,0 +1,107 @@
+{
+  "segment_index": 8,
+  "time_range": "01:10:00 - 01:20:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:10:01",
+      "language": "css",
+      "content": ".newsletter h1 {\n  color: #454545;\n  font-size: 55px;\n  font-weight: 600;\n}\n\n.newsletter p {\n  color: #454545;\n  font-size: 20px;\n}\n\n.newsletter div {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  background: white;\n  width: 730px;\n  height: 70px;\n  border-radius: 80px;\n  border: 1px solid #e3e3e3;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Newsletter.css",
+      "instructor_explanation": "The border radius will be 80 pixels. border of 1 pixel solid and one color code."
+    },
+    {
+      "timestamp": "01:10:24",
+      "language": "css",
+      "content": ".newsletter div {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  background: white;\n  width: 730px;\n  height: 70px;\n  border-radius: 80px;\n  border: 1px solid #e3e3e3;\n}\n\n.newsletter input {\n  width: 500px;\n  margin-left: 30px;\n  border: none;\n  outline: none;\n  color: #616161;\n  font-family: Poppins;\n  font-size: 16px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Newsletter.css",
+      "instructor_explanation": "Now we will add the CSS properties for this input tag. Here we will add .newsletter input. For this input we will provide the width of 500 pixels and margin from the left side that will be 30 pixel. Then border none, outline none. Color code. Then we will add the font family and font size of 16 pixels."
+    },
+    {
+      "timestamp": "01:11:09",
+      "language": "css",
+      "content": ".newsletter input {\n  width: 500px;\n  margin-left: 30px;\n  border: none;\n  outline: none;\n  color: #616161;\n  font-family: Poppins;\n  font-size: 16px;\n}\n\n.newsletter div button {\n  width: 210px;\n  height: 70px;\n  border-radius: 80px;\n  background: black;\n  color: white;\n  font-size: 16px;\n  cursor: pointer;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Newsletter.css",
+      "instructor_explanation": "Now we will add the CSS properties for this button. So here we will add .newsletter and div, then button tag. Here we will provide the width 210 pixel, height of 70 pixels. Border radius of 80 pixels. Background will be black and color white, that is the button text color. Then we will change the font size 16 pixel and cursor pointer."
+    },
+    {
+      "timestamp": "01:11:55",
+      "language": "javascript",
+      "content": "const Shop = () => {\n  return (\n    <div>\n      <Hero />\n      <Offers />\n      <NewCollections />\n      <Newsletter />\n    </div>\n  );\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Shop.jsx",
+      "instructor_explanation": "Now we will mount this newsletter component in shop page. So here, after this new collections we will add newsletter."
+    },
+    {
+      "timestamp": "01:12:05",
+      "language": "css",
+      "content": ".new-collections {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 20px;\n  margin-bottom: 100px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "NewCollections.css",
+      "instructor_explanation": "Now we will come here in new collections dot CSS file and remove this height and here we will add margin bottom 100 pixels."
+    },
+    {
+      "timestamp": "01:12:49",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './Footer.css'\nimport footer_logo from '../Assets/logo_big.png'\nimport instagram_icon from '../Assets/instagram_icon.png'\nimport pinterst_icon from '../Assets/pinterst_icon.png'\nimport whatsapp_icon from '../Assets/whatsapp_icon.png'\n\nconst Footer = () => {\n  return (\n    <div classname=\"footer\">\n      <div classname=\"footer-logo\">\n        <img src={footer_logo} alt=\"\" />\n        <p>SHOPPER</p>\n      </div>\n      <ul classname=\"footer-links\">\n        <li>Company</li>\n        <li>Products</li>\n        <li>Offices</li>\n        <li>About</li>\n        <li>Contact</li>\n      </ul>\n      <div classname=\"footer-social-icon\">\n        <div classname=\"footer-icons-container\">\n          <img src={instagram_icon} alt=\"\" />\n        </div>\n        <div classname=\"footer-icons-container\">\n          <img src={pinterst_icon} alt=\"\" />\n        </div>\n        <div classname=\"footer-icons-container\">\n          <img src={whatsapp_icon} alt=\"\" />\n        </div>\n      </div>\n      <div classname=\"footer-copyright\">\n        <hr />\n        <p>Copyright @ 2023 - All Right Reserved.</p>\n      </div>\n    </div>\n  )\n}\n\nexport default Footer",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Footer.jsx",
+      "instructor_explanation": "Now we will create the HTML structure for this footer."
+    },
+    {
+      "timestamp": "01:17:47",
+      "language": "css",
+      "content": ".footer {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 50px;\n}\n\n.footer-logo {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}\n\n.footer-logo p {\n  color: #383838;\n  font-size: 46px;\n  font-weight: 700;\n}\n\n.footer-links {\n  display: flex;\n  list-style: none;\n  gap: 50px;\n  color: #252525;\n  font-size: 20px;\n}\n\n.footer-links li {\n  cursor: pointer;\n}\n\n.footer-social-icon {\n  display: flex;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Footer.css",
+      "instructor_explanation": "Our footer is ready, now we will add the CSS properties for the footer component."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "01:12:21",
+      "visual_type": "browser_output",
+      "description": "The browser shows a collection of clothing items with prices, followed by a 'Get Exclusive Offers On Your Email' subscription section with an email input box and a 'Subscribe' button."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:10:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": ".newsletter div",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0.28,
+        "y": 0.05,
+        "width": 0.7,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "01:12:21",
+      "region_type": "browser",
+      "label": "Browser Output",
+      "visible": true,
+      "sample_text": "localhost:3000",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "width": 0.9,
+        "height": 0.9
+      }
+    }
+  ],
+  "screen_timeline": []
+}

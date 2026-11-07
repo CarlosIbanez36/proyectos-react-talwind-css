@@ -1,0 +1,1157 @@
+{
+  "segment_index": 0,
+  "time_range": "01:20:00 - 01:30:00",
+  "transcript_entries": [
+    {
+      "timestamp": "01:20:00",
+      "text": "gap of 20 pixel",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "20",
+        "pixel"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:20:07",
+      "text": "Now we will add the properties for the footer icons container.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "properties",
+        "footer",
+        "icons",
+        "container"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:20:14",
+      "text": "So here we will add the padding of 10 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "padding",
+        "10",
+        "pixels"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:20:20",
+      "text": "padding bottom of 6 pixels",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "bottom",
+        "6",
+        "pixels"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:20:24",
+      "text": "then background this color code",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "color",
+        "code"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:20:30",
+      "text": "then border of 1 pixel solid and 1 color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "1",
+        "pixel",
+        "solid",
+        "1",
+        "color",
+        "code"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:20:40",
+      "text": "Now we will add the properties for the footer copyright.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "properties",
+        "footer",
+        "copyright"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:20:50",
+      "text": "display flex",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "flex"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:20:54",
+      "text": "flex direction column",
+      "tone": "instructional",
+      "emphasis_words": [
+        "flex",
+        "direction",
+        "column"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:20:59",
+      "text": "align items center",
+      "tone": "instructional",
+      "emphasis_words": [
+        "align",
+        "items",
+        "center"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:03",
+      "text": "gap of 30 pixels",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "30",
+        "pixels"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:07",
+      "text": "width of 100 percent",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "100",
+        "percent"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:13",
+      "text": "then margin bottom 30 pixels",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin",
+        "bottom",
+        "30",
+        "pixels"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:18",
+      "text": "then color",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:24",
+      "text": "then change the font size",
+      "tone": "instructional",
+      "emphasis_words": [
+        "change",
+        "font",
+        "size"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:28",
+      "text": "Now we will add the properties for this HR tag",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "properties",
+        "HR",
+        "tag"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:36",
+      "text": "Here we will add dot footer copyright HR",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "footer",
+        "copyright",
+        "HR"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:43",
+      "text": "Here we will add width of 80 percent",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "width",
+        "80",
+        "percent"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:49",
+      "text": "border none",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "none"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:21:54",
+      "text": "border radius 10 pixels",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "radius",
+        "10",
+        "pixels"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:00",
+      "text": "height of 3 pixels",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height",
+        "3",
+        "pixels"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:03",
+      "text": "background this color code",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "color",
+        "code"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:08",
+      "text": "Now save the changes",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "changes"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:12",
+      "text": "Now we will mount this footer component in app.js",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mount",
+        "footer",
+        "component",
+        "app.js"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:16",
+      "text": "So here we will mount the footer component",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mount",
+        "footer",
+        "component"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:22",
+      "text": "Save the changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save",
+        "changes"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:25",
+      "text": "Now, you can see this footer on our webpage.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "see",
+        "footer",
+        "webpage"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:31",
+      "text": "Now if I come to the mens page here also you can see this footer component",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mens",
+        "page",
+        "see",
+        "footer",
+        "component"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:38",
+      "text": "because we have added this footer in app.js",
+      "tone": "instructional",
+      "emphasis_words": [
+        "added",
+        "footer",
+        "app.js"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:42",
+      "text": "So finally we have created our homepage which is our shop page for our e-commerce website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "created",
+        "homepage",
+        "shop",
+        "page",
+        "e-commerce",
+        "website"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:22:50",
+      "text": "Now we will create the shop categories page where we can filter the mens, womens and kids products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "shop",
+        "categories",
+        "page",
+        "filter",
+        "mens",
+        "womens",
+        "kids",
+        "products"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:23:00",
+      "text": "So first we will create one context using context API.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "context",
+        "context",
+        "API"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:23:05",
+      "text": "So in this context folder we will create a new file",
+      "tone": "instructional",
+      "emphasis_words": [
+        "context",
+        "folder",
+        "create",
+        "new",
+        "file"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:23:12",
+      "text": "shopcontext.jsx",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shopcontext.jsx"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:23:17",
+      "text": "Here we will import the React.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "React"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:23:24",
+      "text": "Then we will export const shopcontext equals create context null.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "export",
+        "const",
+        "shopcontext",
+        "equals",
+        "create",
+        "context",
+        "null"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:23:44",
+      "text": "So we have created one context and initialized with null.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "created",
+        "context",
+        "initialized",
+        "null"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:23:48",
+      "text": "And this context is saved in shopcontext that we are exporting.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "context",
+        "saved",
+        "shopcontext",
+        "exporting"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:23:56",
+      "text": "Now we will create shop context provider.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "shop",
+        "context",
+        "provider"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:24:02",
+      "text": "So here we will write const shop context provider equals one arrow function",
+      "tone": "instructional",
+      "emphasis_words": [
+        "write",
+        "const",
+        "shop",
+        "context",
+        "provider",
+        "equals",
+        "arrow",
+        "function"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:24:16",
+      "text": "Here we will pass the props and within this function we will create a variable with the name context value equal to Here we will insert any data and functions that will be provided in the shop context provider as a value.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass",
+        "props",
+        "function",
+        "create",
+        "variable",
+        "context",
+        "value",
+        "insert",
+        "data",
+        "functions",
+        "provided",
+        "shop",
+        "context",
+        "provider",
+        "value"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:24:40",
+      "text": "Using that we can access these functions and values in any component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "access",
+        "functions",
+        "values",
+        "component"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:24:47",
+      "text": "So here we will insert one data. We will use the all products data.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "insert",
+        "data",
+        "use",
+        "products",
+        "data"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:24:54",
+      "text": "Where we have the 36 products where we have ID category name image new price and old price.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "36",
+        "products",
+        "ID",
+        "category",
+        "name",
+        "image",
+        "new",
+        "price",
+        "old",
+        "price"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:25:01",
+      "text": "So we will import this file in this context file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "file",
+        "context",
+        "file"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:25:05",
+      "text": "So here we will add import all product",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "import",
+        "all",
+        "product"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:25:11",
+      "text": "All product has been imported.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "All",
+        "product",
+        "imported"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:25:16",
+      "text": "Now this product data will be passed in this context value.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "data",
+        "passed",
+        "context",
+        "value"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:25:21",
+      "text": "So here we will add all product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "product"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:25:26",
+      "text": "Now we will return this shop context value through shop context provider.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "return",
+        "shop",
+        "context",
+        "value",
+        "shop",
+        "context",
+        "provider"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:25:31",
+      "text": "So here we will add return shop context dot provider value equals",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "return",
+        "shop",
+        "context",
+        "provider",
+        "value",
+        "equals"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:25:46",
+      "text": "And we will provide the value context value",
+      "tone": "instructional",
+      "emphasis_words": [
+        "provide",
+        "value",
+        "context",
+        "value"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:25:54",
+      "text": "Within this we will pass the props dot children",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass",
+        "props",
+        "children"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:26:01",
+      "text": "And here we will export it",
+      "tone": "instructional",
+      "emphasis_words": [
+        "export"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:26:13",
+      "text": "So first we have created shop context using create context.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "created",
+        "shop",
+        "context",
+        "create",
+        "context"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:26:49",
+      "text": "From here we are getting all products data and using context we will use it in different component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "getting",
+        "products",
+        "data",
+        "using",
+        "context",
+        "use",
+        "component"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:26:58",
+      "text": "Now we will come to index.js file",
+      "tone": "instructional",
+      "emphasis_words": [
+        "come",
+        "index.js",
+        "file"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:01",
+      "text": "Wrap this app component inside this shop context provider.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Wrap",
+        "app",
+        "component",
+        "shop",
+        "context",
+        "provider"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:07",
+      "text": "Using this we can provide the shop context data to all pages.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "provide",
+        "shop",
+        "context",
+        "data",
+        "pages"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:13",
+      "text": "Now we will create the shop category page",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "shop",
+        "category",
+        "page"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:17",
+      "text": "So here we will add the class name shop category",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "class",
+        "name",
+        "shop",
+        "category"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:24",
+      "text": "And we will create a CSS file for this shop category page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "CSS",
+        "file",
+        "shop",
+        "category",
+        "page"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:30",
+      "text": "So in this pages folder we will create a new folder CSS",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pages",
+        "folder",
+        "create",
+        "new",
+        "folder",
+        "CSS"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:34",
+      "text": "Within this folder we will create new file",
+      "tone": "instructional",
+      "emphasis_words": [
+        "folder",
+        "create",
+        "new",
+        "file"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:39",
+      "text": "shopcategory.css",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shopcategory.css"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:46",
+      "text": "Now we have to import this CSS file in this shop category page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "CSS",
+        "file",
+        "shop",
+        "category",
+        "page"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:27:50",
+      "text": "Here we will add import",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "import"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:06",
+      "text": "Here we will insert the all products data using context.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "insert",
+        "products",
+        "data",
+        "using",
+        "context"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:11",
+      "text": "So here we will write const",
+      "tone": "instructional",
+      "emphasis_words": [
+        "write",
+        "const"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:21",
+      "text": "equals use context",
+      "tone": "instructional",
+      "emphasis_words": [
+        "equals",
+        "use",
+        "context"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:26",
+      "text": "Within this use context we will write shop context.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "use",
+        "context",
+        "write",
+        "shop",
+        "context"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:31",
+      "text": "And here we will add props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "props"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:36",
+      "text": "app.js",
+      "tone": "instructional",
+      "emphasis_words": [
+        "app.js"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:39",
+      "text": "And here we have passed the props category men, category women, category kid.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "passed",
+        "props",
+        "category",
+        "men",
+        "category",
+        "women",
+        "category",
+        "kid"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:46",
+      "text": "Now we will use this props to filter our product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "props",
+        "filter",
+        "product"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:51",
+      "text": "So come to shop category page and here we will add the HTML structure.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop",
+        "category",
+        "page",
+        "add",
+        "HTML",
+        "structure"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:28:59",
+      "text": "But before that we will come to app.js and here we will import our banners.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "come",
+        "app.js",
+        "import",
+        "banners"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:09",
+      "text": "men banner",
+      "tone": "instructional",
+      "emphasis_words": [
+        "men",
+        "banner"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:13",
+      "text": "from components folder assets folder",
+      "tone": "instructional",
+      "emphasis_words": [
+        "components",
+        "folder",
+        "assets",
+        "folder"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:21",
+      "text": "banner mens.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "banner",
+        "mens"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:24",
+      "text": "Then import",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:27",
+      "text": "women banner",
+      "tone": "instructional",
+      "emphasis_words": [
+        "women",
+        "banner"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:31",
+      "text": "from and give the path",
+      "tone": "instructional",
+      "emphasis_words": [
+        "give",
+        "path"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:35",
+      "text": "components assets",
+      "tone": "instructional",
+      "emphasis_words": [
+        "components",
+        "assets"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:40",
+      "text": "banner women.png.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "banner",
+        "women.png"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:42",
+      "text": "Now we will import the kids banner",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "kids",
+        "banner"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:48",
+      "text": "from",
+      "tone": "instructional",
+      "emphasis_words": [
+        "from"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:29:53",
+      "text": "components folder then assets folder",
+      "tone": "instructional",
+      "emphasis_words": [
+        "components",
+        "folder",
+        "assets",
+        "folder"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker is a tutorial instructor from the YouTube channel 'GreatStack'. They have a clear, calm voice and guide the viewer through coding steps in a professional and educational manner, primarily focused on web development."
+    },
+    {
+      "speaker_id": "SPEAKER_06",
+      "description": "The speaker is a technical instructor (likely from GreatStack), demonstrating e-commerce website development using React and CSS, characterized by a clear, instructional, and calm tone."
+    }
+  ]
+}

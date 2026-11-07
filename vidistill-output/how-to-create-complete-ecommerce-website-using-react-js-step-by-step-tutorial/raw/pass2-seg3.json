@@ -1,0 +1,128 @@
+{
+  "segment_index": 4,
+  "time_range": "00:30:00 - 00:40:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:30:06",
+      "language": "javascript",
+      "content": "      <ul className=\"nav-menu\">\n        <li onClick={() => setMenu(\"shop\")}>Shop{menu===\"shop\"?<hr/>:<></>}</li>\n        <li onClick={() => setMenu(\"mens\")}>Men{menu===\"mens\"?<hr/>:<></>}</li>\n        <li onClick={() => setMenu(\"womens\")}>Women{menu===\"womens\"?<hr/>:<></>}</li>\n        <li onClick={() => setMenu(\"kids\")}>Kids{menu===\"kids\"?<hr/>:<></>}</li>\n      </ul>",
+      "screen_type": "code_editor",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Speaker 00 talks about adding link tags from React Router DOM to the navigation menu and shop components."
+    },
+    {
+      "timestamp": "00:30:46",
+      "language": "javascript",
+      "content": "        <li onClick={() => setMenu(\"shop\")}><Link to='/'>Shop</Link>{menu===\"shop\"?<hr/>:<></>}</li>\n        <li onClick={() => setMenu(\"mens\")}><Link to='/mens'>Men</Link>{menu===\"mens\"?<hr/>:<></>}</li>\n        <li onClick={() => setMenu(\"womens\")}><Link to='/womens'>Women</Link>{menu===\"womens\"?<hr/>:<></>}</li>\n        <li onClick={() => setMenu(\"kids\")}><Link to='/kids'>Kids</Link>{menu===\"kids\"?<hr/>:<></>}</li>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Speaker 00 shows the updated navigation menu with Link components and respective URLs added."
+    },
+    {
+      "timestamp": "00:31:38",
+      "language": "javascript",
+      "content": "      <div className=\"nav-login-cart\">\n        <Link to='/login'><button>Login</button></Link>\n        <Link to='/cart'><img src={cart_icon} alt=\"\" /></Link>\n        <div className=\"nav-cart-count\">0</div>\n      </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Speaker 00 demonstrates adding Link components for the login button and the cart icon."
+    },
+    {
+      "timestamp": "00:32:51",
+      "language": "javascript",
+      "content": "        <li onClick={() => setMenu(\"shop\")}><Link style={{textDecoration:'none'}} to='/'>Shop</Link>{menu===\"shop\"?<hr/>:<></>}</li>\n        <li onClick={() => setMenu(\"mens\")}><Link style={{textDecoration:'none'}} to='/mens'>Men</Link>{menu===\"mens\"?<hr/>:<></>}</li>\n        <li onClick={() => setMenu(\"womens\")}><Link style={{textDecoration:'none'}} to='/womens'>Women</Link>{menu===\"womens\"?<hr/>:<></>}</li>\n        <li onClick={() => setMenu(\"kids\")}><Link style={{textDecoration:'none'}} to='/kids'>Kids</Link>{menu===\"kids\"?<hr/>:<></>}</li>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Speaker 00 explains adding textDecoration: none to remove the underline effect on navigation links."
+    },
+    {
+      "timestamp": "00:33:35",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './Hero.css'\n\nconst Hero = () => {\n  return (\n    <div className='hero'>\n\n    </div>\n  )\n}\n\nexport default Hero",
+      "screen_type": "code_editor",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "Speaker 00 initializes the Hero component in Hero.jsx."
+    },
+    {
+      "timestamp": "00:35:36",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './Hero.css'\nimport hand_icon from '../Assets/hand_icon.png'\nimport arrow_icon from '../Assets/arrow.png'\nimport hero_image from '../Assets/hero_image.png'\n\nconst Hero = () => {\n  return (\n    <div className='hero'>\n      <div className=\"hero-left\">\n        <h2>NEW ARRIVALS ONLY</h2>\n        <div>\n          <div className=\"hand-hand-icon\">\n            <p>new</p>\n            <img src={hand_icon} alt=\"\" />\n          </div>\n          <p>collections</p>\n          <p>for everyone</p>\n        </div>\n        <div className=\"hero-latest-btn\">\n          <div>Latest Collection</div>\n          <img src={arrow_icon} alt=\"\" />\n        </div>\n      </div>\n      <div className=\"hero-right\">\n        <img src={hero_image} alt=\"\" />\n      </div>\n    </div>\n  )\n}\n\nexport default Hero",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "Speaker 00 builds the HTML structure for the Hero component, including imports for icons and images."
+    },
+    {
+      "timestamp": "00:37:57",
+      "language": "css",
+      "content": ".hero{\n  height: 100vh;\n  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);\n  display: flex;\n}\n\n.hero-left{\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 20px;\n  padding-left: 180px;\n  line-height: 1.1;\n}\n\n.hero-left h2{\n  color: #090909;\n  font-size: 26px;\n  font-weight: 600;\n}\n\n.hero-left p{\n  color: #171717;\n  font-size: 100px;\n  font-weight: 700;\n}",
+      "screen_type": "code_editor",
+      "filename": "Hero.css",
+      "instructor_explanation": "Speaker 00 applies CSS properties to the Hero component and its elements in Hero.css."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "00:32:11",
+      "visual_type": "browser_output",
+      "description": "Browser showing the Shopper store homepage, highlighting navigation menu links and URL updates."
+    },
+    {
+      "timestamp": "00:37:42",
+      "visual_type": "browser_output",
+      "description": "Browser displaying the initial rendering of the Hero component in the Shopper application."
+    },
+    {
+      "timestamp": "00:38:25",
+      "visual_type": "browser_output",
+      "description": "Browser displaying the Hero component after applying the linear gradient background CSS property."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:30:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "Navbar.jsx",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "00:32:11",
+      "region_type": "browser",
+      "label": "Browser",
+      "visible": true,
+      "sample_text": "localhost:3000",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "00:33:13",
+      "region_type": "code",
+      "label": "Project Explorer",
+      "visible": true,
+      "sample_text": "src > Components > Hero",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0.05,
+        "y": 0.1,
+        "width": 0.2,
+        "height": 0.8
+      }
+    }
+  ],
+  "screen_timeline": []
+}

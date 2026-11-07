@@ -1,0 +1,128 @@
+{
+  "segment_index": 9,
+  "time_range": "01:20:00 - 01:30:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:20:00",
+      "language": "css",
+      "content": ".footer-links {\n  display: flex;\n  list-style: none;\n  gap: 50px;\n  color: #252525;\n  font-size: 20px;\n}\n\n.footer-links li {\n  cursor: pointer;\n}\n\n.footer-social-icon {\n  display: flex;\n  gap: 20px;",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "footer.css",
+      "instructor_explanation": "gap of 20 pixel"
+    },
+    {
+      "timestamp": "01:20:13",
+      "language": "css",
+      "content": ".footer-icons-container {\n  padding: 10px;\n  padding-bottom: 6px;\n  background: #fbfbfb;\n  border: 1px solid #ebebeb;",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "footer.css",
+      "instructor_explanation": "Now we will add the properties for the footer icons container. So here we will add the padding of 10 pixels. padding bottom of 6 pixels then background this color code then border of 1 pixel solid and 1 color code."
+    },
+    {
+      "timestamp": "01:20:50",
+      "language": "css",
+      "content": ".footer-copyright {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 30px;\n  width: 100%;\n  margin-bottom: 30px;\n  color: #1a1a1a;\n  font-size: 20px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "footer.css",
+      "instructor_explanation": "Now we will add the properties for the footer copyright. display flex, flex direction column, align items center, gap of 30 pixels, width of 100 percent, then margin bottom 30 pixels, then color, then change the font size."
+    },
+    {
+      "timestamp": "01:21:36",
+      "language": "css",
+      "content": ".footer-copyright hr {\n  width: 80%;\n  border: none;\n  border-radius: 10px;\n  height: 3px;\n  background: #c7c7c7;",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "footer.css",
+      "instructor_explanation": "Now we will add the properties for this HR tag. Here we will add .footer-copyright HR. Here we will add width of 80 percent, border none, border radius 10 pixels, height of 3 pixels, background this color code."
+    },
+    {
+      "timestamp": "01:22:12",
+      "language": "jsx",
+      "content": "<Routes>\n  <Route path='/' element={<Shop />} />\n  <Route path='/mens' element={<ShopCategory category=\"men\" />} />\n  <Route path='/womens' element={<ShopCategory category=\"women\" />} />\n  <Route path='/kids' element={<ShopCategory category=\"kid\" />} />\n  <Route path='/product' element={<Product />}>\n    <Route path=':productId' element={<Product />} />\n  </Route>\n  <Route path='/cart' element={<Cart />} />\n  <Route path='/login' element={<LoginSignup />} />\n</Routes>\n<Footer />",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "app.js",
+      "instructor_explanation": "Now we will mount this footer component in app.js. So here we will mount the footer component."
+    },
+    {
+      "timestamp": "01:23:12",
+      "language": "jsx",
+      "content": "import React, { createContext } from 'react';\nexport const ShopContext = createContext(null);",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ShopContext.jsx",
+      "instructor_explanation": "Here we will import the React. Then we will export const shopcontext equals create context null. So we have created one context and initialized with null."
+    },
+    {
+      "timestamp": "01:24:02",
+      "language": "jsx",
+      "content": "const ShopContextProvider = (props) => {\n  const contextValue = { all_product };\n\n  return (\n    <ShopContext.Provider value={contextValue}>\n      {props.children}\n    </ShopContext.Provider>\n  );\n}\nexport default ShopContextProvider;",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ShopContext.jsx",
+      "instructor_explanation": "Now we will create shop context provider. So here we will write const shop context provider equals one arrow function. Here we will pass the props and within this function we will create a variable with the name context value equal to... Then we will return this shop context value through shop context provider. Within this we will pass the props.children And here we will export it."
+    },
+    {
+      "timestamp": "01:27:01",
+      "language": "jsx",
+      "content": "root.render(\n  <ShopContextProvider>\n    <App />\n  </ShopContextProvider>\n);",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "index.js",
+      "instructor_explanation": "Now we will come to index.js file. Wrap this app component inside this shop context provider. Using this we can provide the shop context data to all pages."
+    },
+    {
+      "timestamp": "01:27:17",
+      "language": "jsx",
+      "content": "const ShopCategory = (props) => {\n  const { all_product } = useContext(ShopContext);\n  return (\n    <div className='shop-category'>\n    </div>\n  );\n}\nexport default ShopCategory;",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ShopCategory.jsx",
+      "instructor_explanation": "So here we will add the class name shop category. And we will create a CSS file for this shop category page. Here we will insert the all products data using context. So here we will write const... equals use context. Within this use context we will write shop context. And here we will add props."
+    },
+    {
+      "timestamp": "01:29:09",
+      "language": "jsx",
+      "content": "import men_banner from './Components/Assets/banner_mens.png';\nimport women_banner from './Components/Assets/banner_women.png';\nimport kid_banner from './Components/Assets/banner_kids.png';",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "app.js",
+      "instructor_explanation": "But before that we will come to app.js and here we will import our banners. men banner from components folder assets folder banner mens. Then import women banner from and give the path components assets banner women.png. Now we will import the kids banner from components folder then assets folder."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:20:00",
+      "region_type": "code",
+      "label": "code editor",
+      "visible": true,
+      "sample_text": "footer.css",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "01:22:25",
+      "region_type": "browser",
+      "label": "webpage output",
+      "visible": true,
+      "sample_text": "localhost:3000",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

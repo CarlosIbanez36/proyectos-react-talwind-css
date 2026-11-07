@@ -1,0 +1,949 @@
+{
+  "segment_index": 0,
+  "time_range": "01:10:00 - 01:20:00",
+  "transcript_entries": [
+    {
+      "timestamp": "01:10:00",
+      "text": "The border radius will be 80 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "80"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:10:08",
+      "text": "border of 1 pixel solid and one color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "1",
+        "solid"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:10:18",
+      "text": "Now we will add the CSS properties for this input tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "input"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:10:23",
+      "text": "Here we will add .newsletter input.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "newsletter",
+        "input"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:10:31",
+      "text": "For this input we will provide the width of 500 pixels and margin from the left side that will be 30 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "500 pixels",
+        "margin",
+        "30 pixel"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:10:40",
+      "text": "Then border none, outline none.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border",
+        "none",
+        "outline"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:10:46",
+      "text": "Color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Color"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:10:51",
+      "text": "Then we will add the font family and font size of 16 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font family",
+        "font size",
+        "16"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:11:02",
+      "text": "Now we will add the CSS properties for this button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "button"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:11:09",
+      "text": "So here we will add .newsletter and div, then button tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "newsletter",
+        "div",
+        "button"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:11:19",
+      "text": "Here we will provide the width 210 pixel, height of 70 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "210",
+        "height",
+        "70"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:11:29",
+      "text": "Border radius of 80 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Border radius",
+        "80 pixels"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:11:34",
+      "text": "Background will be black and color white, that is the button text color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "background",
+        "black",
+        "color",
+        "white"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:11:41",
+      "text": "Then we will change the font size 16 pixel and cursor pointer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font size",
+        "16 pixel",
+        "cursor pointer"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:11:48",
+      "text": "Save the changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:11:51",
+      "text": "Now we will mount this newsletter component in shop page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "newsletter",
+        "component",
+        "shop page"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:11:55",
+      "text": "So here, after this new collections we will add newsletter.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "new collections",
+        "newsletter"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:12:05",
+      "text": "Now we will come here in new collections dot CSS file and remove this height and here we will add margin bottom 100 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "100"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:12:19",
+      "text": "Save the changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:12:22",
+      "text": "Now, you can see the newsletter subscription box on this web page.",
+      "tone": "conversational",
+      "emphasis_words": [
+        "newsletter",
+        "subscription",
+        "web page"
+      ],
+      "pause_after_seconds": 2.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:12:27",
+      "text": "Now, we will create the footer for our website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer",
+        "website"
+      ],
+      "pause_after_seconds": 2.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:12:33",
+      "text": "Now we will create a new folder within this component with the name footer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "new folder",
+        "component",
+        "footer"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:12:40",
+      "text": "Within this footer folder we will create a new file with the footer dot JSX.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer",
+        "footer"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:12:48",
+      "text": "Here we will use rafc.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rafc"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:12:51",
+      "text": "Here we will add a class name footer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name",
+        "footer"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:12:57",
+      "text": "Now we will create a CSS file for this footer component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "footer component"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:13:02",
+      "text": "So within this footer folder we will create a new file with the name footer dot CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer",
+        "footer"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:13:08",
+      "text": "Now import this CSS file in this footer dot JSX file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "footer"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:13:14",
+      "text": "So write import dot slash footer dot CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "footer"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:13:24",
+      "text": "Now we will create the HTML structure for this footer. So first we will create one div with the class name footer logo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HTML structure",
+        "footer",
+        "div",
+        "footer logo"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:13:38",
+      "text": "In this div we will insert image tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "image tag"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:13:41",
+      "text": "In this image tag we will add the footer logo, so first we will import that footer logo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "footer logo"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:13:48",
+      "text": "So write import footer_logo from assets folder, logo_big.png.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import footer logo",
+        "assets folder",
+        "logo_big.png"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:14:03",
+      "text": "In this SRC we will add footer logo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "SRC",
+        "footer logo"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:14:06",
+      "text": "Now we will create a P tag and here we will add the text that will be the name of our shop, that is Shopper.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "P tag",
+        "text",
+        "shop",
+        "Shopper"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:14:17",
+      "text": "Now we will create a list. So here we will create a UL with the class name footer links.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "list",
+        "UL",
+        "footer links"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:14:31",
+      "text": "Within this UL, we will use LI tags.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "UL",
+        "LI"
+      ],
+      "pause_after_seconds": 2.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:14:37",
+      "text": "We have added five LI tags.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "five LI tags"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:14:43",
+      "text": "In the first one we will add the text company, then second one is products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "company",
+        "products"
+      ],
+      "pause_after_seconds": 2.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:14:55",
+      "text": "Then third one is Offices.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "third one",
+        "Offices"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:15:01",
+      "text": "Then fourth one is about, and the fifth one is contact.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "about",
+        "contact"
+      ],
+      "pause_after_seconds": 2.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:15:10",
+      "text": "After this UL we will create one div with the class name, footer social icons.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "UL",
+        "div",
+        "footer social icons"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:15:21",
+      "text": "In this one we will create one div with the class name, footer icons container.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "footer icons container"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:15:31",
+      "text": "In this container we will insert the image tag and here we will provide the Instagram icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "container",
+        "image tag",
+        "Instagram icon"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:15:38",
+      "text": "So first we will import that icon, so here we will add import Instagram underscore icon from our assets folder slash Instagram icon dot PNG.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "Instagram",
+        "assets",
+        "Instagram"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:15:55",
+      "text": "Next we will import the another icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "icon"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:01",
+      "text": "So here we will add import pinterst underscore icon from assets slash pinterst icon dot PNG.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "pinterst",
+        "assets"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:17",
+      "text": "Next we will import the WhatsApp icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "WhatsApp icon"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:21",
+      "text": "So here we will add import whatsapp_icon from ./assets/whatsapp_icon.png.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "whatsapp_icon"
+      ],
+      "pause_after_seconds": 2.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:26",
+      "text": "Now we will use these icons here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "icons"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:28",
+      "text": "Here we will insert the Instagram icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Instagram icon"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:32",
+      "text": "Now we will make the copy of this complete div.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "div"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:41",
+      "text": "And here we will replace the icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "replace",
+        "icon"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:44",
+      "text": "This will be pinterst icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pinterst icon"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:49",
+      "text": "And the last one is WhatsApp icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "last one",
+        "WhatsApp icon"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:16:56",
+      "text": "After this we will create one div with the class name footer-copyright.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "footer-copyright"
+      ],
+      "pause_after_seconds": 2.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:17:13",
+      "text": "In this div we will insert one HR tag, then we will add one paragraph tag and in this paragraph tag we will add our text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "HR",
+        "paragraph"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:17:27",
+      "text": "Copyright at 2023 all right reserved.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Copyright",
+        "2023",
+        "reserved"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:17:40",
+      "text": "Our footer is ready, now we will add the CSS properties for the footer component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer",
+        "CSS",
+        "footer component"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:17:47",
+      "text": "First we will add the properties for the footer class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "properties",
+        "footer class name"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:17:53",
+      "text": "So we will add display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:17:58",
+      "text": "Flex direction column.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Flex direction column"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:03",
+      "text": "Justify content center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Justify content center"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:08",
+      "text": "Align items center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Align items center"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:13",
+      "text": "Then gap of 50 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "50 pixels"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:18",
+      "text": "Next we will add the CSS properties for the footer logo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "footer logo"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:24",
+      "text": "Here we will add display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:28",
+      "text": "Align items center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Align items center"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:33",
+      "text": "Then gap of 20 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "20 pixels"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:41",
+      "text": "Now we will add the CSS properties for our paragraph tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "paragraph tag"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:44",
+      "text": "Here we will change the color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color"
+      ],
+      "pause_after_seconds": 2.3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:52",
+      "text": "Then increase the font size, it will be 46 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font size",
+        "46 pixels"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:18:57",
+      "text": "Then change the font weight, it will be 700.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font weight",
+        "700"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:03",
+      "text": "Now we will add the CSS properties for the footer links.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "footer links"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:08",
+      "text": "For this footer links we will add display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer links",
+        "display flex"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:14",
+      "text": "List style none.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "List style none"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:19",
+      "text": "Gap of 50 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "50 pixels"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:23",
+      "text": "Then color and font size of 20 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color",
+        "font size",
+        "20"
+      ],
+      "pause_after_seconds": 2.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:32",
+      "text": "Now we will add the CSS properties for the list items.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "list items"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:37",
+      "text": "So here we will add footer links LI.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "footer links",
+        "LI"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:42",
+      "text": "In this one we will add cursor pointer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cursor pointer"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:48",
+      "text": "Now we will add the CSS style for the footer social icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "footer social icon"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:54",
+      "text": "So write this class name here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:19:57",
+      "text": "Here we will add display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker is a technical instructor, likely associated with the 'GreatStack' channel, guiding the viewer through web development steps using React, CSS, and component structure."
+    },
+    {
+      "speaker_id": "SPEAKER_05",
+      "description": "GreatStack, the sole speaker in this video, provides technical instructions and code walk-throughs for developing web components."
+    }
+  ]
+}

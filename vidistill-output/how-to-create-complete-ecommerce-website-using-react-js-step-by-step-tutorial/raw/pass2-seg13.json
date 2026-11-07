@@ -1,0 +1,195 @@
+{
+  "segment_index": 14,
+  "time_range": "130:00 - 140:00",
+  "code_blocks": [
+    {
+      "timestamp": "02:10:00",
+      "language": "css",
+      "content": ".productdisplay-right-sizes div{\npadding: 18px 24px;\nbackground: #fbfbfb;\nborder: 1px solid #ebebeb;\nborder-radius: 3px;\ncursor: pointer;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ProductDisplay.css",
+      "instructor_explanation": "Here we will add the padding of 18 pixel 24 pixel background this color code, then border one pixel solid and this color code, then border radius of three pixels and cursor pointer."
+    },
+    {
+      "timestamp": "02:10:37",
+      "language": "css",
+      "content": ".productdisplay-right button{\npadding: 20px 40px;\nwidth: 200px;\nfont-size: 16px;\nfont-weight: 600;\ncolor: white;\nbackground: #ff4141;\nmargin-bottom: 40px;\nborder: none;\noutline: none;\ncursor: pointer;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ProductDisplay.css",
+      "instructor_explanation": "Here we will provide the padding of 20 pixel 40 pixel, width of 200 pixels, then font-size and font-weight, then change the color and background. Margin from the bottom, 40 pixel, border none, outline none, cursor pointer."
+    },
+    {
+      "timestamp": "02:11:24",
+      "language": "css",
+      "content": ".productdisplay-right-category{\nmargin-top: 10px;\n}\n.productdisplay-right-category span{\nfont-weight: 600;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ProductDisplay.css",
+      "instructor_explanation": "Here we will add margin top of 10 pixel. Now we will add the CSS for this span tag, so here we will add the same class name then a span tag. Here we will provide the font weight of 600."
+    },
+    {
+      "timestamp": "02:12:33",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './DescriptionBox.css'\n\nconst DescriptionBox = () => {\n  return (\n    <div className='descriptionbox'>\n\n    </div>\n  )\n}\n\nexport default DescriptionBox",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "DescriptionBox.jsx",
+      "instructor_explanation": "Here we will use rafc. And in this div we will add one class name."
+    },
+    {
+      "timestamp": "02:13:28",
+      "language": "jsx",
+      "content": "      <Breadcrum product={product}/>\n      <ProductDisplay product={product}/>\n      <DescriptionBox/>\n    </div>\n  )\n}\n\nexport default Product",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Product.jsx",
+      "instructor_explanation": "Come to the pages, product dot JSX, product display component, so after that we will add this description box. Add this description box component, save the file."
+    },
+    {
+      "timestamp": "02:13:57",
+      "language": "jsx",
+      "content": "    <div className='descriptionbox'>\n      <div className='descriptionbox-navigator'>\n        <div className='descriptionbox-nav-box'>Description</div>\n        <div className='descriptionbox-nav-box fade'>Reviews (122)</div>\n      </div>\n      <div className='descriptionbox-description'>\n        <p>An e-commerce website is an online platform that facilitates the buying and selling of products or services over the internet. It serves as a virtual marketplace where businesses and individuals can showcase their products, interact with customers, and conduct transactions without the need for a physical presence. E-commerce websites have gained immense popularity due to their convenience, accessibility, and the global reach they offer.</p>\n        <p>E-commerce websites typically display products or services along with detailed descriptions, images, prices, and any available variations (e.g., sizes, colors). Each product usually has its own dedicated page with relevant information.</p>\n      </div>\n    </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "DescriptionBox.jsx",
+      "instructor_explanation": "Here we will create one div with the class name description box navigator. Within this div we will create another div with the class name description box nav box. Now we will create one copy of this div, and here we will add a class name fade, and instead of this description we will add the text reviews and here we will add 122. After this div we will create another div with the class name description box description. In this div we will create a paragraph tag, and in this paragraph we will add the static text."
+    },
+    {
+      "timestamp": "02:15:27",
+      "language": "css",
+      "content": ".descriptionbox{\nmargin: 120px 170px;\n}\n\n.descriptionbox-navigator{\ndisplay: flex;\n}\n\n.descriptionbox-nav-box{\ndisplay: flex;\nalign-items: center;\njustify-content: center;\nfont-size: 16px;\nfont-weight: 600;\nwidth: 171px;\nheight: 70px;\nborder: 1px solid #d0d0d0;\n}\n\n.descriptionbox-nav-box.fade{\nbackground: #FBFBFB;\ncolor: #555;\n}\n\n.descriptionbox-description{\ndisplay: flex;\nflex-direction: column;\ngap: 25px;\nborder: 1px solid #d0d0d0;\npadding: 48px;\npadding-bottom: 70px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "DescriptionBox.css",
+      "instructor_explanation": "Here we will add the margin of 120 pixel and 170 pixel. Then we will add the CSS for this description box navigator. Here we will add display flex. Then we will add the CSS properties for description box nav box. Here we will add display flex, align items center, justify content center. Then we will change the font size and font weight, width will be 171 pixel and height 70 pixel, then border of one pixel solid and this color code. Now we will add the CSS properties for this fade class name. Here we will add the background and this color code, then we will change the color. Now we will add the CSS properties for description box description class name. For this one we will add display flex, flex direction column, gap 25 pixels, border of one pixel solid and this color code, padding of 48 pixels and padding bottom 70 pixel."
+    },
+    {
+      "timestamp": "02:18:05",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './RelatedProducts.css'\n\nconst RelatedProducts = () => {\n  return (\n    <div className='relatedproducts'>\n        <h1>Related Products</h1>\n        <hr />\n        <div className='relatedproducts-item'>\n\n        </div>\n    </div>\n  )\n}\n\nexport default RelatedProducts",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "RelatedProducts.jsx",
+      "instructor_explanation": "Here we will use rafc. And for this div we will add a class name related products. Within this div we will create the HTML structure for our related product components. So here we will create one H1 tag, and in this one we will add the title related products. After that we will insert one HR tag. After this HR, we will create one div with the class name related products item."
+    },
+    {
+      "timestamp": "02:19:15",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './RelatedProducts.css'\nimport data_product from '../Assets/data'\nimport Item from '../Item/Item'\n\nconst RelatedProducts = () => {\n  return (\n    <div className='relatedproducts'>\n        <h1>Related Products</h1>\n        <hr />\n        <div className='relatedproducts-item'>\n            {data_product.map((item,i)=>{\n                return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>\n            })}\n        </div>\n    </div>\n  )\n}\n\nexport default RelatedProducts",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "RelatedProducts.jsx",
+      "instructor_explanation": "In this div we will map the product data. First we will import data product from assets data. And here we will add data product dot map method. Here we will pass the item and index number. Here we will return our item component, so we will use return item. And here we have to pass the props, as we have added in new collections, so come to new collections dot JSX file."
+    }
+  ],
+  "screen_timeline": [
+    {
+      "screen_state": "code_editor",
+      "timestamp": "02:10:00"
+    },
+    {
+      "screen_state": "browser_output",
+      "timestamp": "02:10:28"
+    },
+    {
+      "screen_state": "code_editor",
+      "timestamp": "02:11:17"
+    },
+    {
+      "screen_state": "browser_output",
+      "timestamp": "02:11:47"
+    },
+    {
+      "screen_state": "code_editor",
+      "timestamp": "02:12:13"
+    },
+    {
+      "screen_state": "browser_output",
+      "timestamp": "02:13:14"
+    },
+    {
+      "screen_state": "code_editor",
+      "timestamp": "02:13:20"
+    },
+    {
+      "screen_state": "browser_output",
+      "timestamp": "02:15:12"
+    },
+    {
+      "screen_state": "code_editor",
+      "timestamp": "02:15:22"
+    },
+    {
+      "screen_state": "browser_output",
+      "timestamp": "02:16:28"
+    },
+    {
+      "screen_state": "code_editor",
+      "timestamp": "02:17:44"
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "02:10:28",
+      "visual_type": "browser_output",
+      "description": "The product page with the size selection buttons, add to cart button, category and tags text."
+    },
+    {
+      "timestamp": "02:11:47",
+      "visual_type": "browser_output",
+      "description": "The browser shows the product page with updated image, product name, and price when a new category is selected."
+    },
+    {
+      "timestamp": "02:13:14",
+      "visual_type": "browser_output",
+      "description": "The product page showing the product details and descriptions components."
+    },
+    {
+      "timestamp": "02:15:12",
+      "visual_type": "browser_output",
+      "description": "The product page displaying the description box with text content."
+    },
+    {
+      "timestamp": "02:16:28",
+      "visual_type": "browser_output",
+      "description": "The browser shows the description box with 'Description' and 'Reviews (122)' tabs."
+    },
+    {
+      "timestamp": "02:16:59",
+      "visual_type": "browser_output",
+      "description": "The 'Reviews (122)' tab is now styled with a light background and a darker grey color for the text."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "02:10:00",
+      "region_type": "code",
+      "label": "vscode",
+      "visible": true,
+      "sample_text": ".productdisplay-right-sizes div",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "02:10:28",
+      "region_type": "browser",
+      "label": "browser",
+      "visible": true,
+      "sample_text": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "segment_index": 0,
+  "time_range": "90:00 - 91:30",
+  "transcript_entries": [
+    {
+      "timestamp": "01:30:00",
+      "text": "The class name will be shop category index sort.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop",
+        "category",
+        "index",
+        "sort"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:30:02",
+      "text": "Now we will",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:30:04",
+      "text": "pass these banners through props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:30:07",
+      "text": "If someone comes in men's path, we will pass",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:30:17",
+      "text": "men banner.",
+      "tone": "neutral",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:30:19",
+      "text": "When someone comes on women's path, then we will pass banner equals women banner.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:30:35",
+      "text": "Save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:30:40",
+      "text": "Now we will come to the shop category page.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:30:44",
+      "text": "Here we will create HTML structure for this shop category page.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:30:50",
+      "text": "Here we will display the banner, so here we will insert one image tag and in this image SRC we will add the image.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:31:01",
+      "text": "Now for the page index, we will use the paragraph tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "page",
+        "index",
+        "paragraph",
+        "tag"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:31:07",
+      "text": "So if I come to the men page, you can see this banner.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:31:15",
+      "text": "When we come to women, we have the women page banner, when we come on kid, we have the banner for the kid category.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:31:24",
+      "text": "Now we will create a div and the class name will be shop category index sort.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker has a clear, instructive tone, often explaining technical coding concepts. This is the narrator from the GreatStack YouTube channel."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "segment_index": 2,
+  "time_range": "10:00:00 - 19:59:00",
+  "code_blocks": [
+    {
+      "timestamp": "10:22:00",
+      "language": "javascript",
+      "content": "let all_product = [\n  {\n    id: 1,\n    name: \"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse\",\n    category: \"women\",\n    image: p1_img,\n    new_price: 50.0,\n    old_price: 80.5,\n  },\n  {\n    id: 2,\n    name: \"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse\",\n    category: \"women\",\n    image: p1_img,\n    new_price: 50.0,\n    old_price: 80.5,\n  },",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "all_product.js",
+      "instructor_explanation": "These data are in JSON format. Here we have the ID, product name, product category, product image, new price, and old price."
+    },
+    {
+      "timestamp": "10:48:00",
+      "language": "javascript",
+      "content": "import React from 'react';\nimport './Navbar.css';\n\nconst Navbar = () => {\n  return (\n    <div className=\"navbar\">\n    </div>\n  );\n};\n\nexport default Navbar;",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Now, we will come back to our navbar."
+    },
+    {
+      "timestamp": "11:11:00",
+      "language": "javascript",
+      "content": "import React from 'react';\nimport './Navbar.css';\nimport logo from './assets/logo.png';\nimport cart_icon from './assets/cart_icon.png';\n\nconst Navbar = () => {\n  return (\n    <div className=\"navbar\">\n    </div>\n  );\n};\n\nexport default Navbar;",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "lines_changed": "added import logo, import cart_icon",
+      "timestamp_end": "11:25:00"
+    },
+    {
+      "timestamp": "12:00:00",
+      "language": "javascript",
+      "content": "      <div className=\"nav-logo\">\n        <img src={logo} alt=\"\" />\n        <p>SHOPPER</p>\n      </div>\n      <ul className=\"nav-menu\">\n        <li>Shop</li>\n        <li>Men</li>\n        <li>Women</li>\n        <li>Kids</li>\n      </ul>\n      <div className=\"nav-login-cart\">\n        <button>Login</button>\n        <img src={cart_icon} alt=\"\" />\n      </div>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Now within this div, we will create one div with the class name nav-logo. Within this nav-logo, we will insert the img tag and in this SRC, we will insert the logo. Now we will add one P tag to add the text. Now we will add the UL tag and write the class name, nav-menu. Within this one we will add the list items."
+    },
+    {
+      "timestamp": "14:44:00",
+      "language": "css",
+      "content": ".nav-menu li {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 3px;\n  cursor: pointer;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Navbar.css",
+      "instructor_explanation": "So here we will add nav-menu LI and in this one, just add display flex, flex direction column, and align items center, justify content will be center and gap of 3 pixel, cursor will be pointer."
+    },
+    {
+      "timestamp": "15:30:00",
+      "language": "css",
+      "content": ".nav-menu hr {\n  border: none;\n  width: 80%;\n  height: 3px;\n  border-radius: 10px;\n  background: #ff4141;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Navbar.css",
+      "instructor_explanation": "So here, in this CSS, we will add nav-menu HR and let's add the border none, width of 80%, and height of 3 pixel and border radius of 10 pixel."
+    },
+    {
+      "timestamp": "19:10:00",
+      "language": "javascript",
+      "content": "const Navbar = () => {\n  const [menu, setMenu] = useState(\"shop\");\n\n  return (\n    <div className=\"navbar\">\n      ...\n      <ul className=\"nav-menu\">\n        <li onClick={()=>{setMenu(\"shop\")}}>Shop{menu===\"shop\"?<hr/>:<></>}</li>\n        <li onClick={()=>{setMenu(\"men\")}}>Men{menu===\"men\"?<hr/>:<></>}</li>\n        <li onClick={()=>{setMenu(\"women\")}}>Women{menu===\"women\"?<hr/>:<></>}</li>\n        <li onClick={()=>{setMenu(\"kids\")}}>Kids{menu===\"kids\"?<hr/>:<></>}</li>\n      </ul>\n      ...\n    </div>\n  );\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "So write const menu set menu equal to use state. So, we will initialize the menu with the shop. Now, in all four LI, we will add on click. In this on click, we will pass one arrow function and in this arrow function, we will set the menu."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "10:00:00",
+      "visual_type": "ui_demo",
+      "description": "The user is selecting files in a Windows file explorer window and moving them into an 'Assets' folder within the VS Code project directory."
+    },
+    {
+      "timestamp": "11:50:00",
+      "visual_type": "browser_output",
+      "description": "Browser shows an unstyled webpage with a logo and 'SHOPPER' text in the top left corner."
+    },
+    {
+      "timestamp": "13:10:00",
+      "visual_type": "browser_output",
+      "description": "Navbar is displayed in a flexbox layout, aligned side-by-side with a light box shadow."
+    },
+    {
+      "timestamp": "18:41:00",
+      "visual_type": "browser_output",
+      "description": "The cart icon in the top right of the navbar now displays a small red circular badge with a count of '0'."
+    }
+  ],
+  "screen_timeline": [],
+  "visual_regions": []
+}

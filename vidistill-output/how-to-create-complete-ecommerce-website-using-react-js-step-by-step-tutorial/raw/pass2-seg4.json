@@ -1,0 +1,105 @@
+{
+  "segment_index": 5,
+  "time_range": "40:00 - 50:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:40:01",
+      "language": "javascript",
+      "content": "const Hero = () => {\n  return (\n    <div className=\"hero\">\n      <div className=\"hero-left\">\n        <h2>NEW ARRIVALS ONLY</h2>\n        <div className=\"hero-hand-icon\">\n          <p>new</p>\n          <img src={hand_icon} alt=\"\" />\n        </div>\n        <p>collections</p>\n        <p>for everyone</p>\n      </div>\n      <div className=\"hero-latest-btn\">\n        <div>Latest Collection</div>\n        <img src={arrow_icon} alt=\"\" />\n      </div>\n      <div className=\"hero-right\">\n        <img src={hero_image} alt=\"\" />\n      </div>\n    </div>\n  );\n}",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "Hero.jsx",
+      "instructor_explanation": "Come to the Hero.jsx file."
+    },
+    {
+      "timestamp": "00:40:12",
+      "language": "css",
+      "content": ".hero-left h2{\n  color: #090909;\n  font-size: 26px;\n  font-weight: 600;\n}\n\n.hero-left p{\n  color: #171717;\n  font-size: 100px;\n  font-weight: 700;\n}\n\n.hero-hand-icon{\n  display: flex;\n  align-items: center;\n  gap: 20px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.css",
+      "instructor_explanation": "Add this class name here, in this CSS, and here we will add display. Display will be flex. align-items will be center, then gap of 20 pixel."
+    },
+    {
+      "timestamp": "00:40:34",
+      "language": "css",
+      "content": ".hero-hand-icon img{\n  width: 105px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.css",
+      "instructor_explanation": "Now we will provide the style for hero-hand-icon image. So here we will add hero-hand-icon IMG and for this image we will add the width, it will be 100 pixels or let's say 105 pixel."
+    },
+    {
+      "timestamp": "00:40:51",
+      "language": "css",
+      "content": ".hero-latest-btn{\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 15px;\n  width: 310px;\n  height: 70px;\n  border-radius: 75px;\n  margin-top: 30px;\n  background: #ff4141;\n  color: white;\n  font-size: 22px;\n  font-weight: 500;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.css",
+      "instructor_explanation": "Add the class name here, Hero Latest button. And here we will add display flex. Justify-content will be center, align items will be center, then we will add the gap of 15 pixel. Width will be 310 pixel, height of 70 pixel, border radius of 75 pixel, margin top, it will be 30 pixel. Background color code, then color, that will be the button text color, and we will increase the font size that will be 22 pixel and we will change the font weight, that will be 500."
+    },
+    {
+      "timestamp": "00:42:06",
+      "language": "css",
+      "content": "*{\n  margin: 0;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "index.css",
+      "instructor_explanation": "To remove this extra space, we will add margin zero for all the elements. So, come to index.css file, here we will add star. We will add margin zero. Save these changes. Now it is good."
+    },
+    {
+      "timestamp": "00:42:33",
+      "language": "css",
+      "content": ".hero-right{\n  flex: 1;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Hero.css",
+      "instructor_explanation": "In this hero.css, we will add the class name that is hero-right. For this class we will add the CSS properties which is flex 1, display flex, align items center and justify content center."
+    },
+    {
+      "timestamp": "00:43:39",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './item.css'\n\nconst Item = (props) => {\n  return (\n    <div className='item'>\n      <img src={props.image} alt=\"\" />\n      <p>{props.name}</p>\n      <div className=\"item-prices\">\n        <div className=\"item-price-new\">\n          {props.new_price}\n        </div>\n        <div className=\"item-price-old\">\n          {props.old_price}\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default Item",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Item.jsx",
+      "instructor_explanation": "Now the product image will be displayed here. After that, we will add the paragraph tag, where we will display props dot name. Within this div, we will create two div. So, the class name will be item price new, and the another one will be item price old."
+    },
+    {
+      "timestamp": "00:45:23",
+      "language": "css",
+      "content": ".item{\n  width: 350px;\n}\n\n.item p{\n  margin: 6px 0px;\n}\n\n.item-prices{\n  display: flex;\n  gap: 20px;\n}\n\n.item-price-new{\n  color: #374151;\n  font-size: 18px;\n  font-weight: 600;\n}\n\n.item-price-old{\n  color: #8c8c8c;\n  font-size: 18px;\n  font-weight: 500;\n  text-decoration: line-through;\n}\n\n.item:hover{\n  transform: scale(1.05);\n  transition: 0.6s;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "item.css",
+      "instructor_explanation": "Now we will add the CSS properties for this component. So, just add this class name Item, and here we will add the width of 350 pixel."
+    },
+    {
+      "timestamp": "00:47:59",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './popular.css'\nimport data_product from '../Assets/data'\n\nconst Popular = () => {\n  return (\n    <div className='popular'>\n      <h1>POPULAR IN WOMEN</h1>\n      <hr />\n      <div className=\"popular-item\">\n        {data_product.map}\n      </div>\n    </div>\n  )\n}\n\nexport default Popular",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "popular.jsx",
+      "instructor_explanation": "In this component we will create the HTML structure. So, for the title we will use the h1 tag. So, in this h1 tag we will add the text popular in women. After that, we will add the HR tag. Next, we will add one div with the class name popular-item. Within this div we will render our item component using data product."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:40:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "Hero.jsx",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

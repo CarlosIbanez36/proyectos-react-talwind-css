@@ -1,0 +1,697 @@
+{
+  "segment_index": 11,
+  "time_range": "01:40:00 - 01:50:00",
+  "transcript_entries": [
+    {
+      "timestamp": "01:40:00",
+      "text": "Now we will add the name and ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "name",
+        "ID"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:40:47",
+      "text": "Then we will add one paragraph tag and here we will add the text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph",
+        "text"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:41:51",
+      "text": "By continuing, I agree to the terms of use and privacy policy.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "agree"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:41:58",
+      "text": "Now, save the file and you can see these elements on our web page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "elements",
+        "web page"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:42:04",
+      "text": "Now, we will add the CSS properties for these components.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "properties",
+        "components"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:42:08",
+      "text": "So, in this CSS file we will create a new file: login signup dot CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "create",
+        "new",
+        "file",
+        "login signup dot CSS"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:42:15",
+      "text": "Now, we will import this CSS file in our page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "CSS"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:42:20",
+      "text": "So, here we will add import. /CSS folder /Loginsignup.css.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:42:31",
+      "text": "First, we will add the CSS properties to login signup class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS",
+        "properties",
+        "login signup"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:42:39",
+      "text": "In this one, we will add: width of 100%, height 80 VH, background - this color code, padding from the top 100 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "width",
+        "100%",
+        "height",
+        "80 VH",
+        "background",
+        "color",
+        "padding",
+        "top",
+        "100 pixel"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:42:53",
+      "text": "Next, we will add the CSS properties to login signup container.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS",
+        "properties",
+        "login signup container"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:43:02",
+      "text": "Here, we will add width, height, and background, margin: auto, and padding of 40 pixel, 60 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "height",
+        "background",
+        "margin",
+        "padding"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:43:16",
+      "text": "Next, we will add the CSS properties for this H1 tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "H1"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:43:22",
+      "text": "Here, we will add. Loginsignup-container H1 tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Loginsignup-container",
+        "H1"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:43:28",
+      "text": "Here we will provide the margin of 20 pixel and 0 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:43:35",
+      "text": "Next, we will add the CSS properties to: login signup fields class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS",
+        "properties",
+        "login signup fields"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:43:47",
+      "text": "Here, we will provide display flex, flex-direction column, gap of 30 pixels, margin top 30 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex",
+        "flex-direction column",
+        "gap",
+        "margin top"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:44:00",
+      "text": "Save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:44:03",
+      "text": "Now, we will add the CSS properties for these input fields.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "input fields"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:44:09",
+      "text": "So here, we will add. Loginsignup-fields, space input tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Loginsignup-fields",
+        "input"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:44:14",
+      "text": "Here, we will provide height of 72 pixels, width 100%, padding left 20 pixels, border of 1 pixel solid, and this color code, outline will be none, color, this color code, and the font-size of 18 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height",
+        "width",
+        "padding left",
+        "border",
+        "outline",
+        "color",
+        "font-size"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:44:33",
+      "text": "Now, save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:44:40",
+      "text": "So, these input fields are looking good. Next, we will add the properties for this continue button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "input fields",
+        "continue button"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:44:46",
+      "text": "So here, we will add. Loginsignup-container, button tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Loginsignup-container",
+        "button"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:44:54",
+      "text": "For this button, we will provide the width, then height, then change the color, and background, then we will add the margin from the top, and border none, font-size will be 24 pixel, and font-weight of 500, cursor pointer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "height",
+        "color",
+        "background",
+        "margin",
+        "border",
+        "font-size",
+        "font-weight",
+        "cursor"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:45:16",
+      "text": "Now, save the file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:45:20",
+      "text": "So, this button is also looking good.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "button"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:45:24",
+      "text": "Next, we will add the CSS for this text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "text"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:45:27",
+      "text": "So here, we will add. Loginsignup-login.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Loginsignup-login"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:45:36",
+      "text": "Here, we will provide margin-top of 20 pixels, color code, then font-size, font-weight of 500.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin-top",
+        "color",
+        "font-size",
+        "font-weight"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:45:49",
+      "text": "Now, we will add the CSS for this span tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "span tag"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:45:57",
+      "text": "So here, we will add. Loginsignup-login, space span.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Loginsignup-login",
+        "span"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:46:03",
+      "text": "Here, we will provide the color code, then font-weight of 600.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color",
+        "font-weight"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:46:10",
+      "text": "Now, we will add the CSS for this text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "text"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:46:16",
+      "text": "So, we will use the class name, Loginsignup agree class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Loginsignup agree",
+        "class"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:46:22",
+      "text": "Here, we will provide display flex, align items center, margin-top of 25 pixels, gap 20 pixels, and color this color code, then change the font-size, and font-weight.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex",
+        "align items",
+        "margin-top",
+        "gap",
+        "color",
+        "font-size",
+        "font-weight"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:46:44",
+      "text": "Now, save the file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:46:46",
+      "text": "Our signup page is ready now.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "signup page",
+        "ready"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:46:50",
+      "text": "Now, if I click on any product, it is not opening, so we have not created our product page.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "product",
+        "product page"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:47:02",
+      "text": "So, come to this product.jsx file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product.jsx"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:47:06",
+      "text": "Here, we will grab all product's data using context.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "data",
+        "context"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:47:11",
+      "text": "So here, we will add, const all product equals use context, within this use context, we will write shop context.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "const",
+        "all product",
+        "use context",
+        "shop context"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:47:35",
+      "text": "As we have did in app.js, we have created routes, so we have the product, then we have product ID.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "app.js",
+        "routes",
+        "product",
+        "product ID"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:47:45",
+      "text": "So first, we will use the product ID in our product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product ID",
+        "product page"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:47:50",
+      "text": "So, come to the product.jsx file and here we will add, const product ID equals use params.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product.jsx",
+        "const",
+        "product ID",
+        "use params"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:48:08",
+      "text": "Here we have used use params to get the product ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "use params",
+        "product ID"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:48:13",
+      "text": "Using this product ID, we will find the product in all products data and we will assign that in one variables.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product ID",
+        "product",
+        "data",
+        "variables"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:48:24",
+      "text": "So here, we will add, const product equals all product. find, and within this, we will pass one arrow function, e, so when e.ID equals product ID, if this condition is true, then this product will be displayed.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "const",
+        "product",
+        "all product. find",
+        "arrow function",
+        "e.ID",
+        "product ID",
+        "displayed"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:00",
+      "text": "So, we will store that product in this product variable and we will display that in our product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "product variable",
+        "product page"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:09",
+      "text": "So, we have the product ID in string format and e.ID is in number format.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "product ID",
+        "string",
+        "e.ID",
+        "number"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:15",
+      "text": "So here, we will convert the product ID in number.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "convert",
+        "product ID",
+        "number"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:23",
+      "text": "So here, we will add the bracket, and here we will add number.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "bracket",
+        "number"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:29",
+      "text": "Now the product ID that is a string, is converted in number, so we got the product.",
+      "tone": "neutral",
+      "emphasis_words": [
+        "product ID",
+        "string",
+        "number",
+        "product"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:36",
+      "text": "Now we have to display the product in our page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "product"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:40",
+      "text": "So now, we will design the product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "design",
+        "product page"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:42",
+      "text": "So first, we will create the breadcrumb component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "breadcrumb component"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:50",
+      "text": "In this components folder, we will create new folder, and we will add the name, Breadcrumbs.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "components folder",
+        "new folder",
+        "Breadcrumbs"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "01:49:57",
+      "text": "In this folder, we will create one file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "folder",
+        "file"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_07",
+      "description": "The speaker is a technical instructor from the GreatStack YouTube channel. They have a calm, instructional tone, and they speak in a clear, deliberate pace suitable for coding tutorials. They demonstrate React component creation and CSS styling."
+    }
+  ]
+}

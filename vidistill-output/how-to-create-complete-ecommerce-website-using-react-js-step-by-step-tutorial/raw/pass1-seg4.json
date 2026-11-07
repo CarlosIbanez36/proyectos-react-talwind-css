@@ -1,0 +1,380 @@
+{
+  "segment_index": 5,
+  "time_range": "40:00 - 05:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:40:09",
+      "text": "Add this class name here, in this CSS, and here we will add display. Display will be flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "display",
+        "flex"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:40:17",
+      "text": "align-items will be center, then gap of 20 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "flex",
+        "center",
+        "gap"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:40:30",
+      "text": "Now we will provide the style for hero-hand-icon image. So here we will add hero-hand-icon IMG and for this image we will add the width, it will be 100 pixels or let's say 105 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "style",
+        "hero-hand-icon",
+        "IMG",
+        "width",
+        "100",
+        "105"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:40:48",
+      "text": "Now we will add the style for Hero-latest-button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Hero-latest-button"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:40:53",
+      "text": "Add the class name here, Hero Latest button. And here we will add display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Hero Latest button",
+        "display flex"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:41:02",
+      "text": "Justify-content will be center, align items will be center, then we will add the gap of 15 pixel. Width will be 310 pixel, height of 70 pixel, border radius of 75 pixel, margin top, it will be 30 pixel. Background color code, then color, that will be the button text color, and we will increase the font size that will be 22 pixel and we will change the font weight, that will be 500.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "center",
+        "15",
+        "310",
+        "70",
+        "75",
+        "30",
+        "22",
+        "500"
+      ],
+      "pause_after_seconds": 3.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:41:54",
+      "text": "Now save these changes. You can see the extra space here. To remove this extra space, we will add margin zero for all the elements. So, come to index.css file, here we will add star. We will add margin zero. Save these changes. Now it is good.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "extra space",
+        "index.css",
+        "margin zero"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:42:22",
+      "text": "Now we will align this image which is in the right side. So, just come back to the code file. In this hero.css, we will add the class name that is hero-right. For this class we will add the CSS properties which is flex 1, display flex, align items center and justify content center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "hero.css",
+        "hero-right",
+        "flex 1",
+        "display flex",
+        "align items",
+        "center",
+        "justify content"
+      ],
+      "pause_after_seconds": 2.2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:42:58",
+      "text": "Now you can see this image in the center of the right section. Next, we will add the items for the product that will be displayed in our Men's, Women's or Kids category and we will also display on home page. So, we will come back to the VS Code editor. In this component we will create a new folder, items. In this item folder we will create item.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "VS Code",
+        "component",
+        "items",
+        "item.jsx"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:43:40",
+      "text": "Here we will add the class name, item. Now we will create a CSS file for this item component. So, let's create a file with the name item.css. Now import this item CSS file in this JSX file. So, just add import .slash item.css. Now we will create the HTML structure for the item component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "item",
+        "CSS",
+        "item.css",
+        "item.css",
+        "JSX",
+        "HTML"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:44:06",
+      "text": "Now we will create the HTML structure for the item component. So in this one we will insert one image tag and we will use the props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HTML structure",
+        "item component",
+        "image tag",
+        "props"
+      ],
+      "pause_after_seconds": 3.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:44:28",
+      "text": "Now the product image will be displayed here. After that, we will add the paragraph tag, where we will display props dot name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product image",
+        "paragraph tag",
+        "props dot name"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:44:46",
+      "text": "Within this div, we will create two div. So, the class name will be item price new, and the another one will be item price old.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "item price new",
+        "item price old"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:45:01",
+      "text": "Now in the first one we will insert the props.new_price and in the second one we will insert props.old_price.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "props.new_price",
+        "props.old_price"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:45:19",
+      "text": "Now, we will add the CSS properties for this component. So, just add this class name Item, and here we will add the width of 350 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS properties",
+        "component",
+        "Item",
+        "width",
+        "350 pixel"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:45:31",
+      "text": "After that, we will add the CSS properties for the paragraph tag. So, just add dot item, space p. For this paragraph, we will add the margin of 6 pixel, 0 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "paragraph",
+        "item",
+        "margin",
+        "6",
+        "0"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:45:44",
+      "text": "Now we will add the CSS for this item-prices. Write this class name here, and for this item-prices, we will add display flex, then gap of 20 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "item-prices",
+        "display flex",
+        "gap",
+        "20"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:46:02",
+      "text": "Next we will add the CSS properties for the item-price-new. So, use this class name here, and we will add color, and write this color code. Then we will change the font size, so the font size will be 18 pixel, then the font weight will be 600. Next, we will add the CSS properties for the item-price-old.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "item-price-new",
+        "color",
+        "18",
+        "600",
+        "item-price-old"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:46:39",
+      "text": "So, for this item-price-old, we will add the color code, then font size, it will be same 18 pixel, then font weight of 500, and here we will add text decoration line-through. Now on the complete item we will add the hover effect. Here we will add item hover.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "item-price-old",
+        "color code",
+        "18",
+        "500",
+        "text decoration",
+        "line-through",
+        "hover effect"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:47:14",
+      "text": "Here we will use the transform, scale of 1.05. Now we will add the transition of 0.6 seconds. Save these changes. Now we will use this item in different components. So, we will create the popular component for our shop page. So, in this component we will create a new folder with the name popular. Within this folder we will create one file, popular.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "transform",
+        "1.05",
+        "transition",
+        "0.6",
+        "popular",
+        "popular.jsx"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:47:31",
+      "text": "Now we will use this item in different components. So we will create the popular component for our shop page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "item",
+        "components",
+        "popular component",
+        "shop page"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:47:40",
+      "text": "So, in this component we will create a new folder with the name popular. Within this folder we will create one file, popular.jsx.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "component",
+        "new folder",
+        "popular",
+        "popular.jsx"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:47:56",
+      "text": "Convert this file in component using rafc. Here we will add class class name of popular. Now we will create a CSS file for this popular component and write the file name popular.css. Next, we will import this CSS file in this JSX file. So, just add import, then give the file path which is .slash popular.css. Here we will use our data.js file, where we have four products. We have the product ID, name, image, new price and old price. So, we will import this data product in our popular components.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "component",
+        "rafc",
+        "CSS",
+        "popular.css",
+        "JSX",
+        "import",
+        "data.js",
+        "data product"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:48:30",
+      "text": "Here we will use our data.js file, where we have four products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "data.js",
+        "products"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:48:47",
+      "text": "So we will import this data product in our popular components.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "data product",
+        "popular components"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:48:55",
+      "text": "In this one, we will import the product data from the asset folder. So, we will add import, data_product from dot dot slash assets slash data.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product data",
+        "asset",
+        "import"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:49:15",
+      "text": "In this component we will create the HTML structure. So, for the title we will use the h1 tag. So, in this h1 tag we will add the text popular in women. After that, we will add the HR tag. Next, we will add one div with the class name popular-item. Within this div we will render our item component using data product. So, here we will add data underscore product dot map. In this one we will pass.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HTML",
+        "h1 tag",
+        "HR tag",
+        "div",
+        "popular-item",
+        "item component",
+        "data product"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker is a tutorial instructor from the GreatStack YouTube channel. They have a calm, clear, and professional tone, frequently explaining technical coding steps in a straightforward manner."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "description": "The speaker is a tutorial instructor from the GreatStack YouTube channel. They have a calm, instructional tone, clear pronunciation, and are focused on web development, specifically React and CSS styling."
+    }
+  ]
+}

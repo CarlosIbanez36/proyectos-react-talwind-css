@@ -1,0 +1,301 @@
+{
+  "segment_index": 12,
+  "time_range": "01:50:00 - 02:00:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:50:03",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport {ShopContext} from '../Context/ShopContext'\nimport {useParams} from 'react-router-dom'; 484 (gzipped: 325)\n\nconst Product = () => {\n  const {all_product} = useContext(ShopContext)\n  const {productId} = useParams()\n  const product = all_product.find((e)=> e.id === Number(productId));\n  return (\n    <div>\n\n    </div>\n  )\n}\n\nexport default Product",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "Product.jsx",
+      "instructor_explanation": "Instructor begins with the existing Product.jsx file before adding the breadcrumb component."
+    },
+    {
+      "timestamp": "01:50:07",
+      "language": "jsx",
+      "content": "1",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "Instructor creates the Breadcrum.jsx component file."
+    },
+    {
+      "timestamp": "01:50:08",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nconst breadcrum = () => {\n  return (\n    <div>\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor uses the 'rafc' snippet to generate the component structure."
+    },
+    {
+      "timestamp": "01:50:11",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nconst breadcrum = () => {\n  return (\n    <div className='breadcrum'>\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor adds the 'breadcrum' className to the div element."
+    },
+    {
+      "timestamp": "01:50:32",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nconst breadcrum = () => {\n  return (\n    <div className='breadcrum'>\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor imports the Breadcrum.css file."
+    },
+    {
+      "timestamp": "01:50:43",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nconst breadcrum = (props) => {\n  return (\n    <div className='breadcrum'>\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor adds 'props' as an argument to the component function."
+    },
+    {
+      "timestamp": "01:50:49",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nconst breadcrum = (props) => {\n  const {product} = props;\n  return (\n    <div className='breadcrum'>\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor destructures 'product' from 'props'."
+    },
+    {
+      "timestamp": "01:51:04",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nconst breadcrum = (props) => {\n  const {product} = props;\n  return (\n    <div className='breadcrum'>\n      HOME \n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor adds the text 'HOME' inside the breadcrum div."
+    },
+    {
+      "timestamp": "01:51:12",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nimport arrow_icon from '../Assets/breadcrum_arrow.png'\nconst breadcrum = (props) => {\n  const {product} = props;\n  return (\n    <div className='breadcrum'>\n      HOME \n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor imports the arrow icon from the assets folder."
+    },
+    {
+      "timestamp": "01:51:30",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nimport arrow_icon from '../Assets/breadcrum_arrow.png'\nconst breadcrum = (props) => {\n  const {product} = props;\n  return (\n    <div className='breadcrum'>\n      HOME <img src={arrow_icon} alt='' />\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor adds the arrow icon image tag after 'HOME'."
+    },
+    {
+      "timestamp": "01:51:41",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nimport arrow_icon from '../Assets/breadcrum_arrow.png'\nconst breadcrum = (props) => {\n  const {product} = props;\n  return (\n    <div className='breadcrum'>\n      HOME <img src={arrow_icon} alt='' /> SHOP <img src={arrow_icon} alt='' />\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor adds 'SHOP' and another arrow icon image tag."
+    },
+    {
+      "timestamp": "01:51:56",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nimport arrow_icon from '../Assets/breadcrum_arrow.png'\nconst breadcrum = (props) => {\n  const {product} = props;\n  return (\n    <div className='breadcrum'>\n      HOME <img src={arrow_icon} alt='' /> SHOP <img src={arrow_icon} alt='' /> {product.category}\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor adds the 'product.category' variable to the JSX."
+    },
+    {
+      "timestamp": "01:52:07",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nimport arrow_icon from '../Assets/breadcrum_arrow.png'\nconst breadcrum = (props) => {\n  const {product} = props;\n  return (\n    <div className='breadcrum'>\n      HOME <img src={arrow_icon} alt='' /> SHOP <img src={arrow_icon} alt='' /> {product.category} <img src={arrow_icon} alt='' />\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor adds another arrow icon image tag after the category."
+    },
+    {
+      "timestamp": "01:52:19",
+      "language": "jsx",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './Breadcrum.css'\nimport arrow_icon from '../Assets/breadcrum_arrow.png'\nconst breadcrum = (props) => {\n  const {product} = props;\n  return (\n    <div className='breadcrum'>\n      HOME <img src={arrow_icon} alt='' /> SHOP <img src={arrow_icon} alt='' /> {product.category} <img src={arrow_icon} alt='' /> {product.name}\n    </div>\n  )\n}\n\nexport default breadcrum",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Breadcrum.jsx",
+      "instructor_explanation": "The instructor adds the 'product.name' variable to the JSX."
+    },
+    {
+      "timestamp": "01:52:32",
+      "language": "jsx",
+      "content": "import React, {useContext} from 'react' 6.9k (gzipped: 2.7k)\nimport {ShopContext} from '../Context/ShopContext'\nimport {useParams} from 'react-router-dom'; 484 (gzipped: 325)\nimport Breadcrum from '../Components/Breadcrum/Breadcrum'\n\nconst Product = () => {\n  const {all_product} = useContext(ShopContext)\n  const {productId} = useParams()\n  const product = all_product.find((e)=> e.id === Number(productId));\n  return (\n    <div>\n      <Breadcrum product={product}/>\n    </div>\n  )\n}\n\nexport default Product",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Product.jsx",
+      "instructor_explanation": "The instructor imports and mounts the 'Breadcrum' component in 'Product.jsx' and passes the 'product' prop."
+    },
+    {
+      "timestamp": "01:53:01",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './Item.css'\nimport {Link} from 'react-router-dom'\n\nconst Item = (props) => {\n  return (\n    <div className='item'>\n      <Link to={`/product/${props.id}`}><img src={props.image} alt='' /></Link>\n      <p>{props.name}</p>\n      <div className='item-prices'>\n        <div className='item-price-new'>\n          ${props.new_price}\n        </div>\n        <div className='item-price-old'>\n          ${props.old_price}\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default Item",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Item.jsx",
+      "instructor_explanation": "The instructor wraps the product image in a 'Link' component that navigates to the individual product page using its ID."
+    },
+    {
+      "timestamp": "01:54:19",
+      "language": "jsx",
+      "content": "1",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ProductDisplay.jsx",
+      "instructor_explanation": "Instructor creates the 'ProductDisplay.jsx' file."
+    },
+    {
+      "timestamp": "01:54:35",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './ProductDisplay.css'\n\nconst ProductDisplay = (props) => {\n  return (\n    <div className='productdisplay'>\n    </div>\n  )\n}\n\nexport default ProductDisplay",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "ProductDisplay.jsx",
+      "instructor_explanation": "The instructor uses the 'rafc' snippet to create the 'ProductDisplay' component and imports its CSS file."
+    },
+    {
+      "timestamp": "01:55:18",
+      "language": "jsx",
+      "content": "import React, {useContext} from 'react' 6.9k (gzipped: 2.7k)\nimport {ShopContext} from '../Context/ShopContext'\nimport {useParams} from 'react-router-dom'; 484 (gzipped: 325)\nimport Breadcrum from '../Components/Breadcrum/Breadcrum'\nimport ProductDisplay from '../Components/ProductDisplay/ProductDisplay'\n\nconst Product = () => {\n  const {all_product} = useContext(ShopContext)\n  const {productId} = useParams()\n  const product = all_product.find((e)=> e.id === Number(productId));\n  return (\n    <div>\n      <Breadcrum product={product}/>\n      <ProductDisplay product={product}/>\n    </div>\n  )\n}\n\nexport default Product",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Product.jsx",
+      "instructor_explanation": "The instructor imports and mounts 'ProductDisplay' component and passes the 'product' prop."
+    },
+    {
+      "timestamp": "01:56:01",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './ProductDisplay.css'\n\nconst ProductDisplay = (props) => {\n  const {product} = props;\n  return (\n    <div className='productdisplay'>\n      <div className='productdisplay-left'>\n      </div>\n      <div className='productdisplay-right'>\n      </div>\n    </div>\n  )\n}\n\nexport default ProductDisplay",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ProductDisplay.jsx",
+      "instructor_explanation": "The instructor adds the 'product' prop and the 'productdisplay-left' and 'productdisplay-right' divs."
+    },
+    {
+      "timestamp": "01:56:15",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './ProductDisplay.css'\n\nconst ProductDisplay = (props) => {\n  const {product} = props;\n  return (\n    <div className='productdisplay'>\n      <div className='productdisplay-left'>\n        <div className='productdisplay-img-list'>\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n        </div>\n      </div>\n      <div className='productdisplay-right'>\n      </div>\n    </div>\n  )\n}\n\nexport default ProductDisplay",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ProductDisplay.jsx",
+      "instructor_explanation": "The instructor adds the 'productdisplay-img-list' div with four images."
+    },
+    {
+      "timestamp": "01:57:05",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './ProductDisplay.css'\n\nconst ProductDisplay = (props) => {\n  const {product} = props;\n  return (\n    <div className='productdisplay'>\n      <div className='productdisplay-left'>\n        <div className='productdisplay-img-list'>\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n        </div>\n        <div className='productdisplay-img'>\n          <img className='productdisplay-main-img' src={product.image} alt='' />\n        </div>\n      </div>\n      <div className='productdisplay-right'>\n      </div>\n    </div>\n  )\n}\n\nexport default ProductDisplay",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ProductDisplay.jsx",
+      "instructor_explanation": "The instructor adds the main product image display."
+    },
+    {
+      "timestamp": "01:57:48",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './ProductDisplay.css'\n\nconst ProductDisplay = (props) => {\n  const {product} = props;\n  return (\n    <div className='productdisplay'>\n      <div className='productdisplay-left'>\n        <div className='productdisplay-img-list'>\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n        </div>\n        <div className='productdisplay-img'>\n          <img className='productdisplay-main-img' src={product.image} alt='' />\n        </div>\n      </div>\n      <div className='productdisplay-right'>\n        <h1>{product.name}</h1>\n      </div>\n    </div>\n  )\n}\n\nexport default ProductDisplay",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ProductDisplay.jsx",
+      "instructor_explanation": "The instructor adds the 'product.name' in an H1 tag."
+    },
+    {
+      "timestamp": "01:58:34",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './ProductDisplay.css'\nimport star_icon from '../Assets/star_icon.png'\nimport star_dull_icon from '../Assets/star_dull_icon.png'\n\nconst ProductDisplay = (props) => {\n  const {product} = props;\n  return (\n    <div className='productdisplay'>\n      <div className='productdisplay-left'>\n        <div className='productdisplay-img-list'>\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n        </div>\n        <div className='productdisplay-img'>\n          <img className='productdisplay-main-img' src={product.image} alt='' />\n        </div>\n      </div>\n      <div className='productdisplay-right'>\n        <h1>{product.name}</h1>\n        <div className='productdisplay-right-star'>\n          <img src={star_icon} alt='' />\n          <img src={star_icon} alt='' />\n          <img src={star_icon} alt='' />\n          <img src={star_icon} alt='' />\n          <img src={star_dull_icon} alt='' />\n          <p>(122)</p>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default ProductDisplay",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ProductDisplay.jsx",
+      "instructor_explanation": "The instructor adds the star ratings section."
+    },
+    {
+      "timestamp": "01:59:44",
+      "language": "jsx",
+      "content": "import React from 'react'\nimport './ProductDisplay.css'\nimport star_icon from '../Assets/star_icon.png'\nimport star_dull_icon from '../Assets/star_dull_icon.png'\n\nconst ProductDisplay = (props) => {\n  const {product} = props;\n  return (\n    <div className='productdisplay'>\n      <div className='productdisplay-left'>\n        <div className='productdisplay-img-list'>\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n          <img src={product.image} alt='' />\n        </div>\n        <div className='productdisplay-img'>\n          <img className='productdisplay-main-img' src={product.image} alt='' />\n        </div>\n      </div>\n      <div className='productdisplay-right'>\n        <h1>{product.name}</h1>\n        <div className='productdisplay-right-star'>\n          <img src={star_icon} alt='' />\n          <img src={star_icon} alt='' />\n          <img src={star_icon} alt='' />\n          <img src={star_icon} alt='' />\n          <img src={star_dull_icon} alt='' />\n          <p>(122)</p>\n        </div>\n        <div className='productdisplay-right-prices'>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default ProductDisplay",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ProductDisplay.jsx",
+      "instructor_explanation": "The instructor adds the 'productdisplay-right-prices' div."
+    }
+  ],
+  "screen_timeline": [
+    {
+      "screen_state": "code_editor",
+      "timestamp": "01:50:00"
+    },
+    {
+      "screen_state": "browser",
+      "timestamp": "01:53:52"
+    },
+    {
+      "screen_state": "code_editor",
+      "timestamp": "01:54:10"
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "01:53:52",
+      "visual_type": "browser_output",
+      "description": "The browser shows the product page with the product ID in the URL and the Breadcrumb component at the top."
+    },
+    {
+      "timestamp": "01:59:24",
+      "visual_type": "browser_output",
+      "description": "The browser shows the product display section with product name, star ratings, and product images."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:50:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "const Product = () => {",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0.176,
+        "y": 0.08,
+        "width": 0.824,
+        "height": 0.91
+      }
+    },
+    {
+      "timestamp": "01:50:00",
+      "region_type": "sidebar",
+      "label": "Explorer",
+      "visible": true,
+      "sample_text": "src",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0.08,
+        "width": 0.176,
+        "height": 0.91
+      }
+    },
+    {
+      "timestamp": "01:53:52",
+      "region_type": "browser",
+      "label": "Chrome Browser",
+      "visible": true,
+      "sample_text": "localhost:3000/product/19",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0.08,
+        "width": 1,
+        "height": 0.91
+      }
+    }
+  ]
+}

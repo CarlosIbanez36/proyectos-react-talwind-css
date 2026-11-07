@@ -1,0 +1,534 @@
+{
+  "segment_index": 0,
+  "time_range": "00:00:00 - 00:10:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:00:01",
+      "text": "Hi guys. In this video, we are going to create a complete e-commerce website using MERN stack. As you can see on my computer screen, this is our website. Here we have this navigation bar, using that we can navigate to different pages.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "complete",
+        "MERN"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:00:19",
+      "text": "On this homepage, we have this hero element. After that, we have the products popular in the women's category. Then, we have a banner where you can display the exclusive offers. Then, we have the new collections.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "homepage",
+        "hero",
+        "banner"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:00:30",
+      "text": "So when we will add a new product from our admin panel, that will be displayed in this new collection.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "new collections",
+        "admin panel",
+        "new collection"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:00:43",
+      "text": "After that, we have one newsletter subscription box. And at the end, we have the footer with some links.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "newsletter",
+        "footer"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:00:51",
+      "text": "Let's navigate to the men's category. Here you will see the products of the men's category.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "men's category",
+        "products"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:01:02",
+      "text": "Now navigate to the women's category. Here, you will get the products related to the women's category.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "women's"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:01:13",
+      "text": "And now let's go to the kids category, and here also you can see we have only kids product on this page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "kids category",
+        "kids product"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:01:24",
+      "text": "Here we have the login button. If we click here, it will open the login page. If you don't have the login ID and password, you can create one by clicking here. And in this one, we'll add one username.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "login"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:01:36",
+      "text": "let's add UserOne. We'll add one email ID, let's add user1@gmail.com and we will add the password 12345678, then click on this button, so it will create a new user and we will logged in on our website.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "username",
+        "email ID",
+        "password",
+        "new user",
+        "logged in"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:02:02",
+      "text": "You can see we have logged in on our website, and now the user has been generated.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logged in",
+        "user"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:02:10",
+      "text": "For the database, we are using MongoDB Atlas database.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "MongoDB"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:02:16",
+      "text": "On this web page, if I click on the category and open any product, and here we have the product images, then product title, price of the product, then small description of the product. And here we have the option to select the size and one add to cart button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "web page",
+        "category",
+        "product"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:02:37",
+      "text": "If I click on the add to cart button, this product will be added here. You can see in the cart item this product is available. If I come back and click the cart button again, and you can see the same product has been added, and you can see the quantity two.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add to cart",
+        "added",
+        "available"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:02:54",
+      "text": "And the total price has been increased. Now come back and let's add some more products in the cart.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "total price",
+        "increased",
+        "cart"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:03:07",
+      "text": "Now you can see the cart page. Here we have total four quantity. You can see two quantity for the first product, then other two products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart page",
+        "quantity"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:03:17",
+      "text": "This will display the total of individual product and this cart total will display the total cart value.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "total of individual product",
+        "total cart value"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:03:25",
+      "text": "Let's click on the logout, so this cart item will become zero, and if we login again with the same ID, we will use user1@gmail.com and password.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logout",
+        "cart item",
+        "login",
+        "same ID"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:03:45",
+      "text": "So we are logged in, and again you can see we have the same items in this cart.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logged in",
+        "same items",
+        "cart"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:03:54",
+      "text": "If I logout again, let's try to login on this webpage with any wrong password.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logout",
+        "login",
+        "wrong password"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:04:04",
+      "text": "With any wrong password, so it will give a message, please try with correct email/password.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "wrong password",
+        "message",
+        "email/password"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:04:14",
+      "text": "If I click here for creating a new user with the same email ID,",
+      "tone": "instructional",
+      "emphasis_words": [
+        "new user",
+        "email ID"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:04:24",
+      "text": "So, it will give a message, existing user found with this email.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "message",
+        "existing user"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:04:33",
+      "text": "So we are going to create this complete e-commerce website using MERN stack, so let's start the video.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "complete e-commerce website",
+        "MERN stack"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:04:42",
+      "text": "First we will come to our desktop screen, and here we will create a folder.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "desktop screen",
+        "folder"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:04:49",
+      "text": "Let me add the folder name, e-commerce.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "folder name",
+        "e-commerce"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:04:58",
+      "text": "Now, open this folder, and within this folder we will create another folder with the name frontend.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "folder",
+        "frontend"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:05:10",
+      "text": "Let's open this folder with our code editor, which is Visual Studio Code. Here we will open the terminal, open integrated terminal.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "open",
+        "code editor",
+        "Visual Studio Code",
+        "terminal"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:05:23",
+      "text": "We have to create the React project, so here in this terminal we will add NPX create react app dot. When we are using dot, this command will create the project in this folder, which is frontend.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "React project",
+        "terminal",
+        "NPX create react app",
+        "folder",
+        "frontend"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:05:49",
+      "text": "So, after completing it, you can see our React project has been created. Now we will install the React router dom library. For that we will add NPM install react router dom.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "React project",
+        "React router dom library",
+        "NPM install"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:06:08",
+      "text": "So we have created our project and installed our React dom. Now we will run our project, so here we will add NPM start.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "created",
+        "installed",
+        "run",
+        "NPM start"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:06:23",
+      "text": "And after that, you can see our React project is running in browser. Now we will clean the default React project.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "React project",
+        "running",
+        "browser",
+        "default React project"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:06:28",
+      "text": "So just come back to the code editor, click here on SRC, open this app.js and from here we will remove this header tag and remove this import logo.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "clean",
+        "default React project",
+        "remove",
+        "import logo"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:06:54",
+      "text": "Now in this public folder, index.html file is there. So, here we will rename our title. So, the title is E-Commerce, save this.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "public folder",
+        "rename",
+        "title"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:07:11",
+      "text": "Now you can see the project is clear. Now we can create the folder structure for our e-commerce project.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "clear",
+        "folder structure",
+        "e-commerce"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:07:23",
+      "text": "Within this SRC, we will create one folder with the name components.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "folder",
+        "components"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:07:35",
+      "text": "And here, let's create another folder with the name context. We will use this context folder for context APIs and we will use this pages folder to create e-commerce pages.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "folder",
+        "context",
+        "context APIs",
+        "pages"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:08:02",
+      "text": "In this assets folder we will store the images, and in this components we will create one navbar component also, so here we'll create a new folder and write the name navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "assets folder",
+        "images",
+        "components",
+        "navbar component"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:08:16",
+      "text": "Within this Navbar, we will add navbar.jsx file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Navbar",
+        "navbar.jsx"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:08:24",
+      "text": "Next, we will convert this JSX file into component using RAFC. So write RAFC and now we will create the CSS file for this navbar.jsx. So here, we will create a new file and write the name navbar.css.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "JSX file",
+        "component",
+        "RAFC",
+        "CSS file"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:08:45",
+      "text": "Now, we have to import this CSS file in this navbar.jsx. So just add import and write the directory of the CSS file. Dot Navbar dot CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "CSS file",
+        "navbar.jsx"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:09:00",
+      "text": "Next we have to mount this navbar component in app.js file. So, in this one, just remove this class name and in this one, we will mount the navbar. So just write the nav, you can see the Navbar component in this snippet.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mount",
+        "navbar component",
+        "app.js"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:09:14",
+      "text": "So just write the navbar, you can see the navbar component in this snippet, click here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "navbar",
+        "navbar component",
+        "snippet"
+      ],
+      "pause_after_seconds": 2.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:09:25",
+      "text": "So it will be automatically imported here. Just close this. Now the Navbar has been mounted in app.js. Now we will create the Navbar. So, in this Navbar we will create the HTML structure of the Navbar. So, within this div, we will add a class name, so let's add the class name Navbar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "imported",
+        "Navbar",
+        "mounted",
+        "app.js",
+        "HTML structure",
+        "class name"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:09:49",
+      "text": "Now, we have to add the images. So, in this assets folder, let's right click here and select reveal in file explorer, navigate to",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "images",
+        "assets folder"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker is a tutorial narrator who guides viewers through the creation of an e-commerce website using the MERN stack. The speaker has a professional, calm, and informative tone, consistently explaining technical steps in code editors and web browsers."
+    }
+  ]
+}

@@ -1,0 +1,931 @@
+{
+  "segment_index": 17,
+  "time_range": "02:40:00 - 02:50:00",
+  "transcript_entries": [
+    {
+      "timestamp": "02:40:02",
+      "text": "After that, we will add the CSS properties for the cart item format main.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart",
+        "item",
+        "format",
+        "main"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:40:08",
+      "text": "Here we will add display grid, grid template column 0.5 fraction, two fraction, one fraction, one fraction, one fraction and one fraction, align items center, gap 75 pixels, padding of 20 pixels, zero pixel, color, this color code, then font size 18 pixel, and font weight 600.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "grid",
+        "center",
+        "75",
+        "20",
+        "18",
+        "600"
+      ],
+      "pause_after_seconds": 1.2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:40:35",
+      "text": "Save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:40:37",
+      "text": "Now, let's add some items in the cart. Let's click here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:40:41",
+      "text": "And we have added three different product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "three"
+      ],
+      "pause_after_seconds": 0.3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:40:45",
+      "text": "Now in this cart page, you can see three items.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart",
+        "three"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:40:50",
+      "text": "Now we will add the CSS properties for these cart items.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart",
+        "items"
+      ],
+      "pause_after_seconds": 0.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:40:55",
+      "text": "So, just use the same class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "same"
+      ],
+      "pause_after_seconds": 0.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:00",
+      "text": "Here we will add this class name in this cart item format.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart",
+        "item",
+        "format"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:05",
+      "text": "So, we will add the same class name here and save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "same",
+        "save"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:10",
+      "text": "Now we have products in the same template.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "same"
+      ],
+      "pause_after_seconds": 0.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:14",
+      "text": "Now we will add the properties for the cart item format.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart",
+        "item",
+        "format"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:26",
+      "text": "Here we will add font size of 17 pixels, font weight of 500.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "17",
+        "500"
+      ],
+      "pause_after_seconds": 0.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:35",
+      "text": "Now the text is different from the title.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "different"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:40",
+      "text": "Now we will reduce the size of this product image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "reduce",
+        "product",
+        "image"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:44",
+      "text": "So we will use this class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:47",
+      "text": "Cart icon product icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Cart",
+        "icon",
+        "product",
+        "icon"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:41:51",
+      "text": "Here we will add the height of 62 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height",
+        "62"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:42:00",
+      "text": "Now in this image tag we will add a class name and here we will add the class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image",
+        "class"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:42:05",
+      "text": "Cart items remove icon.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart",
+        "items",
+        "remove",
+        "icon"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:42:17",
+      "text": "Width 15 pixels, margin 0 pixel, 40 pixels, cursor pointer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "15",
+        "40",
+        "pointer"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:42:25",
+      "text": "Now the image size has been reduced.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "reduced"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:42:30",
+      "text": "Now we will add the CSS properties for this quantity button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "quantity",
+        "button"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:42:35",
+      "text": "So from here we will copy this class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:42:42",
+      "text": "And for this class name we will add the width of 64 pixels, height 50 pixels, border of 2 pixel solid and this color code, background white.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "64",
+        "height",
+        "50"
+      ],
+      "pause_after_seconds": 0.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:42:56",
+      "text": "Now this quantity button is looking good.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "quantity",
+        "good"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:42:59",
+      "text": "Now in this total price, we have to add the dollar sign.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "total",
+        "price",
+        "dollar"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:43:03",
+      "text": "So let's come back and here we will add dollar.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dollar"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:43:08",
+      "text": "Save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:43:11",
+      "text": "Now here we have the total price of the individual item, that is the price multiplied by quantity.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "total",
+        "price"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:43:18",
+      "text": "Now we will display the total cart price, that is the cart value.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "total",
+        "cart",
+        "price"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:43:35",
+      "text": "And after that we will add one div with the class name cart items down.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "cart",
+        "items",
+        "down"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:43:46",
+      "text": "After that we will create another div with the class name cart items total.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "cart",
+        "items",
+        "total"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:43:56",
+      "text": "Then we will add one text in H1 tag. So let's add the text, cart totals.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "H1",
+        "cart",
+        "totals"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:04",
+      "text": "After this H1 tag, we will create one div.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "H1",
+        "div"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:10",
+      "text": "And in this div we will create another div with the class name, cart items total item.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "cart",
+        "items",
+        "total",
+        "item"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:21",
+      "text": "In this div we will use the paragraph text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph",
+        "text"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:26",
+      "text": "Here we will add subtotal.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "subtotal"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:29",
+      "text": "And after this paragraph text we will add another paragraph text, and in this one we will insert dollar sign.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph",
+        "dollar"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:36",
+      "text": "And here we will use total cart value.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "total",
+        "cart",
+        "value"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:40",
+      "text": "So let me write zero for now.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "zero"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:45",
+      "text": "And we will display this data using our context.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "context"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:48",
+      "text": "So after this div we will add one HR tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HR"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:44:52",
+      "text": "And here we will create one div and the class name will be same, cart items total item.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "cart",
+        "items",
+        "total",
+        "item"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:45:02",
+      "text": "In this div we will create two paragraph tags.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "paragraph",
+        "tags"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:45:07",
+      "text": "So, first one will be shipping fee.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shipping",
+        "fee"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:45:13",
+      "text": "And the second paragraph tag will be free.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph",
+        "free"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:45:18",
+      "text": "After this div we will add one HR tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "HR"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:45:22",
+      "text": "And after that, we will insert a div with the same class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "same",
+        "class"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:45:28",
+      "text": "Cart items total item.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart",
+        "items",
+        "total",
+        "item"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:45:41",
+      "text": "Another H3 tag and here we will display dollar sign and the total cart value. So here we will add zero for now.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "H3",
+        "dollar",
+        "total",
+        "cart",
+        "value",
+        "zero"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:45:51",
+      "text": "After this div we will create one button tag. In this one we will add the text that is proceed to checkout.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "button",
+        "proceed",
+        "to",
+        "checkout"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:46:07",
+      "text": "Now we will create one promo code section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "promo",
+        "code",
+        "section"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:46:11",
+      "text": "So here we will add div dot cart items promo code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "cart",
+        "items",
+        "promo",
+        "code"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:46:21",
+      "text": "In this div we will insert a paragraph text, and here we will add, if you have a promo code, enter it here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "paragraph",
+        "promo",
+        "code",
+        "enter"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:46:33",
+      "text": "After that we will add one div tag with the class name cart item promo box.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "cart",
+        "item",
+        "promo",
+        "box"
+      ],
+      "pause_after_seconds": 0.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:46:46",
+      "text": "Now in this one we will insert one input tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "input",
+        "tag"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:46:51",
+      "text": "Here we will insert the placeholder, and the placeholder text will be promo code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "placeholder",
+        "promo",
+        "code"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:47:01",
+      "text": "After that, we will add one button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:47:05",
+      "text": "And in this button we will add the button text, submit.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button",
+        "text",
+        "submit"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:47:10",
+      "text": "Now save the code and now you can see these things on the web page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "save",
+        "code"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:47:15",
+      "text": "Now we will add the CSS properties for these details.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "details"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:47:18",
+      "text": "First, we will add the CSS properties for the cart items down class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "cart",
+        "items",
+        "down"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:47:28",
+      "text": "So here we will add display flex, margin 100 pixel and zero pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "flex",
+        "100"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:47:37",
+      "text": "Now we will add the CSS properties for this cart items total class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "cart items total"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:47:44",
+      "text": "Here we will provide flex one, display flex, flex direction column, margin right of 200 pixels, gap 40 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "flex",
+        "column",
+        "200",
+        "40"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:48:04",
+      "text": "Now we will add the CSS properties for this cart item total item class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "cart",
+        "item",
+        "total",
+        "item"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:48:16",
+      "text": "So here we will provide display flex, justify content space between, padding 15 pixels and zero pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "flex",
+        "justify",
+        "content",
+        "space",
+        "between",
+        "15"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:48:27",
+      "text": "Now we will add the CSS properties for this button tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "button"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:48:33",
+      "text": "So here we will add dot cart items total, space button tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart items total",
+        "button tag"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:48:43",
+      "text": "Here we will provide width of 262 pixels, height of 58 pixels, outline none, border none, background this color code, color white, and font size 16 pixels, font weight of 600 and cursor pointer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "262",
+        "58",
+        "white",
+        "16",
+        "600",
+        "pointer"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:49:05",
+      "text": "Now this button looks good.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button",
+        "good"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:49:09",
+      "text": "Now we will add the CSS properties for the promo code section.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "promo",
+        "code",
+        "section"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:49:13",
+      "text": "So here we have the class name, cart items promo code. Just add this class name here.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "cart",
+        "items",
+        "promo",
+        "code"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:49:21",
+      "text": "For this one we will provide flex one, font size 16 pixels, font weight of 500.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "flex",
+        "16",
+        "500"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:49:36",
+      "text": "Now we will add the CSS properties for this P tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "P"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:49:40",
+      "text": "So again write the same class name, cart items promo code, then space p.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart items promo code",
+        "space p"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:49:48",
+      "text": "For this paragraph we will provide color this color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph",
+        "color"
+      ],
+      "pause_after_seconds": 0.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker is a developer providing a technical tutorial on implementing CSS properties for a cart page in a web application. The speaker has a calm, clear, and instructive tone, focusing on code structure and UI styling."
+    },
+    {
+      "speaker_id": "SPEAKER_10",
+      "description": "The speaker provides a clear, instructional tutorial on web development, specifically CSS styling for a shopping cart component, identifying themselves as part of the 'GreatStack' channel."
+    }
+  ]
+}

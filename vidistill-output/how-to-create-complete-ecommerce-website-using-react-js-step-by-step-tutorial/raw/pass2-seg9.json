@@ -1,0 +1,177 @@
+{
+  "segment_index": 10,
+  "time_range": "90:00 - 99:59",
+  "code_blocks": [
+    {
+      "timestamp": "01:30:00",
+      "language": "javascript",
+      "content": "import './App.css';\nimport Navbar from './Components/Navbar/Navbar';\nimport {BrowserRouter,Routes,Route} from 'react-router-dom';\nimport Shop from './Pages/Shop';\nimport ShopCategory from './Pages/ShopCategory';\nimport Product from './Pages/Product';\nimport Cart from './Pages/Cart';\nimport LoginSignup from './Pages/LoginSignup';\nimport Footer from './Components/Footer/Footer';\nimport men_banner from './Components/Assets/banner_mens.png'\nimport women_banner from './Components/Assets/banner_women.png'\nimport kid_banner from './Components/Assets/banner_kids.png'\n\nfunction App() {\n  return (\n    <div>\n      <BrowserRouter>\n      <Navbar/>",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "App.js",
+      "instructor_explanation": "The class name will be shop category index sort. Now we will pass these banners through props. If someone comes in men's path, we will pass men banner. When someone comes on women's path, then we will pass banner equals women banner. Save these changes."
+    },
+    {
+      "timestamp": "01:30:10",
+      "language": "javascript",
+      "content": "<Route path='/mens' element={<ShopCategory banner={men_banner} category=\"men\"/>} />\n<Route path='/womens' element={<ShopCategory banner={women_banner} category=\"women\"/>} />\n<Route path='/kids' element={<ShopCategory banner={kid_banner} category=\"kid\"/>} />",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "App.js",
+      "instructor_explanation": "If someone comes in men's path, we will pass men banner. When someone comes on women's path, then we will pass banner equals women banner. When someone comes on kid's path, then we will pass banner equals kid banner.",
+      "lines_changed": "4 lines"
+    },
+    {
+      "timestamp": "01:30:42",
+      "language": "javascript",
+      "content": "import React, {useContext} from 'react'\nimport './CSS/ShopCategory.css'\nimport {ShopContext} from '../Context/ShopContext'\n\nconst ShopCategory = (props) => {\n  const {all_product} = useContext(ShopContext);\n  return (\n    <div className='shop-category'>\n\n    </div>\n  )\n}\n\nexport default ShopCategory",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ShopCategory.jsx",
+      "instructor_explanation": "Now we will come to the shop category page. Here we will create HTML structure for this shop category page."
+    },
+    {
+      "timestamp": "01:30:54",
+      "language": "javascript",
+      "content": "    <div className='shop-category'>\n      <img src={props.banner} alt=\"\" />\n    </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ShopCategory.jsx",
+      "instructor_explanation": "Here we will display the banner, so here we will insert one image tag and in this image SRC we will add the image."
+    },
+    {
+      "timestamp": "01:31:28",
+      "language": "javascript",
+      "content": "      <div className='shopcategory-indexSort'>\n        <p>\n          <span>Showing 1-12</span> out of 36 products\n        </p>\n        <div className=\"shopcategory-sort\">\n          Sort by <img src={dropdown_icon} alt=\"\" />\n        </div>\n      </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ShopCategory.jsx",
+      "instructor_explanation": "Now for the page index, we will use the paragraph tag. Now we will create a div and the class name will be shop category index sort."
+    },
+    {
+      "timestamp": "01:33:12",
+      "language": "javascript",
+      "content": "      <div className=\"shopcategory-products\">\n        {all_product.map((item,i)=>{\n          if (props.category===item.category) {\n            return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>\n          }\n          else{\n            return null;\n          }\n        })}\n      </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ShopCategory.jsx",
+      "instructor_explanation": "In this one we will use map method to all products data. If the condition is true, then we will return the item component. If the category does not match, we will add the else condition and here we will return null."
+    },
+    {
+      "timestamp": "01:35:34",
+      "language": "javascript",
+      "content": "    <div className='shop-category'>\n      <img className='shopcategory-banner' src={props.banner} alt=\"\" />",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ShopCategory.jsx",
+      "instructor_explanation": "We will add the class name in this banner image. Now we will add the property for this class name."
+    },
+    {
+      "timestamp": "01:35:47",
+      "language": "css",
+      "content": ".shopcategory-banner {\n    display: block;\n    margin: 30px auto;\n    width: 82%;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ShopCategory.css",
+      "instructor_explanation": "Now this banner has been aligned."
+    },
+    {
+      "timestamp": "01:36:07",
+      "language": "css",
+      "content": ".shopcategory-indexSort {\n    display: flex;\n    margin: 0px 170px;\n    justify-content: space-between;\n    align-items: center;\n}\n\n.shopcategory-indexSort p span {\n    font-weight: 600;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ShopCategory.css",
+      "instructor_explanation": "Now we will add the CSS properties to shop category index sort."
+    },
+    {
+      "timestamp": "01:37:13",
+      "language": "css",
+      "content": ".shopcategory-products {\n    margin: 20px 170px;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr 1fr;\n    row-gap: 80px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ShopCategory.css",
+      "instructor_explanation": "Now we will add the CSS properties to the shop category product."
+    },
+    {
+      "timestamp": "01:37:46",
+      "language": "javascript",
+      "content": "      <div className=\"shopcategory-loadmore\">\n        Explore More\n      </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ShopCategory.jsx",
+      "instructor_explanation": "After this div we will create one div. In this one we will add explore more."
+    },
+    {
+      "timestamp": "01:38:07",
+      "language": "css",
+      "content": ".shopcategory-loadmore {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin: 150px auto;\n    width: 233px;\n    height: 69px;\n    border-radius: 75px;\n    background: #ededed;\n    color: #787878;\n    font-size: 18px;\n    font-weight: 500;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "ShopCategory.css",
+      "instructor_explanation": "Now we will add the CSS properties for this class name."
+    },
+    {
+      "timestamp": "01:39:12",
+      "language": "javascript",
+      "content": "const LoginSignup = () => {\n  return (\n    <div className='loginsignup'>\n      <div className=\"loginsignup-container\">\n        <h1>Sign Up</h1>\n        <div className=\"loginsignup-fields\">\n\n        </div>\n      </div>\n    </div>\n  )\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "LoginSignup.jsx",
+      "instructor_explanation": "Come to login signup JSX file. Here we will add one class name login signup. Within this div we will create one div with the class name login signup container. Within this container we will insert the H1 tag and in this H1 tag we will add the text sign up. After this H1 tag, we will insert a div with the class name login signup fields. Here we will insert three input fields, name, in"
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "01:31:07",
+      "visual_type": "browser_output",
+      "description": "The browser shows the SHOPPER webpage with a banner image and categories Shop, Men, Women, Kids."
+    },
+    {
+      "timestamp": "01:37:32",
+      "visual_type": "browser_output",
+      "description": "The browser shows the products page with products displayed in a grid, correctly aligned."
+    },
+    {
+      "timestamp": "01:38:42",
+      "visual_type": "browser_output",
+      "description": "The browser shows the 'Explore More' button added to the page."
+    },
+    {
+      "timestamp": "01:38:51",
+      "visual_type": "browser_output",
+      "description": "The browser shows the category page changing products based on the selection of Men, Women, or Kids categories."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:30:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "import './App.css';",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "01:31:07",
+      "region_type": "browser",
+      "label": "Browser",
+      "visible": true,
+      "sample_text": "SHOPPER",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "screen_timeline": []
+}

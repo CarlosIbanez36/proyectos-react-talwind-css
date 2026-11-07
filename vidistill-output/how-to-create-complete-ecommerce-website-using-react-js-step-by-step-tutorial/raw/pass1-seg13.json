@@ -1,0 +1,953 @@
+{
+  "segment_index": 0,
+  "time_range": "130:00 - 140:00",
+  "transcript_entries": [
+    {
+      "timestamp": "02:10:04",
+      "text": "So here we will add product display sizes div tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "display",
+        "sizes",
+        "div"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:10:10",
+      "text": "Here we will add the padding of 18 pixel 24 pixel background this color code, then border one pixel solid and this color code, then border radius of three pixels and cursor pointer.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "18",
+        "24",
+        "background",
+        "border",
+        "1",
+        "solid",
+        "border",
+        "radius",
+        "3",
+        "cursor",
+        "pointer"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:10:26",
+      "text": "Now save these files.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:10:30",
+      "text": "Now we will add the CSS for the add to cart button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "add",
+        "cart",
+        "button"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:10:42",
+      "text": "Here we will provide the padding of 20 pixel 40 pixel, width of 200 pixels, then font-size and font-weight, then change the color and background.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:10:57",
+      "text": "Margin from the bottom, 40 pixel, border none, outline none, cursor pointer.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:11:10",
+      "text": "Now we will add the CSS for these text, which is category and tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "category",
+        "tag"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:11:17",
+      "text": "So just copy this class name, product display right category.",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:11:25",
+      "text": "Here we will add margin top of 10 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin",
+        "top",
+        "10"
+      ],
+      "pause_after_seconds": 1.6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:11:30",
+      "text": "Now we will add the CSS for this span tag, so here we will add the same class name then a span tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "span",
+        "tag",
+        "class",
+        "name",
+        "span",
+        "tag"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:11:37",
+      "text": "Here we will provide the font weight of 600.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font",
+        "weight",
+        "600"
+      ],
+      "pause_after_seconds": 1.9,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:11:43",
+      "text": "Now the product display component is ready.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "display",
+        "component",
+        "ready"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:11:47",
+      "text": "Now if I click on men category, select another product and now you can see the updated product image, product name, old price, new price.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "click",
+        "men",
+        "category",
+        "select",
+        "another",
+        "product",
+        "updated",
+        "product",
+        "image",
+        "product",
+        "name",
+        "old",
+        "price",
+        "new",
+        "price"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:11:59",
+      "text": "And here we have the breadcrumb with the main category and product name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "breadcrumb",
+        "main",
+        "category",
+        "product",
+        "name"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:12:09",
+      "text": "Now we will create the description box for our product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "description",
+        "box",
+        "product",
+        "page"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:12:15",
+      "text": "So in this components folder we will create another folder and we will add the name description box.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "components",
+        "folder",
+        "create",
+        "another",
+        "folder",
+        "name",
+        "description",
+        "box"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:12:23",
+      "text": "In this folder, we will create a new file with the name description box dot JSX.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "new",
+        "file",
+        "description",
+        "box",
+        "JSX"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:12:32",
+      "text": "Here we will use rafc.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rafc"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:12:37",
+      "text": "And in this div we will add one class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "add",
+        "class",
+        "name"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:12:46",
+      "text": "Now we will create a CSS file for this component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "CSS",
+        "file",
+        "component"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:12:51",
+      "text": "So click here and create a new file, write the file name description box dot CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "click",
+        "create",
+        "new",
+        "file",
+        "write",
+        "file",
+        "name",
+        "description",
+        "box",
+        "CSS"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:12:59",
+      "text": "Now we will import this CSS file in JSX file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "CSS",
+        "file",
+        "JSX",
+        "file"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:13:15",
+      "text": "Now we will mount this component in our product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "mount",
+        "component",
+        "product",
+        "page"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:13:20",
+      "text": "Come to the pages, product dot JSX, product display component, so after that we will add this description box.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pages",
+        "product",
+        "JSX",
+        "product",
+        "display",
+        "component",
+        "add",
+        "description",
+        "box"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:13:32",
+      "text": "Add this description box component, save the file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "description",
+        "box",
+        "component",
+        "save",
+        "file"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:13:37",
+      "text": "Now we will add the HTML structure for our description box component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "HTML",
+        "structure",
+        "description",
+        "box",
+        "component"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:13:43",
+      "text": "So come back to the same file, which is description box dot JSX, and here we will create one div with the class name description box navigator.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "same",
+        "file",
+        "description",
+        "box",
+        "JSX",
+        "create",
+        "div",
+        "class",
+        "name",
+        "description",
+        "box",
+        "navigator"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:13:57",
+      "text": "Within this div we will create another div with the class name description box nav box.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "create",
+        "another",
+        "div",
+        "class",
+        "name",
+        "description",
+        "box",
+        "nav",
+        "box"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:14:16",
+      "text": "Now we will create one copy of this div, and here we will add a class name fade, and instead of this description we will add the text reviews and here we will add 122.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "one",
+        "copy",
+        "div",
+        "add",
+        "class",
+        "name",
+        "fade",
+        "instead",
+        "description",
+        "add",
+        "text",
+        "reviews",
+        "add",
+        "122"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:14:36",
+      "text": "After this div we will create another div with the class name description box description.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "create",
+        "another",
+        "div",
+        "class",
+        "name",
+        "description",
+        "box",
+        "description"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:14:47",
+      "text": "In this div we will create a paragraph tag, and in this paragraph we will add the static text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "create",
+        "paragraph",
+        "tag",
+        "paragraph",
+        "add",
+        "static",
+        "text"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:15:00",
+      "text": "After this paragraph text we will create another paragraph text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "paragraph",
+        "text",
+        "create",
+        "another",
+        "paragraph",
+        "text"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:15:06",
+      "text": "Here also we will add some text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "some",
+        "text"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:15:10",
+      "text": "Now we will add the CSS properties for these text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "properties",
+        "text"
+      ],
+      "pause_after_seconds": 1.8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:15:17",
+      "text": "So first we will add the CSS properties for this description box.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS",
+        "properties",
+        "description",
+        "box"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:15:23",
+      "text": "Write this class name here in description box dot CSS file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class",
+        "name",
+        "description",
+        "box",
+        "CSS",
+        "file"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:15:30",
+      "text": "Here we will add the margin of 120 pixel and 170 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "margin",
+        "120",
+        "170"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:15:37",
+      "text": "Then we will add the CSS for this description box navigator.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS",
+        "description",
+        "box",
+        "navigator"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:15:48",
+      "text": "Here we will add display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "display",
+        "flex"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:15:53",
+      "text": "Then we will add the CSS properties for description box nav box.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS",
+        "properties",
+        "description",
+        "box",
+        "nav",
+        "box"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:16:06",
+      "text": "Here we will add display flex, align items center, justify content center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "display",
+        "flex",
+        "align",
+        "items",
+        "center",
+        "justify",
+        "content",
+        "center"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:16:15",
+      "text": "Then we will change the font size and font weight, width will be 171 pixel and height 70 pixel, then border of one pixel solid and this color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font",
+        "size",
+        "font",
+        "weight",
+        "width",
+        "171",
+        "height",
+        "70",
+        "border",
+        "1",
+        "solid"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:16:34",
+      "text": "Now we will add the CSS properties for this fade class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS",
+        "properties",
+        "fade",
+        "class",
+        "name"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:16:42",
+      "text": "Here we will add dot description box dot nav box dot fade.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "description",
+        "box",
+        "nav",
+        "box",
+        "fade"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:16:53",
+      "text": "Here we will add the background and this color code, then we will change the color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "background",
+        "color"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:17:03",
+      "text": "Now we will add the CSS properties for description box description class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "CSS",
+        "properties",
+        "description",
+        "box",
+        "description",
+        "class",
+        "name"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:17:13",
+      "text": "For this one we will add display flex, flex direction column, gap 25 pixels, border of one pixel solid and this color code, padding of 48 pixels and padding bottom 70 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display",
+        "flex",
+        "flex",
+        "direction",
+        "column",
+        "gap",
+        "25",
+        "border",
+        "1",
+        "solid",
+        "padding",
+        "48",
+        "padding",
+        "bottom",
+        "70"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:17:39",
+      "text": "Now we will create the related product component for this product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "related",
+        "product",
+        "component",
+        "product",
+        "page"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:17:46",
+      "text": "So in this component folder we will create a new folder with the name related products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "component",
+        "folder",
+        "create",
+        "new",
+        "folder",
+        "name",
+        "related",
+        "products"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:18:03",
+      "text": "Here we will use rafc.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "rafc"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:18:07",
+      "text": "And for this div we will add a class name related products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "add",
+        "class",
+        "name",
+        "related",
+        "products"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:18:15",
+      "text": "Now we will create a CSS file for this component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "CSS",
+        "file",
+        "component"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:18:19",
+      "text": "In this folder we will create a new file related products dot CSS.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "folder",
+        "create",
+        "new",
+        "file",
+        "related",
+        "products",
+        "CSS"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:18:25",
+      "text": "Now we will import this CSS file in our JSX file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "CSS",
+        "file",
+        "JSX",
+        "file"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:18:37",
+      "text": "Within this div we will create the HTML structure for our related product components.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "create",
+        "HTML",
+        "structure",
+        "related",
+        "product",
+        "components"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:18:43",
+      "text": "So here we will create one H1 tag, and in this one we will add the title related products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "create",
+        "H1",
+        "tag",
+        "add",
+        "title",
+        "related",
+        "products"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:18:53",
+      "text": "After that we will insert one HR tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "insert",
+        "HR",
+        "tag"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:18:58",
+      "text": "After this HR, we will create one div with the class name related products item.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HR",
+        "div",
+        "class",
+        "name",
+        "related",
+        "products",
+        "item"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:19:07",
+      "text": "In this div we will map the product data.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "map",
+        "product",
+        "data"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:19:13",
+      "text": "First we will import data product from assets data.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import",
+        "data",
+        "product",
+        "assets",
+        "data"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:19:21",
+      "text": "And here we will add data product dot map method.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "data",
+        "product",
+        "map",
+        "method"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:19:34",
+      "text": "Here we will pass the item and index number.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass",
+        "item",
+        "index",
+        "number"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:19:43",
+      "text": "Here we will return our item component, so we will use return item.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "return",
+        "item",
+        "component",
+        "return",
+        "item"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:19:50",
+      "text": "And here we have to pass the props, as we have added in new collections, so come to new collections dot JSX file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "pass",
+        "props",
+        "added",
+        "new",
+        "collections",
+        "come",
+        "new",
+        "collections",
+        "JSX",
+        "file"
+      ],
+      "pause_after_seconds": 1.7,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker is the host of the GreatStack YouTube channel, focusing on web development tutorials. Their voice is calm and informative, consistently guiding the audience through coding tasks with clear step-by-step instructions."
+    }
+  ]
+}

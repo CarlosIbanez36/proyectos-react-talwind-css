@@ -1,0 +1,122 @@
+{
+  "segment_index": 18,
+  "time_range": "02:50:00 - 02:58:57",
+  "code_blocks": [
+    {
+      "timestamp": "02:50:00",
+      "language": "css",
+      "content": ".cartitems-promobox {\n  width: 504px;\n  margin-top: 15px;\n  padding-left: 20px;\n  height: 58px;\n  background: #eaeaea;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "CartItems.css",
+      "instructor_explanation": "And here we will add width of 504 pixel, margin-top 15 pixels, padding-left 20 pixels, and height 58 pixels, background this color code."
+    },
+    {
+      "timestamp": "02:50:24",
+      "language": "css",
+      "content": ".cartitems-promobox input {\n  border: none;\n  outline: none;\n  background: transparent;\n  font-size: 16px;\n  width: 330px;\n  height: 50px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "Here we will provide border none, outline none, background transparent, font size 16 pixels, width of 330 pixels, height of 50 pixels."
+    },
+    {
+      "timestamp": "02:50:57",
+      "language": "css",
+      "content": ".cartitems-promobox button {\n  width: 170px;\n  height: 58px;\n  font-size: 16px;\n  background: black;\n  color: white;\n  cursor: pointer;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "CartItems.css",
+      "instructor_explanation": "So for this button we will provide width 170 pixels, height 58 pixels, font size 16 pixels, background black, color white, cursor pointer."
+    },
+    {
+      "timestamp": "02:51:36",
+      "language": "javascript",
+      "content": "const getTotalCartAmount = () => {\n  let totalAmount = 0;\n  for(const item in cartItems) {\n    if(cartItems[item] > 0) {\n      let itemInfo = all_product.find((product) => product.id === Number(item));\n      totalAmount += itemInfo.new_price * cartItems[item];\n    }\n  }\n  return totalAmount;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ShopContext.jsx",
+      "instructor_explanation": "Here we will create one function const getTotalCartAmount = () => { First we will create one variable let totalAmount = 0; So here we will run one for loop. ... If the item quantity is greater than zero, then we will add let, then we will create a variable let item info equal to all product. Then we will find the product using find. ... If our product.id is equal to item, then we will get that product. And using that product, we can store that product data in itemInfo. Here we will add totalAmount += ... multiply with the quantity. So to access the quantity, we will add cartItems, we will pass the item. After running this function, we will get the total amount, so we will return our totalAmount."
+    },
+    {
+      "timestamp": "02:54:40",
+      "language": "javascript",
+      "content": "const {getTotalCartAmount} = useContext(ShopContext);",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CartItems.jsx",
+      "instructor_explanation": "And here, first we will get that function using context API."
+    },
+    {
+      "timestamp": "02:55:28",
+      "language": "javascript",
+      "content": "const getTotalCartItems = () => {\n  let totalItem = 0;\n  for(const item in cartItems) {\n    if(cartItems[item] > 0) {\n      totalItem += cartItems[item];\n    }\n  }\n  return totalItem;\n}",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "ShopContext.jsx",
+      "instructor_explanation": "In this one we will create one variable, let total item equal to zero. So, initially the total item is zero. And here we will run a for loop. And in this one, we will pass the individual item from our cart items. So here we will add const item in cart items. In this one we will check if our quantity for that item is greater than zero. If it is greater than zero then we will add that product quantity in the total item variable. And after running this loop, we will return the total item."
+    },
+    {
+      "timestamp": "02:57:24",
+      "language": "javascript",
+      "content": "const {getTotalCartItems} = useContext(ShopContext);",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "So we will add const get total cart items equal to use context. And in this one, we will pass Shop Context."
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "02:50:50",
+      "visual_type": "browser_output",
+      "description": "Browser output showing a shopping cart table with products, individual prices, quantity, totals, and a promo box below the total amount section."
+    },
+    {
+      "timestamp": "02:55:08",
+      "visual_type": "ui_demo",
+      "description": "User adds three different items to the cart, then navigates to the cart page where individual item prices and the calculated subtotal and total are correctly displayed."
+    },
+    {
+      "timestamp": "02:57:49",
+      "visual_type": "ui_demo",
+      "description": "Adding products increases the cart item count in the Navbar header icon from 0 to 1, 2, and 3."
+    },
+    {
+      "timestamp": "02:58:12",
+      "visual_type": "ui_demo",
+      "description": "Demonstration of removing items from the cart by clicking the cross icon, which updates the total amount and the cart item count in the Navbar in real-time."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "02:50:00",
+      "region_type": "code",
+      "label": "CartItems.css",
+      "visible": true,
+      "sample_text": ".cartitems-promobox {",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.35,
+        "y": 0.05,
+        "width": 0.6,
+        "height": 0.9
+      }
+    },
+    {
+      "timestamp": "02:50:50",
+      "region_type": "browser",
+      "label": "Cart Page UI",
+      "visible": true,
+      "sample_text": "cart Totals",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.1,
+        "y": 0.1,
+        "width": 0.8,
+        "height": 0.8
+      }
+    }
+  ],
+  "screen_timeline": []
+}

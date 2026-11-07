@@ -1,0 +1,59 @@
+{
+  "segment_index": 15,
+  "time_range": "02:20:00 - 02:30:00",
+  "code_blocks": [
+    {
+      "timestamp": "02:24:25",
+      "language": "javascript",
+      "content": "window.scrollTo(0, 0)",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "Item.jsx",
+      "instructor_explanation": "Within this on click, we will add window.scrollTo and here, we will pass x and y axis coordinate. So, we will add 0 and 0.",
+      "lines_changed": "1"
+    },
+    {
+      "timestamp": "02:26:57",
+      "language": "javascript",
+      "content": "const getdefaultcart = () => {\n  let cart = {};\n  for (let index = 0; index < all_product.length; index++) {\n    cart[index] = 0;\n  }\n  return cart;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ShopContext.jsx",
+      "instructor_explanation": "const getdefaultcart, and here, we will create one arrow function.",
+      "lines_changed": "7"
+    },
+    {
+      "timestamp": "02:27:54",
+      "language": "javascript",
+      "content": "const [cartItems, setCartItems] = useState(getdefaultcart());",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "ShopContext.jsx",
+      "instructor_explanation": "And in this shop context provider, we will create one use state variable.",
+      "lines_changed": "1"
+    },
+    {
+      "timestamp": "02:28:46",
+      "language": "javascript",
+      "content": "const addToCart = (itemId) => {\n  setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));\n};",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "ShopContext.jsx",
+      "instructor_explanation": "So, first we will send the previous value and in this function, we will use the spread operator.",
+      "lines_changed": "3"
+    },
+    {
+      "timestamp": "02:29:45",
+      "language": "javascript",
+      "content": "console.log(cartItems);",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "ShopContext.jsx",
+      "instructor_explanation": "In this shopcontext.jsx file, we will add console.log. In this one, we will pass cart item.",
+      "lines_changed": "1"
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": [],
+  "visual_regions": []
+}

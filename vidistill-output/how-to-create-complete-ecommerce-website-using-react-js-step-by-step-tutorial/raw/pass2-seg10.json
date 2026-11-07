@@ -1,0 +1,183 @@
+{
+  "segment_index": 11,
+  "time_range": "01:40:00 - 01:50:00",
+  "code_blocks": [
+    {
+      "timestamp": "01:40:00",
+      "language": "javascript",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\n\nconst Loginsignup = () => {\n  return (\n    <div className=\"loginsignup\">\n      <div className=\"loginsignup-container\">\n        <h1>Sign Up</h1>\n        <div className=\"loginsignup-fields\">\n\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default Loginsignup",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "Loginsignup.jsx",
+      "instructor_explanation": "Now we will add the name and ID."
+    },
+    {
+      "timestamp": "01:40:02",
+      "language": "javascript",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\n\nconst Loginsignup = () => {\n  return (\n    <div className=\"loginsignup\">\n      <div className=\"loginsignup-container\">\n        <h1>Sign Up</h1>\n        <div className=\"loginsignup-fields\">\n          <input type=\"text\" placeholder=\"Your Name\" />\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default Loginsignup",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.jsx",
+      "instructor_explanation": "Then we will add one paragraph tag and here we will add the text."
+    },
+    {
+      "timestamp": "01:42:15",
+      "language": "javascript",
+      "content": "import React from 'react' 6.9k (gzipped: 2.7k)\nimport './CSS/Loginsignup.css'\n\nconst Loginsignup = () => {\n  return (\n    <div className=\"loginsignup\">\n      <div className=\"loginsignup-container\">\n        <h1>Sign Up</h1>\n        <div className=\"loginsignup-fields\">\n          <input type=\"text\" placeholder=\"Your Name\" />\n          <input type=\"email\" placeholder=\"Email Address\" />\n          <input type=\"password\" placeholder=\"Password\" />\n        </div>\n        <button>Continue</button>\n        <p className=\"loginsignup-login\">Already have an account? <span>Login here</span></p>\n        <div className=\"loginsignup-agree\">\n          <input type=\"checkbox\" name=\"\" id=\"\" />\n          <p>By continuing, I agree to the terms of use & privacy policy.</p>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default Loginsignup",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.jsx",
+      "instructor_explanation": "Now, we will import this CSS file in our page."
+    },
+    {
+      "timestamp": "01:42:37",
+      "language": "css",
+      "content": ".loginsignup{\n  width: 100%;\n  height: 80vh;\n  background: #fce3fe;\n  padding-top: 100px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Loginsignup.css",
+      "instructor_explanation": "First, we will add the CSS properties to login signup class name."
+    },
+    {
+      "timestamp": "01:43:02",
+      "language": "css",
+      "content": ".loginsignup{\n  width: 100%;\n  height: 80vh;\n  background: #fce3fe;\n  padding-top: 100px;\n}\n.loginsignup-container{\n  width: 580px;\n  height: 600px;\n  background: white;\n  margin: auto;\n  padding: 40px 60px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.css",
+      "instructor_explanation": "Next, we will add the CSS properties to login signup container."
+    },
+    {
+      "timestamp": "01:43:22",
+      "language": "css",
+      "content": ".loginsignup-container h1{\n  margin: 20px 0px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.css",
+      "instructor_explanation": "Next, we will add the CSS properties for this H1 tag."
+    },
+    {
+      "timestamp": "01:43:47",
+      "language": "css",
+      "content": ".loginsignup-fields{\n  display: flex;\n  flex-direction: column;\n  gap: 29px;\n  margin-top: 30px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.css",
+      "instructor_explanation": "Next, we will add the CSS properties to: login signup fields class name."
+    },
+    {
+      "timestamp": "01:44:14",
+      "language": "css",
+      "content": ".loginsignup-fields input{\n  height: 72px;\n  width: 100%;\n  padding-left: 20px;\n  border: 1px solid #c9c9c9;\n  outline: none;\n  color: #5c5c5c;\n  font-size: 18px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.css",
+      "instructor_explanation": "Now, we will add the CSS properties for these input fields."
+    },
+    {
+      "timestamp": "01:44:54",
+      "language": "css",
+      "content": ".loginsignup-container button{\n  width: 580px;\n  height: 72px;\n  color: white;\n  background: #ff4141;\n  margin-top: 30px;\n  border: none;\n  font-size: 24px;\n  font-weight: 500;\n  cursor: pointer;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.css",
+      "instructor_explanation": "For this button, we will provide the width, then height, then change the color, and background, then we will add the margin from the top, and border none, font-size will be 24 pixel, and font-weight of 500, cursor pointer."
+    },
+    {
+      "timestamp": "01:45:36",
+      "language": "css",
+      "content": ".loginsignup-login{\n  margin-top: 20px;\n  color: #5c5c5c;\n  font-size: 18px;\n  font-weight: 500;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.css",
+      "instructor_explanation": "Here, we will provide margin-top of 20 pixels, color code, then font-size, font-weight of 500."
+    },
+    {
+      "timestamp": "01:46:03",
+      "language": "css",
+      "content": ".loginsignup-login span{\n  color: #ff4141;\n  font-weight: 600;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.css",
+      "instructor_explanation": "Here, we will provide the color code, then font-weight of 600."
+    },
+    {
+      "timestamp": "01:46:30",
+      "language": "css",
+      "content": ".loginsignup-agree{\n  display: flex;\n  align-items: center;\n  margin-top: 25px;\n  gap: 20px;\n  color: #5c5c5c;\n  font-size: 18px;\n  font-weight: 500;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Loginsignup.css",
+      "instructor_explanation": "Here, we will provide display flex, align items center, margin-top of 25 pixels, gap 20 pixels, and color this color code, then change the font-size, and font-weight."
+    },
+    {
+      "timestamp": "01:47:11",
+      "language": "javascript",
+      "content": "const all_product = useContext(ShopContext);\n\nconst {productid} = useParams();\n\nconst product = all_product.find((e) => e.id === Number(productid));",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Product.jsx",
+      "instructor_explanation": "So here, we will add, const all product equals use context, within this use context, we will write shop context."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "01:40:00",
+      "region_type": "code",
+      "label": "Editor",
+      "visible": true,
+      "sample_text": "import React from 'react'",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.25,
+        "y": 0,
+        "width": 0.75,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "01:42:00",
+      "region_type": "browser",
+      "label": "Browser",
+      "visible": true,
+      "sample_text": "SHOPPER",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "01:46:48",
+      "region_type": "browser",
+      "label": "Browser",
+      "visible": true,
+      "sample_text": "Sign Up",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "01:46:58",
+      "region_type": "browser",
+      "label": "Browser",
+      "visible": true,
+      "sample_text": "12 Hours 20 Mins",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

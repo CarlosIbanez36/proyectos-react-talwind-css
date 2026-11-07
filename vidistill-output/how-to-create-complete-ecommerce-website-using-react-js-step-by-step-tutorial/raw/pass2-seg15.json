@@ -1,0 +1,139 @@
+{
+  "segment_index": 1,
+  "time_range": "150:00 - 160:00",
+  "code_blocks": [
+    {
+      "timestamp": "02:30:00",
+      "language": "javascript",
+      "content": "const ShopContextProvider = (props) => {\n\n    const [cartItems, setCartItems] = useState(getDefaultCart());\n\n    const addToCart = (itemId) => {\n        setCartItems((prev) => ({...prev, [itemId]:prev[itemId]+1}));\n        console.log(cartItems);\n    }\n\n    const removeFromCart = (itemId) => {\n        setCartItems((prev) => ({...prev, [itemId]:prev[itemId]-1}));\n    }\n\n    const contextValue = {all_product, cartItems, addToCart, removeFromCart}\n    return (\n        <ShopContext.Provider value={contextValue}>\n            {props.children}\n        </ShopContext.Provider>\n    )\n}",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "ShopContext.jsx",
+      "instructor_explanation": "we'll check this console log when we will click on add to cart button"
+    },
+    {
+      "timestamp": "02:30:52",
+      "language": "javascript",
+      "content": "import React from 'react' \n\nconst Cart = () => {\n  return (\n    <div>\n      \n    </div>\n  )\n}\n\nexport default Cart",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Cart.jsx",
+      "instructor_explanation": "now we will come to the cart page"
+    },
+    {
+      "timestamp": "02:31:17",
+      "language": "javascript",
+      "content": "import React from 'react'\n\nconst CartItems = () => {\n  return (\n    <div className='cartitems'>\n      \n    </div>\n  )\n}\n\nexport default CartItems",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "CartItems.jsx"
+    },
+    {
+      "timestamp": "02:31:40",
+      "language": "javascript",
+      "content": "import React from 'react' \nimport './CartItems.css'\n\nconst CartItems = () => {\n  return (\n    <div className='cartitems'>\n      \n    </div>\n  )\n}\n\nexport default CartItems",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CartItems.jsx",
+      "lines_changed": "added import './CartItems.css'"
+    },
+    {
+      "timestamp": "02:31:56",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport CartItems from '../Components/CartItems/CartItems'\n\nconst Cart = () => {\n  return (\n    <div>\n        <CartItems/>\n    </div>\n  )\n}\n\nexport default Cart",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Cart.jsx",
+      "instructor_explanation": "now we will mount this component in our cart page"
+    },
+    {
+      "timestamp": "02:32:16",
+      "language": "javascript",
+      "content": "import React, {useContext} from 'react'\nimport './CartItems.css'\nimport { ShopContext } from '../Context/ShopContext'\n\nconst CartItems = () => {\n    const {all_product, cartItems, removeFromCart} = useContext(ShopContext)\n    return (\n        <div className='cartitems'>\n            \n        </div>\n    )\n}\n\nexport default CartItems",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CartItems.jsx",
+      "instructor_explanation": "first we will access the data and functions using context API"
+    },
+    {
+      "timestamp": "02:32:53",
+      "language": "javascript",
+      "content": "        <div className='cartitems'>\n            <div className='cartitems-format-main'>\n                <p>Products</p>\n                <p>Title</p>\n                <p>Price</p>\n                <p>Quantity</p>\n                <p>Total</p>\n                <p>Remove</p>\n            </div>\n            <hr />\n            <div>\n                <div className='cartitems-format'>\n                    <img src='' alt='' className='carticon-product-icon'/>\n                    <p></p>\n                    <p></p>\n                    <button className='cartitems-quantity'></button>\n                    <p></p>\n                    <img src='' alt='' />\n                </div>\n            </div>\n        </div>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CartItems.jsx",
+      "instructor_explanation": "now we will create the HTML structure for the cart item component"
+    },
+    {
+      "timestamp": "02:35:30",
+      "language": "javascript",
+      "content": "import React, {useContext} from 'react'\nimport './CartItems.css'\nimport { ShopContext } from '../Context/ShopContext'\nimport remove_icon from '../Assets/cart_cross_icon.png'\n\nconst CartItems = () => {\n    const {all_product, cartItems, removeFromCart} = useContext(ShopContext)\n    return (\n// ...\n        <div className='cartitems-format'>\n            <img src='' alt='' className='carticon-product-icon'/>\n            <p></p>\n            <p></p>\n            <button className='cartitems-quantity'></button>\n            <p></p>\n            <img src={remove_icon} onClick={()=>{removeFromCart()}} alt='' />\n        </div>\n// ...",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CartItems.jsx",
+      "instructor_explanation": "we will import the icons. when we will click on that remove icon that will execute the remove from cart function"
+    },
+    {
+      "timestamp": "02:40:00",
+      "language": "css",
+      "content": ".cartitems {\n    margin: 100px 170px;\n}\n\n.cartitems hr{\n    height: 3px;\n    background: #e2e2e2;\n    border: 0;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "CartItems.css",
+      "instructor_explanation": "now we will add the CSS properties for the cart item page"
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "02:30:13",
+      "visual_type": "browser_output",
+      "description": "Product page showing blouse details and add to cart button"
+    },
+    {
+      "timestamp": "02:30:23",
+      "visual_type": "browser_output",
+      "description": "Console output showing object keys and values representing cart items"
+    },
+    {
+      "timestamp": "02:30:46",
+      "visual_type": "browser_output",
+      "description": "Empty shopping cart page"
+    },
+    {
+      "timestamp": "02:38:40",
+      "visual_type": "browser_output",
+      "description": "Shopping cart page with added item"
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "02:30:00",
+      "region_type": "code",
+      "label": "vscode editor",
+      "visible": true,
+      "sample_text": "const ShopContextProvider = (props) => {",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0.208,
+        "y": 0.08,
+        "width": 0.792,
+        "height": 0.92
+      }
+    },
+    {
+      "timestamp": "02:30:13",
+      "region_type": "browser",
+      "label": "browser",
+      "visible": true,
+      "sample_text": "localhost:3000/product",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "screen_timeline": []
+}

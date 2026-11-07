@@ -1,0 +1,1038 @@
+{
+  "segment_index": 0,
+  "time_range": "00:50:00 - 01:00:00",
+  "transcript_entries": [
+    {
+      "timestamp": "00:50:00",
+      "text": "one arrow function.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "arrow"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:04",
+      "text": "And we will pass the individual item here.",
+      "tone": "instructional",
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:08",
+      "text": "And in this function, we will return...",
+      "tone": "instructional",
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:11",
+      "text": "we will return the item component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "return"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:17",
+      "text": "And we will pass the props.",
+      "tone": "instructional",
+      "pause_after_seconds": 1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:20",
+      "text": "So first, we will pass the key.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "first",
+        "key"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:26",
+      "text": "From this parameter we will get the index i and we will provide the i in the key.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "index"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:33",
+      "text": "Next we will add the ID in the prop, so the ID will be item.ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "ID"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:41",
+      "text": "Next we will provide the product name in the props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product name"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:47",
+      "text": "So the product name will be item.name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product name"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:53",
+      "text": "Next we will pass the image so we will add image is equal to",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image"
+      ],
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:50:59",
+      "text": "In this image we will insert item.image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "image"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:51:04",
+      "text": "Now we will pass the prices, so first we will pass the new price.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "new price"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:51:10",
+      "text": "New price equals item.new_price.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "new price"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:51:16",
+      "text": "Now we will pass the old price.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "old price"
+      ],
+      "pause_after_seconds": 4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:51:28",
+      "text": "Now we have provided all the props.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "provided all",
+        "props"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:51:32",
+      "text": "Now we will mount the popular component in our shop page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "popular component",
+        "shop page"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:51:37",
+      "text": "So we have the shop page here and here we will mount the popular component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "popular component"
+      ],
+      "pause_after_seconds": 4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:51:47",
+      "text": "Save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:51:49",
+      "text": "So on this web page, you can see the popular in women and these products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "popular in women"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:51:55",
+      "text": "Now we will add the CSS properties for this product.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:00",
+      "text": "So come to the popular.CSS file and here",
+      "tone": "instructional",
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:05",
+      "text": "And here we have to provide the CSS properties for the popular container.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:10",
+      "text": "So here we will add display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "display flex"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:13",
+      "text": "Flex direction will be column.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "column"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:18",
+      "text": "Align items center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "align items center"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:21",
+      "text": "Gap of 10 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "gap",
+        "10 pixel"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:25",
+      "text": "Height of 90 view port height.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:30",
+      "text": "Now we will add the properties for the H1 tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "properties",
+        "H1 tag"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:34",
+      "text": "So just add dot popular and H1.",
+      "tone": "instructional",
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:38",
+      "text": "Here we will use color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color code"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:43",
+      "text": "Then font size of 50 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font size",
+        "50 pixel"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:46",
+      "text": "Font weight of 600.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font weight",
+        "600"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:51",
+      "text": "Save these changes. You can see it is in the center.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:52:57",
+      "text": "Now we will add the properties for this HR tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "properties",
+        "HR tag"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:01",
+      "text": "So here we will add dot popular and HR tag.",
+      "tone": "instructional",
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:08",
+      "text": "So we will provide width 200 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "200 pixel"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:14",
+      "text": "Height of 6 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height",
+        "6 pixel"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:18",
+      "text": "Border radius of 10 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "border radius",
+        "10 pixel"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:23",
+      "text": "Then background, and add this color code.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:28",
+      "text": "Now we will add the properties for the popular item class name.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "popular item",
+        "class name"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:34",
+      "text": "So here we will add dot popular, item.",
+      "tone": "instructional",
+      "pause_after_seconds": 4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:39",
+      "text": "In this one, we will add the margin of top 50 pixel.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:45",
+      "text": "Display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Display flex"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:49",
+      "text": "Gap of 30 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Gap",
+        "30 pixel"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:53",
+      "text": "Now you can see all products side-by-side.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "products",
+        "side-by-side"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:56",
+      "text": "Now we will add the dollar sign in front of these prices.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "dollar sign",
+        "prices"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:53:59",
+      "text": "So come here in item dot JSX, and before this prices, we will add the dollar sign.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:54:06",
+      "text": "Save these changes. You can see the dollar sign here.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:54:11",
+      "text": "Now we will create the offer banner for our shop page.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:54:18",
+      "text": "So first we will create a new folder in this component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "new folder",
+        "component"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:54:23",
+      "text": "Here we will provide the name offers.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "offers"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:54:27",
+      "text": "In this folder, we will create new file, which is offers dot JSX.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:54:35",
+      "text": "Then convert it into component using RAFC.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "component",
+        "RAFC"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:54:43",
+      "text": "Here we will provide one class name offers.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:54:50",
+      "text": "Now we will create a CSS file for this offers component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "offers component"
+      ],
+      "pause_after_seconds": 4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:54:55",
+      "text": "So here we will create a new file with the name offers dot CSS.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:55:00",
+      "text": "Now we have to mount this CSS file in the offer dot JSX file.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:55:06",
+      "text": "Here we will add import, and write the file path.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:55:13",
+      "text": "Now we will mount this component in shop dot JSX file.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:55:18",
+      "text": "So after this popular, we will add offers.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:55:24",
+      "text": "Now we will design the HTML structure for the offers component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HTML",
+        "offers component"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:55:30",
+      "text": "So here we will create two div, offers left and offers right.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "offers left",
+        "offers right"
+      ],
+      "pause_after_seconds": 6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:55:44",
+      "text": "In the offers left, we will add h1 tag.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:55:53",
+      "text": "So the text is exclusive.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "exclusive"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:55:57",
+      "text": "We will add one more H1 tag and we will add the text offers for you.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "H1",
+        "text",
+        "offers for you"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:56:03",
+      "text": "Now we will insert a p tag, and in this one we will add...",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:56:07",
+      "text": "only on best sellers product.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "best sellers product"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:56:15",
+      "text": "Now we will add a button tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button tag"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:56:22",
+      "text": "And in the right div, we will add one image tag.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:56:29",
+      "text": "Here we will add one exclusive image. So first, we have to import that image.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:56:37",
+      "text": "So just add import.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "import"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:56:46",
+      "text": "From our asset folder slash exclusive image.png.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "asset folder",
+        "exclusive image.png"
+      ],
+      "pause_after_seconds": 6,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:56:55",
+      "text": "Here we will insert exclusive image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "exclusive image"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:56:58",
+      "text": "Save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:00",
+      "text": "Here you can see the text and image.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "text",
+        "image"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:04",
+      "text": "Now we have to add the CSS properties for this image and text.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "image",
+        "text"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:08",
+      "text": "So come here in offers dot CSS file, and first we will add the properties for the offers container.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:21",
+      "text": "Here we will provide the width of 65%.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "65%"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:25",
+      "text": "Then height of 60 viewport height.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:30",
+      "text": "Display will be flex and margin auto.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Display",
+        "flex",
+        "margin auto"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:36",
+      "text": "Now we will provide the padding of zero pixel and 140 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "padding",
+        "zero pixel",
+        "140 pixel"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:44",
+      "text": "Then some space from the bottom, so margin bottom of 150 pixel, and background.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:56",
+      "text": "Save these changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Save"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:57:58",
+      "text": "You can see some changes.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "changes"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:01",
+      "text": "Now we will add the CSS properties for the left part.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "left part"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:05",
+      "text": "So here we will add dot offers, left.",
+      "tone": "instructional",
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:11",
+      "text": "Here we will add the flex one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "flex one"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:14",
+      "text": "Display flex.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Display flex"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:20",
+      "text": "Flex direction column.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Flex direction column"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:24",
+      "text": "Justify content center.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Justify content center"
+      ],
+      "pause_after_seconds": 5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:30",
+      "text": "Now we will add the CSS properties to the H1 tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS",
+        "H1 tag"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:36",
+      "text": "Here we will use the color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color code"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:41",
+      "text": "Font size of 80 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font size",
+        "80 pixel"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:45",
+      "text": "Font weight of 600.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font weight",
+        "600"
+      ],
+      "pause_after_seconds": 5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:53",
+      "text": "Now we will add the properties to the paragraph tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "properties",
+        "paragraph tag"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:58:58",
+      "text": "So here we will add the color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "color code"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:02",
+      "text": "Font size of 22 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font size",
+        "22 pixel"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:06",
+      "text": "And font weight of 600.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font weight",
+        "600"
+      ],
+      "pause_after_seconds": 4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:12",
+      "text": "Now we will add the style for the offer button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "style",
+        "offer button"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:15",
+      "text": "So just add dot offer left space, button tag.",
+      "tone": "instructional",
+      "pause_after_seconds": 5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:22",
+      "text": "Here we will add the width 282 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "282 pixels"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:29",
+      "text": "Height of 70 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "height",
+        "70 pixel"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:33",
+      "text": "Border radius of 35 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Border radius",
+        "35 pixels"
+      ],
+      "pause_after_seconds": 4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:39",
+      "text": "Background color.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Background color"
+      ],
+      "pause_after_seconds": 5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:44",
+      "text": "Border none.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "Border none"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:49",
+      "text": "Then color white, that will be the button text color.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:53",
+      "text": "And increase the font size, so the font size will be 22 pixel.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font size",
+        "22 pixel"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "00:59:58",
+      "text": "Then we will add the font weight of 500.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "font weight",
+        "500"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_03",
+      "description": "The speaker is a developer providing a technical tutorial on React components, CSS styling, and project structure. They have a clear, instructional speaking style and are associated with the 'GreatStack' YouTube channel."
+    },
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The primary speaker in the video is a developer from the YouTube channel 'GreatStack'. They explain web development concepts in a professional, instructive tone, frequently referencing technical components like components, CSS, and JSX files."
+    }
+  ]
+}

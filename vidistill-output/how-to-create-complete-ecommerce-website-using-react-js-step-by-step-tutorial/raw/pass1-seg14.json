@@ -1,0 +1,420 @@
+{
+  "segment_index": 0,
+  "time_range": "140:00 - 150:00",
+  "transcript_entries": [
+    {
+      "timestamp": "02:20:00",
+      "text": "Now we will add the functionality that when we will click on any product, we will scroll to the top of the page. So first we will come to the item component, we will open item dot jsx file.",
+      "tone": "instructional",
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:20:12",
+      "text": "Now, we will add the CSS properties for this Related Products component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "CSS"
+      ],
+      "pause_after_seconds": 4.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:20:26",
+      "text": "Write this class name here, and here, we will add display flex, flex direction column, align items center, gap of 10 pixel, height 90vh.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "class name",
+        "display flex",
+        "flex direction",
+        "align items",
+        "gap",
+        "height"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:20:43",
+      "text": "And now, if I click on any product, you can see it will open the product, and we are on the top of the page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "now",
+        "click",
+        "product",
+        "open",
+        "top"
+      ],
+      "pause_after_seconds": 2,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:20:53",
+      "text": "Now, we will create the logic for the cart and add to cart button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "logic",
+        "cart",
+        "add to cart"
+      ],
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:21:04",
+      "text": "Next, we will add the CSS properties for this HR tag.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "HR"
+      ],
+      "pause_after_seconds": 4.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:21:14",
+      "text": "Here, we will provide width of 200 pixels, height of 6 pixels, border radius of 10 pixels, and background this color code.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "width",
+        "height",
+        "border radius",
+        "background"
+      ],
+      "pause_after_seconds": 10,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:21:26",
+      "text": "Now, we will add the CSS properties for related products item.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "related products"
+      ],
+      "pause_after_seconds": 5.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:21:33",
+      "text": "So, just copy this one, add it here. Here, we will add the margin 50 pixel from the top, display flex, gap of 30 pixels.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin",
+        "display flex",
+        "gap"
+      ],
+      "pause_after_seconds": 11.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:21:47",
+      "text": "Now, we will mount this component in product page.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product"
+      ],
+      "pause_after_seconds": 5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:21:52",
+      "text": "So, come to the product.jsx files and after this description box, we will add related products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product.jsx",
+        "description box",
+        "related products"
+      ],
+      "pause_after_seconds": 11,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:22:06",
+      "text": "Here, we will change it related products. Save the file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "related products"
+      ],
+      "pause_after_seconds": 5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:22:12",
+      "text": "Now, you can see after this description, we have the related products.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "description",
+        "related products"
+      ],
+      "pause_after_seconds": 4.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:22:17",
+      "text": "Now, if I click on any product, it will open that product, but it is not scrolling to the top.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "scrolling"
+      ],
+      "pause_after_seconds": 6.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:22:37",
+      "text": "We will open item.jsx file, and in this image tag, we will use on click.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "item.jsx",
+        "image",
+        "on click"
+      ],
+      "pause_after_seconds": 8,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:22:47",
+      "text": "Within this on click, we will add window.scrollTo and here, we will pass x and y axis coordinate. So, we will add 0 and 0.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "on click",
+        "window.scrollTo",
+        "coordinate"
+      ],
+      "pause_after_seconds": 12,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:23:18",
+      "text": "Now, we will create the logic for the cart and add to cart button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart",
+        "add to cart"
+      ],
+      "pause_after_seconds": 5.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:23:24",
+      "text": "So, we will come to shopcontext.jsx file.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shopcontext.jsx"
+      ],
+      "pause_after_seconds": 2.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:23:28",
+      "text": "Here, first, we will create one empty cart.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "empty cart"
+      ],
+      "pause_after_seconds": 19.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:23:51",
+      "text": "const getdefaultcart, and here, we will create one arrow function.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "getdefaultcart",
+        "arrow function"
+      ],
+      "pause_after_seconds": 11.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:24:21",
+      "text": "So, first, we will create one for loop.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "for loop"
+      ],
+      "pause_after_seconds": 15.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:24:38",
+      "text": "Here, we will add the cart, and in this one, we will pass the index equals and initialize the product ID with 0.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart",
+        "index",
+        "product ID"
+      ],
+      "pause_after_seconds": 15.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:24:54",
+      "text": "So here, we will add return cart.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "return"
+      ],
+      "pause_after_seconds": 10,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:25:04",
+      "text": "Now, we will keep this function outside of this shop context provider.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "function",
+        "shop context provider"
+      ],
+      "pause_after_seconds": 6.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:25:12",
+      "text": "And in this shop context provider, we will create one use state variable.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shop context provider",
+        "use state"
+      ],
+      "pause_after_seconds": 26.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:25:45",
+      "text": "Its size will be all product.length.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "all product"
+      ],
+      "pause_after_seconds": 14.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:26:10",
+      "text": "Now, using the context, we can access the cart item data in any component.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "context",
+        "cart item",
+        "component"
+      ],
+      "pause_after_seconds": 9.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:26:25",
+      "text": "So, if I reload the page, you can see we have the cart data.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "reload",
+        "cart"
+      ],
+      "pause_after_seconds": 17.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:26:46",
+      "text": "Now, in this all product.length, we will add plus one.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "all product",
+        "plus one"
+      ],
+      "pause_after_seconds": 17,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:27:27",
+      "text": "So, first we will send the previous value and in this function, we will use the spread operator.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "previous value",
+        "spread operator"
+      ],
+      "pause_after_seconds": 38,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:28:11",
+      "text": "Instead of add to cart, we will add remove from cart.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add to cart",
+        "remove from cart"
+      ],
+      "pause_after_seconds": 32.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:28:44",
+      "text": "And here, we will import add to cart function through our context API.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add to cart",
+        "context API"
+      ],
+      "pause_after_seconds": 25.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:29:11",
+      "text": "So, now we have the add to cart function.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add to cart"
+      ],
+      "pause_after_seconds": 5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:29:16",
+      "text": "In this function, we will pass the product ID.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product ID"
+      ],
+      "pause_after_seconds": 4.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:29:21",
+      "text": "So, first, we will link this function with add to cart button.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "link",
+        "add to cart"
+      ],
+      "pause_after_seconds": 22,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:29:45",
+      "text": "In this shopcontext.jsx file, we will add console.log.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "shopcontext.jsx",
+        "console.log"
+      ],
+      "pause_after_seconds": 12,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:29:57",
+      "text": "In this one, we will pass cart item.",
+      "tone": "instructional",
+      "emphasis_words": [
+        "cart item"
+      ],
+      "pause_after_seconds": 3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The speaker is a developer providing a coding tutorial, speaking in a steady, instructional tone, clearly explaining steps related to React development."
+    },
+    {
+      "speaker_id": "SPEAKER_09",
+      "description": "A single male speaker who presents technical instructions for coding and web development. He speaks with a steady, instructional tone."
+    }
+  ]
+}

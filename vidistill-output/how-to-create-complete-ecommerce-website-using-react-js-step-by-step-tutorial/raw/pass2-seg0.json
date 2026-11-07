@@ -1,0 +1,136 @@
+{
+  "segment_index": 0,
+  "time_range": "00:00:00 - 00:10:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:06:41",
+      "language": "javascript",
+      "content": "import logo from './logo.svg';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n        <p>\n          Edit <code>src/App.js</code> and save to reload.\n        </p>\n        <a\n          className=\"App-link\"\n          href=\"https://reactjs.org\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Learn React\n        </a>\n      </header>\n    </div>\n  );\n}\n\nexport default App;",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "App.js",
+      "instructor_explanation": "Speaker starts cleaning the default React project by editing App.js"
+    },
+    {
+      "timestamp": "00:06:49",
+      "language": "javascript",
+      "content": "import './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n    </div>\n  );\n}\n\nexport default App;",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "App.js",
+      "instructor_explanation": "Removing header tag and logo import in App.js",
+      "lines_changed": "1, 6-20 deleted"
+    },
+    {
+      "timestamp": "00:07:07",
+      "language": "html",
+      "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"%PUBLIC_URL%/favicon.ico\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"theme-color\" content=\"#000000\" />\n    <meta\n      name=\"description\"\n      content=\"Web site created using create-react-app\"\n    />\n    <link rel=\"apple-touch-icon\" href=\"%PUBLIC_URL%/logo192.png\" />\n    <link rel=\"manifest\" href=\"%PUBLIC_URL%/manifest.json\" />\n    <title>E-Commerce</title>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"root\"></div>\n  </body>\n</html>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "index.html",
+      "instructor_explanation": "Renaming title to E-Commerce in index.html",
+      "lines_changed": "12 modified"
+    },
+    {
+      "timestamp": "00:08:30",
+      "language": "javascript",
+      "content": "import React from 'react'\n\nconst Navbar = () => {\n  return (\n    <div>\n      \n    </div>\n  )\n}\n\nexport default Navbar",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Creating Navbar.jsx and using RAFC to convert to component"
+    },
+    {
+      "timestamp": "00:08:50",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './Navbar.css'\n\nconst Navbar = () => {\n  return (\n    <div>\n      \n    </div>\n  )\n}\n\nexport default Navbar",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Importing CSS file into Navbar.jsx",
+      "lines_changed": "2 added"
+    },
+    {
+      "timestamp": "00:09:07",
+      "language": "javascript",
+      "content": "import Navbar from './Components/Navbar/Navbar';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div>\n      <Navbar/>\n    </div>\n  );\n}\n\nexport default App;",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "App.js",
+      "instructor_explanation": "Mounting the Navbar component in App.js",
+      "lines_changed": "1 added, 6-8 modified"
+    },
+    {
+      "timestamp": "00:09:36",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './Navbar.css'\n\nconst Navbar = () => {\n  return (\n    <div className='navbar'>\n      \n    </div>\n  )\n}\n\nexport default Navbar",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Creating HTML structure for Navbar",
+      "lines_changed": "6 modified"
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "00:00:01",
+      "visual_type": "browser_output",
+      "description": "The homepage of the e-commerce website showing a navigation bar, hero image, popular items, and a footer."
+    },
+    {
+      "timestamp": "00:05:15",
+      "visual_type": "other",
+      "description": "Visual Studio Code interface showing the project structure under the 'frontend' directory."
+    },
+    {
+      "timestamp": "00:07:23",
+      "visual_type": "other",
+      "description": "Code editor showing newly created folder structure: 'components', 'context', 'pages', and 'assets' under 'src'."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:00:01",
+      "region_type": "browser",
+      "label": "Browser",
+      "visible": true,
+      "sample_text": "localhost:3000",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "00:05:15",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "Visual Studio Code",
+      "confidence": 0.95,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "00:05:23",
+      "region_type": "terminal",
+      "label": "Integrated Terminal",
+      "visible": true,
+      "sample_text": "PS C:\\Users\\MI\\Desktop\\e-commerce\\frontend>",
+      "confidence": 0.98,
+      "bbox": {
+        "x": 0,
+        "y": 0.65,
+        "width": 1,
+        "height": 0.35
+      }
+    }
+  ],
+  "screen_timeline": []
+}

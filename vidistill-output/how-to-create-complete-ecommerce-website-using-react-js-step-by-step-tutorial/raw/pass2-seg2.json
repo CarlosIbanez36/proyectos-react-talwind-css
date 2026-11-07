@@ -1,0 +1,192 @@
+{
+  "segment_index": 3,
+  "time_range": "00:20:00 - 00:30:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:20:00",
+      "language": "jsx",
+      "content": "      <ul className=\"nav-menu\">\n        <li onClick={() => {setMenu(\"shop\")}} >Shop <hr/></li>\n        <li onClick={() => {setMenu(\"mens\")}} >Men</li>\n        <li onClick={() => {setMenu(\"womens\")}} >Women</li>\n        <li onClick={() => {setMenu(\"kids\")}} >Kids</li>\n      </ul>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "The menu should be stored in the menu. So in the set menu we will add shop. Now, in the second one we will add mens. Now, in the third one we will add set menu, womens. Now, in the last one we will add kids. When we will click on the kids, the menu will be set to kids.",
+      "lines_changed": "18-22",
+      "timestamp_end": "00:20:30"
+    },
+    {
+      "timestamp": "00:20:42",
+      "language": "jsx",
+      "content": "      <ul className=\"nav-menu\">\n        <li onClick={() => {setMenu(\"shop\")}} >Shop {menu===\"shop\"?<hr/>:<></>}</li>\n        <li onClick={() => {setMenu(\"mens\")}} >Men</li>\n        <li onClick={() => {setMenu(\"womens\")}} >Women</li>\n        <li onClick={() => {setMenu(\"kids\")}} >Kids</li>\n      </ul>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Now we will apply this HR with the ternary operator. So, if the state is shop, then HR will be applied here. Let me remove it from here and here we will insert the ternary operator. So first we will check if our menu is shop. Then we will provide the HR tag. And if it is not shop, then it will be empty tag.",
+      "lines_changed": "18",
+      "timestamp_end": "00:21:00"
+    },
+    {
+      "timestamp": "00:21:05",
+      "language": "jsx",
+      "content": "      <ul className=\"nav-menu\">\n        <li onClick={() => {setMenu(\"shop\")}} >Shop {menu===\"shop\"?<hr/>:<></>}</li>\n        <li onClick={() => {setMenu(\"mens\")}} >Men {menu===\"mens\"?<hr/>:<></>}</li>\n        <li onClick={() => {setMenu(\"womens\")}} >Women {menu===\"womens\"?<hr/>:<></>}</li>\n        <li onClick={() => {setMenu(\"kids\")}} >Kids {menu===\"kids\"?<hr/>:<></>}</li>\n      </ul>",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Navbar.jsx",
+      "instructor_explanation": "Now we will use the ternary operator, copy it and add it in the another one. We will add it in all three LI. Here we will change it as mens. If the menu is mens, then here we will add HR. Then, in the third one we will add womens and in the last one we will add kids. If the menu is kids, the HR will be provided here.",
+      "lines_changed": "18-21",
+      "timestamp_end": "00:21:37"
+    },
+    {
+      "timestamp": "00:22:20",
+      "language": "html",
+      "content": "    <link rel=\"manifest\" href=\"%PUBLIC_URL%/manifest.json\" />\n    <link href=\"https://fonts.googleapis.com/css2?family=Poppins&display=swap\" rel=\"stylesheet\">",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "index.html",
+      "instructor_explanation": "In your public folder, index.html file, add it here after this link. Paste the copied URL and save it",
+      "lines_changed": "20-21",
+      "timestamp_end": "00:22:30"
+    },
+    {
+      "timestamp": "00:22:36",
+      "language": "css",
+      "content": "body {\n  margin: 0;\n  font-family: 'poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "index.css",
+      "instructor_explanation": "Here we will add font family, poppins, save it.",
+      "lines_changed": "3",
+      "timestamp_end": "00:22:45"
+    },
+    {
+      "timestamp": "00:23:13",
+      "language": "jsx",
+      "content": "import React from 'react'\n\nconst Shop = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}\n\nexport default Shop",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Shop.jsx",
+      "instructor_explanation": "So, in this pages we will create a new file and write the file name shop.jsx. Here we will add rafc to convert it into component.",
+      "timestamp_end": "00:23:20"
+    },
+    {
+      "timestamp": "00:23:37",
+      "language": "jsx",
+      "content": "import React from 'react'\n\nconst loginsignup = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}\n\nexport default loginsignup",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "loginsignup.jsx",
+      "instructor_explanation": "Here also we will add rafc to convert it into component.",
+      "timestamp_end": "00:23:41"
+    },
+    {
+      "timestamp": "00:23:54",
+      "language": "jsx",
+      "content": "import React from 'react'\n\nconst ShopCategory = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}\n\nexport default ShopCategory",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "ShopCategory.jsx",
+      "instructor_explanation": "Here also rafc.",
+      "timestamp_end": "00:23:58"
+    },
+    {
+      "timestamp": "00:24:08",
+      "language": "jsx",
+      "content": "import React from 'react'\n\nconst Product = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}\n\nexport default Product",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Product.jsx",
+      "instructor_explanation": "Here also we will add rafc.",
+      "timestamp_end": "00:24:12"
+    },
+    {
+      "timestamp": "00:24:24",
+      "language": "jsx",
+      "content": "import React from 'react'\n\nconst Cart = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}\n\nexport default Cart",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Cart.jsx",
+      "instructor_explanation": "Here also rafc.",
+      "timestamp_end": "00:24:29"
+    },
+    {
+      "timestamp": "00:25:01",
+      "language": "jsx",
+      "content": "import { BrowserRouter, Routes, Route } from 'react-router-dom';",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "App.js",
+      "instructor_explanation": "We will import browser router from react router dom. Here we will add one more thing which is routes, then comma route.",
+      "lines_changed": "3-4",
+      "timestamp_end": "00:25:25"
+    },
+    {
+      "timestamp": "00:25:31",
+      "language": "jsx",
+      "content": "function App() {\n  return (\n    <div>\n      <BrowserRouter>\n        <Navbar />\n        <Routes>\n        </Routes>\n      </BrowserRouter>\n    </div>\n  );\n}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "App.js",
+      "instructor_explanation": "And we have to wrap all the components using this browser router. So this navbar will be available in all the components. And after this navbar we will set up our routes.",
+      "lines_changed": "6-15",
+      "timestamp_end": "00:25:52"
+    },
+    {
+      "timestamp": "00:26:02",
+      "language": "jsx",
+      "content": "          <Route path='/' element={<Shop/>}/>\n          <Route path='/mens' element={<ShopCategory category=\"men\"/>}/>\n          <Route path='/womens' element={<ShopCategory category=\"women\"/>}/>\n          <Route path='/kids' element={<ShopCategory category=\"kid\"/>}/>\n          <Route path='/product' element={<Product/>}>\n            <Route path=':productId' element={<Product/>}/>\n          </Route>\n          <Route path='/cart' element={<Cart/>}/>\n          <Route path='/login' element={<LoginSignup/>}/>",
+      "screen_type": "code_editor",
+      "change_type": "addition",
+      "filename": "App.js",
+      "instructor_explanation": "The first thing is to set a path. For the home page we will add slash. Element, and in this element we will insert this shop page. If someone comes to this slash path, then this shop page will be rendered.",
+      "lines_changed": "8-18",
+      "timestamp_end": "00:29:42"
+    }
+  ],
+  "visual_notes": [
+    {
+      "timestamp": "00:21:49",
+      "visual_type": "browser_output",
+      "description": "Navigation menu displaying Shop, Men, Women, Kids with an underline indicating the active page."
+    },
+    {
+      "timestamp": "00:22:00",
+      "visual_type": "browser_output",
+      "description": "Google Fonts page searching for Poppins font."
+    },
+    {
+      "timestamp": "00:24:29",
+      "visual_type": "ui_demo",
+      "description": "Sidebar showing the file structure of the e-commerce project with the created pages: Cart.jsx, LoginSignup.jsx, Product.jsx, Shop.jsx, ShopCategory.jsx."
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:20:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "const Navbar = () => {",
+      "confidence": 1,
+      "bbox": {
+        "x": 0.25,
+        "y": 0,
+        "width": 0.75,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "00:21:38",
+      "region_type": "browser",
+      "label": "Browser Output",
+      "visible": true,
+      "sample_text": "SHOPPER",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0.1,
+        "width": 1,
+        "height": 0.9
+      }
+    }
+  ],
+  "screen_timeline": []
+}

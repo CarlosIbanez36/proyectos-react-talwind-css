@@ -1,0 +1,100 @@
+{
+  "segment_index": 6,
+  "time_range": "00:50:00 - 01:00:00",
+  "code_blocks": [
+    {
+      "timestamp": "00:50:00",
+      "language": "javascript",
+      "content": "const Popular = () => {\n  return (\n    <div className=\"popular\">\n      <h1>POPULAR IN WOMEN</h1>\n      <hr />\n      <div className=\"popular-item\">\n        {data_product.map()}\n      </div>\n    </div>\n  )\n}\n\nexport default Popular",
+      "screen_type": "code_editor",
+      "change_type": "unchanged",
+      "filename": "Popular.jsx",
+      "instructor_explanation": "Starting the process of mapping through the products in the Popular component.",
+      "timestamp_end": "00:50:15"
+    },
+    {
+      "timestamp": "00:50:16",
+      "language": "javascript",
+      "content": "        {data_product.map((item, i) => {\n          return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>\n        })}",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Popular.jsx",
+      "instructor_explanation": "Iterating through the data and rendering an Item component for each product, passing in props for key, ID, name, image, and prices.",
+      "lines_changed": "11-13",
+      "timestamp_end": "01:00:00"
+    },
+    {
+      "timestamp": "00:51:36",
+      "language": "javascript",
+      "content": "const Shop = () => {\n  return (\n    <div>\n      <Hero />\n      <Popular />\n    </div>\n  )\n}\n\nexport default Shop",
+      "screen_type": "code_editor",
+      "change_type": "modification",
+      "filename": "Shop.jsx",
+      "instructor_explanation": "Mounting the Popular component into the Shop page.",
+      "lines_changed": "7-9",
+      "timestamp_end": "00:51:46"
+    },
+    {
+      "timestamp": "00:52:05",
+      "language": "css",
+      "content": ".popular{\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 10px;\n  height: 90vh;\n}\n.popular h1{\n  color: #171717;\n  font-size: 50px;\n  font-weight: 600;\n}\n.popular hr{\n  width: 200px;\n  height: 6px;\n  border-radius: 10px;\n  background: #252525;\n}\n.popular-item{\n  margin-top: 50px;\n  display: flex;\n  gap: 30px;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Popular.css",
+      "instructor_explanation": "Adding CSS styles to layout the Popular component and its child elements.",
+      "timestamp_end": "00:53:52"
+    },
+    {
+      "timestamp": "00:54:33",
+      "language": "javascript",
+      "content": "import React from 'react'\nimport './Offers.css'\n\nconst Offers = () => {\n  return (\n    <div className='offers'>\n      <div className='offers-left'>\n        <h1>Exclusive</h1>\n        <h1>Offers For You</h1>\n        <p>ONLY ON BEST SELLERS PRODUCTS</p>\n        <button>Check Now</button>\n      </div>\n      <div className='offers-right'>\n        <img src={exclusive_image} alt=\"\" />\n      </div>\n    </div>\n  )\n}\n\nexport default Offers",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Offers.jsx",
+      "instructor_explanation": "Creating the Offers component with HTML structure.",
+      "timestamp_end": "00:56:59"
+    },
+    {
+      "timestamp": "00:57:11",
+      "language": "css",
+      "content": ".offers{\n  width: 65%;\n  height: 60vh;\n  display: flex;\n  margin: auto;\n  padding: 0px 140px;\n  margin-bottom: 150px;\n  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);\n}\n.offers-left{\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n.offers-left h1{\n  color: #171717;\n  font-size: 80px;\n  font-weight: 600;\n}\n.offers-left p{\n  color: #171717;\n  font-size: 22px;\n  font-weight: 600;\n}\n.offers-left button{\n  width: 282px;\n  height: 70px;\n  border-radius: 35px;\n  background: #ff4141;\n  border: none;\n  color: white;\n  font-size: 22px;\n  font-weight: 500;\n}",
+      "screen_type": "code_editor",
+      "change_type": "new_file",
+      "filename": "Offers.css",
+      "instructor_explanation": "Adding CSS styles to the new Offers component.",
+      "timestamp_end": "01:00:00"
+    }
+  ],
+  "visual_regions": [
+    {
+      "timestamp": "00:50:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": "import React from 'react';\nimport './Popular.css';",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "timestamp": "01:00:00",
+      "region_type": "code",
+      "label": "Code Editor",
+      "visible": true,
+      "sample_text": ".offers-left button{",
+      "confidence": 1,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "visual_notes": [],
+  "screen_timeline": []
+}

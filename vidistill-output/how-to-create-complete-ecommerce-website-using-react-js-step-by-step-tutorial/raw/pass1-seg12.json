@@ -1,0 +1,547 @@
+{
+  "segment_index": 0,
+  "time_range": "02:00:00 - 02:10:00",
+  "transcript_entries": [
+    {
+      "timestamp": "02:00:04",
+      "text": "And in this div we will add dollar sign",
+      "tone": "instructional",
+      "emphasis_words": [
+        "add",
+        "dollar",
+        "sign"
+      ],
+      "pause_after_seconds": 1.1,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:00:08",
+      "text": "and insert the product.oldprice.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:00:19",
+      "text": "Similarly we will create another div with a class name Product display right price new",
+      "tone": "instructional",
+      "emphasis_words": [
+        "another",
+        "div",
+        "Product",
+        "display",
+        "right",
+        "price",
+        "new"
+      ],
+      "pause_after_seconds": 1.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:00:28",
+      "text": "In this div we will insert the dollar sign and here we will add the product.newPrice",
+      "tone": "instructional",
+      "emphasis_words": [
+        "insert",
+        "dollar",
+        "sign",
+        "add",
+        "product.newPrice"
+      ],
+      "pause_after_seconds": 1.3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:00:43",
+      "text": "After this div we will create one div where we will add the class name product display right description",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "product",
+        "display",
+        "right",
+        "description"
+      ],
+      "pause_after_seconds": 1.3,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:01:01",
+      "text": "In this div we will insert the static description.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:01:07",
+      "text": "After this div we will create another div with the class name product display right size",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "product",
+        "display",
+        "right",
+        "size"
+      ],
+      "pause_after_seconds": 1.4,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:01:20",
+      "text": "In this div we will insert the h1 tag, in this h1 tag we will add the text, select size",
+      "tone": "instructional",
+      "emphasis_words": [
+        "insert",
+        "h1",
+        "tag",
+        "add",
+        "text",
+        "select",
+        "size"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:01:32",
+      "text": "After that we will create a div with the class name product display right sizes",
+      "tone": "instructional",
+      "emphasis_words": [
+        "div",
+        "product",
+        "display",
+        "right",
+        "sizes"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:01:49",
+      "text": "In this div we will create five divs",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:01:56",
+      "text": "copy and paste it for more times, and in the first one we write the size small, then medium, large, then XL then double XL",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "paste",
+        "size",
+        "small",
+        "medium",
+        "large",
+        "XL",
+        "double",
+        "XL"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:21",
+      "text": "Now we will create one button and in this button we will add add to cart.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:31",
+      "text": "After this button tag we will insert one paragraph tag and in this paragraph tag we will add the class name product display right category",
+      "tone": "instructional",
+      "emphasis_words": [
+        "button",
+        "insert",
+        "paragraph",
+        "tag",
+        "product",
+        "display",
+        "right",
+        "category"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:45",
+      "text": "In this one we will insert the span tag and in this span tag we will add the category, after this span tag we will add the text that is, women, T-shirt, crop top",
+      "tone": "instructional",
+      "emphasis_words": [
+        "insert",
+        "span",
+        "tag",
+        "add",
+        "category",
+        "text",
+        "women",
+        "T-shirt",
+        "crop",
+        "top"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:03:14",
+      "text": "Similarly we will copy this paragraph tag and paste it again, in this span tag we will add Tags",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "paragraph",
+        "tag",
+        "paste",
+        "span",
+        "tag",
+        "add",
+        "Tags"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:03:22",
+      "text": "and after this span tag we will add modern, latest.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:03:38",
+      "text": "Now save the file.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:03:39",
+      "text": "Now if I open any product, now we have the product images, product title, star ratings, number of ratings, old price, new price, description, size selection, add to cart button, category and tags",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "product",
+        "images",
+        "product",
+        "title",
+        "star",
+        "ratings",
+        "old",
+        "price",
+        "new",
+        "price",
+        "description",
+        "size",
+        "selection",
+        "add",
+        "to",
+        "cart",
+        "button",
+        "category",
+        "tags"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:04:03",
+      "text": "Now we will add the CSS properties for the product display component.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:04",
+      "text": "So first we will add the CSS properties to product display class name.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:04",
+      "text": "Here we will add display flex, margin of zero pixel and 170 pixels.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:04",
+      "text": "Now we will add the CSS properties for the product display left.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:04",
+      "text": "Here also we will add display flex, gap will be 17 pixels.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:04",
+      "text": "Now we will add the CSS properties for this product display image list.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:04",
+      "text": "Here we will add display flex, flex direction column, gap of 16 pixels.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:05",
+      "text": "Now we will add dot product img list IMG tag",
+      "tone": "instructional",
+      "emphasis_words": [
+        "product",
+        "img",
+        "list",
+        "IMG",
+        "tag"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:05",
+      "text": "Here we will provide the height of 163 pixels.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:05",
+      "text": "Now we will add the CSS properties for the product display main image.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:05",
+      "text": "So just copy this one, add it here and here we will add the width of 586 pixels, height of 700 pixels, save these changes",
+      "tone": "instructional",
+      "emphasis_words": [
+        "copy",
+        "add",
+        "width",
+        "586",
+        "pixels",
+        "height",
+        "700",
+        "pixels",
+        "save",
+        "changes"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:05",
+      "text": "Now we will design the right side of the product display component.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:05",
+      "text": "Before that we will add the CSS properties to the breadcrumbs.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:05",
+      "text": "So here we will come to the breadcrumbs.css, just add the class name breadcrumb.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:06",
+      "text": "Here we will add display flex, align items center, gap of 8 pixel, and color, this color code. Then change the font size and change the font weight.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:06",
+      "text": "Then we will add the margin and text transform will be capitalize, save these changes",
+      "tone": "instructional",
+      "emphasis_words": [
+        "margin",
+        "text",
+        "transform",
+        "capitalize",
+        "save",
+        "changes"
+      ],
+      "pause_after_seconds": 1.5,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:06",
+      "text": "Now we will add the CSS for the right side of this product display components.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:06",
+      "text": "So add this class name here, product display right.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:06",
+      "text": "In the CSS file and here we will add margin of 0 pixel and 70 pixels. Then we will add display flex, flex direction column.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:06",
+      "text": "Now we will add the CSS properties to our H1 tag.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:07",
+      "text": "So here we will add dot product display right H1 tag.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:07",
+      "text": "Here we will add the CSS properties: color, then font size, then font weight.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:07",
+      "text": "Now save these changes. Now we will add the CSS for this star rating.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:07",
+      "text": "So here we will add the class name product display right star.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:07",
+      "text": "So here we will add display flex, align items center, margin top 13 pixels, gap of 5 pixels and color, then font size.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:07",
+      "text": "Now this stars is ready.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:07",
+      "text": "Now we will add the CSS properties for this product display right prices.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:08",
+      "text": "Here we will add display flex, margin of 40 pixel and 0 pixel, gap of 30 pixels and font size of 24 pixel and font weight of 700.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:08",
+      "text": "Now we will add the properties for product display right price old.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:08",
+      "text": "Here we will add the color code, text decoration line through.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:08",
+      "text": "Now we will add the CSS properties to product display right price new.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:08",
+      "text": "Here we will use color code.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:08",
+      "text": "Here we will add sizes.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:08",
+      "text": "Now we will add the CSS properties for this product display right size, and this H1 tag.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:09",
+      "text": "So write this class name here, then H1.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:09",
+      "text": "Here we will provide margin of top 55 pixels, then this color code, then font size, and font weight of 600.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:09",
+      "text": "Now we will add the properties for the product display right sizes and this div where we have a small medium large.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    },
+    {
+      "timestamp": "02:02:09",
+      "text": "Here we will provide display flex, margin 30 pixels, zero pixel, gap of 20 pixel.",
+      "tone": "instructional",
+      "pause_after_seconds": 0,
+      "speaker": "SPEAKER_00 (GreatStack)"
+    }
+  ],
+  "speaker_summary": [
+    {
+      "speaker_id": "SPEAKER_00 (GreatStack)",
+      "description": "The primary speaker, providing technical tutorials and explanations on coding and web development. He speaks in a clear, instructional, and calm tone."
+    }
+  ]
+}
